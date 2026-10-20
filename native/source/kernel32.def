@@ -1,0 +1,26 @@
+LIBRARY kernel32.dll
+EXPORTS
+VirtualAlloc
+VirtualFree
+GetModuleFileNameW
+CreateFileW
+GetFileSize
+ReadFile
+WriteFile
+CloseHandle
+CreatePipe
+SetHandleInformation
+PeekNamedPipe
+GetTickCount64
+Sleep
+CreateProcessW
+WaitForSingleObject
+TerminateProcess
+GetTempPathW
+GetCurrentProcessId
+InitializeProcThreadAttributeList
+UpdateProcThreadAttribute
+DeleteProcThreadAttributeList
+CreateThread
+CreateEventW
+SetEvent

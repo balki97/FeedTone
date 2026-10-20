@@ -1,0 +1,35 @@
+name: Native plugin builds
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  native:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - runner: ubuntu-22.04
+            key: linux-x86_64
+          - runner: ubuntu-22.04-arm
+            key: linux-arm64
+          - runner: macos-15-intel
+            key: darwin-x86_64
+          - runner: macos-14
+            key: darwin-arm64
+    runs-on: ${{ matrix.runner }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install numpy==2.2.6 pedalboard
+      - if: runner.os == 'Linux'
+        run: xvfb-run -a python -X faulthandler native/build.py --verify
+      - if: runner.os != 'Linux'
+        run: python -X faulthandler native/build.py --verify
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.key }}
+          path: native/${{ matrix.key }}
+          if-no-files-found: error

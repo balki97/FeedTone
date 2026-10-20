@@ -1,0 +1,2503 @@
+{
+  "schema": 1,
+  "scope": "FeedTone badges are permanently included in the image pixels",
+  "coordinate_space": "fractions of full uncropped PNG width and height",
+  "images": {
+    "gear_amp_at120_0": {
+      "regions": [
+        {
+          "x": 0.28863636363636364,
+          "y": 0.29318181818181815,
+          "width": 0.42272727272727273,
+          "height": 0.19090909090909092,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "74eb207c42e32f2af5b1309e64017942841c3da56f8b1fa7c533524fb4d3b432",
+      "has_replaced_badge": true
+    },
+    "gear_amp_at20_0": {
+      "regions": [
+        {
+          "x": 0.6659090909090909,
+          "y": 0.5704545454545454,
+          "width": 0.2772727272727273,
+          "height": 0.18181818181818182,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "f39f4d1adfcad385bd9b6e0a02ed881439dc6288ea7a7dd00bb14e985cd52dc4",
+      "has_replaced_badge": true
+    },
+    "gear_amp_bt15_0": {
+      "regions": [
+        {
+          "x": 0.2727272727272727,
+          "y": 0.5159090909090909,
+          "width": 0.4431818181818182,
+          "height": 0.21363636363636362,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "a527f6c84fea481fc246b0c07b30196f062a00385daf58896cc889bfdf7d4aba",
+      "has_replaced_badge": true
+    },
+    "gear_amp_bt30_0": {
+      "regions": [
+        {
+          "x": 0.25681818181818183,
+          "y": 0.22045454545454546,
+          "width": 0.47045454545454546,
+          "height": 0.21818181818181817,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "63907a0f161862169198ce106994b4bc5fa7ad40a7f445a56cefd10e88b8e3fb",
+      "has_replaced_badge": true
+    },
+    "gear_amp_bt45_0": {
+      "regions": [
+        {
+          "x": 0.2727272727272727,
+          "y": 0.49772727272727274,
+          "width": 0.4431818181818182,
+          "height": 0.19090909090909092,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "90806d11e95cf7617c96642cd12ac1a000e8bd025b82280d0696ceef5011909d",
+      "has_replaced_badge": true
+    },
+    "gear_amp_ca100_0": {
+      "regions": [
+        {
+          "x": 0.26136363636363635,
+          "y": 0.32954545454545453,
+          "width": 0.44772727272727275,
+          "height": 0.2409090909090909,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "edd6cc115ea10502d19cbdba64c1d3634cc1c1d376333db11331b240ecda76fc",
+      "has_replaced_badge": true
+    },
+    "gear_amp_ca38_0": {
+      "regions": [
+        {
+          "x": 0.5113636363636364,
+          "y": 0.3340909090909091,
+          "width": 0.42045454545454547,
+          "height": 0.21818181818181817,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "8a58b993733a0b32de5b01819bf82ac3243d680b167422f092ea25d1199f627f",
+      "has_replaced_badge": true
+    },
+    "gear_amp_ca85_0": {
+      "regions": [
+        {
+          "x": 0.5,
+          "y": 0.32954545454545453,
+          "width": 0.39090909090909093,
+          "height": 0.20454545454545456,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "1c0878a247f717c833b650779f6e5b341a2eebe48ed1dd8fb035b019bebc88af",
+      "has_replaced_badge": true
+    },
+    "gear_amp_cs100_0": {
+      "regions": [],
+      "png_sha256": "34003ee23f1b4dfa0be575a36d7cab8dc7de516308c3fc5093d3e2e48cc0e305",
+      "has_replaced_badge": false
+    },
+    "gear_amp_cs120_0": {
+      "regions": [],
+      "png_sha256": "140d8d5db564e76194f8df7cff361f24067ac333472862d04be0c32e36ba5be6",
+      "has_replaced_badge": false
+    },
+    "gear_amp_cs90_0": {
+      "regions": [],
+      "png_sha256": "fad74b1b3c8d73f7883af109486817a6f055d72f1bec93d7251edf82b72c6250",
+      "has_replaced_badge": false
+    },
+    "gear_amp_en30_0": {
+      "regions": [],
+      "png_sha256": "06f34aeb054e63555ccdb63c2f80b6c480646d0f669b2027c39d262324484f74",
+      "has_replaced_badge": false
+    },
+    "gear_amp_en50_0": {
+      "regions": [
+        {
+          "x": 0.2727272727272727,
+          "y": 0.5159090909090909,
+          "width": 0.4431818181818182,
+          "height": 0.24545454545454545,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "64a848798a654c847006cca50e33b8a6c80e8af200c9df29e6000a42cf1efedf",
+      "has_replaced_badge": true
+    },
+    "gear_amp_epiphoneelectarcentury_0": {
+      "regions": [],
+      "png_sha256": "2d533555df4274dd08dd3f032c2d958ee32476d9b674cf38b9f2995852d69fde",
+      "has_replaced_badge": false
+    },
+    "gear_amp_epiphoneelectarm_0": {
+      "regions": [],
+      "png_sha256": "3566e7018edb13be3d5cda96f4b41c0731067d9a8acde71174794aba892cc7d5",
+      "has_replaced_badge": false
+    },
+    "gear_amp_epiphoneelectrichawaiian_0": {
+      "regions": [],
+      "png_sha256": "a2d31d195b471533e56076e4cdb10ba3bb1b665ef30ea61eb3151df04ce5428a",
+      "has_replaced_badge": false
+    },
+    "gear_amp_epiphonezephyr_0": {
+      "regions": [],
+      "png_sha256": "96baf429b0cc2c84b89888b265f45a424ecad599115a0b119fd2db604a6b60e3",
+      "has_replaced_badge": false
+    },
+    "gear_amp_gb100_0": {
+      "regions": [
+        {
+          "x": 0.26136363636363635,
+          "y": 0.3340909090909091,
+          "width": 0.45454545454545453,
+          "height": 0.22727272727272727,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "5923345059bb0fb31a7a20d73a243ad1481f8ab0fae275037a4f927c742a51ee",
+      "has_replaced_badge": true
+    },
+    "gear_amp_gb38_0": {
+      "regions": [
+        {
+          "x": 0.39090909090909093,
+          "y": 0.6795454545454546,
+          "width": 0.20681818181818182,
+          "height": 0.14545454545454545,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "18cd7ae4848c366d3c1d81539052a0447bfd1bf93fc8a009302af7b25dcc82ab",
+      "has_replaced_badge": true
+    },
+    "gear_amp_gb50_0": {
+      "regions": [
+        {
+          "x": 0.29545454545454547,
+          "y": 0.3522727272727273,
+          "width": 0.3977272727272727,
+          "height": 0.22272727272727272,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "08017a212b888639687a55436c2424db3834371c23dfeea924747ca143eb0be6",
+      "has_replaced_badge": true
+    },
+    "gear_amp_gibsonga79_0": {
+      "regions": [],
+      "png_sha256": "2337a4034e2d12d5dce8a587c6776eea82d600b14729179543816b1b9c2426b1",
+      "has_replaced_badge": false
+    },
+    "gear_amp_gibsonga88_0": {
+      "regions": [],
+      "png_sha256": "2fed06db760f3f73d52b9aa1684a310720c336d756975ca176e80494e1380202",
+      "has_replaced_badge": false
+    },
+    "gear_amp_gibsonga8_0": {
+      "regions": [],
+      "png_sha256": "c09b384e2af1f5c33454916343cabc203e921abc9e292ffa03935ccbcf7a5777",
+      "has_replaced_badge": false
+    },
+    "gear_amp_hg100_0": {
+      "regions": [
+        {
+          "x": 0.26136363636363635,
+          "y": 0.28863636363636364,
+          "width": 0.4681818181818182,
+          "height": 0.19545454545454546,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "d3cfb3694206fd05eba1393ee6d894591d7b1d6a4cf1f1ca2d4244fb45629eab",
+      "has_replaced_badge": true
+    },
+    "gear_amp_hg180_0": {
+      "regions": [],
+      "png_sha256": "68794dfc77e45206303820b13f8f87f438e93c6c853d1dd4c3b0792dbc18de2f",
+      "has_replaced_badge": false
+    },
+    "gear_amp_hg500_0": {
+      "regions": [
+        {
+          "x": 0.23863636363636365,
+          "y": 0.23863636363636365,
+          "width": 0.5,
+          "height": 0.22727272727272727,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "c34a8581f6fd2faacf1f5b09abcfbb0d75dc2a14a5cb7f9fc3c234a2cda8ec7b",
+      "has_replaced_badge": true
+    },
+    "gear_amp_marshall1962bluesbreaker_0": {
+      "regions": [],
+      "png_sha256": "91158b02d103a934273752bdf872928035b7fbebbdd3701cb39e2a186ca77c07",
+      "has_replaced_badge": false
+    },
+    "gear_amp_marshalldsl100h_0": {
+      "regions": [],
+      "png_sha256": "ae177b02534071516edbcd129f155993e024b783e17280b61ddf60397da79a09",
+      "has_replaced_badge": false
+    },
+    "gear_amp_marshalldsl15h_0": {
+      "regions": [],
+      "png_sha256": "f2d372a75d4499ba7a9d12419f2c90568fd61bdde146f9f37cb8fb606cea54c0",
+      "has_replaced_badge": false
+    },
+    "gear_amp_marshalljcm800_0": {
+      "regions": [],
+      "png_sha256": "c10dc3cc99824b9adabffc8b0fb98b70e9792e2dd9bb13bf157f7ea7e0dc60f7",
+      "has_replaced_badge": false
+    },
+    "gear_amp_marshalljtm45_0": {
+      "regions": [],
+      "png_sha256": "3b1a1c04660fe05e4f155e1f6a749407da3f371f8bb1d9fe2b2045919df1a7a6",
+      "has_replaced_badge": false
+    },
+    "gear_amp_marshalljvm410h_0": {
+      "regions": [],
+      "png_sha256": "bff9ad333632231e03a461f7b2c416c1075f82b169e35372ec9590fae7f941a8",
+      "has_replaced_badge": false
+    },
+    "gear_amp_marshallplexi_0": {
+      "regions": [],
+      "png_sha256": "7a52d2391ddfd1a8b192b57079cf77c3b2105b581ef5d07f1b9a2853c895081b",
+      "has_replaced_badge": false
+    },
+    "gear_amp_orangead50_0": {
+      "regions": [],
+      "png_sha256": "c1b412ec4ae121f998af03b7f59a7c9167484a032d8f517973ffc87e998c6e22",
+      "has_replaced_badge": false
+    },
+    "gear_amp_orangejimmybean_0": {
+      "regions": [],
+      "png_sha256": "21d400a13fe4942bfc65336a7a5f5692d0ee8ca4c948cd8fe8925456fd89aa77",
+      "has_replaced_badge": false
+    },
+    "gear_amp_orangeor100_0": {
+      "regions": [],
+      "png_sha256": "d98d792c41fbe04a5d3fdbb7f92ca038d6e4ed249d6f77d0d254b2576076053f",
+      "has_replaced_badge": false
+    },
+    "gear_amp_orangeor50h_0": {
+      "regions": [],
+      "png_sha256": "4a1112ddb2857d11c0d2e6248ad90d6e62fbfc420947264fd844c4e9eb2dc8d6",
+      "has_replaced_badge": false
+    },
+    "gear_amp_orangerockerverb_0": {
+      "regions": [],
+      "png_sha256": "85a1d5bd669cc51ba074e7d7bc11763b70dddfa64942d902378b4e621d713c30",
+      "has_replaced_badge": false
+    },
+    "gear_amp_orangetinyterror_0": {
+      "regions": [],
+      "png_sha256": "3adc73d9443385529f8d54df0c215db8b6e7e0d58b74deb65d3bfbcdadc66513",
+      "has_replaced_badge": false
+    },
+    "gear_amp_tw22_0": {
+      "regions": [
+        {
+          "x": 0.6181818181818182,
+          "y": 0.3068181818181818,
+          "width": 0.3386363636363636,
+          "height": 0.20909090909090908,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "a54deef15eec03f5778e7f64543f5d25de218c3702b88f50b6a62b7f8b4d33c1",
+      "has_replaced_badge": true
+    },
+    "gear_amp_tw26_0": {
+      "regions": [],
+      "png_sha256": "bb4f3fe87d17158f84e8b1877ef5ef3f9d736988a15d3a44ddfe197e003f0fc6",
+      "has_replaced_badge": false
+    },
+    "gear_amp_tw40_0": {
+      "regions": [
+        {
+          "x": 0.6522727272727272,
+          "y": 0.6022727272727273,
+          "width": 0.30227272727272725,
+          "height": 0.18636363636363637,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "64f2280c191d6d749a5e2eabf50774a979dc6027b92a763ad706111069b3e865",
+      "has_replaced_badge": true
+    },
+    "gear_bass_amp_bt600b_0": {
+      "regions": [
+        {
+          "x": 0.3795454545454545,
+          "y": 0.47954545454545455,
+          "width": 0.2318181818181818,
+          "height": 0.13636363636363635,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "9d2836c362970adc8b2c5be50e0fbb1cb0129c24602429ced74ba2602c563abd",
+      "has_replaced_badge": true
+    },
+    "gear_bass_amp_bt880b_0": {
+      "regions": [
+        {
+          "x": 0.11818181818181818,
+          "y": 0.3386363636363636,
+          "width": 0.2772727272727273,
+          "height": 0.1409090909090909,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "ef981944049c891098e295799d75bfbcfceb575457fd53e0971efb9456b1908d",
+      "has_replaced_badge": true
+    },
+    "gear_bass_amp_bt975b_0": {
+      "regions": [
+        {
+          "x": 0.39090909090909093,
+          "y": 0.3386363636363636,
+          "width": 0.2318181818181818,
+          "height": 0.12272727272727273,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "c1f4140b8388e7d147c454a56fb2c7380673b5d4dd103fbaac5315c284f91029",
+      "has_replaced_badge": true
+    },
+    "gear_bass_amp_ch300b_0": {
+      "regions": [
+        {
+          "x": 0.015909090909090907,
+          "y": 0.5022727272727273,
+          "width": 0.20909090909090908,
+          "height": 0.1318181818181818,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "d688809d558cfe217451051834d8593972dc89344afbcd836367829d7d15bd96",
+      "has_replaced_badge": true
+    },
+    "gear_bass_amp_ch350b_0": {
+      "regions": [
+        {
+          "x": 0.022727272727272728,
+          "y": 0.29318181818181815,
+          "width": 0.2159090909090909,
+          "height": 0.11818181818181818,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "59a3287ce510f37f93a3c1cc42689139a4b708271993f1002c4968b1c0b359a8",
+      "has_replaced_badge": true
+    },
+    "gear_bass_amp_ch600b_0": {
+      "regions": [
+        {
+          "x": 0.43636363636363634,
+          "y": 0.24772727272727274,
+          "width": 0.3568181818181818,
+          "height": 0.19090909090909092,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "9b6de50a64049eaceefc113efcda2d366c2e1c91951d4960a610a7ca3b79319d",
+      "has_replaced_badge": true
+    },
+    "gear_bass_amp_cs240b_0": {
+      "regions": [
+        {
+          "x": 0.09545454545454546,
+          "y": 0.29318181818181815,
+          "width": 0.25681818181818183,
+          "height": 0.14545454545454545,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "2bd7e33b55785523bf5354c5a3625aaf65e0843c7ab8ebec9cbb5691956c69de",
+      "has_replaced_badge": true
+    },
+    "gear_bass_amp_cs300b_0": {
+      "regions": [
+        {
+          "x": 0.5340909090909091,
+          "y": 0.5931818181818181,
+          "width": 0.3977272727272727,
+          "height": 0.16818181818181818,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "0fec977a980036c0a94bc03bf4d91426fc61d13d6004e06c4a268dda2c06c02e",
+      "has_replaced_badge": true
+    },
+    "gear_bass_amp_cs75b_0": {
+      "regions": [
+        {
+          "x": 0.5181818181818182,
+          "y": 0.28863636363636364,
+          "width": 0.2840909090909091,
+          "height": 0.16818181818181818,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "541b1db4522e86ad155b7cf1d9beff2986fbf5ff837e77cc479a2b35d974e97d",
+      "has_replaced_badge": true
+    },
+    "gear_bass_amp_edene300_0": {
+      "regions": [],
+      "png_sha256": "ab9e84285b55e44a8b71974c7c094646824df4f782167d67819a948133133c98",
+      "has_replaced_badge": false
+    },
+    "gear_bass_amp_edenwt550_0": {
+      "regions": [],
+      "png_sha256": "777fbe7d47987d26b66a4103e559d2444e8f7d2f992c12250dd1bec8a427ba41",
+      "has_replaced_badge": false
+    },
+    "gear_bass_amp_edenwt800_0": {
+      "regions": [],
+      "png_sha256": "9db9343b1f589b41db3243f4e16a8909b61ea51dcd23dc0c08724d37cfafc45c",
+      "has_replaced_badge": false
+    },
+    "gear_bass_amp_ht100b_0": {
+      "regions": [
+        {
+          "x": 0.3522727272727273,
+          "y": 0.26136363636363635,
+          "width": 0.3068181818181818,
+          "height": 0.22727272727272727,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "c1b6b0b41f0650e36e234a8d41f30e74ba80ec8ada8aba193ffecc63d3cf4b93",
+      "has_replaced_badge": true
+    },
+    "gear_bass_amp_ht300b_0": {
+      "regions": [],
+      "png_sha256": "9309b4929fecf5649b6e039ebdba37abd8276d804b5608430a3f758c445ceb2e",
+      "has_replaced_badge": false
+    },
+    "gear_bass_amp_ht400b_0": {
+      "regions": [
+        {
+          "x": 0.10227272727272728,
+          "y": 0.2840909090909091,
+          "width": 0.3522727272727273,
+          "height": 0.20454545454545456,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "66f28b8e5818bfcde891667044faec9f76222596dcbe5c5f5f2019386b1e6d17",
+      "has_replaced_badge": true
+    },
+    "gear_bass_amp_lt25b_0": {
+      "regions": [
+        {
+          "x": 0.038636363636363635,
+          "y": 0.42954545454545456,
+          "width": 0.18409090909090908,
+          "height": 0.11818181818181818,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "5b2d03324ef0de75a248e2bc213c6ed079d8e0e275d7e4be17cd730fcb4609bb",
+      "has_replaced_badge": true
+    },
+    "gear_bass_amp_lt85b_0": {
+      "regions": [
+        {
+          "x": 0.6363636363636364,
+          "y": 0.3340909090909091,
+          "width": 0.32954545454545453,
+          "height": 0.18181818181818182,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "59723ff2887ebd812ca3c3b9b061b7eab712b8bc686d164e457043a5524b2a2a",
+      "has_replaced_badge": true
+    },
+    "gear_bass_amp_orangead200b_0": {
+      "regions": [],
+      "png_sha256": "2314a18fa8900dcaff0a59cd7753a5936e57b811631d22a95157ff0c71bf7ca1",
+      "has_replaced_badge": false
+    },
+    "gear_bass_cab_at1150bc_0": {
+      "regions": [
+        {
+          "x": 0.3,
+          "y": 0.10204081632653061,
+          "width": 0.4,
+          "height": 0.12653061224489795,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "015199e4b67bd97cc1e6960f54489ea82b0caecd4e89fb5cc92d4551490083e6",
+      "has_replaced_badge": true
+    },
+    "gear_bass_cab_at810bc_0": {
+      "regions": [
+        {
+          "x": 0.5897959183673469,
+          "y": 0.012244897959183673,
+          "width": 0.2163265306122449,
+          "height": 0.09387755102040816,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "b8dbe9f4d5b6b17c1509b6b5b13fd74f4de8181a8b662efe4b905b25bf1d7852",
+      "has_replaced_badge": true
+    },
+    "gear_bass_cab_bt115bc_0": {
+      "regions": [
+        {
+          "x": 0.3408163265306122,
+          "y": 0.20816326530612245,
+          "width": 0.363265306122449,
+          "height": 0.12244897959183673,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "b132ee33acd949ebea87187353be1cc7e4aba8919646e94a94eb68ea19ba1fb0",
+      "has_replaced_badge": true
+    },
+    "gear_bass_cab_bt212bc_0": {
+      "regions": [
+        {
+          "x": 0.5857142857142857,
+          "y": 0.11020408163265306,
+          "width": 0.363265306122449,
+          "height": 0.1306122448979592,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "3dbb2339ef35b5ca86647f64a09c93c14723361405561c05af7f0c4c664cfaf8",
+      "has_replaced_badge": true
+    },
+    "gear_bass_cab_bt410bc_0": {
+      "regions": [
+        {
+          "x": 0.5448979591836735,
+          "y": 0.12653061224489795,
+          "width": 0.42448979591836733,
+          "height": 0.13877551020408163,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "22f96472a206f5556c8e69d1bcfef51497e103c69d32f249df0ea24f3e06b2ab",
+      "has_replaced_badge": true
+    },
+    "gear_bass_cab_ca1510bc_0": {
+      "regions": [
+        {
+          "x": 0.5857142857142857,
+          "y": 0.053061224489795916,
+          "width": 0.363265306122449,
+          "height": 0.1306122448979592,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "0711b6f7939926bfb48cf356ceb20a245565d1de76ff295be171313213c8211d",
+      "has_replaced_badge": true
+    },
+    "gear_bass_cab_ch210bc_0": {
+      "regions": [
+        {
+          "x": 0.5857142857142857,
+          "y": 0.2612244897959184,
+          "width": 0.363265306122449,
+          "height": 0.11836734693877551,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "eb8e75a10c8b7fb56722166b9670fd4d880ab1abaa6ace7dfadbb0250e4d5340",
+      "has_replaced_badge": true
+    },
+    "gear_bass_cab_ch310bc_0": {
+      "regions": [
+        {
+          "x": 0.05510204081632653,
+          "y": 0.053061224489795916,
+          "width": 0.3224489795918367,
+          "height": 0.1306122448979592,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "4473ec1961e34e75518456684780520bc25f55e6e5a035e7532001296e24fa1d",
+      "has_replaced_badge": true
+    },
+    "gear_bass_cab_ch410bc_0": {
+      "regions": [
+        {
+          "x": 0.3,
+          "y": 0.05714285714285714,
+          "width": 0.40408163265306124,
+          "height": 0.1346938775510204,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "0fcfc05bfa737fc4c50a8bbe5496f4144c6b352c7c27e5e2af08cb172372da01",
+      "has_replaced_badge": true
+    },
+    "gear_bass_cab_cs112bc_0": {
+      "regions": [
+        {
+          "x": 0.3,
+          "y": 0.4326530612244898,
+          "width": 0.40408163265306124,
+          "height": 0.1306122448979592,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "0dff7d9fc27bc945c7bbaedaf6766b1e64e25799535ee36455fe4ae51de0c5ac",
+      "has_replaced_badge": true
+    },
+    "gear_bass_cab_cs15bc_0": {
+      "regions": [
+        {
+          "x": 0.3,
+          "y": 0.044897959183673466,
+          "width": 0.40408163265306124,
+          "height": 0.13877551020408163,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "ff0c9a5fe982f72161dd22e415a45cc5bec84e08bd5ac94db1fc31070e4773d1",
+      "has_replaced_badge": true
+    },
+    "gear_bass_cab_cs410bc_0": {
+      "regions": [
+        {
+          "x": 0.25918367346938775,
+          "y": 0.1469387755102041,
+          "width": 0.4448979591836735,
+          "height": 0.1346938775510204,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "9e03266d730d8330ebc7db36d74043721fe41a48844dbfebaf7809fa16a9c650",
+      "has_replaced_badge": true
+    },
+    "gear_bass_cab_edend115xlt_0": {
+      "regions": [],
+      "png_sha256": "b82e59a190836a2150c86df9f065f53d66c2899b6db9025c4954676e130a84a2",
+      "has_replaced_badge": false
+    },
+    "gear_bass_cab_edend212xlt_0": {
+      "regions": [],
+      "png_sha256": "883d5495e763c14096a0de03f54656752955e68d2f47daee86ecb17b68c02fe5",
+      "has_replaced_badge": false
+    },
+    "gear_bass_cab_edend410xst_0": {
+      "regions": [],
+      "png_sha256": "fa01922f8532cbefef06536f78aa10016f90e2ebc64325f9e2712903db96607f",
+      "has_replaced_badge": false
+    },
+    "gear_bass_cab_edend610xst_0": {
+      "regions": [],
+      "png_sha256": "3751418814be4833a4823bd51fd7bb745200aacb5293138e72a405e864008565",
+      "has_replaced_badge": false
+    },
+    "gear_bass_cab_gb415bc_0": {
+      "regions": [
+        {
+          "x": 0.5693877551020409,
+          "y": 0.0163265306122449,
+          "width": 0.2163265306122449,
+          "height": 0.10612244897959183,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "f6167b4a72318b6beb3d6944106bdf1f83194a81a0eecc15b2e1ab1162ec32b4",
+      "has_replaced_badge": true
+    },
+    "gear_bass_cab_orangeobc115_0": {
+      "regions": [],
+      "png_sha256": "52f62dc011b78ef08e90ce42e75a9c740f5f002987aff9705b17e58c9439be46",
+      "has_replaced_badge": false
+    },
+    "gear_bass_cab_orangeobc810_0": {
+      "regions": [],
+      "png_sha256": "5b90f18ee663b9d4a056f1c5c1fbea2ee1ec43f388c376fa4613c99a94936241",
+      "has_replaced_badge": false
+    },
+    "gear_bass_cab_tw215bc_0": {
+      "regions": [
+        {
+          "x": 0.8755102040816326,
+          "y": 0.6122448979591837,
+          "width": 0.09795918367346938,
+          "height": 0.22448979591836735,
+          "vertical": true
+        }
+      ],
+      "png_sha256": "ebc8e57f271e11662273886cda72283213fea6e5f236ec6f5ced3f8a71ca3642",
+      "has_replaced_badge": true
+    },
+    "gear_bass_pedal_bassautofilter_0": {
+      "regions": [
+        {
+          "x": 0.38979591836734695,
+          "y": 0.7142857142857143,
+          "width": 0.23265306122448978,
+          "height": 0.07755102040816327,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "dbfaf17560f1a36adeb9c84726f8278ff1ca60edeae9e342e53306a269e5307c",
+      "has_replaced_badge": true
+    },
+    "gear_bass_pedal_basschorus_0": {
+      "regions": [
+        {
+          "x": 0.05510204081632653,
+          "y": 0.7673469387755102,
+          "width": 0.3346938775510204,
+          "height": 0.10204081632653061,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "dec8a76f83d18c87fd3a48bb411186a5e6e634a996b1318026e23b60bb12141a",
+      "has_replaced_badge": true
+    },
+    "gear_bass_pedal_bassdistortion_0": {
+      "regions": [
+        {
+          "x": 0.05510204081632653,
+          "y": 0.7673469387755102,
+          "width": 0.3346938775510204,
+          "height": 0.10204081632653061,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "53f17fff5e1c4b6b2922e14c5b06105f33ac444c1f55fba92990c5cf3a90270f",
+      "has_replaced_badge": true
+    },
+    "gear_bass_pedal_bassenbig_0": {
+      "regions": [
+        {
+          "x": 0.2755102040816326,
+          "y": 0.8244897959183674,
+          "width": 0.4897959183673469,
+          "height": 0.15510204081632653,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "9f0792bc5b5a5fac53c218fe9bf18b4b329ec4aee864e60f48d96e4474ddd059",
+      "has_replaced_badge": true
+    },
+    "gear_bass_pedal_basseq8_0": {
+      "regions": [
+        {
+          "x": 0.2755102040816326,
+          "y": 0.8244897959183674,
+          "width": 0.4897959183673469,
+          "height": 0.15510204081632653,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "986f4cdd8a4a762eea2256e8eca04633cea39c293087030682451b750d071fbf",
+      "has_replaced_badge": true
+    },
+    "gear_bass_pedal_bassfilterdelay_0": {
+      "regions": [
+        {
+          "x": 0.05510204081632653,
+          "y": 0.7673469387755102,
+          "width": 0.3346938775510204,
+          "height": 0.10204081632653061,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "2419516fe780412bbbd8957d6a8aa1222e055fa3b6906410d4652a226fb8927d",
+      "has_replaced_badge": true
+    },
+    "gear_bass_pedal_bassfilterecho_0": {
+      "regions": [
+        {
+          "x": 0.38979591836734695,
+          "y": 0.7142857142857143,
+          "width": 0.23265306122448978,
+          "height": 0.07755102040816327,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "235f439f4251c0266cb2f53284408b85af0e302ec764058c5d4e97bcb52ff793",
+      "has_replaced_badge": true
+    },
+    "gear_bass_pedal_bassflanger_0": {
+      "regions": [
+        {
+          "x": 0.3,
+          "y": 0.763265306122449,
+          "width": 0.40408163265306124,
+          "height": 0.11836734693877551,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "137f280af314bbc1f9f8b011719e76aea79cad63b977dfd5c62d0c104c2c15b0",
+      "has_replaced_badge": true
+    },
+    "gear_bass_pedal_bassfuzz_0": {
+      "regions": [
+        {
+          "x": 0.05510204081632653,
+          "y": 0.7673469387755102,
+          "width": 0.3346938775510204,
+          "height": 0.10204081632653061,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "e0b32961096d655d7ad37d3a0c09a1e5ef948c788b909132932b2540f89278e1",
+      "has_replaced_badge": true
+    },
+    "gear_bass_pedal_bassoverdrive_0": {
+      "regions": [
+        {
+          "x": 0.38979591836734695,
+          "y": 0.7142857142857143,
+          "width": 0.23265306122448978,
+          "height": 0.07755102040816327,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "018e0e1a05e006967117eb8570b7ce74a5041bd9bd40327050ce75c4c9bbe630",
+      "has_replaced_badge": true
+    },
+    "gear_bass_pedal_bassphase_0": {
+      "regions": [
+        {
+          "x": 0.6877551020408164,
+          "y": 0.6857142857142857,
+          "width": 0.2857142857142857,
+          "height": 0.09795918367346938,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "1063d264eee2c50e3e8cede29a9f0c6f1b79f88234967cf6c3c52f4f7d2a9a38",
+      "has_replaced_badge": true
+    },
+    "gear_bass_pedal_basssuboctave_0": {
+      "regions": [
+        {
+          "x": 0.3081632653061224,
+          "y": 0.889795918367347,
+          "width": 0.3877551020408163,
+          "height": 0.11020408163265306,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "78eac3d2b60cb45cd28fefd784bdf6cbee4a99c2fba0be288d53a3717ae9ba27",
+      "has_replaced_badge": true
+    },
+    "gear_bass_pedal_basswah_0": {
+      "regions": [
+        {
+          "x": 0.21428571428571427,
+          "y": 0.14285714285714285,
+          "width": 0.5142857142857142,
+          "height": 0.7510204081632653,
+          "vertical": true
+        }
+      ],
+      "png_sha256": "aad58e140dfc846168f9bb86ab527f0cfbc3e87da92683669e1e5f946ba60e42",
+      "has_replaced_badge": true
+    },
+    "gear_bass_pedal_edenwtdi_0": {
+      "regions": [],
+      "png_sha256": "ea449b10ea0373902839487f10eb777531d05ac8e3bc563671e1839a1ccb3114",
+      "has_replaced_badge": false
+    },
+    "gear_bass_pedal_mbcomp_0": {
+      "regions": [
+        {
+          "x": 0.2755102040816326,
+          "y": 0.8244897959183674,
+          "width": 0.4897959183673469,
+          "height": 0.15510204081632653,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "ae9f5037d368e46945dd50605fb8374ddff4452fd137f6c91ccd874d321b7b9e",
+      "has_replaced_badge": true
+    },
+    "gear_cab_at0112c_0": {
+      "regions": [
+        {
+          "x": 0.25918367346938775,
+          "y": 0.2693877551020408,
+          "width": 0.4448979591836735,
+          "height": 0.1510204081632653,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "4c9dbff1fae14471a23317e6c8841fbe8ca9cb06ca653f9f2530ab12465ad499",
+      "has_replaced_badge": true
+    },
+    "gear_cab_at1121c_0": {
+      "regions": [
+        {
+          "x": 0.3,
+          "y": 0.24897959183673468,
+          "width": 0.40408163265306124,
+          "height": 0.11836734693877551,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "9e49776deaf2b7f2cc66c2812c05d466ef7526ff4cbc8a40a5b65da04b96c51d",
+      "has_replaced_badge": true
+    },
+    "gear_cab_audiophile_0": {
+      "regions": [
+        {
+          "x": 0.3653061224489796,
+          "y": 0.8653061224489796,
+          "width": 0.2897959183673469,
+          "height": 0.1306122448979592,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "5e0a27f7c8cdb06d93e6989c1195c0ce252a3c9ef480e0cace14d3b24501face",
+      "has_replaced_badge": true
+    },
+    "gear_cab_boombox_0": {
+      "regions": [
+        {
+          "x": 0.038636363636363635,
+          "y": 0.1340909090909091,
+          "width": 0.22954545454545455,
+          "height": 0.16363636363636364,
+          "vertical": false
+        },
+        {
+          "x": 0.7318181818181818,
+          "y": 0.1340909090909091,
+          "width": 0.2340909090909091,
+          "height": 0.16363636363636364,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "a7b888f01587d44dc1dfc0ec32c13908d433eeb0135bf145962079dc38a19dff",
+      "has_replaced_badge": true
+    },
+    "gear_cab_bt1120c_0": {
+      "regions": [
+        {
+          "x": 0.25918367346938775,
+          "y": 0.42448979591836733,
+          "width": 0.4448979591836735,
+          "height": 0.1306122448979592,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "82efba9ea3a0078f2b16a11df60af0b59f534ba0aa88ce29c6e0dd6ffb6222ff",
+      "has_replaced_badge": true
+    },
+    "gear_cab_bt1121c_0": {
+      "regions": [
+        {
+          "x": 0.3,
+          "y": 0.4326530612244898,
+          "width": 0.40408163265306124,
+          "height": 0.13877551020408163,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "c1927916490474d77ee414560a90a9a18caa6c26fe294120d3cd078667d9fcee",
+      "has_replaced_badge": true
+    },
+    "gear_cab_bt410c_0": {
+      "regions": [
+        {
+          "x": 0.3,
+          "y": 0.3306122448979592,
+          "width": 0.40408163265306124,
+          "height": 0.13877551020408163,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "4557e5283b5f67e1e0fdfaea4ca6849c2a2d91c2bf124c6f2096ccf5e39c5ad4",
+      "has_replaced_badge": true
+    },
+    "gear_cab_ca112c_0": {
+      "regions": [
+        {
+          "x": 0.6428571428571429,
+          "y": 0.22040816326530613,
+          "width": 0.30612244897959184,
+          "height": 0.1346938775510204,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "4aff9df12681d2f58474e721e29acac2e018fcf302d14a39ca83ab6fa5157af2",
+      "has_replaced_badge": true
+    },
+    "gear_cab_ca215c_0": {
+      "regions": [
+        {
+          "x": 0.3,
+          "y": 0.07346938775510205,
+          "width": 0.40408163265306124,
+          "height": 0.1306122448979592,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "5d9cfe9861d42d96dcd7c596aae25b693b95500b24f03e4160544826728b47ff",
+      "has_replaced_badge": true
+    },
+    "gear_cab_ca412c_0": {
+      "regions": [
+        {
+          "x": 0.3,
+          "y": 0.3510204081632653,
+          "width": 0.40408163265306124,
+          "height": 0.13877551020408163,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "00b57acbcebf4f07bba9486fc732e4c915a9e159617e3c5d623a997a20e1f8a9",
+      "has_replaced_badge": true
+    },
+    "gear_cab_cabinetradio_0": {
+      "regions": [
+        {
+          "x": 0.37755102040816324,
+          "y": 0.3306122448979592,
+          "width": 0.2530612244897959,
+          "height": 0.08571428571428572,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "6645d33f23f7483a1ae07c012512166065de75cacbcb97111690bcccf80ccbb9",
+      "has_replaced_badge": true
+    },
+    "gear_cab_cs1120c_0": {
+      "regions": [
+        {
+          "x": 0.5653061224489796,
+          "y": 0.6653061224489796,
+          "width": 0.3836734693877551,
+          "height": 0.12244897959183673,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "0f55abb1d1948ef53b7dc63606f6a241d441e55717d17d28899be2995be5ec5a",
+      "has_replaced_badge": true
+    },
+    "gear_cab_cs1515c_0": {
+      "regions": [
+        {
+          "x": 0.5122448979591837,
+          "y": 0.8571428571428571,
+          "width": 0.2938775510204082,
+          "height": 0.12244897959183673,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "5d55b47cbfe118883c33dcf5866d49f9597437bf871ecdda7edeb50dd95824f7",
+      "has_replaced_badge": true
+    },
+    "gear_cab_cs212c_0": {
+      "regions": [
+        {
+          "x": 0.3,
+          "y": 0.1673469387755102,
+          "width": 0.40408163265306124,
+          "height": 0.1306122448979592,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "0288dc4b53dca05c1318a532b067caacf06de02dacdb7d076446bcb905d830cf",
+      "has_replaced_badge": true
+    },
+    "gear_cab_en212c_0": {
+      "regions": [
+        {
+          "x": 0.5653061224489796,
+          "y": 0.20816326530612245,
+          "width": 0.34285714285714286,
+          "height": 0.1306122448979592,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "40c80cda210a4fb219f299f8293c7c8840a7c2da59b7cc546c3bf8327908a7d4",
+      "has_replaced_badge": true
+    },
+    "gear_cab_en4120c_0": {
+      "regions": [
+        {
+          "x": 0.2755102040816326,
+          "y": 0.4326530612244898,
+          "width": 0.46938775510204084,
+          "height": 0.13877551020408163,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "283ef3683b671a2ea93c535f9842421003eefe292409c80d0fe661bd16aa2edd",
+      "has_replaced_badge": true
+    },
+    "gear_cab_gb412cmki_0": {
+      "regions": [
+        {
+          "x": 0.35714285714285715,
+          "y": 0.10204081632653061,
+          "width": 0.27346938775510204,
+          "height": 0.11020408163265306,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "c389d596222fb05bc4ad4b42d1800aa2cfaf62c87c9e9701666a9ae14bdd099c",
+      "has_replaced_badge": true
+    },
+    "gear_cab_gb412cmkii_0": {
+      "regions": [
+        {
+          "x": 0.25510204081632654,
+          "y": 0.3877551020408163,
+          "width": 0.4897959183673469,
+          "height": 0.1836734693877551,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "fd70214ea5bd7241d0407a6c2f054eee03cbe50364733f425dadf07c43c42462",
+      "has_replaced_badge": true
+    },
+    "gear_cab_gb412cmkiii_0": {
+      "regions": [
+        {
+          "x": 0.2755102040816326,
+          "y": 0.3469387755102041,
+          "width": 0.46938775510204084,
+          "height": 0.14285714285714285,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "4b5462aa9c6b8b07bb7fa933a47a6f8c3ba5bb37591bb0a71288b004b7906e21",
+      "has_replaced_badge": true
+    },
+    "gear_cab_gramophone_0": {
+      "regions": [],
+      "png_sha256": "a4986abe9d1cf97b03b538ccfbba08a087775ddaaa43a2a6ffa78ea9b42b19b2",
+      "has_replaced_badge": false
+    },
+    "gear_cab_hg2120c_0": {
+      "regions": [
+        {
+          "x": 0.3,
+          "y": 0.5551020408163265,
+          "width": 0.40408163265306124,
+          "height": 0.12653061224489795,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "9d574f8d1b1d0a3e3a62e95cfbdf4ead951106ce843630e5e25f16be60fe869b",
+      "has_replaced_badge": true
+    },
+    "gear_cab_hg212c_0": {
+      "regions": [
+        {
+          "x": 0.3,
+          "y": 0.39183673469387753,
+          "width": 0.40408163265306124,
+          "height": 0.13877551020408163,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "5338d2d73a67fa002fc48e4f7b863f7d3983b593a94dba314313f29220f325d8",
+      "has_replaced_badge": true
+    },
+    "gear_cab_hg215c_0": {
+      "regions": [
+        {
+          "x": 0.3,
+          "y": 0.4326530612244898,
+          "width": 0.40408163265306124,
+          "height": 0.13877551020408163,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "ae2f907b95e8db95616072514d931b81fc696f1d414119130efbbedbb32ca843",
+      "has_replaced_badge": true
+    },
+    "gear_cab_jukebox_0": {
+      "regions": [
+        {
+          "x": 0.36122448979591837,
+          "y": 0.22857142857142856,
+          "width": 0.2816326530612245,
+          "height": 0.12653061224489795,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "3e889ebc3aa3e956e4bac1029fdf376dc6bead64157891f64910732a96ba903f",
+      "has_replaced_badge": true
+    },
+    "gear_cab_marshall1936_0": {
+      "regions": [],
+      "png_sha256": "ee2099a6e2f4c15ddf1a91e0c53d57481117e04564c30886e169249f96c246cd",
+      "has_replaced_badge": false
+    },
+    "gear_cab_marshall1960a_0": {
+      "regions": [],
+      "png_sha256": "bb891616f67ec14944b6285f0051e95f95bba89129b2090fc67838cffbdb6386",
+      "has_replaced_badge": false
+    },
+    "gear_cab_marshall1960ax_0": {
+      "regions": [],
+      "png_sha256": "9ed1297a263276b0b02a66f09cc7852d477092340958361d404d0f93afa47264",
+      "has_replaced_badge": false
+    },
+    "gear_cab_marshall1960tv_0": {
+      "regions": [],
+      "png_sha256": "7e2f1511c0ca70d7b41e17e6081b112deb29e561b1397917de4f79f528605cd9",
+      "has_replaced_badge": false
+    },
+    "gear_cab_orangejimmybean_0": {
+      "regions": [],
+      "png_sha256": "a62b510859d61fd03a8a41c45acb6835b0c9c3a71a24808d7cab1fa96351ae77",
+      "has_replaced_badge": false
+    },
+    "gear_cab_orangeppc212ob_0": {
+      "regions": [],
+      "png_sha256": "012b09a2296336bd36c2746783ea8ae00701d9ce4ce5ee2c89df0641c339fab2",
+      "has_replaced_badge": false
+    },
+    "gear_cab_orangeppc412_0": {
+      "regions": [],
+      "png_sha256": "98408bc82adc4fa6cdf7dbd8aaf74d33dc08131a8b82f65894ba78ad7714a701",
+      "has_replaced_badge": false
+    },
+    "gear_cab_pa1152c_0": {
+      "regions": [],
+      "png_sha256": "d0871a7386da0a8e53b2ac4617a299fbd6ccb6521acc3f4b05dd77ead82bce83",
+      "has_replaced_badge": false
+    },
+    "gear_cab_pa600c_0": {
+      "regions": [
+        {
+          "x": 0.29591836734693877,
+          "y": 0.39591836734693875,
+          "width": 0.40816326530612246,
+          "height": 0.10204081632653061,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "292d0b75902cfc013137a787e8516486962f63bb7e12414b831064bfad06e326",
+      "has_replaced_badge": true
+    },
+    "gear_cab_pa999c_0": {
+      "regions": [
+        {
+          "x": 0.1326530612244898,
+          "y": 0.02857142857142857,
+          "width": 0.6938775510204082,
+          "height": 0.17551020408163265,
+          "vertical": false
+        },
+        {
+          "x": 0.29591836734693877,
+          "y": 0.40816326530612246,
+          "width": 0.4489795918367347,
+          "height": 0.10204081632653061,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "c3f281572d4d1936fa84864c10ad5352b8c5351190ae8cdd92c43381036e5e5a",
+      "has_replaced_badge": true
+    },
+    "gear_cab_tw110c_0": {
+      "regions": [
+        {
+          "x": 0.3,
+          "y": 0.42448979591836733,
+          "width": 0.40408163265306124,
+          "height": 0.1469387755102041,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "c5c53ae23eb46d9952ada506992b86158c60e26191794a5c5c9dee9924712e75",
+      "has_replaced_badge": true
+    },
+    "gear_cab_tw112c_0": {
+      "regions": [
+        {
+          "x": 0.030612244897959183,
+          "y": 0.6122448979591837,
+          "width": 0.4122448979591837,
+          "height": 0.1510204081632653,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "c5c1ba52c698164e2aa791fea4b991688124aa055eed9cbf87834bcf86a546b0",
+      "has_replaced_badge": true
+    },
+    "gear_cab_tw410c_0": {
+      "regions": [
+        {
+          "x": 0.37755102040816324,
+          "y": 0.12244897959183673,
+          "width": 0.22448979591836735,
+          "height": 0.09795918367346938,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "dc0da0e70d1218966bba414e06754ca4803b33e15be788d1e0610d36ea4ffd14",
+      "has_replaced_badge": true
+    },
+    "gear_cab_vintagehifi_0": {
+      "regions": [
+        {
+          "x": 0.07954545454545454,
+          "y": 0.2840909090909091,
+          "width": 0.2727272727272727,
+          "height": 0.1590909090909091,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "ce4a95e203499c7f8ccc8aa31ad24ba247fd27903c2d5e170dc1c9b16dd2df0a",
+      "has_replaced_badge": true
+    },
+    "gear_di_amp_bassdriver_0": {
+      "regions": [
+        {
+          "x": 0.375,
+          "y": 0.6795454545454546,
+          "width": 0.11363636363636363,
+          "height": 0.06818181818181818,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "a9568dbe935014c91ce9a10b7704850c139ad4d885539c4214da7b895420f53f",
+      "has_replaced_badge": true
+    },
+    "gear_di_amp_mixerpre_0": {
+      "regions": [
+        {
+          "x": 0.375,
+          "y": 0.6795454545454546,
+          "width": 0.11363636363636363,
+          "height": 0.06818181818181818,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "017b22696090604ec278021799bfb318a81f00e6845ff106467ba0e36e9f9a4b",
+      "has_replaced_badge": true
+    },
+    "gear_di_amp_tubepre_0": {
+      "regions": [
+        {
+          "x": 0.375,
+          "y": 0.6795454545454546,
+          "width": 0.11363636363636363,
+          "height": 0.06818181818181818,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "5500504e52a9b7abaf1f548fafeb940a4f328311ce8154812af4cfa59c1506ca",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_80sflanger_0": {
+      "regions": [
+        {
+          "x": 0.6918367346938775,
+          "y": 0.6938775510204082,
+          "width": 0.2693877551020408,
+          "height": 0.08979591836734693,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "c3714ff9e93081b7910b3fd7efe1b9b2a114f794902389b13f73af8da6334496",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_acousticemulator_0": {
+      "regions": [
+        {
+          "x": 0.38979591836734695,
+          "y": 0.7142857142857143,
+          "width": 0.23265306122448978,
+          "height": 0.07755102040816327,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "7ffa104a0e6cc82b5bb8e8df164553f50f98b5fca2e1d94daab13023e4ec9290",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_ampeq_0": {
+      "regions": [
+        {
+          "x": 0.38979591836734695,
+          "y": 0.7142857142857143,
+          "width": 0.23265306122448978,
+          "height": 0.07755102040816327,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "8331ff3c025d35df229902a35c8de713efecf797a1a62820fe6e05ebdd739568",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_amptrem_0": {
+      "regions": [
+        {
+          "x": 0.6918367346938775,
+          "y": 0.6938775510204082,
+          "width": 0.2693877551020408,
+          "height": 0.08979591836734693,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "896df834c89f871fe3f9a5f2e31193b310e0e04dd33fbf136a7d7c886392cc67",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_ampvibe_0": {
+      "regions": [
+        {
+          "x": 0.2755102040816326,
+          "y": 0.8244897959183674,
+          "width": 0.4897959183673469,
+          "height": 0.15510204081632653,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "d800d2c1df4033cf953b13b6296f1b53b209704d9b67c90cdc5897e091b6f9dd",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_analoguedelay_0": {
+      "regions": [
+        {
+          "x": 0.2755102040816326,
+          "y": 0.8244897959183674,
+          "width": 0.4897959183673469,
+          "height": 0.15510204081632653,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "86a69524c8e3e2c443f617c272f1855b709ab0f4020ed7d7bd0c563fa4126892",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_autofilter_0": {
+      "regions": [
+        {
+          "x": 0.6918367346938775,
+          "y": 0.6938775510204082,
+          "width": 0.2693877551020408,
+          "height": 0.08979591836734693,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "fb7854605002e95a4d0b5d3bad7c52e42ff69d7587116e86f3b8b2fd4e728e00",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_autovibe_0": {
+      "regions": [
+        {
+          "x": 0.05510204081632653,
+          "y": 0.7673469387755102,
+          "width": 0.3346938775510204,
+          "height": 0.10204081632653061,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "1a8282a51bbed13d12960041dc7769e92ce96f358a17bacb40116ede3614ce90",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_bakedrotatoe_0": {
+      "regions": [
+        {
+          "x": 0.38979591836734695,
+          "y": 0.3306122448979592,
+          "width": 0.23265306122448978,
+          "height": 0.08163265306122448,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "6cf12c3933c9a2432d8c12d808ef8d927d865a06a100fe5bbbb65b7597a962df",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_bassemulator_0": {
+      "regions": [
+        {
+          "x": 0.3081632653061224,
+          "y": 0.889795918367347,
+          "width": 0.3877551020408163,
+          "height": 0.11020408163265306,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "fc329b3bb2e6226cfc1e130268889a4c8f8b7c738db9284fe040af29f7037f82",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_bitcruncher_0": {
+      "regions": [
+        {
+          "x": 0.3081632653061224,
+          "y": 0.889795918367347,
+          "width": 0.3877551020408163,
+          "height": 0.11020408163265306,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "6b13b97d9632b4aa4e2adf70fb7ad57bc29d6589201b36b63702b00d06f2cce3",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_bobfilter_0": {
+      "regions": [
+        {
+          "x": 0.2755102040816326,
+          "y": 0.8244897959183674,
+          "width": 0.4897959183673469,
+          "height": 0.15510204081632653,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "b6fa97bae0d85d599b291ab9100f78633a5ac4e2515746d3bce3e5c103301057",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_buzzone_0": {
+      "regions": [
+        {
+          "x": 0.3081632653061224,
+          "y": 0.889795918367347,
+          "width": 0.3877551020408163,
+          "height": 0.11020408163265306,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "3e2f34048e33ddea8e43a0d64a100b5858d310c95f4bda0e682b8c811c489ce3",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_buzztoo_0": {
+      "regions": [
+        {
+          "x": 0.2755102040816326,
+          "y": 0.8244897959183674,
+          "width": 0.4897959183673469,
+          "height": 0.15510204081632653,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "c06375ebc76aa8214fd8ec223580e81863525b70a6556237eb3cdd6831746317",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_captfuzzle_0": {
+      "regions": [
+        {
+          "x": 0.38979591836734695,
+          "y": 0.7142857142857143,
+          "width": 0.23265306122448978,
+          "height": 0.07755102040816327,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "cb1533089a08ab15e09f5adc54faa31c40f33f7c18c955948ffe564060cddcb7",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_chorus20_0": {
+      "regions": [
+        {
+          "x": 0.38979591836734695,
+          "y": 0.7142857142857143,
+          "width": 0.23265306122448978,
+          "height": 0.07755102040816327,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "b22b777a9371bd409a7e932869134fab1618aef51f9bdfa44177968e7b6ae32e",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_chorus_0": {
+      "regions": [
+        {
+          "x": 0.38979591836734695,
+          "y": 0.3306122448979592,
+          "width": 0.23265306122448978,
+          "height": 0.08163265306122448,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "6e10eddce315f5294381ba5f9ee648d0ee4c7ecc24e42c7e36668a27e56cbe87",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_classicflanger_0": {
+      "regions": [
+        {
+          "x": 0.38979591836734695,
+          "y": 0.3306122448979592,
+          "width": 0.23265306122448978,
+          "height": 0.08163265306122448,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "be41f147e36127403d47f34518199a663b9f5b3340d3aad4edf377293e910a80",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_compression_0": {
+      "regions": [
+        {
+          "x": 0.3081632653061224,
+          "y": 0.889795918367347,
+          "width": 0.3877551020408163,
+          "height": 0.11020408163265306,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "32d2f1816fa4e30caa47c0d25681c6554a3edbfbe73d82b39e84b005085d85de",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_cosmicecho_0": {
+      "regions": [
+        {
+          "x": 0.6918367346938775,
+          "y": 0.6938775510204082,
+          "width": 0.2693877551020408,
+          "height": 0.08979591836734693,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "243839939f8f79465fb948523954a937c8f03e07773fdb72b3b2c559d1b9deaa",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_customdrive_0": {
+      "regions": [
+        {
+          "x": 0.3081632653061224,
+          "y": 0.889795918367347,
+          "width": 0.3877551020408163,
+          "height": 0.11020408163265306,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "dc6f2f0d3916eb75c2111bde8c5760f5891662d8f1631e714f1896dcbef90579",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_digitalchorus_0": {
+      "regions": [
+        {
+          "x": 0.2755102040816326,
+          "y": 0.8244897959183674,
+          "width": 0.4897959183673469,
+          "height": 0.15510204081632653,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "a7b226a4f844dc2bfeff68c28ce26b3fee6369666970e78fe911a1a933f85f88",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_digitalverb_0": {
+      "regions": [
+        {
+          "x": 0.38979591836734695,
+          "y": 0.3306122448979592,
+          "width": 0.23265306122448978,
+          "height": 0.08163265306122448,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "a764c0b8a719bdefcca51cf3b34aa0156b105be39b4f47b2a98ba34fd7cc0395",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_distortion_0": {
+      "regions": [
+        {
+          "x": 0.38979591836734695,
+          "y": 0.3306122448979592,
+          "width": 0.23265306122448978,
+          "height": 0.08163265306122448,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "87d88591d84843180a8e1670c61267966e6e4b74fafadf961e6d7b399f24de9b",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_enbiggenator_0": {
+      "regions": [
+        {
+          "x": 0.05510204081632653,
+          "y": 0.7673469387755102,
+          "width": 0.3346938775510204,
+          "height": 0.10204081632653061,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "d8daaa9d159abd66f946fc68428510a018c53596834d70dd88f4f4d4dc6bddd9",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_eq5_0": {
+      "regions": [
+        {
+          "x": 0.38979591836734695,
+          "y": 0.3306122448979592,
+          "width": 0.23265306122448978,
+          "height": 0.08163265306122448,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "ff710b4e9275c4241a570b6014fa332d4eaa2ee7ba3cad396eb6de0a0f4b2d13",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_eq8_0": {
+      "regions": [
+        {
+          "x": 0.3,
+          "y": 0.763265306122449,
+          "width": 0.40408163265306124,
+          "height": 0.11836734693877551,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "a136d8959eebf538fb8bc1325b6a287d268b2b64d58eaa21ddc50fb6e3ed3649",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_fuzzwashe_0": {
+      "regions": [
+        {
+          "x": 0.38979591836734695,
+          "y": 0.3306122448979592,
+          "width": 0.23265306122448978,
+          "height": 0.08163265306122448,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "70e1e8238253aa581ff47b52149efc7184a984be6847e74d9e0f6d18feb0c84c",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_germaniumdrive_0": {
+      "regions": [
+        {
+          "x": 0.2755102040816326,
+          "y": 0.8244897959183674,
+          "width": 0.4897959183673469,
+          "height": 0.15510204081632653,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "280f949da24cb22f990a9a4226ab825eab426234ecd55af63b43ae818c2bcc9b",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_limiter_0": {
+      "regions": [
+        {
+          "x": 0.38979591836734695,
+          "y": 0.3306122448979592,
+          "width": 0.23265306122448978,
+          "height": 0.08163265306122448,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "07c2309caadb5f90f39d8e83ee9e2a7d263e1771293d7992348acd0f0ab713a9",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_linedrive_0": {
+      "regions": [
+        {
+          "x": 0.3081632653061224,
+          "y": 0.889795918367347,
+          "width": 0.3877551020408163,
+          "height": 0.11020408163265306,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "b6041f11cee5e9ac97ef1c25cc48a46051eeed48fcdad84bfca31b8510f7b052",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_lofifilter_0": {
+      "regions": [
+        {
+          "x": 0.3081632653061224,
+          "y": 0.889795918367347,
+          "width": 0.3877551020408163,
+          "height": 0.11020408163265306,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "b5faa1f1db14b1dfdaccb18f6c5cc10285642d97ad85bc151617ae0ea1377c1e",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_marshallguvnorplus_0": {
+      "regions": [],
+      "png_sha256": "037805eaaf57aa526eec13442dd5814cbfc998ff989b939af3ef233f4e5e032b",
+      "has_replaced_badge": false
+    },
+    "gear_pedal_marshallsupervibe_0": {
+      "regions": [],
+      "png_sha256": "858a9fd240b12e09edad40cf0fbd19ba3e59248c89064463d54ea0c129f51631",
+      "has_replaced_badge": false
+    },
+    "gear_pedal_metaldistortion_0": {
+      "regions": [
+        {
+          "x": 0.6918367346938775,
+          "y": 0.6938775510204082,
+          "width": 0.2693877551020408,
+          "height": 0.08979591836734693,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "6735577009c124e6ecdd4983df1f6cf93ebcdae1838f59487bce95ffc18a3246",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_moddelay_0": {
+      "regions": [
+        {
+          "x": 0.38979591836734695,
+          "y": 0.3306122448979592,
+          "width": 0.23265306122448978,
+          "height": 0.08163265306122448,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "6b344c91ff7f19286bf935786443283569bca6248a2c86e99808fe65156f1b70",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_modernflanger_0": {
+      "regions": [
+        {
+          "x": 0.2755102040816326,
+          "y": 0.8244897959183674,
+          "width": 0.4897959183673469,
+          "height": 0.15510204081632653,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "a50212d045c03538e98bdaff443793aecbb9d636be2f73e50c91e051eb3f21f6",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_modernwah_0": {
+      "regions": [
+        {
+          "x": 0.21428571428571427,
+          "y": 0.14285714285714285,
+          "width": 0.5142857142857142,
+          "height": 0.7510204081632653,
+          "vertical": true
+        }
+      ],
+      "png_sha256": "3a74e9efdde605afe9430d153a2c6bca203e3d8e9626cf34e6871062f5dcec32",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_multipitch_0": {
+      "regions": [
+        {
+          "x": 0.2755102040816326,
+          "y": 0.8244897959183674,
+          "width": 0.4897959183673469,
+          "height": 0.15510204081632653,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "fb90bb02f87dfe99479dbe8bab0eb5f42a51696af28382fde43b2cab29c9aa92",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_multitrem_0": {
+      "regions": [
+        {
+          "x": 0.38979591836734695,
+          "y": 0.3306122448979592,
+          "width": 0.23265306122448978,
+          "height": 0.08163265306122448,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "69dde4351b984496d6e78d59b43c27fe446c3d823c2c56d9ed015ae14872ad81",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_multivibe_0": {
+      "regions": [
+        {
+          "x": 0.38979591836734695,
+          "y": 0.3306122448979592,
+          "width": 0.23265306122448978,
+          "height": 0.08163265306122448,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "e3eff54c4637aae0dfc5831f849618d42f1cd69d25811efe7d0512bdc1400433",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_nofiecho_0": {
+      "regions": [
+        {
+          "x": 0.38979591836734695,
+          "y": 0.3306122448979592,
+          "width": 0.23265306122448978,
+          "height": 0.08163265306122448,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "e4192d68faf95ba6e9a6d4f41f0d84e4c09e15da20401309a8fe10428b746fca",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_noisegate_0": {
+      "regions": [
+        {
+          "x": 0.6918367346938775,
+          "y": 0.6938775510204082,
+          "width": 0.2693877551020408,
+          "height": 0.08979591836734693,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "45a195e385554a0839c62848d169e71d92e7a2c1df4c30158abb5d91db028a5b",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_npndelay_0": {
+      "regions": [
+        {
+          "x": 0.6918367346938775,
+          "y": 0.6938775510204082,
+          "width": 0.2693877551020408,
+          "height": 0.08979591836734693,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "edfa0f47782eb54f79a614c481876e6913cae1d3530ab64613e09be5bee4ed79",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_octaveup_0": {
+      "regions": [
+        {
+          "x": 0.3081632653061224,
+          "y": 0.889795918367347,
+          "width": 0.3877551020408163,
+          "height": 0.11020408163265306,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "aa8339b6812dab92fab35550a1368d464ca5bd89e397eba16c11d16e5e58b201",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_octavius_0": {
+      "regions": [
+        {
+          "x": 0.38979591836734695,
+          "y": 0.3306122448979592,
+          "width": 0.23265306122448978,
+          "height": 0.08163265306122448,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "87647739f7763f4338556fa3b54129fac3141e2e9250c4a2a151e1b6b26d4c61",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_oilcanecho_0": {
+      "regions": [
+        {
+          "x": 0.2755102040816326,
+          "y": 0.8244897959183674,
+          "width": 0.4897959183673469,
+          "height": 0.15510204081632653,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "f5bd8b3057252add262c570bb4e734bbbcff32b57029f4d1fca55ffb2174ea7d",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_omnimod_0": {
+      "regions": [
+        {
+          "x": 0.6918367346938775,
+          "y": 0.6938775510204082,
+          "width": 0.2693877551020408,
+          "height": 0.08979591836734693,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "0e3074a817cd0e9d66226b86e40f7fe03281b4a50f80594acafd65320459c6d9",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_phaser_0": {
+      "regions": [
+        {
+          "x": 0.38979591836734695,
+          "y": 0.3306122448979592,
+          "width": 0.23265306122448978,
+          "height": 0.08163265306122448,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "edf76e31bc8651949a859357a057653e64db0d4584e7b7c2b518cd678c0504ad",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_planephase_0": {
+      "regions": [
+        {
+          "x": 0.6918367346938775,
+          "y": 0.6938775510204082,
+          "width": 0.2693877551020408,
+          "height": 0.08979591836734693,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "9eec36f2662c122ec245caa16f1b9c046f367d73d2e72585b3753608b6d72255",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_plateverb_0": {
+      "regions": [
+        {
+          "x": 0.05510204081632653,
+          "y": 0.7673469387755102,
+          "width": 0.3346938775510204,
+          "height": 0.10204081632653061,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "67dbb55dbdd75316b4efe5e93f81b01880b023066aeefe2a7a30dbcdd56292ce",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_rangebooster_0": {
+      "regions": [
+        {
+          "x": 0.38979591836734695,
+          "y": 0.3306122448979592,
+          "width": 0.23265306122448978,
+          "height": 0.08163265306122448,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "7f5b1e49c176cac5c550b52c0cc93d7b9e765fbf49a4e0c2d89491bd91a39a18",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_ringmod_0": {
+      "regions": [
+        {
+          "x": 0.6918367346938775,
+          "y": 0.6938775510204082,
+          "width": 0.2693877551020408,
+          "height": 0.08979591836734693,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "403b39d3fa32067a9205ab2827b75d096257e3a264fe6d9e990871d013dbdd93",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_sendintheclones_0": {
+      "regions": [
+        {
+          "x": 0.2755102040816326,
+          "y": 0.8244897959183674,
+          "width": 0.4897959183673469,
+          "height": 0.15510204081632653,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "a59175050fc4f087e24d1d78dfe9c8cff2a62219aa4af20204fb991352040b1d",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_shaverphaser_0": {
+      "regions": [
+        {
+          "x": 0.38979591836734695,
+          "y": 0.3306122448979592,
+          "width": 0.23265306122448978,
+          "height": 0.08163265306122448,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "9e27287b073013a67e3f1a245e78dbda93317c68fae2e0a12ce326a2266ef5aa",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_shredzone_0": {
+      "regions": [
+        {
+          "x": 0.38979591836734695,
+          "y": 0.3306122448979592,
+          "width": 0.23265306122448978,
+          "height": 0.08163265306122448,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "c48b3e85c93ffa0c0828a6ca68f864244debe77561f09f10708c3bbae0202162",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_springreverb_0": {
+      "regions": [
+        {
+          "x": 0.2755102040816326,
+          "y": 0.8244897959183674,
+          "width": 0.4897959183673469,
+          "height": 0.15510204081632653,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "ebf04b4b79748bed21565cbcbb224cc74133a5fce19173f1004ecb895235cde8",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_superdrive_0": {
+      "regions": [
+        {
+          "x": 0.38979591836734695,
+          "y": 0.3306122448979592,
+          "width": 0.23265306122448978,
+          "height": 0.08163265306122448,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "2d2e698f1511c947f73258d3350d6b47b94b28f23d5d5e391f91fdd4c47c7600",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_swole_0": {
+      "regions": [
+        {
+          "x": 0.6918367346938775,
+          "y": 0.6938775510204082,
+          "width": 0.2693877551020408,
+          "height": 0.08979591836734693,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "e129638c11a9b2055b88efd0242ba1527eb60079ff2d44271537e0f6e2118c6a",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_tremole_0": {
+      "regions": [
+        {
+          "x": 0.2755102040816326,
+          "y": 0.8244897959183674,
+          "width": 0.4897959183673469,
+          "height": 0.15510204081632653,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "034a8f7e64048343377f595cd31ce116a886369b35a7b1056f06a52d0789250b",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_tremolo_0": {
+      "regions": [
+        {
+          "x": 0.3081632653061224,
+          "y": 0.889795918367347,
+          "width": 0.3877551020408163,
+          "height": 0.11020408163265306,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "40122fb453cecbf8658deade5d5560a38bed8c914abb5f9fd73a6e399864e5e7",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_tubespring_0": {
+      "regions": [
+        {
+          "x": 0.3081632653061224,
+          "y": 0.889795918367347,
+          "width": 0.3877551020408163,
+          "height": 0.11020408163265306,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "c0046a91ae93eb53900c87b5ced01d03d6aea6d93f2c9133cde82757a34f5e24",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_ukwah_0": {
+      "regions": [
+        {
+          "x": 0.21428571428571427,
+          "y": 0.14285714285714285,
+          "width": 0.5142857142857142,
+          "height": 0.7510204081632653,
+          "vertical": true
+        }
+      ],
+      "png_sha256": "0442c4778338d54aa51944e1d6f15fab48a2be112a2dc98401775b01875a640d",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_uswah_0": {
+      "regions": [
+        {
+          "x": 0.21428571428571427,
+          "y": 0.14285714285714285,
+          "width": 0.5142857142857142,
+          "height": 0.7510204081632653,
+          "vertical": true
+        }
+      ],
+      "png_sha256": "d32730ab6235ba5599b3eca4dd2f1cb86b9b35b14ae804acdf27e57ff1091d4f",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_valveecho_0": {
+      "regions": [
+        {
+          "x": 0.05510204081632653,
+          "y": 0.7673469387755102,
+          "width": 0.3346938775510204,
+          "height": 0.10204081632653061,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "f30b9f8d25e7bbd7119aff7ef9e46d07ba24267f66e3ab115b400601c6b07381",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_vintagechorus_0": {
+      "regions": [
+        {
+          "x": 0.3081632653061224,
+          "y": 0.889795918367347,
+          "width": 0.3877551020408163,
+          "height": 0.11020408163265306,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "20ffb154d4a02793b01b4da0ce11da5170808507000bac45b6618ede226df6b2",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_vintagedistortion_0": {
+      "regions": [
+        {
+          "x": 0.3081632653061224,
+          "y": 0.889795918367347,
+          "width": 0.3877551020408163,
+          "height": 0.11020408163265306,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "c7fa2c0a0c3e8f84db5b3318949c3fe35e450991db802ff15ef68bb7cbf7263d",
+      "has_replaced_badge": true
+    },
+    "gear_pedal_vintageflanger_0": {
+      "regions": [
+        {
+          "x": 0.3081632653061224,
+          "y": 0.889795918367347,
+          "width": 0.3877551020408163,
+          "height": 0.11020408163265306,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "eb825611b67d374d8a597ee4483a012c2ca01702117d63034f94ec21287d5760",
+      "has_replaced_badge": true
+    },
+    "gear_rack_rotavibe_0": {
+      "regions": [
+        {
+          "x": 0.6659090909090909,
+          "y": 0.2545454545454545,
+          "width": 0.13636363636363635,
+          "height": 0.4909090909090909,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "544e3dcc091963e91b0174ee4d3dd73c31865f1742e9d0abefcfcaf79aea06e2",
+      "has_replaced_badge": true
+    },
+    "gear_rack_stereoanalogvibe_0": {
+      "regions": [
+        {
+          "x": 0.10909090909090909,
+          "y": 0.2545454545454545,
+          "width": 0.14772727272727273,
+          "height": 0.4909090909090909,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "858348597d17e0fd034e5b0ac0e5704f93a64bc837a6f1e40b656d059a699907",
+      "has_replaced_badge": true
+    },
+    "gear_rack_stereophaser_0": {
+      "regions": [
+        {
+          "x": 0.6659090909090909,
+          "y": 0.2545454545454545,
+          "width": 0.13636363636363635,
+          "height": 0.4909090909090909,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "b1a2edc5e54bef7b2f6e5276be7ec4c4b2d2819aaf667be7190970370900eb0c",
+      "has_replaced_badge": true
+    },
+    "gear_rack_stereotubetrem_0": {
+      "regions": [
+        {
+          "x": 0.6659090909090909,
+          "y": 0.2545454545454545,
+          "width": 0.13636363636363635,
+          "height": 0.4909090909090909,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "a3466e781cca96527aa1238d19aa1f78057d337bc5b9ccaa0ae018c4cc8c1473",
+      "has_replaced_badge": true
+    },
+    "gear_rack_studiochamber_0": {
+      "regions": [
+        {
+          "x": 0.6522727272727272,
+          "y": 0.2545454545454545,
+          "width": 0.15,
+          "height": 0.4909090909090909,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "69b8cc504fc873e19ffb1ebeeecd82ea8999850e84dbd247373122db0aa352e4",
+      "has_replaced_badge": true
+    },
+    "gear_rack_studiochorus_0": {
+      "regions": [
+        {
+          "x": 0.7090909090909091,
+          "y": 0.2545454545454545,
+          "width": 0.15,
+          "height": 0.4909090909090909,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "7c613591bdb2d860729844e37a7bc222d33adcdfd46619be38ddb4394ac3b603",
+      "has_replaced_badge": true
+    },
+    "gear_rack_studiocompressor_0": {
+      "regions": [
+        {
+          "x": 0.6409090909090909,
+          "y": 0.2545454545454545,
+          "width": 0.15,
+          "height": 0.4909090909090909,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "75d300c11bdfafeae73c0bd1ff926c92eaee5fb9c1c0aa289e10f1bf46ae8683",
+      "has_replaced_badge": true
+    },
+    "gear_rack_studiodelay_0": {
+      "regions": [
+        {
+          "x": 0.6977272727272728,
+          "y": 0.2545454545454545,
+          "width": 0.15,
+          "height": 0.4909090909090909,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "1d5896774a4f891b2b110ae1a88e800653d97574fe74c7dcf378729489ad138a",
+      "has_replaced_badge": true
+    },
+    "gear_rack_studioeq_0": {
+      "regions": [
+        {
+          "x": 0.6522727272727272,
+          "y": 0.2545454545454545,
+          "width": 0.15,
+          "height": 0.4909090909090909,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "b4fa346a4b9bd75b7466ebeaf4be10c442a761c289abd007221ad777474f5bcb",
+      "has_replaced_badge": true
+    },
+    "gear_rack_studioflanger_0": {
+      "regions": [
+        {
+          "x": 0.6522727272727272,
+          "y": 0.2545454545454545,
+          "width": 0.15,
+          "height": 0.4909090909090909,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "8997a58323c7b7e6b4fc788ec3aec5da5abe4e8c2bf3bf276add0ed7cd586303",
+      "has_replaced_badge": true
+    },
+    "gear_rack_studiographiceq_0": {
+      "regions": [
+        {
+          "x": 0.7545454545454545,
+          "y": 0.2545454545454545,
+          "width": 0.17272727272727273,
+          "height": 0.4909090909090909,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "f96d8bc9d26ce6bf7096011b0d565daf1c84c38dd5d4622be3558c970950232a",
+      "has_replaced_badge": true
+    },
+    "gear_rack_studiopitch_0": {
+      "regions": [
+        {
+          "x": 0.10909090909090909,
+          "y": 0.2545454545454545,
+          "width": 0.14772727272727273,
+          "height": 0.4909090909090909,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "1a0ecc35cb53615cf1a453a6f690d190a199847de7eec27d3cd76bcca1154f07",
+      "has_replaced_badge": true
+    },
+    "gear_rack_studioplate_0": {
+      "regions": [
+        {
+          "x": 0.6522727272727272,
+          "y": 0.2545454545454545,
+          "width": 0.15,
+          "height": 0.4909090909090909,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "e4a76a7351d94eb7fde4752e27ee4e770b4a3cd40c3bb5db24126ce8afab49e6",
+      "has_replaced_badge": true
+    },
+    "gear_rack_studioverb_0": {
+      "regions": [
+        {
+          "x": 0.6522727272727272,
+          "y": 0.2545454545454545,
+          "width": 0.15,
+          "height": 0.4909090909090909,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "c472ee0af3b89a850d21bb4c43f816343972bb5bad1536417e08354419657102",
+      "has_replaced_badge": true
+    },
+    "gear_rack_studiowahfilter_0": {
+      "regions": [
+        {
+          "x": 0.6522727272727272,
+          "y": 0.2545454545454545,
+          "width": 0.15,
+          "height": 0.4909090909090909,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "4c626fa16d85559c6ae53ef3d217dab8380a0e6ef14614c1cab8c4945f64c167",
+      "has_replaced_badge": true
+    },
+    "gear_rack_synthfilter_0": {
+      "regions": [
+        {
+          "x": 0.6409090909090909,
+          "y": 0.2545454545454545,
+          "width": 0.15,
+          "height": 0.4909090909090909,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "684368b48e09832723c2e7d617e0e37b689f2f502809404883abc660a8a55da2",
+      "has_replaced_badge": true
+    },
+    "gear_rack_tapeecho_0": {
+      "regions": [
+        {
+          "x": 0.6659090909090909,
+          "y": 0.2545454545454545,
+          "width": 0.13636363636363635,
+          "height": 0.4909090909090909,
+          "vertical": false
+        }
+      ],
+      "png_sha256": "ebe1f8f24bc5c5c1250b564e5927d3b4a22837d455900c2318f578d2ba56bdc1",
+      "has_replaced_badge": true
+    }
+  },
+  "baked": true
+}

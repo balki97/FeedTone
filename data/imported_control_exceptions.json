@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "catalog_sha256": "3941732f827d180ee62bcfa3c443d26434473f81c1711e2a6d83354d6297e089",
+  "profile_selection_sha256": "38769811b0bf5e8aff9592b8b9882a22b0397d263cb60ebf2edd9d4c06d1c066",
+  "evidence": "research/imported-extra-control-bank-audit.json",
+  "entries": [
+    {
+      "device": "Amp_AT20",
+      "name": "",
+      "rtpc_id": 2166136261,
+      "manifest_sha256": "a58d946a53f6e1006baf7ca3d654261f62529ea4346a138e6fa21da7f078820c",
+      "kind": "authored-orphan"
+    },
+    {
+      "device": "Pedal_Phaser",
+      "name": "",
+      "rtpc_id": 2166136261,
+      "manifest_sha256": "b2fdc8236befa13f1910a2a5aa3443dba22e41827cb61a62f13c75748b4e5000",
+      "kind": "authored-orphan"
+    },
+    {
+      "device": "Pedal_OctaveUp",
+      "name": "",
+      "rtpc_id": 2166136261,
+      "manifest_sha256": "08d55ce3f00891bd12c84538bc45ca43f6cee2a49e39bfad484f75771e811391",
+      "kind": "authored-orphan"
+    },
+    {
+      "device": "Pedal_Octavius",
+      "name": "",
+      "rtpc_id": 2166136261,
+      "manifest_sha256": "f9fde7541d4194536c850989cb8e70bdbc789cd2ca563546683455d1d62b6a69",
+      "kind": "authored-orphan"
+    },
+    {
+      "device": "Bass_Amp_CS75B",
+      "name": "",
+      "rtpc_id": 2166136261,
+      "manifest_sha256": "6c2e326615e62adabcd5ceaf15639d345c39560fd72ae06a5db852ce3e56b66e",
+      "kind": "authored-orphan"
+    },
+    {
+      "device": "Cab_GB412CMKIII_57_Edge",
+      "name": "0",
+      "rtpc_id": 84696367,
+      "manifest_sha256": "969582fab1f0fa6f7e39ea94048bbaaf715d74a46f47b92f99f1026ad51c4f1e",
+      "kind": "authored-orphan"
+    },
+    {
+      "device": "Bass_Amp_CS240B",
+      "name": "",
+      "rtpc_id": 2166136261,
+      "manifest_sha256": "4cd27904d5bc5480b2e680b72304e50ae2842690cf7fdfc347f528be6619a45b",
+      "kind": "authored-orphan"
+    },
+    {
+      "device": "Pedal_DigitalChorus",
+      "name": "",
+      "rtpc_id": 2166136261,
+      "manifest_sha256": "162fbae05e647c0615b5130b690217191f17bee122512428ca3be8a6ddc23be2",
+      "kind": "authored-orphan"
+    },
+    {
+      "device": "Pedal_RangeBooster",
+      "name": "",
+      "rtpc_id": 2166136261,
+      "manifest_sha256": "e10f12d3bb09964cbd38970eb945b3d7078fcde168e083bead5fc0f7a7079e8e",
+      "kind": "authored-orphan"
+    },
+    {
+      "device": "Bass_Amp_BT600B",
+      "name": "Bass_Amp_BT600B_320",
+      "rtpc_id": 190704564,
+      "manifest_sha256": "0470d9852cae00759c0e82e608218fb5a346c863b4ed8275ec265c6f9485e46a",
+      "kind": "authored-orphan"
+    },
+    {
+      "device": "Bass_Amp_HT100B",
+      "name": "Bass_Amp_HT100B_HiShift",
+      "rtpc_id": 799572209,
+      "manifest_sha256": "6eb6727cab311436739fda0860c88f09b7ae5bd86d8b25fe197dfdddbcc09444",
+      "kind": "authored-orphan"
+    },
+    {
+      "device": "Bass_Amp_HT100B",
+      "name": "Bass_Amp_HT100B_LoShift",
+      "rtpc_id": 4169468875,
+      "manifest_sha256": "6eb6727cab311436739fda0860c88f09b7ae5bd86d8b25fe197dfdddbcc09444",
+      "kind": "authored-orphan"
+    }
+  ]
+}

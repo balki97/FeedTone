@@ -1,0 +1,70 @@
+{
+  "id": "feedtone",
+  "name": "FeedTone",
+  "version": "1.0.0",
+  "description": "Guitar rigs, tone design and song-following effects by FeedForge.",
+  "author": "FeedForge",
+  "repository": "https://github.com/balki97/FeedTone",
+  "category": "audio",
+  "nav": {
+    "label": "FeedTone",
+    "screen": "plugin-feedtone"
+  },
+  "screen": "screen.html",
+  "script": "screen.js",
+  "styles": "assets/styles.css",
+  "routes": "routes.py",
+  "standards": [
+    "plugin-runtime-idempotent.v1",
+    "capability-pipelines.v1"
+  ],
+  "capabilities": {
+    "audio-effects": {
+      "roles": [
+        "provider",
+        "handler",
+        "requester",
+        "observer"
+      ],
+      "requests": [
+        "select-chain",
+        "load-plan",
+        "inspect-route",
+        "release-route"
+      ],
+      "operations": [
+        "chain.resolve",
+        "executor.load-chain-plan",
+        "executor.release-route"
+      ],
+      "events": [
+        "route-selected",
+        "changed",
+        "released"
+      ],
+      "mode": "active",
+      "compatibility": "none",
+      "ownership": "multi-provider",
+      "safety": "sensitive",
+      "version": 1,
+      "description": "Plays original FeedPak tones through the standalone source DSP engine."
+    }
+  },
+  "ui": [
+    {
+      "id": "feedtone-nav",
+      "surface": "navigation",
+      "region": "primary-nav.plugins",
+      "label": "FeedTone",
+      "targetScreenId": "plugin-feedtone"
+    },
+    {
+      "id": "feedtone-screen",
+      "surface": "plugin-screen",
+      "region": "screens.plugins",
+      "label": "FeedTone",
+      "screenId": "plugin-feedtone"
+    }
+  ],
+  "fullscreen": true
+}

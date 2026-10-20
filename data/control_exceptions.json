@@ -1,0 +1,601 @@
+{
+  "schema": "feedback.authored-control-exceptions.v1",
+  "evidence": "research/UNRESOLVED_CONTROLS.md",
+  "entries": [
+    {
+      "device": "Amp_EpiphoneZephyr",
+      "manifest_sha256": "e7896e8c2e800bd1c6e3444b2bd6186bc65b6c93d272406d2e1b8391139d55eb",
+      "source": {
+        "RTPC": "Amp_EpiphoneZephyr_Bass",
+        "Base": "urn:image:dds:epiphone_knob_zephyr",
+        "Type": 0,
+        "PosX": 514.0,
+        "PosY": 354.0,
+        "Name": "Bass",
+        "UnitType": "number",
+        "DefaultValue": 75.0,
+        "MinValue": 1.0,
+        "MaxValue": 100.0,
+        "ValueStep": 1.0,
+        "Ring": "AmpLo",
+        "Index": 1
+      },
+      "kind": "authored-inert"
+    },
+    {
+      "device": "Amp_EpiphoneZephyr",
+      "manifest_sha256": "e7896e8c2e800bd1c6e3444b2bd6186bc65b6c93d272406d2e1b8391139d55eb",
+      "source": {
+        "RTPC": "Amp_EpiphoneZephyr_Treble",
+        "Base": "urn:image:dds:epiphone_knob_zephyr",
+        "Type": 0,
+        "PosX": 442.0,
+        "PosY": 354.0,
+        "Name": "Treble",
+        "UnitType": "number",
+        "DefaultValue": 66.0,
+        "MinValue": 1.0,
+        "MaxValue": 100.0,
+        "ValueStep": 1.0,
+        "Ring": "AmpHi",
+        "Index": 2
+      },
+      "kind": "authored-inert"
+    },
+    {
+      "device": "Amp_GibsonGA8",
+      "manifest_sha256": "587335c63229883f33aa1559fab4c940131e49e963f04708e20904d25321251b",
+      "source": {
+        "RTPC": "Amp_GibsonGA8_Bass",
+        "Base": "urn:image:dds:gibson_knob_ga8",
+        "Type": 0,
+        "PosX": 512.0,
+        "PosY": 329.0,
+        "Name": "Bass",
+        "UnitType": "number",
+        "DefaultValue": 75.0,
+        "MinValue": 1.0,
+        "MaxValue": 100.0,
+        "ValueStep": 1.0,
+        "Ring": "AmpLo",
+        "Index": 1
+      },
+      "kind": "authored-inert"
+    },
+    {
+      "device": "Amp_GibsonGA8",
+      "manifest_sha256": "587335c63229883f33aa1559fab4c940131e49e963f04708e20904d25321251b",
+      "source": {
+        "RTPC": "Amp_GibsonGA8_Treble",
+        "Base": "urn:image:dds:gibson_knob_ga8",
+        "Type": 0,
+        "PosX": 634.5,
+        "PosY": 329.0,
+        "Name": "Treble",
+        "UnitType": "number",
+        "DefaultValue": 66.0,
+        "MinValue": 1.0,
+        "MaxValue": 100.0,
+        "ValueStep": 1.0,
+        "Ring": "AmpHi",
+        "Index": 2
+      },
+      "kind": "authored-inert"
+    },
+    {
+      "device": "Amp_OrangeOR100",
+      "manifest_sha256": "51adc01de79ff076e6a7213610b425ed9026f15bf756b451afc027009fbc46ab",
+      "source": {
+        "RTPC": "Amp_OrangeOR100_Mid",
+        "Base": "urn:image:dds:orange_knob_small",
+        "Type": 0,
+        "PosX": 473.0,
+        "PosY": 348.5,
+        "Name": "Mid",
+        "UnitType": "number",
+        "DefaultValue": 66.0,
+        "MinValue": 1.0,
+        "MaxValue": 100.0,
+        "ValueStep": 1.0,
+        "Index": 2
+      },
+      "kind": "authored-inert"
+    },
+    {
+      "device": "Bass_Amp_BT600B",
+      "manifest_sha256": "0470d9852cae00759c0e82e608218fb5a346c863b4ed8275ec265c6f9485e46a",
+      "source": {
+        "RTPC": "Bass_Amp_BT600B_1200",
+        "Base": "urn:image:dds:slider_white",
+        "Type": 1,
+        "PosX": 560.5,
+        "PosY": 208.0,
+        "Name": "1.2khz",
+        "UnitType": "db",
+        "DefaultValue": 4.0,
+        "MinValue": -12.0,
+        "MaxValue": 12.0,
+        "ValueStep": 0.5,
+        "Index": 5
+      },
+      "kind": "authored-inert"
+    },
+    {
+      "device": "Bass_Amp_CH350B",
+      "manifest_sha256": "e4c6d3f88c85c321d3c96732ed67b62e50c31f2685df4e7f33f59c83f093c8db",
+      "source": {
+        "RTPC": "Bass_Amp_CH350B_15000",
+        "Base": "urn:image:dds:slider_white",
+        "Type": 1,
+        "PosX": 564.0,
+        "PosY": 264.5,
+        "Name": "15khz",
+        "UnitType": "db",
+        "DefaultValue": 6.0,
+        "MinValue": -12.0,
+        "MaxValue": 12.0,
+        "ValueStep": 0.5,
+        "Index": 9
+      },
+      "kind": "authored-inert"
+    },
+    {
+      "device": "Bass_Amp_CS240B",
+      "manifest_sha256": "4cd27904d5bc5480b2e680b72304e50ae2842690cf7fdfc347f528be6619a45b",
+      "source": {
+        "Type": 0,
+        "Index": 3
+      },
+      "kind": "metadata-only"
+    },
+    {
+      "device": "Bass_Pedal_BassChorus",
+      "manifest_sha256": "1f7296bdc5517f398385d4c2a17d17d9c8232244b2fbe5dfd93183b783019e2f",
+      "source": {
+        "RTPC": "Bass_Pedal_BassChorus_LoFilter",
+        "Base": "urn:image:dds:pedal_knob_grey_large",
+        "Type": 0,
+        "PosX": 440.5,
+        "PosY": 374.5,
+        "Name": "Low Filter",
+        "UnitType": "number",
+        "DefaultValue": 62.0,
+        "MinValue": 1.0,
+        "MaxValue": 100.0,
+        "ValueStep": 1.0,
+        "Index": 3
+      },
+      "kind": "authored-inert"
+    },
+    {
+      "device": "Bass_Pedal_BassEnbig",
+      "manifest_sha256": "8bd6039061271867bbd500def17cac51074e14748dee581b95d61f41852dafcb",
+      "source": {
+        "RTPC": "Bass_Pedal_BassEnbig_Rate",
+        "Base": "urn:image:dds:pedal_knob_silver_med",
+        "Type": 0,
+        "PosX": 146.0,
+        "PosY": 110.0,
+        "Name": "Rate",
+        "UnitType": "hz",
+        "DefaultValue": 4.0,
+        "MinValue": 0.1,
+        "MaxValue": 10.0,
+        "ValueStep": 0.1,
+        "Ring": "ModSpeed",
+        "Index": 0
+      },
+      "kind": "authored-inert"
+    },
+    {
+      "device": "Bass_Pedal_BassEnbig",
+      "manifest_sha256": "8bd6039061271867bbd500def17cac51074e14748dee581b95d61f41852dafcb",
+      "source": {
+        "RTPC": "Bass_Pedal_BassEnbig_Mix",
+        "Base": "urn:image:dds:pedal_knob_silver_med",
+        "Type": 0,
+        "PosX": 293.0,
+        "PosY": 110.0,
+        "Name": "Mix",
+        "UnitType": "%",
+        "DefaultValue": 45.0,
+        "MinValue": 0.0,
+        "MaxValue": 100.0,
+        "ValueStep": 1.0,
+        "Ring": "ModMix",
+        "Index": 1
+      },
+      "kind": "authored-inert"
+    },
+    {
+      "device": "Bass_Pedal_BassEnbig",
+      "manifest_sha256": "8bd6039061271867bbd500def17cac51074e14748dee581b95d61f41852dafcb",
+      "source": {
+        "RTPC": "Bass_Pedal_BassEnbig_Depth",
+        "Base": "urn:image:dds:pedal_knob_silver_med",
+        "Type": 0,
+        "PosX": 220.0,
+        "PosY": 110.0,
+        "Name": "Depth",
+        "UnitType": "%",
+        "DefaultValue": 55.0,
+        "MinValue": 1.0,
+        "MaxValue": 100.0,
+        "ValueStep": 1.0,
+        "Ring": "ModDepth",
+        "Index": 2
+      },
+      "kind": "authored-inert"
+    },
+    {
+      "device": "Bass_Pedal_BassEnbig",
+      "manifest_sha256": "8bd6039061271867bbd500def17cac51074e14748dee581b95d61f41852dafcb",
+      "source": {
+        "RTPC": "Bass_Pedal_BassEnbig_Filter",
+        "Base": "urn:image:dds:pedal_knob_silver_med",
+        "Type": 0,
+        "PosX": 366.0,
+        "PosY": 110.0,
+        "Name": "Filter",
+        "UnitType": "%",
+        "DefaultValue": 30.0,
+        "MinValue": 1.0,
+        "MaxValue": 100.0,
+        "ValueStep": 1.0,
+        "Index": 3
+      },
+      "kind": "authored-inert"
+    },
+    {
+      "device": "Bass_Pedal_BassPhase",
+      "manifest_sha256": "850088131a18e8203b2b8ae6186240aa3d57b116d9080e4cb5544e04e2395080",
+      "source": {
+        "RTPC": "Bass_Pedal_BassPhase_Filter",
+        "Base": "urn:image:dds:pedal_knob_grey_large",
+        "Type": 0,
+        "PosX": 421.0,
+        "PosY": 182.0,
+        "Name": "Filter",
+        "UnitType": "%",
+        "DefaultValue": 65.0,
+        "MinValue": 1.0,
+        "MaxValue": 100.0,
+        "ValueStep": 1.0,
+        "Index": 3
+      },
+      "kind": "authored-inert"
+    },
+    {
+      "device": "Bass_Pedal_BassWah",
+      "manifest_sha256": "4593d47abd1fbc73e670d5960759a45cfd7e66f46ed1abb1a4f2dfda00a54381",
+      "source": {
+        "RTPC": "Bass_Pedal_BassWah_Sens",
+        "Base": "urn:image:dds:pedal_knob_nothing",
+        "Type": 0,
+        "PosX": 154.0,
+        "PosY": 51.0,
+        "Name": "Sensitivity",
+        "UnitType": "number",
+        "DefaultValue": 68.0,
+        "MinValue": 1.0,
+        "MaxValue": 100.0,
+        "ValueStep": 1.0,
+        "Index": 1
+      },
+      "kind": "authored-inert"
+    },
+    {
+      "device": "Bass_Pedal_BassWah",
+      "manifest_sha256": "4593d47abd1fbc73e670d5960759a45cfd7e66f46ed1abb1a4f2dfda00a54381",
+      "source": {
+        "RTPC": "Bass_Pedal_BassWah_Speed",
+        "Base": "urn:image:dds:pedal_knob_nothing",
+        "Type": 0,
+        "PosX": 154.0,
+        "PosY": 51.0,
+        "Name": "Speed",
+        "UnitType": "number",
+        "DefaultValue": 89.0,
+        "MinValue": 1.0,
+        "MaxValue": 100.0,
+        "ValueStep": 1.0,
+        "Index": 2
+      },
+      "kind": "authored-inert"
+    },
+    {
+      "device": "Bass_Pedal_BassWah",
+      "manifest_sha256": "4593d47abd1fbc73e670d5960759a45cfd7e66f46ed1abb1a4f2dfda00a54381",
+      "source": {
+        "RTPC": "Bass_Pedal_BassWah_Pedal",
+        "Base": "urn:image:dds:pedal_knob_nothing",
+        "Type": 0,
+        "PosX": 154.0,
+        "PosY": 51.0,
+        "Name": "Pedal (Auto=OFF)",
+        "UnitType": "number",
+        "DefaultValue": 50.0,
+        "MinValue": 1.0,
+        "MaxValue": 100.0,
+        "ValueStep": 1.0,
+        "Index": 3
+      },
+      "kind": "authored-inert"
+    },
+    {
+      "device": "Bass_Pedal_MBComp",
+      "manifest_sha256": "e09b01cb8b56e175886e62631ccc3a0497daa90d4fbde8e10bb41ee7335e3be2",
+      "source": {
+        "RTPC": "Bass_Pedal_MBComp_Filter",
+        "Base": "urn:image:dds:pedal_knob_silver_med",
+        "Type": 0,
+        "PosX": 256.0,
+        "PosY": 149.5,
+        "Name": "Transition Band",
+        "UnitType": "hz",
+        "DefaultValue": 600.0,
+        "MinValue": 100.0,
+        "MaxValue": 1000.0,
+        "ValueStep": 10.0,
+        "Index": 2
+      },
+      "kind": "authored-inert"
+    },
+    {
+      "device": "Pedal_BakedRotatoe",
+      "manifest_sha256": "c3fec2b83ccc7311df1f39e775f88174b3812cedccb2fc166b1dafaaa04d98e7",
+      "source": {
+        "RTPC": "Pedal_BakedRotatoe_Depth",
+        "Base": "urn:image:dds:pedal_knob_silver_small",
+        "Type": 0,
+        "PosX": 227.0,
+        "PosY": 91.0,
+        "Name": "Depth",
+        "UnitType": "%",
+        "DefaultValue": 75.0,
+        "MinValue": 1.0,
+        "MaxValue": 100.0,
+        "ValueStep": 1.0,
+        "Ring": "ModDepth",
+        "Index": 1
+      },
+      "kind": "authored-inert"
+    },
+    {
+      "device": "Pedal_DigitalVerb",
+      "manifest_sha256": "7e651061ec4dbeb70a61ff62ef9fd7a60c7ba6d3eb8bef11ae920cb43759b343",
+      "source": {
+        "RTPC": "Pedal_DigitalVerb_Tone",
+        "Base": "urn:image:dds:pedal_knob_silver_small",
+        "Type": 0,
+        "PosX": 343.5,
+        "PosY": 91.5,
+        "Name": "Tone",
+        "UnitType": "number",
+        "DefaultValue": 50.0,
+        "MinValue": 1.0,
+        "MaxValue": 100.0,
+        "ValueStep": 1.0,
+        "Index": 3
+      },
+      "kind": "authored-inert"
+    },
+    {
+      "device": "Pedal_MarshallSupervibe",
+      "manifest_sha256": "3fef45ba70fd09b7c729ce6133a279dd28d509e84f3c7b9956e1a374c15750c4",
+      "source": {
+        "RTPC": "Pedal_MarshallSupervibe_Mix",
+        "Base": "urn:image:dds:marshall_chrome",
+        "Type": 0,
+        "PosX": 356.0,
+        "PosY": 75.0,
+        "Name": "Filter",
+        "UnitType": "number",
+        "DefaultValue": 40.0,
+        "MinValue": 0.0,
+        "MaxValue": 100.0,
+        "ValueStep": 1.0,
+        "Ring": "ModMix",
+        "Index": 3
+      },
+      "kind": "authored-inert"
+    },
+    {
+      "device": "Pedal_MultiPitch",
+      "manifest_sha256": "ad215aca3d636feadfa17038d5ad4205661b1ee71222dbbebcf6294b456d576e",
+      "source": {
+        "RTPC": "0",
+        "Index": 3
+      },
+      "kind": "metadata-only"
+    },
+    {
+      "device": "Pedal_Octavius",
+      "manifest_sha256": "f9fde7541d4194536c850989cb8e70bdbc789cd2ca563546683455d1d62b6a69",
+      "source": {
+        "Type": -1,
+        "UnitType": "number",
+        "DefaultValue": -12.0,
+        "Ring": "PitchInt",
+        "Index": 2
+      },
+      "kind": "metadata-only"
+    },
+    {
+      "device": "Pedal_Phaser",
+      "manifest_sha256": "b2fdc8236befa13f1910a2a5aa3443dba22e41827cb61a62f13c75748b4e5000",
+      "source": {
+        "RTPC": "0",
+        "Index": 1
+      },
+      "kind": "metadata-only"
+    },
+    {
+      "device": "Pedal_Phaser",
+      "manifest_sha256": "b2fdc8236befa13f1910a2a5aa3443dba22e41827cb61a62f13c75748b4e5000",
+      "source": {
+        "RTPC": "0",
+        "Index": 2
+      },
+      "kind": "metadata-only"
+    },
+    {
+      "device": "Pedal_PlanePhase",
+      "manifest_sha256": "960790769bfce32b07252f59e51788601c02897b3b95e7713f2c0aec4f115cd6",
+      "source": {
+        "RTPC": "Pedal_PlanePhase_Mix",
+        "Base": "urn:image:dds:pedal_knob_grey_large",
+        "Type": 0,
+        "PosX": 370.0,
+        "PosY": 182.0,
+        "Name": "Mix",
+        "UnitType": "%",
+        "DefaultValue": 50.0,
+        "MinValue": 1.0,
+        "MaxValue": 100.0,
+        "ValueStep": 1.0,
+        "Ring": "ModMix",
+        "Index": 2
+      },
+      "kind": "authored-inert"
+    },
+    {
+      "device": "Pedal_TremOle",
+      "manifest_sha256": "7dbfcf09174e9a07a7d48ec9fca2cdda5f7d8c7d838b8ccbb15d90a9ca01b117",
+      "source": {
+        "RTPC": "Pedal_TremOle_Mix",
+        "Base": "urn:image:dds:pedal_knob_silver_med",
+        "Type": 0,
+        "PosX": 365.0,
+        "PosY": 110.0,
+        "Name": "Mix",
+        "UnitType": "%",
+        "DefaultValue": 50.0,
+        "MinValue": 1.0,
+        "MaxValue": 100.0,
+        "ValueStep": 1.0,
+        "Ring": "TremMix",
+        "Index": 1
+      },
+      "kind": "authored-inert"
+    },
+    {
+      "device": "Pedal_VintageDistortion",
+      "manifest_sha256": "5b54c37705a08dd31e476533c5c301f354b4f5018c24484526bad850bf0e759f",
+      "source": {
+        "RTPC": "Pedal_VintageDistortion_Gain",
+        "Base": "urn:image:dds:pedal_knob_black_large",
+        "Type": 0,
+        "PosX": 191.0,
+        "PosY": 104.0,
+        "Name": "Gain",
+        "UnitType": "number",
+        "DefaultValue": 80.0,
+        "MinValue": 1.0,
+        "MaxValue": 100.0,
+        "ValueStep": 1.0,
+        "Ring": "Distortion",
+        "Index": 0
+      },
+      "kind": "authored-inert"
+    },
+    {
+      "device": "Pedal_VintageDistortion",
+      "manifest_sha256": "5b54c37705a08dd31e476533c5c301f354b4f5018c24484526bad850bf0e759f",
+      "source": {
+        "RTPC": "Pedal_VintageDistortion_Tone",
+        "Base": "urn:image:dds:pedal_knob_black_large",
+        "Type": 0,
+        "PosX": 321.0,
+        "PosY": 104.0,
+        "Name": "Tone",
+        "UnitType": "number",
+        "DefaultValue": 60.0,
+        "MinValue": 1.0,
+        "MaxValue": 100.0,
+        "ValueStep": 1.0,
+        "Ring": "ToneHi",
+        "Index": 1
+      },
+      "kind": "authored-inert"
+    },
+    {
+      "device": "Rack_StudioPitch",
+      "manifest_sha256": "abebcae5eb9fe42863376951ed0746a896f797e4b6c8f2630d963bb7e273f475",
+      "source": {
+        "RTPC": "Rack_StudioPitch_Pitch",
+        "Base": "urn:image:dds:rackeffect_knob",
+        "Type": 0,
+        "PosX": 571.5,
+        "PosY": 61.0,
+        "Name": "Pitch",
+        "UnitType": "number",
+        "DefaultValue": -5.0,
+        "MinValue": -24.0,
+        "MaxValue": 24.0,
+        "ValueStep": 0.5,
+        "Ring": "PitchInt",
+        "Index": 0
+      },
+      "kind": "authored-inert"
+    },
+    {
+      "device": "Rack_StudioPitch",
+      "manifest_sha256": "abebcae5eb9fe42863376951ed0746a896f797e4b6c8f2630d963bb7e273f475",
+      "source": {
+        "RTPC": "Rack_StudioPitch_Mix",
+        "Base": "urn:image:dds:rackeffect_knob",
+        "Type": 0,
+        "PosX": 669.5,
+        "PosY": 61.0,
+        "Name": "Mix",
+        "UnitType": "%",
+        "DefaultValue": 70.0,
+        "MinValue": 0.0,
+        "MaxValue": 100.0,
+        "ValueStep": 1.0,
+        "Ring": "PitchMix",
+        "Index": 1
+      },
+      "kind": "authored-inert"
+    },
+    {
+      "device": "Rack_StudioPitch",
+      "manifest_sha256": "abebcae5eb9fe42863376951ed0746a896f797e4b6c8f2630d963bb7e273f475",
+      "source": {
+        "RTPC": "Rack_StudioPitch_Tone",
+        "Base": "urn:image:dds:rackeffect_knob",
+        "Type": 0,
+        "PosX": 620.5,
+        "PosY": 61.0,
+        "Name": "Tone",
+        "UnitType": "number",
+        "DefaultValue": 60.0,
+        "MinValue": 1.0,
+        "MaxValue": 100.0,
+        "ValueStep": 1.0,
+        "Index": 2
+      },
+      "kind": "authored-inert"
+    },
+    {
+      "device": "Rack_StudioPitch",
+      "manifest_sha256": "abebcae5eb9fe42863376951ed0746a896f797e4b6c8f2630d963bb7e273f475",
+      "source": {
+        "RTPC": "Rack_StudioPitch_Pan",
+        "Base": "urn:image:dds:rackeffect_knob",
+        "Type": 0,
+        "PosX": 717.5,
+        "PosY": 61.0,
+        "Name": "Pan",
+        "UnitType": "%",
+        "DefaultValue": 50.0,
+        "MinValue": 1.0,
+        "MaxValue": 100.0,
+        "ValueStep": 1.0,
+        "Index": 3
+      },
+      "kind": "authored-inert"
+    }
+  ]
+}

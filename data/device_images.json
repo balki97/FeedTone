@@ -1,0 +1,4603 @@
+{
+  "schema": 1,
+  "scope": "Unmodified original default device UI artwork decoded from DDS to PNG",
+  "source_archive": "gears.resources",
+  "source_archive_sha256": "ad974ef2505f4bcfa4039545e2dc8fc5c26d4950a54018bb1eb3023894994f6c",
+  "appearance_sha256": "1797b24786f7622b2b7253dd134dd1335ff859a5012c68f2142fce8967e28d6a",
+  "aggregate_graph_sha256": "c57f4d247c51939432d80bfbcdb68a881609cc8d574864ac932fa03653a90f3a",
+  "images": {
+    "gear_amp_at120_0": {
+      "urn": "urn:image:dds:gear_amp_at120_0",
+      "file": "device-images/gear_amp_at120_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        95,
+        18,
+        929,
+        503
+      ],
+      "sha256": "74eb207c42e32f2af5b1309e64017942841c3da56f8b1fa7c533524fb4d3b432",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_at120_0_hero.dds",
+      "source_dds_sha256": "e12359e525a0cb05bd34bf3c96767d23fc4a26b73e188166a9dcc8a8c4aefe3b"
+    },
+    "gear_amp_at20_0": {
+      "urn": "urn:image:dds:gear_amp_at20_0",
+      "file": "device-images/gear_amp_at20_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        19,
+        1024,
+        426
+      ],
+      "sha256": "f39f4d1adfcad385bd9b6e0a02ed881439dc6288ea7a7dd00bb14e985cd52dc4",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_at20_0_hero.dds",
+      "source_dds_sha256": "e8051a0b6d3bc5b2b5d3f9497b1cd7c472cf5503dc0fd06c4297cb7054a4bd9d"
+    },
+    "gear_amp_bt15_0": {
+      "urn": "urn:image:dds:gear_amp_bt15_0",
+      "file": "device-images/gear_amp_bt15_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        6,
+        1024,
+        499
+      ],
+      "sha256": "a527f6c84fea481fc246b0c07b30196f062a00385daf58896cc889bfdf7d4aba",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_bt15_0_hero.dds",
+      "source_dds_sha256": "e9d357ec4686585225cb913e7997cd991b7e3e18f848a40722fbe9eebf8ca587"
+    },
+    "gear_amp_bt30_0": {
+      "urn": "urn:image:dds:gear_amp_bt30_0",
+      "file": "device-images/gear_amp_bt30_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        2,
+        12,
+        1022,
+        458
+      ],
+      "sha256": "63907a0f161862169198ce106994b4bc5fa7ad40a7f445a56cefd10e88b8e3fb",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_bt30_0_hero.dds",
+      "source_dds_sha256": "7b43e2d6ef58c71b4d74ef16fd90d42f5dea748ead728befc9e1ac7bb37b415a"
+    },
+    "gear_amp_bt45_0": {
+      "urn": "urn:image:dds:gear_amp_bt45_0",
+      "file": "device-images/gear_amp_bt45_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        4,
+        1024,
+        428
+      ],
+      "sha256": "90806d11e95cf7617c96642cd12ac1a000e8bd025b82280d0696ceef5011909d",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_bt45_0_hero.dds",
+      "source_dds_sha256": "b40b9bd97828fbf8d144c688dea505370a8f5e37340c429e095a8fdcee715651"
+    },
+    "gear_amp_ca100_0": {
+      "urn": "urn:image:dds:gear_amp_ca100_0",
+      "file": "device-images/gear_amp_ca100_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        19,
+        1024,
+        426
+      ],
+      "sha256": "edd6cc115ea10502d19cbdba64c1d3634cc1c1d376333db11331b240ecda76fc",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_ca100_0_hero.dds",
+      "source_dds_sha256": "dd2403dc45e27022fda3c4742e006bcf60d4a8eb595bc6712922c2b9df06da86"
+    },
+    "gear_amp_ca38_0": {
+      "urn": "urn:image:dds:gear_amp_ca38_0",
+      "file": "device-images/gear_amp_ca38_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        19,
+        1024,
+        426
+      ],
+      "sha256": "8a58b993733a0b32de5b01819bf82ac3243d680b167422f092ea25d1199f627f",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_ca38_0_hero.dds",
+      "source_dds_sha256": "3b7d357d8e8ada54466241e6e1f6702bed9277b79777a13c0705379763e902b5"
+    },
+    "gear_amp_ca85_0": {
+      "urn": "urn:image:dds:gear_amp_ca85_0",
+      "file": "device-images/gear_amp_ca85_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        42,
+        10,
+        982,
+        481
+      ],
+      "sha256": "1c0878a247f717c833b650779f6e5b341a2eebe48ed1dd8fb035b019bebc88af",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_ca85_0_hero.dds",
+      "source_dds_sha256": "a2d93a9d2e77e7e1ee953436755ae532c90d93a657cf5244fddfa30336b7b2e6"
+    },
+    "gear_amp_cs100_0": {
+      "urn": "urn:image:dds:gear_amp_cs100_0",
+      "file": "device-images/gear_amp_cs100_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        46,
+        1024,
+        425
+      ],
+      "sha256": "34003ee23f1b4dfa0be575a36d7cab8dc7de516308c3fc5093d3e2e48cc0e305",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_cs100_0_hero.dds",
+      "source_dds_sha256": "376264d66932487c50e7f74efef78f3c6d54ebc72668d0887c5a36cbe0f34831"
+    },
+    "gear_amp_cs120_0": {
+      "urn": "urn:image:dds:gear_amp_cs120_0",
+      "file": "device-images/gear_amp_cs120_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        2,
+        49,
+        1022,
+        458
+      ],
+      "sha256": "140d8d5db564e76194f8df7cff361f24067ac333472862d04be0c32e36ba5be6",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_cs120_0_hero.dds",
+      "source_dds_sha256": "812135fe7f1ecd194657ccf14131eed22ebb4cfeb6864d7f82da90a660ea43c7"
+    },
+    "gear_amp_cs90_0": {
+      "urn": "urn:image:dds:gear_amp_cs90_0",
+      "file": "device-images/gear_amp_cs90_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        46,
+        1024,
+        429
+      ],
+      "sha256": "fad74b1b3c8d73f7883af109486817a6f055d72f1bec93d7251edf82b72c6250",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_cs90_0_hero.dds",
+      "source_dds_sha256": "1614cfc2aec32f0887442f8965b6aa997bea8a08bdb61d9a09ad146c758eed2b"
+    },
+    "gear_amp_en30_0": {
+      "urn": "urn:image:dds:gear_amp_en30_0",
+      "file": "device-images/gear_amp_en30_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        91,
+        116,
+        933,
+        421
+      ],
+      "sha256": "06f34aeb054e63555ccdb63c2f80b6c480646d0f669b2027c39d262324484f74",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_en30_0_hero.dds",
+      "source_dds_sha256": "821ad0382936636947088c6d3074411203dba1827eb04d19288739c8089118ef"
+    },
+    "gear_amp_en50_0": {
+      "urn": "urn:image:dds:gear_amp_en50_0",
+      "file": "device-images/gear_amp_en50_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        91,
+        6,
+        933,
+        499
+      ],
+      "sha256": "64a848798a654c847006cca50e33b8a6c80e8af200c9df29e6000a42cf1efedf",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_en50_0_hero.dds",
+      "source_dds_sha256": "cb5a66fdeb68b3d09f51aa934a0fbd6fc1e20128f79a45f94a84ac4332b4172a"
+    },
+    "gear_amp_epiphoneelectarcentury_0": {
+      "urn": "urn:image:dds:gear_amp_epiphoneelectarcentury_0",
+      "file": "device-images/gear_amp_epiphoneelectarcentury_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        156,
+        163,
+        867,
+        413
+      ],
+      "sha256": "2d533555df4274dd08dd3f032c2d958ee32476d9b674cf38b9f2995852d69fde",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_epiphoneelectarcentury_0_hero.dds",
+      "source_dds_sha256": "2674f76a985d08bd960542ac9e5cb2e9a435d41e135b857701a34ba33a9da1c5"
+    },
+    "gear_amp_epiphoneelectarm_0": {
+      "urn": "urn:image:dds:gear_amp_epiphoneelectarm_0",
+      "file": "device-images/gear_amp_epiphoneelectarm_0.png",
+      "dimensions": [
+        1024,
+        256
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        21,
+        2,
+        1003,
+        254
+      ],
+      "sha256": "3566e7018edb13be3d5cda96f4b41c0731067d9a8acde71174794aba892cc7d5",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_epiphoneelectarm_0_hero.dds",
+      "source_dds_sha256": "0f9383fd9866ad95c15a7b3d24876d9cfa5c6a50fc0a4e0ba585a31335c35bf0"
+    },
+    "gear_amp_epiphoneelectrichawaiian_0": {
+      "urn": "urn:image:dds:gear_amp_epiphoneelectrichawaiian_0",
+      "file": "device-images/gear_amp_epiphoneelectrichawaiian_0.png",
+      "dimensions": [
+        1024,
+        256
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        17,
+        3,
+        1007,
+        253
+      ],
+      "sha256": "a2d31d195b471533e56076e4cdb10ba3bb1b665ef30ea61eb3151df04ce5428a",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_epiphoneelectrichawaiian_0_hero.dds",
+      "source_dds_sha256": "d22952ffaadca6b4d138afbea0a9e3c16a7727ef36fcae007c49f4459ef989b1"
+    },
+    "gear_amp_epiphonezephyr_0": {
+      "urn": "urn:image:dds:gear_amp_epiphonezephyr_0",
+      "file": "device-images/gear_amp_epiphonezephyr_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        62,
+        63,
+        962,
+        437
+      ],
+      "sha256": "96baf429b0cc2c84b89888b265f45a424ecad599115a0b119fd2db604a6b60e3",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_epiphonezephyr_0_hero.dds",
+      "source_dds_sha256": "dfea0924882589e5c542adcbbcb1fc42e6404fc1210f09fe0772a350bff598e4"
+    },
+    "gear_amp_gb100_0": {
+      "urn": "urn:image:dds:gear_amp_gb100_0",
+      "file": "device-images/gear_amp_gb100_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        19,
+        1024,
+        426
+      ],
+      "sha256": "5923345059bb0fb31a7a20d73a243ad1481f8ab0fae275037a4f927c742a51ee",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_gb100_0_hero.dds",
+      "source_dds_sha256": "f8f23eafca26a83445a330986c334d036f413e7ffd9c2e02af764961c95f808d"
+    },
+    "gear_amp_gb38_0": {
+      "urn": "urn:image:dds:gear_amp_gb38_0",
+      "file": "device-images/gear_amp_gb38_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        2,
+        19,
+        1022,
+        461
+      ],
+      "sha256": "18cd7ae4848c366d3c1d81539052a0447bfd1bf93fc8a009302af7b25dcc82ab",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_gb38_0_hero.dds",
+      "source_dds_sha256": "f0b033ee71d8319df02408f816fbbf43a86ee25b85b19d64da8a03b87ee3cbcf"
+    },
+    "gear_amp_gb50_0": {
+      "urn": "urn:image:dds:gear_amp_gb50_0",
+      "file": "device-images/gear_amp_gb50_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        2,
+        19,
+        1022,
+        462
+      ],
+      "sha256": "08017a212b888639687a55436c2424db3834371c23dfeea924747ca143eb0be6",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_gb50_0_hero.dds",
+      "source_dds_sha256": "96f4887943eaf0207fc684155a6054e477d2f5b78e3c0ce0ee49890cd3464de1"
+    },
+    "gear_amp_gibsonga79_0": {
+      "urn": "urn:image:dds:gear_amp_gibsonga79_0",
+      "file": "device-images/gear_amp_gibsonga79_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        95,
+        118,
+        929,
+        431
+      ],
+      "sha256": "2337a4034e2d12d5dce8a587c6776eea82d600b14729179543816b1b9c2426b1",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_gibsonga79_0_hero.dds",
+      "source_dds_sha256": "701809f8ca5b88854dfadec2b629a535742355c46c2cdd89227834e27fe76a20"
+    },
+    "gear_amp_gibsonga8_0": {
+      "urn": "urn:image:dds:gear_amp_gibsonga8_0",
+      "file": "device-images/gear_amp_gibsonga8_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        95,
+        118,
+        929,
+        417
+      ],
+      "sha256": "c09b384e2af1f5c33454916343cabc203e921abc9e292ffa03935ccbcf7a5777",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_gibsonga8_0_hero.dds",
+      "source_dds_sha256": "365d029e3c7ddf3bce1b7bc28a169c980b47c286be1922ae4d1698bc90be45a5"
+    },
+    "gear_amp_gibsonga88_0": {
+      "urn": "urn:image:dds:gear_amp_gibsonga88_0",
+      "file": "device-images/gear_amp_gibsonga88_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        135,
+        118,
+        889,
+        413
+      ],
+      "sha256": "2fed06db760f3f73d52b9aa1684a310720c336d756975ca176e80494e1380202",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_gibsonga88_0_hero.dds",
+      "source_dds_sha256": "cd24365daaca207ec67cc168fc516e2b26e387db4255630744388268e7bc13d4"
+    },
+    "gear_amp_hg100_0": {
+      "urn": "urn:image:dds:gear_amp_hg100_0",
+      "file": "device-images/gear_amp_hg100_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        47,
+        1024,
+        426
+      ],
+      "sha256": "d3cfb3694206fd05eba1393ee6d894591d7b1d6a4cf1f1ca2d4244fb45629eab",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_hg100_0_hero.dds",
+      "source_dds_sha256": "e3d10daa1b3ef5d298c9ddba7a7bddf30d87604158ada5133a6d7669032691f6"
+    },
+    "gear_amp_hg180_0": {
+      "urn": "urn:image:dds:gear_amp_hg180_0",
+      "file": "device-images/gear_amp_hg180_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        46,
+        1024,
+        429
+      ],
+      "sha256": "68794dfc77e45206303820b13f8f87f438e93c6c853d1dd4c3b0792dbc18de2f",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_hg180_0_hero.dds",
+      "source_dds_sha256": "a90b6e477c59be744c6b70fffe732769235a9e97890d20af0c13fea098d7de21"
+    },
+    "gear_amp_hg500_0": {
+      "urn": "urn:image:dds:gear_amp_hg500_0",
+      "file": "device-images/gear_amp_hg500_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        7,
+        1024,
+        426
+      ],
+      "sha256": "c34a8581f6fd2faacf1f5b09abcfbb0d75dc2a14a5cb7f9fc3c234a2cda8ec7b",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_hg500_0_hero.dds",
+      "source_dds_sha256": "e3073b425a26d733de72931ef920c4b6cbf9df4e68e15eda814cc92456c75b99"
+    },
+    "gear_amp_marshall1962bluesbreaker_0": {
+      "urn": "urn:image:dds:gear_amp_marshall1962bluesbreaker_0",
+      "file": "device-images/gear_amp_marshall1962bluesbreaker_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        2,
+        49,
+        1022,
+        423
+      ],
+      "sha256": "91158b02d103a934273752bdf872928035b7fbebbdd3701cb39e2a186ca77c07",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_marshall1962bluesbreaker_0_hero.dds",
+      "source_dds_sha256": "b901fea25cf2ae426aaf7df8d070abedb9bf5e67f0bbc2ee07107f08119d8f19"
+    },
+    "gear_amp_marshalldsl100h_0": {
+      "urn": "urn:image:dds:gear_amp_marshalldsl100h_0",
+      "file": "device-images/gear_amp_marshalldsl100h_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        19,
+        1024,
+        446
+      ],
+      "sha256": "ae177b02534071516edbcd129f155993e024b783e17280b61ddf60397da79a09",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_marshalldsl100h_0_hero.dds",
+      "source_dds_sha256": "5970d83d53369d044c7e638e9712984fde0e3964b5f4e99082311990fc284a54"
+    },
+    "gear_amp_marshalldsl15h_0": {
+      "urn": "urn:image:dds:gear_amp_marshalldsl15h_0",
+      "file": "device-images/gear_amp_marshalldsl15h_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        19,
+        1024,
+        448
+      ],
+      "sha256": "f2d372a75d4499ba7a9d12419f2c90568fd61bdde146f9f37cb8fb606cea54c0",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_marshalldsl15h_0_hero.dds",
+      "source_dds_sha256": "5edf873bc577e6bc2f04d0c49956542dfca2d201e8424a8e98098c5cbad5f92b"
+    },
+    "gear_amp_marshalljcm800_0": {
+      "urn": "urn:image:dds:gear_amp_marshalljcm800_0",
+      "file": "device-images/gear_amp_marshalljcm800_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        19,
+        1024,
+        427
+      ],
+      "sha256": "c10dc3cc99824b9adabffc8b0fb98b70e9792e2dd9bb13bf157f7ea7e0dc60f7",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_marshalljcm800_0_hero.dds",
+      "source_dds_sha256": "335c65b419d684402bcb6969444293835f2297c26d64153b889c5b0cc145c69f"
+    },
+    "gear_amp_marshalljtm45_0": {
+      "urn": "urn:image:dds:gear_amp_marshalljtm45_0",
+      "file": "device-images/gear_amp_marshalljtm45_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        2,
+        19,
+        1022,
+        464
+      ],
+      "sha256": "3b1a1c04660fe05e4f155e1f6a749407da3f371f8bb1d9fe2b2045919df1a7a6",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_marshalljtm45_0_hero.dds",
+      "source_dds_sha256": "f4777df81529c2bbb448b50259b259188b60f22cb167dd44d3d6a2099b9390a6"
+    },
+    "gear_amp_marshalljvm410h_0": {
+      "urn": "urn:image:dds:gear_amp_marshalljvm410h_0",
+      "file": "device-images/gear_amp_marshalljvm410h_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        19,
+        1024,
+        446
+      ],
+      "sha256": "bff9ad333632231e03a461f7b2c416c1075f82b169e35372ec9590fae7f941a8",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_marshalljvm410h_0_hero.dds",
+      "source_dds_sha256": "041eb648ec11f034116238cb57c19682dc1777c944e484501f317de2b1cd0799"
+    },
+    "gear_amp_marshallplexi_0": {
+      "urn": "urn:image:dds:gear_amp_marshallplexi_0",
+      "file": "device-images/gear_amp_marshallplexi_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        2,
+        19,
+        1022,
+        465
+      ],
+      "sha256": "7a52d2391ddfd1a8b192b57079cf77c3b2105b581ef5d07f1b9a2853c895081b",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_marshallplexi_0_hero.dds",
+      "source_dds_sha256": "8e852db160bb900af490e75a640036935a289601280aba46823a60ee3041eab5"
+    },
+    "gear_amp_orangead50_0": {
+      "urn": "urn:image:dds:gear_amp_orangead50_0",
+      "file": "device-images/gear_amp_orangead50_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        16,
+        9,
+        1008,
+        502
+      ],
+      "sha256": "c1b412ec4ae121f998af03b7f59a7c9167484a032d8f517973ffc87e998c6e22",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_orangead50_0_hero.dds",
+      "source_dds_sha256": "9e689f218a52e0385d3760779bac7313b3a921a1d0ec7e7f9ed6c64ee0096334"
+    },
+    "gear_amp_orangejimmybean_0": {
+      "urn": "urn:image:dds:gear_amp_orangejimmybean_0",
+      "file": "device-images/gear_amp_orangejimmybean_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        4,
+        70,
+        1020,
+        369
+      ],
+      "sha256": "21d400a13fe4942bfc65336a7a5f5692d0ee8ca4c948cd8fe8925456fd89aa77",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_orangejimmybean_0_hero.dds",
+      "source_dds_sha256": "79dc86134323b3b10c6d21d77d67bf04b053adef3441310b904eefcc4e0a88c1"
+    },
+    "gear_amp_orangeor100_0": {
+      "urn": "urn:image:dds:gear_amp_orangeor100_0",
+      "file": "device-images/gear_amp_orangeor100_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        9,
+        1024,
+        502
+      ],
+      "sha256": "d98d792c41fbe04a5d3fdbb7f92ca038d6e4ed249d6f77d0d254b2576076053f",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_orangeor100_0_hero.dds",
+      "source_dds_sha256": "afc3bf95c96387776ee88b8fc7fbd6fe7069c05e7e98d5143d009e53d86969a9"
+    },
+    "gear_amp_orangeor50h_0": {
+      "urn": "urn:image:dds:gear_amp_orangeor50h_0",
+      "file": "device-images/gear_amp_orangeor50h_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        9,
+        1024,
+        502
+      ],
+      "sha256": "4a1112ddb2857d11c0d2e6248ad90d6e62fbfc420947264fd844c4e9eb2dc8d6",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_orangeor50h_0_hero.dds",
+      "source_dds_sha256": "a30b6a4b6f3904505488612669a23ef6580b7e8936f297201eac91b7110c4cc6"
+    },
+    "gear_amp_orangerockerverb_0": {
+      "urn": "urn:image:dds:gear_amp_orangerockerverb_0",
+      "file": "device-images/gear_amp_orangerockerverb_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        9,
+        1024,
+        502
+      ],
+      "sha256": "85a1d5bd669cc51ba074e7d7bc11763b70dddfa64942d902378b4e621d713c30",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_orangerockerverb_0_hero.dds",
+      "source_dds_sha256": "6e4cadb97423ffdb4891961e729f4d3ada5ecb3b1818cab8cfdad3d3eed1749d"
+    },
+    "gear_amp_orangetinyterror_0": {
+      "urn": "urn:image:dds:gear_amp_orangetinyterror_0",
+      "file": "device-images/gear_amp_orangetinyterror_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        208,
+        49,
+        815,
+        423
+      ],
+      "sha256": "3adc73d9443385529f8d54df0c215db8b6e7e0d58b74deb65d3bfbcdadc66513",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_orangetinyterror_0_hero.dds",
+      "source_dds_sha256": "43ecd15170ee8aa4377e7b5049b1328489275cff599e64003f3f6bf70e5bde37"
+    },
+    "gear_amp_tw22_0": {
+      "urn": "urn:image:dds:gear_amp_tw22_0",
+      "file": "device-images/gear_amp_tw22_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        2,
+        18,
+        1022,
+        423
+      ],
+      "sha256": "a54deef15eec03f5778e7f64543f5d25de218c3702b88f50b6a62b7f8b4d33c1",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_tw22_0_hero.dds",
+      "source_dds_sha256": "d002ed3a0cd466440e8ba47231254391da38ac5104eac2545309479092bfe660"
+    },
+    "gear_amp_tw26_0": {
+      "urn": "urn:image:dds:gear_amp_tw26_0",
+      "file": "device-images/gear_amp_tw26_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        2,
+        34,
+        1022,
+        438
+      ],
+      "sha256": "bb4f3fe87d17158f84e8b1877ef5ef3f9d736988a15d3a44ddfe197e003f0fc6",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_tw26_0_hero.dds",
+      "source_dds_sha256": "26057bdf830345986a804b47555809e0a71b4ee0226945b84d9f60c3a7661fa8"
+    },
+    "gear_amp_tw40_0": {
+      "urn": "urn:image:dds:gear_amp_tw40_0",
+      "file": "device-images/gear_amp_tw40_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        2,
+        18,
+        1022,
+        423
+      ],
+      "sha256": "64f2280c191d6d749a5e2eabf50774a979dc6027b92a763ad706111069b3e865",
+      "source_member": "gfxassets/tone_designer/amp/gear_amp_tw40_0_hero.dds",
+      "source_dds_sha256": "ddf32b9388818430cf8e8466315feb61bcd6b284afa3a2f69976ae1558220793"
+    },
+    "gear_bass_amp_bt600b_0": {
+      "urn": "urn:image:dds:gear_bass_amp_bt600b_0",
+      "file": "device-images/gear_bass_amp_bt600b_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        4,
+        154,
+        1020,
+        327
+      ],
+      "sha256": "9d2836c362970adc8b2c5be50e0fbb1cb0129c24602429ced74ba2602c563abd",
+      "source_member": "gfxassets/tone_designer/amp/gear_bass_amp_bt600b_0_hero.dds",
+      "source_dds_sha256": "727e5a385148f48a2847c7eb505b9344e2f638943a7d972272796384d1ae011f"
+    },
+    "gear_bass_amp_bt880b_0": {
+      "urn": "urn:image:dds:gear_bass_amp_bt880b_0",
+      "file": "device-images/gear_bass_amp_bt880b_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        4,
+        154,
+        1020,
+        327
+      ],
+      "sha256": "ef981944049c891098e295799d75bfbcfceb575457fd53e0971efb9456b1908d",
+      "source_member": "gfxassets/tone_designer/amp/gear_bass_amp_bt880b_0_hero.dds",
+      "source_dds_sha256": "cee0d3a57525637f7ebc295d50475791e0774dae00966116939df601431e451f"
+    },
+    "gear_bass_amp_bt975b_0": {
+      "urn": "urn:image:dds:gear_bass_amp_bt975b_0",
+      "file": "device-images/gear_bass_amp_bt975b_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        4,
+        154,
+        1020,
+        327
+      ],
+      "sha256": "c1f4140b8388e7d147c454a56fb2c7380673b5d4dd103fbaac5315c284f91029",
+      "source_member": "gfxassets/tone_designer/amp/gear_bass_amp_bt975b_0_hero.dds",
+      "source_dds_sha256": "9abc01f8674d6580875a7b5266d23e9782d26ee41322e3056082c1075cbfbd6d"
+    },
+    "gear_bass_amp_ch300b_0": {
+      "urn": "urn:image:dds:gear_bass_amp_ch300b_0",
+      "file": "device-images/gear_bass_amp_ch300b_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        4,
+        154,
+        1020,
+        327
+      ],
+      "sha256": "d688809d558cfe217451051834d8593972dc89344afbcd836367829d7d15bd96",
+      "source_member": "gfxassets/tone_designer/amp/gear_bass_amp_ch300b_0_hero.dds",
+      "source_dds_sha256": "1e21f8bb5eca13b02f5eb1decb42689ad6e567bee2856142a2d3a922e5a57146"
+    },
+    "gear_bass_amp_ch350b_0": {
+      "urn": "urn:image:dds:gear_bass_amp_ch350b_0",
+      "file": "device-images/gear_bass_amp_ch350b_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        4,
+        154,
+        1020,
+        327
+      ],
+      "sha256": "59a3287ce510f37f93a3c1cc42689139a4b708271993f1002c4968b1c0b359a8",
+      "source_member": "gfxassets/tone_designer/amp/gear_bass_amp_ch350b_0_hero.dds",
+      "source_dds_sha256": "6c0406e7ccae6fb6c4e44110f0ea6fb0f1371e566aa2ea80d51b5480988be8ce"
+    },
+    "gear_bass_amp_ch600b_0": {
+      "urn": "urn:image:dds:gear_bass_amp_ch600b_0",
+      "file": "device-images/gear_bass_amp_ch600b_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        2,
+        98,
+        1022,
+        383
+      ],
+      "sha256": "9b6de50a64049eaceefc113efcda2d366c2e1c91951d4960a610a7ca3b79319d",
+      "source_member": "gfxassets/tone_designer/amp/gear_bass_amp_ch600b_0_hero.dds",
+      "source_dds_sha256": "75ff3d15c97bb4102a54267a357d5b4f3b91a091e3c3ab69915c2b6cb1f396c2"
+    },
+    "gear_bass_amp_cs240b_0": {
+      "urn": "urn:image:dds:gear_bass_amp_cs240b_0",
+      "file": "device-images/gear_bass_amp_cs240b_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        4,
+        154,
+        1020,
+        327
+      ],
+      "sha256": "2bd7e33b55785523bf5354c5a3625aaf65e0843c7ab8ebec9cbb5691956c69de",
+      "source_member": "gfxassets/tone_designer/amp/gear_bass_amp_cs240b_0_hero.dds",
+      "source_dds_sha256": "861eed65bc352fe68bea2fb14cab43450f891879f12d948da5ed9cde12c233ea"
+    },
+    "gear_bass_amp_cs300b_0": {
+      "urn": "urn:image:dds:gear_bass_amp_cs300b_0",
+      "file": "device-images/gear_bass_amp_cs300b_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        4,
+        100,
+        1020,
+        381
+      ],
+      "sha256": "0fec977a980036c0a94bc03bf4d91426fc61d13d6004e06c4a268dda2c06c02e",
+      "source_member": "gfxassets/tone_designer/amp/gear_bass_amp_cs300b_0_hero.dds",
+      "source_dds_sha256": "a83407e50345b7eecd5a92e7e7126e1599d6b407ce4c2e63cdd8d55facfa5a18"
+    },
+    "gear_bass_amp_cs75b_0": {
+      "urn": "urn:image:dds:gear_bass_amp_cs75b_0",
+      "file": "device-images/gear_bass_amp_cs75b_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        63,
+        154,
+        960,
+        327
+      ],
+      "sha256": "541b1db4522e86ad155b7cf1d9beff2986fbf5ff837e77cc479a2b35d974e97d",
+      "source_member": "gfxassets/tone_designer/amp/gear_bass_amp_cs75b_0_hero.dds",
+      "source_dds_sha256": "2589da13610c26c9ba45cc60af359d0f901f2330f27f3a60ccac380efd3cf157"
+    },
+    "gear_bass_amp_edene300_0": {
+      "urn": "urn:image:dds:gear_bass_amp_edene300_0",
+      "file": "device-images/gear_bass_amp_edene300_0.png",
+      "dimensions": [
+        1024,
+        256
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        1,
+        6,
+        1023,
+        250
+      ],
+      "sha256": "ab9e84285b55e44a8b71974c7c094646824df4f782167d67819a948133133c98",
+      "source_member": "gfxassets/tone_designer/amp/gear_bass_amp_edene300_0_hero.dds",
+      "source_dds_sha256": "e738302772560fee3d50e4a2836aed499ad5e2e8d2891617096d3e2e2e433f76"
+    },
+    "gear_bass_amp_edenwt550_0": {
+      "urn": "urn:image:dds:gear_bass_amp_edenwt550_0",
+      "file": "device-images/gear_bass_amp_edenwt550_0.png",
+      "dimensions": [
+        1024,
+        256
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        139,
+        14,
+        885,
+        242
+      ],
+      "sha256": "777fbe7d47987d26b66a4103e559d2444e8f7d2f992c12250dd1bec8a427ba41",
+      "source_member": "gfxassets/tone_designer/amp/gear_bass_amp_edenwt550_0_hero.dds",
+      "source_dds_sha256": "eefb3954ad42b7a5b2185ef70975e7c619fcae991c66ec59d3f9649ee7d16963"
+    },
+    "gear_bass_amp_edenwt800_0": {
+      "urn": "urn:image:dds:gear_bass_amp_edenwt800_0",
+      "file": "device-images/gear_bass_amp_edenwt800_0.png",
+      "dimensions": [
+        1024,
+        256
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        1,
+        15,
+        1023,
+        241
+      ],
+      "sha256": "9db9343b1f589b41db3243f4e16a8909b61ea51dcd23dc0c08724d37cfafc45c",
+      "source_member": "gfxassets/tone_designer/amp/gear_bass_amp_edenwt800_0_hero.dds",
+      "source_dds_sha256": "6a132a09393e2b5a2e2332ec58df6d202c2315082b573d869092bc6012b9749c"
+    },
+    "gear_bass_amp_ht100b_0": {
+      "urn": "urn:image:dds:gear_bass_amp_ht100b_0",
+      "file": "device-images/gear_bass_amp_ht100b_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        2,
+        19,
+        1022,
+        462
+      ],
+      "sha256": "c1b6b0b41f0650e36e234a8d41f30e74ba80ec8ada8aba193ffecc63d3cf4b93",
+      "source_member": "gfxassets/tone_designer/amp/gear_bass_amp_ht100b_0_hero.dds",
+      "source_dds_sha256": "311a8b61302bb0365561cf92c2621ac09c633a6a57790eb7377326ab6fa99244"
+    },
+    "gear_bass_amp_ht300b_0": {
+      "urn": "urn:image:dds:gear_bass_amp_ht300b_0",
+      "file": "device-images/gear_bass_amp_ht300b_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        46,
+        1024,
+        426
+      ],
+      "sha256": "9309b4929fecf5649b6e039ebdba37abd8276d804b5608430a3f758c445ceb2e",
+      "source_member": "gfxassets/tone_designer/amp/gear_bass_amp_ht300b_0_hero.dds",
+      "source_dds_sha256": "e4438dbd3c31f6add2d3b912c55cd3c4c10bdce828dcb7b7826b2ae7de9a04ab"
+    },
+    "gear_bass_amp_ht400b_0": {
+      "urn": "urn:image:dds:gear_bass_amp_ht400b_0",
+      "file": "device-images/gear_bass_amp_ht400b_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        4,
+        100,
+        1020,
+        382
+      ],
+      "sha256": "66f28b8e5818bfcde891667044faec9f76222596dcbe5c5f5f2019386b1e6d17",
+      "source_member": "gfxassets/tone_designer/amp/gear_bass_amp_ht400b_0_hero.dds",
+      "source_dds_sha256": "ff4f35ffafdef1f3145a556cb771e10149540981e4633c71b7558064965a0a82"
+    },
+    "gear_bass_amp_lt25b_0": {
+      "urn": "urn:image:dds:gear_bass_amp_lt25b_0",
+      "file": "device-images/gear_bass_amp_lt25b_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        4,
+        154,
+        1020,
+        327
+      ],
+      "sha256": "5b2d03324ef0de75a248e2bc213c6ed079d8e0e275d7e4be17cd730fcb4609bb",
+      "source_member": "gfxassets/tone_designer/amp/gear_bass_amp_lt25b_0_hero.dds",
+      "source_dds_sha256": "99163e7a6dd185a5a6765abc6b25cec80b87c2583274a270bb6191e62a5005ae"
+    },
+    "gear_bass_amp_lt85b_0": {
+      "urn": "urn:image:dds:gear_bass_amp_lt85b_0",
+      "file": "device-images/gear_bass_amp_lt85b_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        2,
+        19,
+        1022,
+        423
+      ],
+      "sha256": "59723ff2887ebd812ca3c3b9b061b7eab712b8bc686d164e457043a5524b2a2a",
+      "source_member": "gfxassets/tone_designer/amp/gear_bass_amp_lt85b_0_hero.dds",
+      "source_dds_sha256": "90e1f6700baae6a09f57eec323a980a36a1e895a48e63e1f020a5b7648519737"
+    },
+    "gear_bass_amp_orangead200b_0": {
+      "urn": "urn:image:dds:gear_bass_amp_orangead200b_0",
+      "file": "device-images/gear_bass_amp_orangead200b_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        16,
+        9,
+        1008,
+        502
+      ],
+      "sha256": "2314a18fa8900dcaff0a59cd7753a5936e57b811631d22a95157ff0c71bf7ca1",
+      "source_member": "gfxassets/tone_designer/amp/gear_bass_amp_orangead200b_0_hero.dds",
+      "source_dds_sha256": "9e873c7ecb88904fa92f589865ec01643bef3f4f40e6e2e8df2c6cb61bfb830c"
+    },
+    "gear_bass_cab_at1150bc_0": {
+      "urn": "urn:image:dds:gear_bass_cab_at1150bc_0",
+      "file": "device-images/gear_bass_cab_at1150bc_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        36,
+        512,
+        476
+      ],
+      "sha256": "015199e4b67bd97cc1e6960f54489ea82b0caecd4e89fb5cc92d4551490083e6",
+      "source_member": "gfxassets/tone_designer/cab/gear_bass_cab_at1150bc_0_hero.dds",
+      "source_dds_sha256": "9d22b52807752c79718498016d770a3dc8414321885df99bc1e99c4c1a439548"
+    },
+    "gear_bass_cab_at810bc_0": {
+      "urn": "urn:image:dds:gear_bass_cab_at810bc_0",
+      "file": "device-images/gear_bass_cab_at810bc_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        93,
+        0,
+        419,
+        512
+      ],
+      "sha256": "b8dbe9f4d5b6b17c1509b6b5b13fd74f4de8181a8b662efe4b905b25bf1d7852",
+      "source_member": "gfxassets/tone_designer/cab/gear_bass_cab_at810bc_0_hero.dds",
+      "source_dds_sha256": "80ea8ce63f2fc259a68efb60ca7ac230bd3d4423e4b347c44c74069feca1c1ff"
+    },
+    "gear_bass_cab_bt115bc_0": {
+      "urn": "urn:image:dds:gear_bass_cab_bt115bc_0",
+      "file": "device-images/gear_bass_cab_bt115bc_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        92,
+        512,
+        420
+      ],
+      "sha256": "b132ee33acd949ebea87187353be1cc7e4aba8919646e94a94eb68ea19ba1fb0",
+      "source_member": "gfxassets/tone_designer/cab/gear_bass_cab_bt115bc_0_hero.dds",
+      "source_dds_sha256": "212bde4314a4348386218576a615dafe31910b3fa19620c15b74f7fa3a45b22e"
+    },
+    "gear_bass_cab_bt212bc_0": {
+      "urn": "urn:image:dds:gear_bass_cab_bt212bc_0",
+      "file": "device-images/gear_bass_cab_bt212bc_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        48,
+        512,
+        465
+      ],
+      "sha256": "3dbb2339ef35b5ca86647f64a09c93c14723361405561c05af7f0c4c664cfaf8",
+      "source_member": "gfxassets/tone_designer/cab/gear_bass_cab_bt212bc_0_hero.dds",
+      "source_dds_sha256": "69a140bd7e79cc7f48b8805b8cfdf16ccbdcc5f1fd1fa5b99e6ddd00364d764a"
+    },
+    "gear_bass_cab_bt410bc_0": {
+      "urn": "urn:image:dds:gear_bass_cab_bt410bc_0",
+      "file": "device-images/gear_bass_cab_bt410bc_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        4,
+        0,
+        508,
+        512
+      ],
+      "sha256": "22f96472a206f5556c8e69d1bcfef51497e103c69d32f249df0ea24f3e06b2ab",
+      "source_member": "gfxassets/tone_designer/cab/gear_bass_cab_bt410bc_0_hero.dds",
+      "source_dds_sha256": "e2c8201d99d2cac650ff13c146742eca44212170f0e7dd042d19f4f931c4b63f"
+    },
+    "gear_bass_cab_ca1510bc_0": {
+      "urn": "urn:image:dds:gear_bass_cab_ca1510bc_0",
+      "file": "device-images/gear_bass_cab_ca1510bc_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        9,
+        512,
+        503
+      ],
+      "sha256": "0711b6f7939926bfb48cf356ceb20a245565d1de76ff295be171313213c8211d",
+      "source_member": "gfxassets/tone_designer/cab/gear_bass_cab_ca1510bc_0_hero.dds",
+      "source_dds_sha256": "808a2d067a89604045648c336629db62d3698680a6130a1b1e1620dcfe97656f"
+    },
+    "gear_bass_cab_ch210bc_0": {
+      "urn": "urn:image:dds:gear_bass_cab_ch210bc_0",
+      "file": "device-images/gear_bass_cab_ch210bc_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        103,
+        512,
+        408
+      ],
+      "sha256": "eb8e75a10c8b7fb56722166b9670fd4d880ab1abaa6ace7dfadbb0250e4d5340",
+      "source_member": "gfxassets/tone_designer/cab/gear_bass_cab_ch210bc_0_hero.dds",
+      "source_dds_sha256": "4c2c5a1e97b42708d781d534bbf9e4d9775fab6edef470d3e56627ef1e0b4b8f"
+    },
+    "gear_bass_cab_ch310bc_0": {
+      "urn": "urn:image:dds:gear_bass_cab_ch310bc_0",
+      "file": "device-images/gear_bass_cab_ch310bc_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        12,
+        512,
+        499
+      ],
+      "sha256": "4473ec1961e34e75518456684780520bc25f55e6e5a035e7532001296e24fa1d",
+      "source_member": "gfxassets/tone_designer/cab/gear_bass_cab_ch310bc_0_hero.dds",
+      "source_dds_sha256": "3dd94ccfe7399db626ef42688fb07c9d53c6c66cd229880d93ae5160bcfb818a"
+    },
+    "gear_bass_cab_ch410bc_0": {
+      "urn": "urn:image:dds:gear_bass_cab_ch410bc_0",
+      "file": "device-images/gear_bass_cab_ch410bc_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        12,
+        512,
+        499
+      ],
+      "sha256": "0fcfc05bfa737fc4c50a8bbe5496f4144c6b352c7c27e5e2af08cb172372da01",
+      "source_member": "gfxassets/tone_designer/cab/gear_bass_cab_ch410bc_0_hero.dds",
+      "source_dds_sha256": "bef8433b5bd1d6772a203f686451461b3dd6a867f8ab33e12c888bfb58ba6bb4"
+    },
+    "gear_bass_cab_cs112bc_0": {
+      "urn": "urn:image:dds:gear_bass_cab_cs112bc_0",
+      "file": "device-images/gear_bass_cab_cs112bc_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        126,
+        512,
+        386
+      ],
+      "sha256": "0dff7d9fc27bc945c7bbaedaf6766b1e64e25799535ee36455fe4ae51de0c5ac",
+      "source_member": "gfxassets/tone_designer/cab/gear_bass_cab_cs112bc_0_hero.dds",
+      "source_dds_sha256": "e14dd3dbe263dd7fe5a81466df2187b4669d2328d5f71577fa57d46107936235"
+    },
+    "gear_bass_cab_cs15bc_0": {
+      "urn": "urn:image:dds:gear_bass_cab_cs15bc_0",
+      "file": "device-images/gear_bass_cab_cs15bc_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        1,
+        0,
+        511,
+        512
+      ],
+      "sha256": "ff0c9a5fe982f72161dd22e415a45cc5bec84e08bd5ac94db1fc31070e4773d1",
+      "source_member": "gfxassets/tone_designer/cab/gear_bass_cab_cs15bc_0_hero.dds",
+      "source_dds_sha256": "ece690920a8ae8fc3e4601848756c3ff0a5649a4beba26d9763a4f8257346b1c"
+    },
+    "gear_bass_cab_cs410bc_0": {
+      "urn": "urn:image:dds:gear_bass_cab_cs410bc_0",
+      "file": "device-images/gear_bass_cab_cs410bc_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        63,
+        512,
+        449
+      ],
+      "sha256": "9e03266d730d8330ebc7db36d74043721fe41a48844dbfebaf7809fa16a9c650",
+      "source_member": "gfxassets/tone_designer/cab/gear_bass_cab_cs410bc_0_hero.dds",
+      "source_dds_sha256": "9b93cb930c5b469ef542aabeed121cfcdde4f476c86dea2fba10cfba9a909c6f"
+    },
+    "gear_bass_cab_edend115xlt_0": {
+      "urn": "urn:image:dds:gear_bass_cab_edend115xlt_0",
+      "file": "device-images/gear_bass_cab_edend115xlt_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        25,
+        11,
+        487,
+        501
+      ],
+      "sha256": "b82e59a190836a2150c86df9f065f53d66c2899b6db9025c4954676e130a84a2",
+      "source_member": "gfxassets/tone_designer/cab/gear_bass_cab_edend115xlt_0_hero.dds",
+      "source_dds_sha256": "c6721339606fbaf6f39bf7e243602bba1bb7916f8fa2555f2041b261eca37ac8"
+    },
+    "gear_bass_cab_edend212xlt_0": {
+      "urn": "urn:image:dds:gear_bass_cab_edend212xlt_0",
+      "file": "device-images/gear_bass_cab_edend212xlt_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        43,
+        9,
+        469,
+        504
+      ],
+      "sha256": "883d5495e763c14096a0de03f54656752955e68d2f47daee86ecb17b68c02fe5",
+      "source_member": "gfxassets/tone_designer/cab/gear_bass_cab_edend212xlt_0_hero.dds",
+      "source_dds_sha256": "36f276fab7ff8c18344a4f08f507f138cbf1fe34be83eab15d36aae96281bad4"
+    },
+    "gear_bass_cab_edend410xst_0": {
+      "urn": "urn:image:dds:gear_bass_cab_edend410xst_0",
+      "file": "device-images/gear_bass_cab_edend410xst_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        24,
+        9,
+        488,
+        501
+      ],
+      "sha256": "fa01922f8532cbefef06536f78aa10016f90e2ebc64325f9e2712903db96607f",
+      "source_member": "gfxassets/tone_designer/cab/gear_bass_cab_edend410xst_0_hero.dds",
+      "source_dds_sha256": "6689bc0be1be99b0b93d70f383419e72ed52cc6f7d34d542197ad1c00713807d"
+    },
+    "gear_bass_cab_edend610xst_0": {
+      "urn": "urn:image:dds:gear_bass_cab_edend610xst_0",
+      "file": "device-images/gear_bass_cab_edend610xst_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        104,
+        0,
+        408,
+        512
+      ],
+      "sha256": "3751418814be4833a4823bd51fd7bb745200aacb5293138e72a405e864008565",
+      "source_member": "gfxassets/tone_designer/cab/gear_bass_cab_edend610xst_0_hero.dds",
+      "source_dds_sha256": "d6e01243e7fac5b7decfe96ab8ab3a986de9134256478479e97f4ee17984a893"
+    },
+    "gear_bass_cab_gb415bc_0": {
+      "urn": "urn:image:dds:gear_bass_cab_gb415bc_0",
+      "file": "device-images/gear_bass_cab_gb415bc_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        101,
+        0,
+        410,
+        512
+      ],
+      "sha256": "f6167b4a72318b6beb3d6944106bdf1f83194a81a0eecc15b2e1ab1162ec32b4",
+      "source_member": "gfxassets/tone_designer/cab/gear_bass_cab_gb415bc_0_hero.dds",
+      "source_dds_sha256": "6df9e11694dcb0ef6b6b940ff2b45fce74ce4ba6830f945128fbbb95fa6d0acd"
+    },
+    "gear_bass_cab_orangeobc115_0": {
+      "urn": "urn:image:dds:gear_bass_cab_orangeobc115_0",
+      "file": "device-images/gear_bass_cab_orangeobc115_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        73,
+        512,
+        439
+      ],
+      "sha256": "52f62dc011b78ef08e90ce42e75a9c740f5f002987aff9705b17e58c9439be46",
+      "source_member": "gfxassets/tone_designer/cab/gear_bass_cab_orangeobc115_0_hero.dds",
+      "source_dds_sha256": "580eafb504555d1d8b922a4f1b86cc3ca0ac00d808493f465a89fef7833657d1"
+    },
+    "gear_bass_cab_orangeobc810_0": {
+      "urn": "urn:image:dds:gear_bass_cab_orangeobc810_0",
+      "file": "device-images/gear_bass_cab_orangeobc810_0.png",
+      "dimensions": [
+        256,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        6,
+        59,
+        250,
+        453
+      ],
+      "sha256": "5b90f18ee663b9d4a056f1c5c1fbea2ee1ec43f388c376fa4613c99a94936241",
+      "source_member": "gfxassets/tone_designer/cab/gear_bass_cab_orangeobc810_0_hero.dds",
+      "source_dds_sha256": "49d23f34c18a2562577e0098fc943c9ce893aca7f08a46a4f1cca334b216423b"
+    },
+    "gear_bass_cab_tw215bc_0": {
+      "urn": "urn:image:dds:gear_bass_cab_tw215bc_0",
+      "file": "device-images/gear_bass_cab_tw215bc_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        81,
+        512,
+        431
+      ],
+      "sha256": "ebc8e57f271e11662273886cda72283213fea6e5f236ec6f5ced3f8a71ca3642",
+      "source_member": "gfxassets/tone_designer/cab/gear_bass_cab_tw215bc_0_hero.dds",
+      "source_dds_sha256": "0b23568e57cbec1c53fc472ba72fcfce73f4204ebc26758350dc34ac50f8c8b0"
+    },
+    "gear_bass_pedal_bassautofilter_0": {
+      "urn": "urn:image:dds:gear_bass_pedal_bassautofilter_0",
+      "file": "device-images/gear_bass_pedal_bassautofilter_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        2,
+        65,
+        510,
+        403
+      ],
+      "sha256": "dbfaf17560f1a36adeb9c84726f8278ff1ca60edeae9e342e53306a269e5307c",
+      "source_member": "gfxassets/tone_designer/effect/gear_bass_pedal_bassautofilter_0_hero.dds",
+      "source_dds_sha256": "f0a349ba08557b9fbc2d8b3b927d0993a6aa72185d1941d0b3cc128efbd80c6a"
+    },
+    "gear_bass_pedal_basschorus_0": {
+      "urn": "urn:image:dds:gear_bass_pedal_basschorus_0",
+      "file": "device-images/gear_bass_pedal_basschorus_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        30,
+        511,
+        479
+      ],
+      "sha256": "dec8a76f83d18c87fd3a48bb411186a5e6e634a996b1318026e23b60bb12141a",
+      "source_member": "gfxassets/tone_designer/effect/gear_bass_pedal_basschorus_0_hero.dds",
+      "source_dds_sha256": "b75c668ee832e0e5c5dc43aafaa69f831e39fa07cfef62c686e7e1e7e7e87f40"
+    },
+    "gear_bass_pedal_bassdistortion_0": {
+      "urn": "urn:image:dds:gear_bass_pedal_bassdistortion_0",
+      "file": "device-images/gear_bass_pedal_bassdistortion_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        30,
+        511,
+        479
+      ],
+      "sha256": "53f17fff5e1c4b6b2922e14c5b06105f33ac444c1f55fba92990c5cf3a90270f",
+      "source_member": "gfxassets/tone_designer/effect/gear_bass_pedal_bassdistortion_0_hero.dds",
+      "source_dds_sha256": "0bfcc6fbe7f17ff3503cde6c87ef9f0cdd1e5518863b49ff2d6bfbc938bef2ad"
+    },
+    "gear_bass_pedal_bassenbig_0": {
+      "urn": "urn:image:dds:gear_bass_pedal_bassenbig_0",
+      "file": "device-images/gear_bass_pedal_bassenbig_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        52,
+        2,
+        460,
+        510
+      ],
+      "sha256": "9f0792bc5b5a5fac53c218fe9bf18b4b329ec4aee864e60f48d96e4474ddd059",
+      "source_member": "gfxassets/tone_designer/effect/gear_bass_pedal_bassenbig_0_hero.dds",
+      "source_dds_sha256": "9d8c9e90f4a2cff689bb894512d3cb590148e4ff5355a3c5b4a63e3908a9f4cb"
+    },
+    "gear_bass_pedal_basseq8_0": {
+      "urn": "urn:image:dds:gear_bass_pedal_basseq8_0",
+      "file": "device-images/gear_bass_pedal_basseq8_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        52,
+        2,
+        460,
+        510
+      ],
+      "sha256": "986f4cdd8a4a762eea2256e8eca04633cea39c293087030682451b750d071fbf",
+      "source_member": "gfxassets/tone_designer/effect/gear_bass_pedal_basseq8_0_hero.dds",
+      "source_dds_sha256": "a4eb3b1153fe4c4d6359364dd5c7302134dabd0b99067d8db5deb4f2f515eb3a"
+    },
+    "gear_bass_pedal_bassfilterdelay_0": {
+      "urn": "urn:image:dds:gear_bass_pedal_bassfilterdelay_0",
+      "file": "device-images/gear_bass_pedal_bassfilterdelay_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        30,
+        511,
+        479
+      ],
+      "sha256": "2419516fe780412bbbd8957d6a8aa1222e055fa3b6906410d4652a226fb8927d",
+      "source_member": "gfxassets/tone_designer/effect/gear_bass_pedal_bassfilterdelay_0_hero.dds",
+      "source_dds_sha256": "4d173a00b6e4db2d9875ffc6ca73ae951c56da1bc57b38b523da2d41f3c3fb60"
+    },
+    "gear_bass_pedal_bassfilterecho_0": {
+      "urn": "urn:image:dds:gear_bass_pedal_bassfilterecho_0",
+      "file": "device-images/gear_bass_pedal_bassfilterecho_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        2,
+        65,
+        510,
+        403
+      ],
+      "sha256": "235f439f4251c0266cb2f53284408b85af0e302ec764058c5d4e97bcb52ff793",
+      "source_member": "gfxassets/tone_designer/effect/gear_bass_pedal_bassfilterecho_0_hero.dds",
+      "source_dds_sha256": "c853d78489f3af795a28bd72e4243be20a6274b3f6592cf2bad6cef02fab1960"
+    },
+    "gear_bass_pedal_bassflanger_0": {
+      "urn": "urn:image:dds:gear_bass_pedal_bassflanger_0",
+      "file": "device-images/gear_bass_pedal_bassflanger_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        30,
+        511,
+        479
+      ],
+      "sha256": "137f280af314bbc1f9f8b011719e76aea79cad63b977dfd5c62d0c104c2c15b0",
+      "source_member": "gfxassets/tone_designer/effect/gear_bass_pedal_bassflanger_0_hero.dds",
+      "source_dds_sha256": "e851866c95ba8db2fbc94630077a7a86241571f027b0c9bd10d4b2fda7ef266f"
+    },
+    "gear_bass_pedal_bassfuzz_0": {
+      "urn": "urn:image:dds:gear_bass_pedal_bassfuzz_0",
+      "file": "device-images/gear_bass_pedal_bassfuzz_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        30,
+        511,
+        479
+      ],
+      "sha256": "e0b32961096d655d7ad37d3a0c09a1e5ef948c788b909132932b2540f89278e1",
+      "source_member": "gfxassets/tone_designer/effect/gear_bass_pedal_bassfuzz_0_hero.dds",
+      "source_dds_sha256": "3f76c6cef6924a98029138b2ba875569955f9550d1139e79a1b20613b4cdd3d8"
+    },
+    "gear_bass_pedal_bassoverdrive_0": {
+      "urn": "urn:image:dds:gear_bass_pedal_bassoverdrive_0",
+      "file": "device-images/gear_bass_pedal_bassoverdrive_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        2,
+        65,
+        510,
+        403
+      ],
+      "sha256": "018e0e1a05e006967117eb8570b7ce74a5041bd9bd40327050ce75c4c9bbe630",
+      "source_member": "gfxassets/tone_designer/effect/gear_bass_pedal_bassoverdrive_0_hero.dds",
+      "source_dds_sha256": "46c92e39238ecd8e16f00478795566d2500ede3551a717a0c470dde3fbe2cda3"
+    },
+    "gear_bass_pedal_bassphase_0": {
+      "urn": "urn:image:dds:gear_bass_pedal_bassphase_0",
+      "file": "device-images/gear_bass_pedal_bassphase_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        119,
+        511,
+        393
+      ],
+      "sha256": "1063d264eee2c50e3e8cede29a9f0c6f1b79f88234967cf6c3c52f4f7d2a9a38",
+      "source_member": "gfxassets/tone_designer/effect/gear_bass_pedal_bassphase_0_hero.dds",
+      "source_dds_sha256": "628b32395a3211f75fd9cadfd4f52a112f844523bf9fd94e3b39b308320d1493"
+    },
+    "gear_bass_pedal_basssuboctave_0": {
+      "urn": "urn:image:dds:gear_bass_pedal_basssuboctave_0",
+      "file": "device-images/gear_bass_pedal_basssuboctave_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        90,
+        1,
+        420,
+        511
+      ],
+      "sha256": "78eac3d2b60cb45cd28fefd784bdf6cbee4a99c2fba0be288d53a3717ae9ba27",
+      "source_member": "gfxassets/tone_designer/effect/gear_bass_pedal_basssuboctave_0_hero.dds",
+      "source_dds_sha256": "65761caaded028b1e07fa29dd4b2288f3a09fdfc606922d750a021a1708efb93"
+    },
+    "gear_bass_pedal_basswah_0": {
+      "urn": "urn:image:dds:gear_bass_pedal_basswah_0",
+      "file": "device-images/gear_bass_pedal_basswah_0.png",
+      "dimensions": [
+        256,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        21,
+        1,
+        239,
+        511
+      ],
+      "sha256": "aad58e140dfc846168f9bb86ab527f0cfbc3e87da92683669e1e5f946ba60e42",
+      "source_member": "gfxassets/tone_designer/effect/gear_bass_pedal_basswah_0_hero.dds",
+      "source_dds_sha256": "f439806814f26f585676bbe9b39c6e693e738ac920c73683d4b9c1131ab83d72"
+    },
+    "gear_bass_pedal_edenwtdi_0": {
+      "urn": "urn:image:dds:gear_bass_pedal_edenwtdi_0",
+      "file": "device-images/gear_bass_pedal_edenwtdi_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        50,
+        512,
+        462
+      ],
+      "sha256": "ea449b10ea0373902839487f10eb777531d05ac8e3bc563671e1839a1ccb3114",
+      "source_member": "gfxassets/tone_designer/effect/gear_bass_pedal_edenwtdi_0_hero.dds",
+      "source_dds_sha256": "e3b84c3515ce50d540954d1caa27db4b8c882f34cadc4623cb08ce0d8da594cf"
+    },
+    "gear_bass_pedal_mbcomp_0": {
+      "urn": "urn:image:dds:gear_bass_pedal_mbcomp_0",
+      "file": "device-images/gear_bass_pedal_mbcomp_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "sha256": "ae9f5037d368e46945dd50605fb8374ddff4452fd137f6c91ccd874d321b7b9e",
+      "source_member": "gfxassets/tone_designer/effect/gear_bass_pedal_mbcomp_0_hero.dds",
+      "source_dds_sha256": "9d3308db77dc6e6b320dc46c4716810df0b1fc563c87f3585c780ad5966a1795"
+    },
+    "gear_cab_at0112c_0": {
+      "urn": "urn:image:dds:gear_cab_at0112c_0",
+      "file": "device-images/gear_cab_at0112c_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        88,
+        512,
+        425
+      ],
+      "sha256": "4c9dbff1fae14471a23317e6c8841fbe8ca9cb06ca653f9f2530ab12465ad499",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_at0112c_0_hero.dds",
+      "source_dds_sha256": "98e392780fe8799ca365fa7131518ad4b0770c73523de519020e3e69facca0b4"
+    },
+    "gear_cab_at1121c_0": {
+      "urn": "urn:image:dds:gear_cab_at1121c_0",
+      "file": "device-images/gear_cab_at1121c_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        109,
+        512,
+        402
+      ],
+      "sha256": "9e49776deaf2b7f2cc66c2812c05d466ef7526ff4cbc8a40a5b65da04b96c51d",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_at1121c_0_hero.dds",
+      "source_dds_sha256": "dba91263b3d1d8c854723824809204bb8b426ccc4c648e791a822d0ba80deeb1"
+    },
+    "gear_cab_audiophile_0": {
+      "urn": "urn:image:dds:gear_cab_audiophile_0",
+      "file": "device-images/gear_cab_audiophile_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        28,
+        512,
+        483
+      ],
+      "sha256": "5e0a27f7c8cdb06d93e6989c1195c0ce252a3c9ef480e0cace14d3b24501face",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_audiophile_0_hero.dds",
+      "source_dds_sha256": "ba6e86fc35bc8241cddd7a42e722b636ee40f8c6fdaf149bdc6a00fbe3b8616d"
+    },
+    "gear_cab_boombox_0": {
+      "urn": "urn:image:dds:gear_cab_boombox_0",
+      "file": "device-images/gear_cab_boombox_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        7,
+        27,
+        1018,
+        486
+      ],
+      "sha256": "a7b888f01587d44dc1dfc0ec32c13908d433eeb0135bf145962079dc38a19dff",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_boombox_0_hero.dds",
+      "source_dds_sha256": "6b4f85f84e28af7c52ae833b3c2227d924faae9c910a4ac07f938e47767d26ab"
+    },
+    "gear_cab_bt1120c_0": {
+      "urn": "urn:image:dds:gear_cab_bt1120c_0",
+      "file": "device-images/gear_cab_bt1120c_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        102,
+        512,
+        410
+      ],
+      "sha256": "82efba9ea3a0078f2b16a11df60af0b59f534ba0aa88ce29c6e0dd6ffb6222ff",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_bt1120c_0_hero.dds",
+      "source_dds_sha256": "cf288988ff354f2803087363544f378766c307ab96d19eee1aa86e39941542fb"
+    },
+    "gear_cab_bt1121c_0": {
+      "urn": "urn:image:dds:gear_cab_bt1121c_0",
+      "file": "device-images/gear_cab_bt1121c_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        110,
+        512,
+        402
+      ],
+      "sha256": "c1927916490474d77ee414560a90a9a18caa6c26fe294120d3cd078667d9fcee",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_bt1121c_0_hero.dds",
+      "source_dds_sha256": "81d92fbc4b4e3446b6d08447f870b14299e13461535ea657dd239d53234a08a0"
+    },
+    "gear_cab_bt410c_0": {
+      "urn": "urn:image:dds:gear_cab_bt410c_0",
+      "file": "device-images/gear_cab_bt410c_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        6,
+        0,
+        505,
+        512
+      ],
+      "sha256": "4557e5283b5f67e1e0fdfaea4ca6849c2a2d91c2bf124c6f2096ccf5e39c5ad4",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_bt410c_0_hero.dds",
+      "source_dds_sha256": "968dffb3e4c96ea74028549679e30a13b93b44e7995d040b94610ed9e4f9093d"
+    },
+    "gear_cab_ca112c_0": {
+      "urn": "urn:image:dds:gear_cab_ca112c_0",
+      "file": "device-images/gear_cab_ca112c_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        111,
+        512,
+        401
+      ],
+      "sha256": "4aff9df12681d2f58474e721e29acac2e018fcf302d14a39ca83ab6fa5157af2",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_ca112c_0_hero.dds",
+      "source_dds_sha256": "cfd5097b879fc175257b085ac60c95e5f3dac6cf6d6d3b41a019b346eaf6f1d0"
+    },
+    "gear_cab_ca215c_0": {
+      "urn": "urn:image:dds:gear_cab_ca215c_0",
+      "file": "device-images/gear_cab_ca215c_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "sha256": "5d9cfe9861d42d96dcd7c596aae25b693b95500b24f03e4160544826728b47ff",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_ca215c_0_hero.dds",
+      "source_dds_sha256": "21f7f0b1ed0f276b17e6f527bd20425315957f2988d3d33bbdd2e0addef9824c"
+    },
+    "gear_cab_ca412c_0": {
+      "urn": "urn:image:dds:gear_cab_ca412c_0",
+      "file": "device-images/gear_cab_ca412c_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        32,
+        0,
+        480,
+        512
+      ],
+      "sha256": "00b57acbcebf4f07bba9486fc732e4c915a9e159617e3c5d623a997a20e1f8a9",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_ca412c_0_hero.dds",
+      "source_dds_sha256": "e1a23118fe0a54008409b2f682deb08dd00d57a14cd8d3cea80e3fcf0a205800"
+    },
+    "gear_cab_cabinetradio_0": {
+      "urn": "urn:image:dds:gear_cab_cabinetradio_0",
+      "file": "device-images/gear_cab_cabinetradio_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        77,
+        0,
+        435,
+        512
+      ],
+      "sha256": "6645d33f23f7483a1ae07c012512166065de75cacbcb97111690bcccf80ccbb9",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_cabinetradio_0_hero.dds",
+      "source_dds_sha256": "2b2c7fff5fb5326bc5073dff5de7d71af395b25c39a8324cff6f98ac068cb3ba"
+    },
+    "gear_cab_cs1120c_0": {
+      "urn": "urn:image:dds:gear_cab_cs1120c_0",
+      "file": "device-images/gear_cab_cs1120c_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        89,
+        512,
+        424
+      ],
+      "sha256": "0f55abb1d1948ef53b7dc63606f6a241d441e55717d17d28899be2995be5ec5a",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_cs1120c_0_hero.dds",
+      "source_dds_sha256": "4d3a237a1e500745c50c9191377ffb1174321a4e5e6e9bb68cee6823f3779e19"
+    },
+    "gear_cab_cs1515c_0": {
+      "urn": "urn:image:dds:gear_cab_cs1515c_0",
+      "file": "device-images/gear_cab_cs1515c_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        54,
+        0,
+        458,
+        512
+      ],
+      "sha256": "5d55b47cbfe118883c33dcf5866d49f9597437bf871ecdda7edeb50dd95824f7",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_cs1515c_0_hero.dds",
+      "source_dds_sha256": "dbaaee479e34d218ae5247318e12d68c17484a1146676f731deb29b4c32ad029"
+    },
+    "gear_cab_cs212c_0": {
+      "urn": "urn:image:dds:gear_cab_cs212c_0",
+      "file": "device-images/gear_cab_cs212c_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        53,
+        512,
+        460
+      ],
+      "sha256": "0288dc4b53dca05c1318a532b067caacf06de02dacdb7d076446bcb905d830cf",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_cs212c_0_hero.dds",
+      "source_dds_sha256": "e97dbc93206bff801ced656d66b6dc76ad3b37809409267be03c0b06f60d07ba"
+    },
+    "gear_cab_en212c_0": {
+      "urn": "urn:image:dds:gear_cab_en212c_0",
+      "file": "device-images/gear_cab_en212c_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        89,
+        512,
+        423
+      ],
+      "sha256": "40c80cda210a4fb219f299f8293c7c8840a7c2da59b7cc546c3bf8327908a7d4",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_en212c_0_hero.dds",
+      "source_dds_sha256": "2e40e19ee321c8cc094f6cec24910f11bd3b5406a888ee1e84734a8f573b7f4b"
+    },
+    "gear_cab_en4120c_0": {
+      "urn": "urn:image:dds:gear_cab_en4120c_0",
+      "file": "device-images/gear_cab_en4120c_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        1,
+        512,
+        511
+      ],
+      "sha256": "283ef3683b671a2ea93c535f9842421003eefe292409c80d0fe661bd16aa2edd",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_en4120c_0_hero.dds",
+      "source_dds_sha256": "c2a0f3d5cf3b53e9852cf3b7a640d985424957a5ef7bec564f197bcc8335e991"
+    },
+    "gear_cab_gb412cmki_0": {
+      "urn": "urn:image:dds:gear_cab_gb412cmki_0",
+      "file": "device-images/gear_cab_gb412cmki_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        44,
+        512,
+        468
+      ],
+      "sha256": "c389d596222fb05bc4ad4b42d1800aa2cfaf62c87c9e9701666a9ae14bdd099c",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_gb412cmki_0_hero.dds",
+      "source_dds_sha256": "eeb5cdaad6e419a7e5f3b261eb1fbb53b143c02b3f4daaa39124b846ed27e0e5"
+    },
+    "gear_cab_gb412cmkii_0": {
+      "urn": "urn:image:dds:gear_cab_gb412cmkii_0",
+      "file": "device-images/gear_cab_gb412cmkii_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        27,
+        512,
+        485
+      ],
+      "sha256": "fd70214ea5bd7241d0407a6c2f054eee03cbe50364733f425dadf07c43c42462",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_gb412cmkii_0_hero.dds",
+      "source_dds_sha256": "a98fdf1af877416710fdde2c8f19971890fc9626e339717aac887b1b0cb03365"
+    },
+    "gear_cab_gb412cmkiii_0": {
+      "urn": "urn:image:dds:gear_cab_gb412cmkiii_0",
+      "file": "device-images/gear_cab_gb412cmkiii_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        18,
+        512,
+        494
+      ],
+      "sha256": "4b5462aa9c6b8b07bb7fa933a47a6f8c3ba5bb37591bb0a71288b004b7906e21",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_gb412cmkiii_0_hero.dds",
+      "source_dds_sha256": "fc79f91ceeae8739ab38ca65160b36cd4012e74bc07917bc506dbabc3310240f"
+    },
+    "gear_cab_gramophone_0": {
+      "urn": "urn:image:dds:gear_cab_gramophone_0",
+      "file": "device-images/gear_cab_gramophone_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        75,
+        0,
+        438,
+        512
+      ],
+      "sha256": "a4986abe9d1cf97b03b538ccfbba08a087775ddaaa43a2a6ffa78ea9b42b19b2",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_gramophone_0_hero.dds",
+      "source_dds_sha256": "d7b9f3ddea7a79ae6ba6437d3120faf4763ab3c8e0417a07562ed91e81ec856b"
+    },
+    "gear_cab_hg2120c_0": {
+      "urn": "urn:image:dds:gear_cab_hg2120c_0",
+      "file": "device-images/gear_cab_hg2120c_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        74,
+        512,
+        438
+      ],
+      "sha256": "9d574f8d1b1d0a3e3a62e95cfbdf4ead951106ce843630e5e25f16be60fe869b",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_hg2120c_0_hero.dds",
+      "source_dds_sha256": "765b6449a0367274a2e31ee9626a33304bab9b1fbc349d339da997bfdba0fbf3"
+    },
+    "gear_cab_hg212c_0": {
+      "urn": "urn:image:dds:gear_cab_hg212c_0",
+      "file": "device-images/gear_cab_hg212c_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        96,
+        512,
+        416
+      ],
+      "sha256": "5338d2d73a67fa002fc48e4f7b863f7d3983b593a94dba314313f29220f325d8",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_hg212c_0_hero.dds",
+      "source_dds_sha256": "c6a9308a3ac2467ed79ff020946c9f339283d5c183fe7e69016b644771fe541b"
+    },
+    "gear_cab_hg215c_0": {
+      "urn": "urn:image:dds:gear_cab_hg215c_0",
+      "file": "device-images/gear_cab_hg215c_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        1,
+        512,
+        511
+      ],
+      "sha256": "ae2f907b95e8db95616072514d931b81fc696f1d414119130efbbedbb32ca843",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_hg215c_0_hero.dds",
+      "source_dds_sha256": "cdbf90d008fbd8ff5eb5c9e40a27b866e239f65ae3cd413bc9d27e21f19b345c"
+    },
+    "gear_cab_jukebox_0": {
+      "urn": "urn:image:dds:gear_cab_jukebox_0",
+      "file": "device-images/gear_cab_jukebox_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        113,
+        0,
+        399,
+        510
+      ],
+      "sha256": "3e889ebc3aa3e956e4bac1029fdf376dc6bead64157891f64910732a96ba903f",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_jukebox_0_hero.dds",
+      "source_dds_sha256": "df720824696e7dd422e417b9504da568d1362a08909eb1975f2b1559b8a62f94"
+    },
+    "gear_cab_marshall1936_0": {
+      "urn": "urn:image:dds:gear_cab_marshall1936_0",
+      "file": "device-images/gear_cab_marshall1936_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        6,
+        76,
+        505,
+        460
+      ],
+      "sha256": "ee2099a6e2f4c15ddf1a91e0c53d57481117e04564c30886e169249f96c246cd",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_marshall1936_0_hero.dds",
+      "source_dds_sha256": "23f085dd77536f4f225b1cab45fc2cbcaf6e609b07083969bfc71dc9868e543a"
+    },
+    "gear_cab_marshall1960a_0": {
+      "urn": "urn:image:dds:gear_cab_marshall1960a_0",
+      "file": "device-images/gear_cab_marshall1960a_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        31,
+        5,
+        481,
+        507
+      ],
+      "sha256": "bb891616f67ec14944b6285f0051e95f95bba89129b2090fc67838cffbdb6386",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_marshall1960a_0_hero.dds",
+      "source_dds_sha256": "961b0baa801cb7dd53df4bbf1c4ac829bd05e5d6d3677e40932a8055bc615738"
+    },
+    "gear_cab_marshall1960ax_0": {
+      "urn": "urn:image:dds:gear_cab_marshall1960ax_0",
+      "file": "device-images/gear_cab_marshall1960ax_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        30,
+        5,
+        482,
+        507
+      ],
+      "sha256": "9ed1297a263276b0b02a66f09cc7852d477092340958361d404d0f93afa47264",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_marshall1960ax_0_hero.dds",
+      "source_dds_sha256": "f4cb7188aa7f4b223ce534a6c01a185df7b9cbeaf1020468499b5bb921dba163"
+    },
+    "gear_cab_marshall1960tv_0": {
+      "urn": "urn:image:dds:gear_cab_marshall1960tv_0",
+      "file": "device-images/gear_cab_marshall1960tv_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        47,
+        0,
+        465,
+        512
+      ],
+      "sha256": "7e2f1511c0ca70d7b41e17e6081b112deb29e561b1397917de4f79f528605cd9",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_marshall1960tv_0_hero.dds",
+      "source_dds_sha256": "cda3d60d65700773c2989363cd3daeebc7438c4ae108c9d861cc5bdf0d7cf512"
+    },
+    "gear_cab_orangejimmybean_0": {
+      "urn": "urn:image:dds:gear_cab_orangejimmybean_0",
+      "file": "device-images/gear_cab_orangejimmybean_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        6,
+        510,
+        510
+      ],
+      "sha256": "a62b510859d61fd03a8a41c45acb6835b0c9c3a71a24808d7cab1fa96351ae77",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_orangejimmybean_0_hero.dds",
+      "source_dds_sha256": "ce39a0befc9ed02623ce0b90fd9ef8aa65c852474b4ee8392d6b1aff7275d0a6"
+    },
+    "gear_cab_orangeppc212ob_0": {
+      "urn": "urn:image:dds:gear_cab_orangeppc212ob_0",
+      "file": "device-images/gear_cab_orangeppc212ob_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        55,
+        512,
+        457
+      ],
+      "sha256": "012b09a2296336bd36c2746783ea8ae00701d9ce4ce5ee2c89df0641c339fab2",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_orangeppc212ob_0_hero.dds",
+      "source_dds_sha256": "dd8ba8a6ef4c2d50edb7bbd3c6e15b03751bb41cee9ca9901044336ec4ee0209"
+    },
+    "gear_cab_orangeppc412_0": {
+      "urn": "urn:image:dds:gear_cab_orangeppc412_0",
+      "file": "device-images/gear_cab_orangeppc412_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        7,
+        16,
+        505,
+        496
+      ],
+      "sha256": "98408bc82adc4fa6cdf7dbd8aaf74d33dc08131a8b82f65894ba78ad7714a701",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_orangeppc412_0_hero.dds",
+      "source_dds_sha256": "226763ad187205bd8dce0f25561f668d8ee5b2d4345cebdd19a3fd5221bfce18"
+    },
+    "gear_cab_pa1152c_0": {
+      "urn": "urn:image:dds:gear_cab_pa1152c_0",
+      "file": "device-images/gear_cab_pa1152c_0.png",
+      "dimensions": [
+        256,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        37,
+        2,
+        250,
+        510
+      ],
+      "sha256": "d0871a7386da0a8e53b2ac4617a299fbd6ccb6521acc3f4b05dd77ead82bce83",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_pa1152c_0_hero.dds",
+      "source_dds_sha256": "0e95a84e58acf9d657fd89a7cdfab7364cce7d2663c564074ccced3cd7a057f4"
+    },
+    "gear_cab_pa600c_0": {
+      "urn": "urn:image:dds:gear_cab_pa600c_0",
+      "file": "device-images/gear_cab_pa600c_0.png",
+      "dimensions": [
+        256,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        14,
+        3,
+        242,
+        509
+      ],
+      "sha256": "292d0b75902cfc013137a787e8516486962f63bb7e12414b831064bfad06e326",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_pa600c_0_hero.dds",
+      "source_dds_sha256": "c69ead80711f4982c06d16b408fa630311b118cbb7db56396698e7c2025155c1"
+    },
+    "gear_cab_pa999c_0": {
+      "urn": "urn:image:dds:gear_cab_pa999c_0",
+      "file": "device-images/gear_cab_pa999c_0.png",
+      "dimensions": [
+        256,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        52,
+        3,
+        204,
+        510
+      ],
+      "sha256": "c3f281572d4d1936fa84864c10ad5352b8c5351190ae8cdd92c43381036e5e5a",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_pa999c_0_hero.dds",
+      "source_dds_sha256": "cfdf3ccbed089b98a04e92956b3b7147faf629327ef3ca1241705fc329353332"
+    },
+    "gear_cab_tw110c_0": {
+      "urn": "urn:image:dds:gear_cab_tw110c_0",
+      "file": "device-images/gear_cab_tw110c_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        111,
+        512,
+        402
+      ],
+      "sha256": "c5c53ae23eb46d9952ada506992b86158c60e26191794a5c5c9dee9924712e75",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_tw110c_0_hero.dds",
+      "source_dds_sha256": "14930e51cad8ba5aa033830b740634410d8fe19ca77dadf853d6a6bda75cce05"
+    },
+    "gear_cab_tw112c_0": {
+      "urn": "urn:image:dds:gear_cab_tw112c_0",
+      "file": "device-images/gear_cab_tw112c_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        111,
+        512,
+        401
+      ],
+      "sha256": "c5c1ba52c698164e2aa791fea4b991688124aa055eed9cbf87834bcf86a546b0",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_tw112c_0_hero.dds",
+      "source_dds_sha256": "d4a4b08b944a96fa48a539b8d4e7ab836de825e9fb32eeb133ad8a7cdf8fb122"
+    },
+    "gear_cab_tw410c_0": {
+      "urn": "urn:image:dds:gear_cab_tw410c_0",
+      "file": "device-images/gear_cab_tw410c_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        55,
+        512,
+        457
+      ],
+      "sha256": "dc0da0e70d1218966bba414e06754ca4803b33e15be788d1e0610d36ea4ffd14",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_tw410c_0_hero.dds",
+      "source_dds_sha256": "5ff01f1bb143b1b77fef6e9e597f520463e098f83a6c17d8692eacce3ce62325"
+    },
+    "gear_cab_vintagehifi_0": {
+      "urn": "urn:image:dds:gear_cab_vintagehifi_0",
+      "file": "device-images/gear_cab_vintagehifi_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        81,
+        1024,
+        432
+      ],
+      "sha256": "ce4a95e203499c7f8ccc8aa31ad24ba247fd27903c2d5e170dc1c9b16dd2df0a",
+      "source_member": "gfxassets/tone_designer/cab/gear_cab_vintagehifi_0_hero.dds",
+      "source_dds_sha256": "21c6c950fd34bc8385c34408a569e7041263315ed5f96ec97888ab7b478b2803"
+    },
+    "gear_di_amp_bassdriver_0": {
+      "urn": "urn:image:dds:gear_di_amp_bassdriver_0",
+      "file": "device-images/gear_di_amp_bassdriver_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        358,
+        122,
+        664,
+        388
+      ],
+      "sha256": "a9568dbe935014c91ce9a10b7704850c139ad4d885539c4214da7b895420f53f",
+      "source_member": "gfxassets/tone_designer/amp/gear_di_amp_bassdriver_0_hero.dds",
+      "source_dds_sha256": "6eec5f3d38bdd27f74e3abec1196e1255c10fd78a46b1745564dff18558dbf4b"
+    },
+    "gear_di_amp_mixerpre_0": {
+      "urn": "urn:image:dds:gear_di_amp_mixerpre_0",
+      "file": "device-images/gear_di_amp_mixerpre_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        358,
+        122,
+        664,
+        388
+      ],
+      "sha256": "017b22696090604ec278021799bfb318a81f00e6845ff106467ba0e36e9f9a4b",
+      "source_member": "gfxassets/tone_designer/amp/gear_di_amp_mixerpre_0_hero.dds",
+      "source_dds_sha256": "7a7dc91ee7954df336fa5b0b3f692d96918244511602f23420619affbf6728ce"
+    },
+    "gear_di_amp_tubepre_0": {
+      "urn": "urn:image:dds:gear_di_amp_tubepre_0",
+      "file": "device-images/gear_di_amp_tubepre_0.png",
+      "dimensions": [
+        1024,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        358,
+        122,
+        664,
+        388
+      ],
+      "sha256": "5500504e52a9b7abaf1f548fafeb940a4f328311ce8154812af4cfa59c1506ca",
+      "source_member": "gfxassets/tone_designer/amp/gear_di_amp_tubepre_0_hero.dds",
+      "source_dds_sha256": "fc9bf106b7295a7e65af2677511adf57465dc7ba8b910f7410a553604699fe73"
+    },
+    "gear_pedal_80sflanger_0": {
+      "urn": "urn:image:dds:gear_pedal_80sflanger_0",
+      "file": "device-images/gear_pedal_80sflanger_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        119,
+        511,
+        394
+      ],
+      "sha256": "c3714ff9e93081b7910b3fd7efe1b9b2a114f794902389b13f73af8da6334496",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_80sflanger_0_hero.dds",
+      "source_dds_sha256": "342cfb5d9d27b7d2d353ae846900adab1afc9b3b86a2f078645791262ac41449"
+    },
+    "gear_pedal_acousticemulator_0": {
+      "urn": "urn:image:dds:gear_pedal_acousticemulator_0",
+      "file": "device-images/gear_pedal_acousticemulator_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        2,
+        65,
+        510,
+        403
+      ],
+      "sha256": "7ffa104a0e6cc82b5bb8e8df164553f50f98b5fca2e1d94daab13023e4ec9290",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_acousticemulator_0_hero.dds",
+      "source_dds_sha256": "0afbda497a4fea79422f1393ef71ab31e2b44acf7a9c1d1f81affb82a6eed973"
+    },
+    "gear_pedal_ampeq_0": {
+      "urn": "urn:image:dds:gear_pedal_ampeq_0",
+      "file": "device-images/gear_pedal_ampeq_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        2,
+        65,
+        510,
+        403
+      ],
+      "sha256": "8331ff3c025d35df229902a35c8de713efecf797a1a62820fe6e05ebdd739568",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_ampeq_0_hero.dds",
+      "source_dds_sha256": "005b921bf3b9cac9b3f412692b8038a417c5a671fad9d0150bb4a9e10a3b61a3"
+    },
+    "gear_pedal_amptrem_0": {
+      "urn": "urn:image:dds:gear_pedal_amptrem_0",
+      "file": "device-images/gear_pedal_amptrem_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        119,
+        511,
+        393
+      ],
+      "sha256": "896df834c89f871fe3f9a5f2e31193b310e0e04dd33fbf136a7d7c886392cc67",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_amptrem_0_hero.dds",
+      "source_dds_sha256": "6aec80e7d912232fdd711ee43930eec74e304a609cfec36e5a384a707f22275d"
+    },
+    "gear_pedal_ampvibe_0": {
+      "urn": "urn:image:dds:gear_pedal_ampvibe_0",
+      "file": "device-images/gear_pedal_ampvibe_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        52,
+        2,
+        460,
+        510
+      ],
+      "sha256": "d800d2c1df4033cf953b13b6296f1b53b209704d9b67c90cdc5897e091b6f9dd",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_ampvibe_0_hero.dds",
+      "source_dds_sha256": "629c97efdb957a403626d4512f056f93c80f6a27e42d3a45710733b137ab7795"
+    },
+    "gear_pedal_analoguedelay_0": {
+      "urn": "urn:image:dds:gear_pedal_analoguedelay_0",
+      "file": "device-images/gear_pedal_analoguedelay_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        52,
+        2,
+        460,
+        510
+      ],
+      "sha256": "86a69524c8e3e2c443f617c272f1855b709ab0f4020ed7d7bd0c563fa4126892",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_analoguedelay_0_hero.dds",
+      "source_dds_sha256": "15f08566fbcc514dc6d752598607e44751f982564c3d152215a73795af876ff5"
+    },
+    "gear_pedal_autofilter_0": {
+      "urn": "urn:image:dds:gear_pedal_autofilter_0",
+      "file": "device-images/gear_pedal_autofilter_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        119,
+        511,
+        393
+      ],
+      "sha256": "fb7854605002e95a4d0b5d3bad7c52e42ff69d7587116e86f3b8b2fd4e728e00",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_autofilter_0_hero.dds",
+      "source_dds_sha256": "447c13a3e1e3572cde8cd11ee4f69d5ef46a94305f43b070fb5af47efc815cad"
+    },
+    "gear_pedal_autovibe_0": {
+      "urn": "urn:image:dds:gear_pedal_autovibe_0",
+      "file": "device-images/gear_pedal_autovibe_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        30,
+        511,
+        479
+      ],
+      "sha256": "1a8282a51bbed13d12960041dc7769e92ce96f358a17bacb40116ede3614ce90",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_autovibe_0_hero.dds",
+      "source_dds_sha256": "9cdd02f161069003cf0151871af357dcdb9a943fdccedc44b36c853793df4730"
+    },
+    "gear_pedal_bakedrotatoe_0": {
+      "urn": "urn:image:dds:gear_pedal_bakedrotatoe_0",
+      "file": "device-images/gear_pedal_bakedrotatoe_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        108,
+        1,
+        404,
+        512
+      ],
+      "sha256": "6cf12c3933c9a2432d8c12d808ef8d927d865a06a100fe5bbbb65b7597a962df",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_bakedrotatoe_0_hero.dds",
+      "source_dds_sha256": "582321eddf9711723af027246a2d74c0830d0867f0f4490dbe187472d1ef702e"
+    },
+    "gear_pedal_bassemulator_0": {
+      "urn": "urn:image:dds:gear_pedal_bassemulator_0",
+      "file": "device-images/gear_pedal_bassemulator_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        90,
+        1,
+        420,
+        511
+      ],
+      "sha256": "fc329b3bb2e6226cfc1e130268889a4c8f8b7c738db9284fe040af29f7037f82",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_bassemulator_0_hero.dds",
+      "source_dds_sha256": "bb53c8cb579b22da444be27eb3b3538d560be714a67c119340237b3ffd5feb40"
+    },
+    "gear_pedal_bitcruncher_0": {
+      "urn": "urn:image:dds:gear_pedal_bitcruncher_0",
+      "file": "device-images/gear_pedal_bitcruncher_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        94,
+        3,
+        418,
+        509
+      ],
+      "sha256": "6b13b97d9632b4aa4e2adf70fb7ad57bc29d6589201b36b63702b00d06f2cce3",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_bitcruncher_0_hero.dds",
+      "source_dds_sha256": "ffa0410bda742181daf9547da4c2821c57ab3708d738a0d724c6f904f9b40d74"
+    },
+    "gear_pedal_bobfilter_0": {
+      "urn": "urn:image:dds:gear_pedal_bobfilter_0",
+      "file": "device-images/gear_pedal_bobfilter_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        52,
+        2,
+        460,
+        510
+      ],
+      "sha256": "b6fa97bae0d85d599b291ab9100f78633a5ac4e2515746d3bce3e5c103301057",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_bobfilter_0_hero.dds",
+      "source_dds_sha256": "98460916c20b9b821b2719e140d2a7ee3479c5a8d602bc87c36417239d95f813"
+    },
+    "gear_pedal_buzzone_0": {
+      "urn": "urn:image:dds:gear_pedal_buzzone_0",
+      "file": "device-images/gear_pedal_buzzone_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        90,
+        1,
+        420,
+        511
+      ],
+      "sha256": "3e2f34048e33ddea8e43a0d64a100b5858d310c95f4bda0e682b8c811c489ce3",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_buzzone_0_hero.dds",
+      "source_dds_sha256": "8b08a188aba15d44485dd9c3e076624b0566342ff1ebd1f0822079f7a070155b"
+    },
+    "gear_pedal_buzztoo_0": {
+      "urn": "urn:image:dds:gear_pedal_buzztoo_0",
+      "file": "device-images/gear_pedal_buzztoo_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        52,
+        2,
+        460,
+        510
+      ],
+      "sha256": "c06375ebc76aa8214fd8ec223580e81863525b70a6556237eb3cdd6831746317",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_buzztoo_0_hero.dds",
+      "source_dds_sha256": "dcc1d069001dc1eb5090e6bac6ecb05f3a17a2915a65de048cc3f0c13d4e79c5"
+    },
+    "gear_pedal_captfuzzle_0": {
+      "urn": "urn:image:dds:gear_pedal_captfuzzle_0",
+      "file": "device-images/gear_pedal_captfuzzle_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        2,
+        65,
+        510,
+        403
+      ],
+      "sha256": "cb1533089a08ab15e09f5adc54faa31c40f33f7c18c955948ffe564060cddcb7",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_captfuzzle_0_hero.dds",
+      "source_dds_sha256": "d43076fa9827fc150cb038526d3908a162560c6210b238de08a410662e035d50"
+    },
+    "gear_pedal_chorus_0": {
+      "urn": "urn:image:dds:gear_pedal_chorus_0",
+      "file": "device-images/gear_pedal_chorus_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        108,
+        1,
+        404,
+        512
+      ],
+      "sha256": "6e10eddce315f5294381ba5f9ee648d0ee4c7ecc24e42c7e36668a27e56cbe87",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_chorus_0_hero.dds",
+      "source_dds_sha256": "9b0b695c7589803cb1becc15fd96e80c10044ccf96e2197ba797fc29758f31f2"
+    },
+    "gear_pedal_chorus20_0": {
+      "urn": "urn:image:dds:gear_pedal_chorus20_0",
+      "file": "device-images/gear_pedal_chorus20_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        2,
+        65,
+        510,
+        403
+      ],
+      "sha256": "b22b777a9371bd409a7e932869134fab1618aef51f9bdfa44177968e7b6ae32e",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_chorus20_0_hero.dds",
+      "source_dds_sha256": "a05c9966abce515136728e2c3bc721d09aac3c78d81484ffe17a51f999b63e1f"
+    },
+    "gear_pedal_classicflanger_0": {
+      "urn": "urn:image:dds:gear_pedal_classicflanger_0",
+      "file": "device-images/gear_pedal_classicflanger_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        108,
+        1,
+        404,
+        512
+      ],
+      "sha256": "be41f147e36127403d47f34518199a663b9f5b3340d3aad4edf377293e910a80",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_classicflanger_0_hero.dds",
+      "source_dds_sha256": "c4f4ea72f396660ad5d6af1b17db6ce81aee2498f533ca43288d174409688875"
+    },
+    "gear_pedal_compression_0": {
+      "urn": "urn:image:dds:gear_pedal_compression_0",
+      "file": "device-images/gear_pedal_compression_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        90,
+        1,
+        420,
+        511
+      ],
+      "sha256": "32d2f1816fa4e30caa47c0d25681c6554a3edbfbe73d82b39e84b005085d85de",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_compression_0_hero.dds",
+      "source_dds_sha256": "6e0897564362c2f51437fd5edc3c76c83875b98279ce8730607a9d6b575038da"
+    },
+    "gear_pedal_cosmicecho_0": {
+      "urn": "urn:image:dds:gear_pedal_cosmicecho_0",
+      "file": "device-images/gear_pedal_cosmicecho_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        119,
+        511,
+        393
+      ],
+      "sha256": "243839939f8f79465fb948523954a937c8f03e07773fdb72b3b2c559d1b9deaa",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_cosmicecho_0_hero.dds",
+      "source_dds_sha256": "70b8cfc4b1ae5498df49d8d4a742daf455150f5321843f53a73e1f3a8762631b"
+    },
+    "gear_pedal_customdrive_0": {
+      "urn": "urn:image:dds:gear_pedal_customdrive_0",
+      "file": "device-images/gear_pedal_customdrive_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        90,
+        1,
+        420,
+        511
+      ],
+      "sha256": "dc6f2f0d3916eb75c2111bde8c5760f5891662d8f1631e714f1896dcbef90579",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_customdrive_0_hero.dds",
+      "source_dds_sha256": "a991969ae8231cfa0406761892073c98d52d76f22edbfbff9fc5277d1fd594bd"
+    },
+    "gear_pedal_digitalchorus_0": {
+      "urn": "urn:image:dds:gear_pedal_digitalchorus_0",
+      "file": "device-images/gear_pedal_digitalchorus_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        52,
+        2,
+        460,
+        510
+      ],
+      "sha256": "a7b226a4f844dc2bfeff68c28ce26b3fee6369666970e78fe911a1a933f85f88",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_digitalchorus_0_hero.dds",
+      "source_dds_sha256": "247cd7ea4ccea5afefa09e922fed9d1ca47038729c181d46a144b2ffd67837d7"
+    },
+    "gear_pedal_digitalverb_0": {
+      "urn": "urn:image:dds:gear_pedal_digitalverb_0",
+      "file": "device-images/gear_pedal_digitalverb_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        108,
+        1,
+        404,
+        512
+      ],
+      "sha256": "a764c0b8a719bdefcca51cf3b34aa0156b105be39b4f47b2a98ba34fd7cc0395",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_digitalverb_0_hero.dds",
+      "source_dds_sha256": "ff1c02bb8ea608f02f115cceded5c0e419346235fd6a1aa5a9b3f80c25ea418c"
+    },
+    "gear_pedal_distortion_0": {
+      "urn": "urn:image:dds:gear_pedal_distortion_0",
+      "file": "device-images/gear_pedal_distortion_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        108,
+        1,
+        404,
+        512
+      ],
+      "sha256": "87d88591d84843180a8e1670c61267966e6e4b74fafadf961e6d7b399f24de9b",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_distortion_0_hero.dds",
+      "source_dds_sha256": "70309d2dbb130743660d572e78419d6fef72ddcefd0f9c26d10db258d3840ef9"
+    },
+    "gear_pedal_enbiggenator_0": {
+      "urn": "urn:image:dds:gear_pedal_enbiggenator_0",
+      "file": "device-images/gear_pedal_enbiggenator_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        30,
+        511,
+        479
+      ],
+      "sha256": "d8daaa9d159abd66f946fc68428510a018c53596834d70dd88f4f4d4dc6bddd9",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_enbiggenator_0_hero.dds",
+      "source_dds_sha256": "150005033fe31e2c81fe66faf654b44a6666d8304895d9f82969d21fdb54bee4"
+    },
+    "gear_pedal_eq5_0": {
+      "urn": "urn:image:dds:gear_pedal_eq5_0",
+      "file": "device-images/gear_pedal_eq5_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        108,
+        1,
+        404,
+        512
+      ],
+      "sha256": "ff710b4e9275c4241a570b6014fa332d4eaa2ee7ba3cad396eb6de0a0f4b2d13",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_eq5_0_hero.dds",
+      "source_dds_sha256": "e54a98a79fc532c9373170959cbee08a426029f8e630f02feffebf4ece9fce91"
+    },
+    "gear_pedal_eq8_0": {
+      "urn": "urn:image:dds:gear_pedal_eq8_0",
+      "file": "device-images/gear_pedal_eq8_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        30,
+        511,
+        479
+      ],
+      "sha256": "a136d8959eebf538fb8bc1325b6a287d268b2b64d58eaa21ddc50fb6e3ed3649",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_eq8_0_hero.dds",
+      "source_dds_sha256": "0f04f4c2a946f98139d511785a8c1ac64d22bf87d2b3f6dd1a3a3c0d6d61b41a"
+    },
+    "gear_pedal_fuzzwashe_0": {
+      "urn": "urn:image:dds:gear_pedal_fuzzwashe_0",
+      "file": "device-images/gear_pedal_fuzzwashe_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        108,
+        1,
+        404,
+        512
+      ],
+      "sha256": "70e1e8238253aa581ff47b52149efc7184a984be6847e74d9e0f6d18feb0c84c",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_fuzzwashe_0_hero.dds",
+      "source_dds_sha256": "fe5a839a29322e47c89a4b7e5419d5dfe23c4fc7a157aeb6088da47ccf5de951"
+    },
+    "gear_pedal_germaniumdrive_0": {
+      "urn": "urn:image:dds:gear_pedal_germaniumdrive_0",
+      "file": "device-images/gear_pedal_germaniumdrive_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        52,
+        2,
+        460,
+        510
+      ],
+      "sha256": "280f949da24cb22f990a9a4226ab825eab426234ecd55af63b43ae818c2bcc9b",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_germaniumdrive_0_hero.dds",
+      "source_dds_sha256": "d1dd65c49c3e701dc77e5aa955e72cd70c127e7c51f98ef0a7b19c34467a57da"
+    },
+    "gear_pedal_limiter_0": {
+      "urn": "urn:image:dds:gear_pedal_limiter_0",
+      "file": "device-images/gear_pedal_limiter_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        108,
+        1,
+        404,
+        512
+      ],
+      "sha256": "07c2309caadb5f90f39d8e83ee9e2a7d263e1771293d7992348acd0f0ab713a9",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_limiter_0_hero.dds",
+      "source_dds_sha256": "fc6125c0f9bb08a938fe3cef2311cd10163cb26a4497a93a98245554eed259c2"
+    },
+    "gear_pedal_linedrive_0": {
+      "urn": "urn:image:dds:gear_pedal_linedrive_0",
+      "file": "device-images/gear_pedal_linedrive_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        90,
+        1,
+        420,
+        511
+      ],
+      "sha256": "b6041f11cee5e9ac97ef1c25cc48a46051eeed48fcdad84bfca31b8510f7b052",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_linedrive_0_hero.dds",
+      "source_dds_sha256": "84c9b07b4f2e3dcb5edfe1dba92d682d04e3cc402a9dde58fa075bf53a2bc07f"
+    },
+    "gear_pedal_lofifilter_0": {
+      "urn": "urn:image:dds:gear_pedal_lofifilter_0",
+      "file": "device-images/gear_pedal_lofifilter_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        90,
+        1,
+        420,
+        511
+      ],
+      "sha256": "b5faa1f1db14b1dfdaccb18f6c5cc10285642d97ad85bc151617ae0ea1377c1e",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_lofifilter_0_hero.dds",
+      "source_dds_sha256": "5ddd4b71df3063d7ed431f824b0cef716757cd1523b2722522af7a606177cce8"
+    },
+    "gear_pedal_marshallguvnorplus_0": {
+      "urn": "urn:image:dds:gear_pedal_marshallguvnorplus_0",
+      "file": "device-images/gear_pedal_marshallguvnorplus_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        105,
+        1,
+        407,
+        511
+      ],
+      "sha256": "037805eaaf57aa526eec13442dd5814cbfc998ff989b939af3ef233f4e5e032b",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_marshallguvnorplus_0_hero.dds",
+      "source_dds_sha256": "e19e7b79dea5ff421474a78db648e4bfeb5c3fb8762999f5d78ece1237d291af"
+    },
+    "gear_pedal_marshallsupervibe_0": {
+      "urn": "urn:image:dds:gear_pedal_marshallsupervibe_0",
+      "file": "device-images/gear_pedal_marshallsupervibe_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        105,
+        1,
+        407,
+        511
+      ],
+      "sha256": "858a9fd240b12e09edad40cf0fbd19ba3e59248c89064463d54ea0c129f51631",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_marshallsupervibe_0_hero.dds",
+      "source_dds_sha256": "5e68fe2a73500afad9acff1f3706b5d586e573d20f1221bf88e1a0408a869eee"
+    },
+    "gear_pedal_metaldistortion_0": {
+      "urn": "urn:image:dds:gear_pedal_metaldistortion_0",
+      "file": "device-images/gear_pedal_metaldistortion_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        119,
+        511,
+        393
+      ],
+      "sha256": "6735577009c124e6ecdd4983df1f6cf93ebcdae1838f59487bce95ffc18a3246",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_metaldistortion_0_hero.dds",
+      "source_dds_sha256": "54339aad0203f78b0273ea8abb8d56a1138214d4d507543d30d3d370c950c65d"
+    },
+    "gear_pedal_moddelay_0": {
+      "urn": "urn:image:dds:gear_pedal_moddelay_0",
+      "file": "device-images/gear_pedal_moddelay_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        108,
+        1,
+        404,
+        512
+      ],
+      "sha256": "6b344c91ff7f19286bf935786443283569bca6248a2c86e99808fe65156f1b70",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_moddelay_0_hero.dds",
+      "source_dds_sha256": "f4655603b8004786e07f51f61052afbcbe2b55ca75391803670988acef3836d6"
+    },
+    "gear_pedal_modernflanger_0": {
+      "urn": "urn:image:dds:gear_pedal_modernflanger_0",
+      "file": "device-images/gear_pedal_modernflanger_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        52,
+        2,
+        460,
+        510
+      ],
+      "sha256": "a50212d045c03538e98bdaff443793aecbb9d636be2f73e50c91e051eb3f21f6",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_modernflanger_0_hero.dds",
+      "source_dds_sha256": "aac46a8edc17ba92bb1080e70f63eb57f4e46e57eb08cfd1d02a993db12efc3d"
+    },
+    "gear_pedal_modernwah_0": {
+      "urn": "urn:image:dds:gear_pedal_modernwah_0",
+      "file": "device-images/gear_pedal_modernwah_0.png",
+      "dimensions": [
+        256,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        21,
+        1,
+        239,
+        511
+      ],
+      "sha256": "3a74e9efdde605afe9430d153a2c6bca203e3d8e9626cf34e6871062f5dcec32",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_modernwah_0_hero.dds",
+      "source_dds_sha256": "32b383e9d187dfa1f996d6106ca19205c5c8537f3571a3ef66519b1cdd7004aa"
+    },
+    "gear_pedal_multipitch_0": {
+      "urn": "urn:image:dds:gear_pedal_multipitch_0",
+      "file": "device-images/gear_pedal_multipitch_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        52,
+        2,
+        460,
+        510
+      ],
+      "sha256": "fb90bb02f87dfe99479dbe8bab0eb5f42a51696af28382fde43b2cab29c9aa92",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_multipitch_0_hero.dds",
+      "source_dds_sha256": "7d4eca3e0b9b84e24a1bb7887bc64c61a2d488af47243409cbb8d83d0d85a9b4"
+    },
+    "gear_pedal_multitrem_0": {
+      "urn": "urn:image:dds:gear_pedal_multitrem_0",
+      "file": "device-images/gear_pedal_multitrem_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        108,
+        1,
+        404,
+        512
+      ],
+      "sha256": "69dde4351b984496d6e78d59b43c27fe446c3d823c2c56d9ed015ae14872ad81",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_multitrem_0_hero.dds",
+      "source_dds_sha256": "1a0e40312fcd81815bdade9e638560393847de5bcf95131c61df00ea5aba6a39"
+    },
+    "gear_pedal_multivibe_0": {
+      "urn": "urn:image:dds:gear_pedal_multivibe_0",
+      "file": "device-images/gear_pedal_multivibe_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        108,
+        1,
+        404,
+        512
+      ],
+      "sha256": "e3eff54c4637aae0dfc5831f849618d42f1cd69d25811efe7d0512bdc1400433",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_multivibe_0_hero.dds",
+      "source_dds_sha256": "02fde5a66cea5bebc0362d747fb54b973b33ce0234c7e65eab9d1183cac97722"
+    },
+    "gear_pedal_nofiecho_0": {
+      "urn": "urn:image:dds:gear_pedal_nofiecho_0",
+      "file": "device-images/gear_pedal_nofiecho_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        108,
+        0,
+        404,
+        512
+      ],
+      "sha256": "e4192d68faf95ba6e9a6d4f41f0d84e4c09e15da20401309a8fe10428b746fca",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_nofiecho_0_hero.dds",
+      "source_dds_sha256": "4777ac8085905476b740f5a97c3a182f39acfec9ab27ec87aa263e86e5a8c68d"
+    },
+    "gear_pedal_noisegate_0": {
+      "urn": "urn:image:dds:gear_pedal_noisegate_0",
+      "file": "device-images/gear_pedal_noisegate_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        119,
+        511,
+        393
+      ],
+      "sha256": "45a195e385554a0839c62848d169e71d92e7a2c1df4c30158abb5d91db028a5b",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_noisegate_0_hero.dds",
+      "source_dds_sha256": "21c1a7ebe4a3f132a5003feaf6765c5bf84f013bbeadab09628ad768fdc87ca7"
+    },
+    "gear_pedal_npndelay_0": {
+      "urn": "urn:image:dds:gear_pedal_npndelay_0",
+      "file": "device-images/gear_pedal_npndelay_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        119,
+        511,
+        393
+      ],
+      "sha256": "edfa0f47782eb54f79a614c481876e6913cae1d3530ab64613e09be5bee4ed79",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_npndelay_0_hero.dds",
+      "source_dds_sha256": "57b6fb21c2744911913b7e8a964da93c4160259d8407d00c0f4adbf6e5b1f20d"
+    },
+    "gear_pedal_octaveup_0": {
+      "urn": "urn:image:dds:gear_pedal_octaveup_0",
+      "file": "device-images/gear_pedal_octaveup_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        90,
+        1,
+        420,
+        511
+      ],
+      "sha256": "aa8339b6812dab92fab35550a1368d464ca5bd89e397eba16c11d16e5e58b201",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_octaveup_0_hero.dds",
+      "source_dds_sha256": "bde5be8ab9917e7448c8bd7f518c4e05fb9d80bf92e98a646a1ec6b9b7def5bd"
+    },
+    "gear_pedal_octavius_0": {
+      "urn": "urn:image:dds:gear_pedal_octavius_0",
+      "file": "device-images/gear_pedal_octavius_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        108,
+        1,
+        404,
+        512
+      ],
+      "sha256": "87647739f7763f4338556fa3b54129fac3141e2e9250c4a2a151e1b6b26d4c61",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_octavius_0_hero.dds",
+      "source_dds_sha256": "2dde24ac0800ff6f09b53476269ca5c8b0f34d80a98ffc4b0901d9a679be81fd"
+    },
+    "gear_pedal_oilcanecho_0": {
+      "urn": "urn:image:dds:gear_pedal_oilcanecho_0",
+      "file": "device-images/gear_pedal_oilcanecho_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        52,
+        3,
+        511,
+        510
+      ],
+      "sha256": "f5bd8b3057252add262c570bb4e734bbbcff32b57029f4d1fca55ffb2174ea7d",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_oilcanecho_0_hero.dds",
+      "source_dds_sha256": "8ad193c1b4208bbd6ddb12b482875b2a3448cba9e57d910309c6974c5703c51e"
+    },
+    "gear_pedal_omnimod_0": {
+      "urn": "urn:image:dds:gear_pedal_omnimod_0",
+      "file": "device-images/gear_pedal_omnimod_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        119,
+        511,
+        393
+      ],
+      "sha256": "0e3074a817cd0e9d66226b86e40f7fe03281b4a50f80594acafd65320459c6d9",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_omnimod_0_hero.dds",
+      "source_dds_sha256": "984124a07f954fb70827dda1e20a66042cd4a7e63fe9a7a53efdff1c56e9c941"
+    },
+    "gear_pedal_phaser_0": {
+      "urn": "urn:image:dds:gear_pedal_phaser_0",
+      "file": "device-images/gear_pedal_phaser_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        108,
+        1,
+        404,
+        512
+      ],
+      "sha256": "edf76e31bc8651949a859357a057653e64db0d4584e7b7c2b518cd678c0504ad",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_phaser_0_hero.dds",
+      "source_dds_sha256": "f35d05056654a92e919de7b682c4949bd5642851a54418d9e503c672e790e0c0"
+    },
+    "gear_pedal_planephase_0": {
+      "urn": "urn:image:dds:gear_pedal_planephase_0",
+      "file": "device-images/gear_pedal_planephase_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        119,
+        511,
+        393
+      ],
+      "sha256": "9eec36f2662c122ec245caa16f1b9c046f367d73d2e72585b3753608b6d72255",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_planephase_0_hero.dds",
+      "source_dds_sha256": "21c01bd5a4dfddf6edc914db93b65cab29457dc193398207f0d983ef141b46d5"
+    },
+    "gear_pedal_plateverb_0": {
+      "urn": "urn:image:dds:gear_pedal_plateverb_0",
+      "file": "device-images/gear_pedal_plateverb_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        30,
+        511,
+        479
+      ],
+      "sha256": "67dbb55dbdd75316b4efe5e93f81b01880b023066aeefe2a7a30dbcdd56292ce",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_plateverb_0_hero.dds",
+      "source_dds_sha256": "35ad3409148013b79cd90a93f8c453bac5d854ea912b9db239b9f4eea32c49d4"
+    },
+    "gear_pedal_rangebooster_0": {
+      "urn": "urn:image:dds:gear_pedal_rangebooster_0",
+      "file": "device-images/gear_pedal_rangebooster_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        108,
+        1,
+        404,
+        512
+      ],
+      "sha256": "7f5b1e49c176cac5c550b52c0cc93d7b9e765fbf49a4e0c2d89491bd91a39a18",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_rangebooster_0_hero.dds",
+      "source_dds_sha256": "4f0c4c78e9d2cfa92c547f2e523a55c01ff36b1ff377ef6db8f61e9e899f5744"
+    },
+    "gear_pedal_ringmod_0": {
+      "urn": "urn:image:dds:gear_pedal_ringmod_0",
+      "file": "device-images/gear_pedal_ringmod_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        119,
+        511,
+        393
+      ],
+      "sha256": "403b39d3fa32067a9205ab2827b75d096257e3a264fe6d9e990871d013dbdd93",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_ringmod_0_hero.dds",
+      "source_dds_sha256": "770d2f33a9e844582e5101a05be9bcdcad49d193055066bb4ed3c14097161eb2"
+    },
+    "gear_pedal_sendintheclones_0": {
+      "urn": "urn:image:dds:gear_pedal_sendintheclones_0",
+      "file": "device-images/gear_pedal_sendintheclones_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        52,
+        2,
+        460,
+        510
+      ],
+      "sha256": "a59175050fc4f087e24d1d78dfe9c8cff2a62219aa4af20204fb991352040b1d",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_sendintheclones_0_hero.dds",
+      "source_dds_sha256": "777ab950cd1215afc31e63c47441ae653423c0c32d3509382408d48fa30e67a6"
+    },
+    "gear_pedal_shaverphaser_0": {
+      "urn": "urn:image:dds:gear_pedal_shaverphaser_0",
+      "file": "device-images/gear_pedal_shaverphaser_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        108,
+        1,
+        404,
+        512
+      ],
+      "sha256": "9e27287b073013a67e3f1a245e78dbda93317c68fae2e0a12ce326a2266ef5aa",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_shaverphaser_0_hero.dds",
+      "source_dds_sha256": "52c4560d6db9967b0a75ee30000021f1acad2813ae7cc1b4d71fccc134cede84"
+    },
+    "gear_pedal_shredzone_0": {
+      "urn": "urn:image:dds:gear_pedal_shredzone_0",
+      "file": "device-images/gear_pedal_shredzone_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        108,
+        1,
+        404,
+        512
+      ],
+      "sha256": "c48b3e85c93ffa0c0828a6ca68f864244debe77561f09f10708c3bbae0202162",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_shredzone_0_hero.dds",
+      "source_dds_sha256": "a5ec9af5a8eef3d2e017bf86cb2c0d3f77ddd12f052b0d953c957c57c82f54ce"
+    },
+    "gear_pedal_springreverb_0": {
+      "urn": "urn:image:dds:gear_pedal_springreverb_0",
+      "file": "device-images/gear_pedal_springreverb_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        52,
+        2,
+        460,
+        510
+      ],
+      "sha256": "ebf04b4b79748bed21565cbcbb224cc74133a5fce19173f1004ecb895235cde8",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_springreverb_0_hero.dds",
+      "source_dds_sha256": "c4884fe10eaebb23cd8003f780eda30fdee865c3cccab5d114f108137b38fc8c"
+    },
+    "gear_pedal_superdrive_0": {
+      "urn": "urn:image:dds:gear_pedal_superdrive_0",
+      "file": "device-images/gear_pedal_superdrive_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        108,
+        1,
+        404,
+        512
+      ],
+      "sha256": "2d2e698f1511c947f73258d3350d6b47b94b28f23d5d5e391f91fdd4c47c7600",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_superdrive_0_hero.dds",
+      "source_dds_sha256": "6846b894471f09588adde2015fa659744a9a0d1fa22d7a43fbb15f8f3d62e429"
+    },
+    "gear_pedal_swole_0": {
+      "urn": "urn:image:dds:gear_pedal_swole_0",
+      "file": "device-images/gear_pedal_swole_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        118,
+        511,
+        393
+      ],
+      "sha256": "e129638c11a9b2055b88efd0242ba1527eb60079ff2d44271537e0f6e2118c6a",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_swole_0_hero.dds",
+      "source_dds_sha256": "fb032f2789acf5f312007e368ca9ee1c9e248bb2e8d510cd8c84678c87477ed0"
+    },
+    "gear_pedal_tremole_0": {
+      "urn": "urn:image:dds:gear_pedal_tremole_0",
+      "file": "device-images/gear_pedal_tremole_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        52,
+        2,
+        460,
+        510
+      ],
+      "sha256": "034a8f7e64048343377f595cd31ce116a886369b35a7b1056f06a52d0789250b",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_tremole_0_hero.dds",
+      "source_dds_sha256": "c84442754fb0c5da9e118977c428f71c627e152a23fa3cfbcfb5403388802c6e"
+    },
+    "gear_pedal_tremolo_0": {
+      "urn": "urn:image:dds:gear_pedal_tremolo_0",
+      "file": "device-images/gear_pedal_tremolo_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        90,
+        1,
+        420,
+        511
+      ],
+      "sha256": "40122fb453cecbf8658deade5d5560a38bed8c914abb5f9fd73a6e399864e5e7",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_tremolo_0_hero.dds",
+      "source_dds_sha256": "c6a52024483bf6708cd08bbf9ed946a89d46aa9e2c37c9d3bccf6e8342cce4ca"
+    },
+    "gear_pedal_tubespring_0": {
+      "urn": "urn:image:dds:gear_pedal_tubespring_0",
+      "file": "device-images/gear_pedal_tubespring_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        90,
+        1,
+        420,
+        511
+      ],
+      "sha256": "c0046a91ae93eb53900c87b5ced01d03d6aea6d93f2c9133cde82757a34f5e24",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_tubespring_0_hero.dds",
+      "source_dds_sha256": "4c1cb55c4f0bcdb30d1f7054478a7df70f09d8d09bdc2bd86fa19c1027e5adce"
+    },
+    "gear_pedal_ukwah_0": {
+      "urn": "urn:image:dds:gear_pedal_ukwah_0",
+      "file": "device-images/gear_pedal_ukwah_0.png",
+      "dimensions": [
+        256,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        21,
+        1,
+        239,
+        511
+      ],
+      "sha256": "0442c4778338d54aa51944e1d6f15fab48a2be112a2dc98401775b01875a640d",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_ukwah_0_hero.dds",
+      "source_dds_sha256": "e70ebdf1df9162a3d1ffc135720ac4532b52eca00be9f6546b93b709499e1ccb"
+    },
+    "gear_pedal_uswah_0": {
+      "urn": "urn:image:dds:gear_pedal_uswah_0",
+      "file": "device-images/gear_pedal_uswah_0.png",
+      "dimensions": [
+        256,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        21,
+        1,
+        239,
+        511
+      ],
+      "sha256": "d32730ab6235ba5599b3eca4dd2f1cb86b9b35b14ae804acdf27e57ff1091d4f",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_uswah_0_hero.dds",
+      "source_dds_sha256": "e95dfa1e06a2bacda9b865f99b6798e0ff12592dbf74933f7cfa78a200f5b6e4"
+    },
+    "gear_pedal_valveecho_0": {
+      "urn": "urn:image:dds:gear_pedal_valveecho_0",
+      "file": "device-images/gear_pedal_valveecho_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        30,
+        511,
+        479
+      ],
+      "sha256": "f30b9f8d25e7bbd7119aff7ef9e46d07ba24267f66e3ab115b400601c6b07381",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_valveecho_0_hero.dds",
+      "source_dds_sha256": "c33a10a0b7cf634d6aa96c1768539bd75817509341fd07c39c745c356a3763e7"
+    },
+    "gear_pedal_vintagechorus_0": {
+      "urn": "urn:image:dds:gear_pedal_vintagechorus_0",
+      "file": "device-images/gear_pedal_vintagechorus_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        90,
+        0,
+        425,
+        511
+      ],
+      "sha256": "20ffb154d4a02793b01b4da0ce11da5170808507000bac45b6618ede226df6b2",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_vintagechorus_0_hero.dds",
+      "source_dds_sha256": "a50aef207685a1745490154afb07007bd5288c9489099599a545cd50f5852069"
+    },
+    "gear_pedal_vintagedistortion_0": {
+      "urn": "urn:image:dds:gear_pedal_vintagedistortion_0",
+      "file": "device-images/gear_pedal_vintagedistortion_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        90,
+        1,
+        420,
+        511
+      ],
+      "sha256": "c7fa2c0a0c3e8f84db5b3318949c3fe35e450991db802ff15ef68bb7cbf7263d",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_vintagedistortion_0_hero.dds",
+      "source_dds_sha256": "878c755f0b5b02a29ac276794169d560c50253bca8d89653f1b1c384f4f7e13d"
+    },
+    "gear_pedal_vintageflanger_0": {
+      "urn": "urn:image:dds:gear_pedal_vintageflanger_0",
+      "file": "device-images/gear_pedal_vintageflanger_0.png",
+      "dimensions": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        90,
+        1,
+        420,
+        511
+      ],
+      "sha256": "eb825611b67d374d8a597ee4483a012c2ca01702117d63034f94ec21287d5760",
+      "source_member": "gfxassets/tone_designer/effect/gear_pedal_vintageflanger_0_hero.dds",
+      "source_dds_sha256": "b5d5f229670266bcb8ee27bf167ebfee8cb9b1ab8c57f6faeddcd3ace0d29973"
+    },
+    "gear_rack_rotavibe_0": {
+      "urn": "urn:image:dds:gear_rack_rotavibe_0",
+      "file": "device-images/gear_rack_rotavibe_0.png",
+      "dimensions": [
+        1024,
+        128
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        16,
+        1024,
+        113
+      ],
+      "sha256": "544e3dcc091963e91b0174ee4d3dd73c31865f1742e9d0abefcfcaf79aea06e2",
+      "source_member": "gfxassets/tone_designer/effect/gear_rack_rotavibe_0_hero.dds",
+      "source_dds_sha256": "12b26731cb0f50f75775421c775b7c9d89ec176ea8660722feb34119d7f9d384"
+    },
+    "gear_rack_stereoanalogvibe_0": {
+      "urn": "urn:image:dds:gear_rack_stereoanalogvibe_0",
+      "file": "device-images/gear_rack_stereoanalogvibe_0.png",
+      "dimensions": [
+        1024,
+        128
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        16,
+        1024,
+        117
+      ],
+      "sha256": "858348597d17e0fd034e5b0ac0e5704f93a64bc837a6f1e40b656d059a699907",
+      "source_member": "gfxassets/tone_designer/effect/gear_rack_stereoanalogvibe_0_hero.dds",
+      "source_dds_sha256": "802137610890963aa3d7f05f2f61735b0f5098deea237f51e540757c7d7a0305"
+    },
+    "gear_rack_stereophaser_0": {
+      "urn": "urn:image:dds:gear_rack_stereophaser_0",
+      "file": "device-images/gear_rack_stereophaser_0.png",
+      "dimensions": [
+        1024,
+        128
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        16,
+        1024,
+        117
+      ],
+      "sha256": "b1a2edc5e54bef7b2f6e5276be7ec4c4b2d2819aaf667be7190970370900eb0c",
+      "source_member": "gfxassets/tone_designer/effect/gear_rack_stereophaser_0_hero.dds",
+      "source_dds_sha256": "67d868bde2566748c74288d7d8826abbab4d8f44d0c467a67e1032c64b32d868"
+    },
+    "gear_rack_stereotubetrem_0": {
+      "urn": "urn:image:dds:gear_rack_stereotubetrem_0",
+      "file": "device-images/gear_rack_stereotubetrem_0.png",
+      "dimensions": [
+        1024,
+        128
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        16,
+        1024,
+        116
+      ],
+      "sha256": "a3466e781cca96527aa1238d19aa1f78057d337bc5b9ccaa0ae018c4cc8c1473",
+      "source_member": "gfxassets/tone_designer/effect/gear_rack_stereotubetrem_0_hero.dds",
+      "source_dds_sha256": "dfa8c332df4886d1dc86336dba907201a683b2debb1681df10d940ce58069fae"
+    },
+    "gear_rack_studiochamber_0": {
+      "urn": "urn:image:dds:gear_rack_studiochamber_0",
+      "file": "device-images/gear_rack_studiochamber_0.png",
+      "dimensions": [
+        1024,
+        128
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        17,
+        1024,
+        109
+      ],
+      "sha256": "69b8cc504fc873e19ffb1ebeeecd82ea8999850e84dbd247373122db0aa352e4",
+      "source_member": "gfxassets/tone_designer/effect/gear_rack_studiochamber_0_hero.dds",
+      "source_dds_sha256": "a78bc21dd0fde222e2a6d3476e9ae6641af040ca3c174d5e203c87e7d04ed307"
+    },
+    "gear_rack_studiochorus_0": {
+      "urn": "urn:image:dds:gear_rack_studiochorus_0",
+      "file": "device-images/gear_rack_studiochorus_0.png",
+      "dimensions": [
+        1024,
+        128
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        16,
+        1024,
+        110
+      ],
+      "sha256": "7c613591bdb2d860729844e37a7bc222d33adcdfd46619be38ddb4394ac3b603",
+      "source_member": "gfxassets/tone_designer/effect/gear_rack_studiochorus_0_hero.dds",
+      "source_dds_sha256": "817dd30a7cd1edddf7c71f16d5febef7b282ddccb548410d17314429d6f458a8"
+    },
+    "gear_rack_studiocompressor_0": {
+      "urn": "urn:image:dds:gear_rack_studiocompressor_0",
+      "file": "device-images/gear_rack_studiocompressor_0.png",
+      "dimensions": [
+        1024,
+        128
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        16,
+        1024,
+        116
+      ],
+      "sha256": "75d300c11bdfafeae73c0bd1ff926c92eaee5fb9c1c0aa289e10f1bf46ae8683",
+      "source_member": "gfxassets/tone_designer/effect/gear_rack_studiocompressor_0_hero.dds",
+      "source_dds_sha256": "ae446d977b5d4a330abf80a03da0f3dd2f89466ef84ed6933ecd312d205d7eac"
+    },
+    "gear_rack_studiodelay_0": {
+      "urn": "urn:image:dds:gear_rack_studiodelay_0",
+      "file": "device-images/gear_rack_studiodelay_0.png",
+      "dimensions": [
+        1024,
+        128
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        16,
+        1024,
+        110
+      ],
+      "sha256": "1d5896774a4f891b2b110ae1a88e800653d97574fe74c7dcf378729489ad138a",
+      "source_member": "gfxassets/tone_designer/effect/gear_rack_studiodelay_0_hero.dds",
+      "source_dds_sha256": "740a1000391b8d67c6a3c8abd46b86fb4955a82ba069e319f490b35c656ca796"
+    },
+    "gear_rack_studioeq_0": {
+      "urn": "urn:image:dds:gear_rack_studioeq_0",
+      "file": "device-images/gear_rack_studioeq_0.png",
+      "dimensions": [
+        1024,
+        128
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        17,
+        1024,
+        116
+      ],
+      "sha256": "b4fa346a4b9bd75b7466ebeaf4be10c442a761c289abd007221ad777474f5bcb",
+      "source_member": "gfxassets/tone_designer/effect/gear_rack_studioeq_0_hero.dds",
+      "source_dds_sha256": "3d9d4f9fe4ce77b2ab9b7240c02d7af49a85dcece429d12e79d3394d3f316c12"
+    },
+    "gear_rack_studioflanger_0": {
+      "urn": "urn:image:dds:gear_rack_studioflanger_0",
+      "file": "device-images/gear_rack_studioflanger_0.png",
+      "dimensions": [
+        1024,
+        128
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        16,
+        1024,
+        116
+      ],
+      "sha256": "8997a58323c7b7e6b4fc788ec3aec5da5abe4e8c2bf3bf276add0ed7cd586303",
+      "source_member": "gfxassets/tone_designer/effect/gear_rack_studioflanger_0_hero.dds",
+      "source_dds_sha256": "4a664013c1fd7b390593e2c86146c124813faa32fa0e8499071c58217853b927"
+    },
+    "gear_rack_studiographiceq_0": {
+      "urn": "urn:image:dds:gear_rack_studiographiceq_0",
+      "file": "device-images/gear_rack_studiographiceq_0.png",
+      "dimensions": [
+        1024,
+        128
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        17,
+        1024,
+        117
+      ],
+      "sha256": "f96d8bc9d26ce6bf7096011b0d565daf1c84c38dd5d4622be3558c970950232a",
+      "source_member": "gfxassets/tone_designer/effect/gear_rack_studiographiceq_0_hero.dds",
+      "source_dds_sha256": "41272ed816cb234063d30fd68fd0922fd2208095e734ef35e2746a0bcd40c9b0"
+    },
+    "gear_rack_studiopitch_0": {
+      "urn": "urn:image:dds:gear_rack_studiopitch_0",
+      "file": "device-images/gear_rack_studiopitch_0.png",
+      "dimensions": [
+        1024,
+        128
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        16,
+        1024,
+        117
+      ],
+      "sha256": "1a0ecc35cb53615cf1a453a6f690d190a199847de7eec27d3cd76bcca1154f07",
+      "source_member": "gfxassets/tone_designer/effect/gear_rack_studiopitch_0_hero.dds",
+      "source_dds_sha256": "535c637bcc08f271dda3099994d846171bf906283622cfdcb23d0382343eb4df"
+    },
+    "gear_rack_studioplate_0": {
+      "urn": "urn:image:dds:gear_rack_studioplate_0",
+      "file": "device-images/gear_rack_studioplate_0.png",
+      "dimensions": [
+        1024,
+        128
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        17,
+        1024,
+        109
+      ],
+      "sha256": "e4a76a7351d94eb7fde4752e27ee4e770b4a3cd40c3bb5db24126ce8afab49e6",
+      "source_member": "gfxassets/tone_designer/effect/gear_rack_studioplate_0_hero.dds",
+      "source_dds_sha256": "43d0bf5bcee3556f335cd843d400ee5b2d2bd88cdc87ee9dd009cbeb1587dd26"
+    },
+    "gear_rack_studioverb_0": {
+      "urn": "urn:image:dds:gear_rack_studioverb_0",
+      "file": "device-images/gear_rack_studioverb_0.png",
+      "dimensions": [
+        1024,
+        128
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        16,
+        1024,
+        113
+      ],
+      "sha256": "c472ee0af3b89a850d21bb4c43f816343972bb5bad1536417e08354419657102",
+      "source_member": "gfxassets/tone_designer/effect/gear_rack_studioverb_0_hero.dds",
+      "source_dds_sha256": "cc560f59bb637d46fd4f1c0534752132140ccfb015dfa161ed2e70a5cf9cd79b"
+    },
+    "gear_rack_studiowahfilter_0": {
+      "urn": "urn:image:dds:gear_rack_studiowahfilter_0",
+      "file": "device-images/gear_rack_studiowahfilter_0.png",
+      "dimensions": [
+        1024,
+        128
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        12,
+        1024,
+        116
+      ],
+      "sha256": "4c626fa16d85559c6ae53ef3d217dab8380a0e6ef14614c1cab8c4945f64c167",
+      "source_member": "gfxassets/tone_designer/effect/gear_rack_studiowahfilter_0_hero.dds",
+      "source_dds_sha256": "b3940c37bd7a7f24513643971ed37c98d41105100821267d17873065d0a29745"
+    },
+    "gear_rack_synthfilter_0": {
+      "urn": "urn:image:dds:gear_rack_synthfilter_0",
+      "file": "device-images/gear_rack_synthfilter_0.png",
+      "dimensions": [
+        1024,
+        128
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        17,
+        1024,
+        116
+      ],
+      "sha256": "684368b48e09832723c2e7d617e0e37b689f2f502809404883abc660a8a55da2",
+      "source_member": "gfxassets/tone_designer/effect/gear_rack_synthfilter_0_hero.dds",
+      "source_dds_sha256": "40c86b6f37765051d47925180026219dd87c3d9dba2430f0e538fc1a04a3ec6e"
+    },
+    "gear_rack_tapeecho_0": {
+      "urn": "urn:image:dds:gear_rack_tapeecho_0",
+      "file": "device-images/gear_rack_tapeecho_0.png",
+      "dimensions": [
+        1024,
+        128
+      ],
+      "mode": "RGBA",
+      "alpha_bounds": [
+        0,
+        16,
+        1024,
+        116
+      ],
+      "sha256": "ebe1f8f24bc5c5c1250b564e5927d3b4a22837d455900c2318f578d2ba56bdc1",
+      "source_member": "gfxassets/tone_designer/effect/gear_rack_tapeecho_0_hero.dds",
+      "source_dds_sha256": "8455b1d4e6b5d203641c4f1a55e17c024630189a9b7dbb77ad6b912f516053e6"
+    }
+  },
+  "devices": {
+    "Amp_AT120": "gear_amp_at120_0",
+    "Amp_AT20": "gear_amp_at20_0",
+    "Amp_BT15": "gear_amp_bt15_0",
+    "Amp_BT30": "gear_amp_bt30_0",
+    "Amp_BT45": "gear_amp_bt45_0",
+    "Amp_CA100": "gear_amp_ca100_0",
+    "Amp_CA38": "gear_amp_ca38_0",
+    "Amp_CA85": "gear_amp_ca85_0",
+    "Amp_CS100": "gear_amp_cs100_0",
+    "Amp_CS120": "gear_amp_cs120_0",
+    "Amp_CS90": "gear_amp_cs90_0",
+    "Amp_EN30": "gear_amp_en30_0",
+    "Amp_EN50": "gear_amp_en50_0",
+    "Amp_EpiphoneElectarCentury": "gear_amp_epiphoneelectarcentury_0",
+    "Amp_EpiphoneElectarM": "gear_amp_epiphoneelectarm_0",
+    "Amp_EpiphoneElectricHawaiian": "gear_amp_epiphoneelectrichawaiian_0",
+    "Amp_EpiphoneZephyr": "gear_amp_epiphonezephyr_0",
+    "Amp_GB100": "gear_amp_gb100_0",
+    "Amp_GB38": "gear_amp_gb38_0",
+    "Amp_GB50": "gear_amp_gb50_0",
+    "Amp_GibsonGA79": "gear_amp_gibsonga79_0",
+    "Amp_GibsonGA8": "gear_amp_gibsonga8_0",
+    "Amp_GibsonGA88": "gear_amp_gibsonga88_0",
+    "Amp_HG100": "gear_amp_hg100_0",
+    "Amp_HG180": "gear_amp_hg180_0",
+    "Amp_HG500": "gear_amp_hg500_0",
+    "Amp_Marshall1962Bluesbreaker": "gear_amp_marshall1962bluesbreaker_0",
+    "Amp_MarshallDSL100H": "gear_amp_marshalldsl100h_0",
+    "Amp_MarshallDSL15H": "gear_amp_marshalldsl15h_0",
+    "Amp_MarshallJCM800": "gear_amp_marshalljcm800_0",
+    "Amp_MarshallJTM45": "gear_amp_marshalljtm45_0",
+    "Amp_MarshallJVM410H": "gear_amp_marshalljvm410h_0",
+    "Amp_MarshallPlexi": "gear_amp_marshallplexi_0",
+    "Amp_OrangeAD50": "gear_amp_orangead50_0",
+    "Amp_OrangeJimmyBean": "gear_amp_orangejimmybean_0",
+    "Amp_OrangeOR100": "gear_amp_orangeor100_0",
+    "Amp_OrangeOR50H": "gear_amp_orangeor50h_0",
+    "Amp_OrangeRockerverb": "gear_amp_orangerockerverb_0",
+    "Amp_OrangeTinyTerror": "gear_amp_orangetinyterror_0",
+    "Amp_TW22": "gear_amp_tw22_0",
+    "Amp_TW26": "gear_amp_tw26_0",
+    "Amp_TW40": "gear_amp_tw40_0",
+    "Bass_Amp_BT600B": "gear_bass_amp_bt600b_0",
+    "Bass_Amp_BT880B": "gear_bass_amp_bt880b_0",
+    "Bass_Amp_BT975B": "gear_bass_amp_bt975b_0",
+    "Bass_Amp_CH300B": "gear_bass_amp_ch300b_0",
+    "Bass_Amp_CH350B": "gear_bass_amp_ch350b_0",
+    "Bass_Amp_CH600B": "gear_bass_amp_ch600b_0",
+    "Bass_Amp_CS240B": "gear_bass_amp_cs240b_0",
+    "Bass_Amp_CS300B": "gear_bass_amp_cs300b_0",
+    "Bass_Amp_CS75B": "gear_bass_amp_cs75b_0",
+    "Bass_Amp_EdenE300": "gear_bass_amp_edene300_0",
+    "Bass_Amp_EdenWT550": "gear_bass_amp_edenwt550_0",
+    "Bass_Amp_EdenWT800": "gear_bass_amp_edenwt800_0",
+    "Bass_Amp_HT100B": "gear_bass_amp_ht100b_0",
+    "Bass_Amp_HT300B": "gear_bass_amp_ht300b_0",
+    "Bass_Amp_HT400B": "gear_bass_amp_ht400b_0",
+    "Bass_Amp_LT25B": "gear_bass_amp_lt25b_0",
+    "Bass_Amp_LT85B": "gear_bass_amp_lt85b_0",
+    "Bass_Amp_OrangeAD200B": "gear_bass_amp_orangead200b_0",
+    "Bass_Cab_AT1150BC_57_Cone": "gear_bass_cab_at1150bc_0",
+    "Bass_Cab_AT1150BC_57_Edge": "gear_bass_cab_at1150bc_0",
+    "Bass_Cab_AT1150BC_57_OffAxis": "gear_bass_cab_at1150bc_0",
+    "Bass_Cab_AT1150BC_Condenser_Cone": "gear_bass_cab_at1150bc_0",
+    "Bass_Cab_AT1150BC_Condenser_Edge": "gear_bass_cab_at1150bc_0",
+    "Bass_Cab_AT1150BC_Condenser_OffAxis": "gear_bass_cab_at1150bc_0",
+    "Bass_Cab_AT1150BC_Tube_Cone": "gear_bass_cab_at1150bc_0",
+    "Bass_Cab_AT1150BC_Tube_Edge": "gear_bass_cab_at1150bc_0",
+    "Bass_Cab_AT1150BC_Tube_OffAxis": "gear_bass_cab_at1150bc_0",
+    "Bass_Cab_AT810BC_57_Cone": "gear_bass_cab_at810bc_0",
+    "Bass_Cab_AT810BC_57_Edge": "gear_bass_cab_at810bc_0",
+    "Bass_Cab_AT810BC_57_OffAxis": "gear_bass_cab_at810bc_0",
+    "Bass_Cab_AT810BC_Condenser_Cone": "gear_bass_cab_at810bc_0",
+    "Bass_Cab_AT810BC_Condenser_Edge": "gear_bass_cab_at810bc_0",
+    "Bass_Cab_AT810BC_Condenser_OffAxis": "gear_bass_cab_at810bc_0",
+    "Bass_Cab_AT810BC_Tube_Cone": "gear_bass_cab_at810bc_0",
+    "Bass_Cab_AT810BC_Tube_Edge": "gear_bass_cab_at810bc_0",
+    "Bass_Cab_AT810BC_Tube_OffAxis": "gear_bass_cab_at810bc_0",
+    "Bass_Cab_BT115BC_57_Cone": "gear_bass_cab_bt115bc_0",
+    "Bass_Cab_BT115BC_57_Edge": "gear_bass_cab_bt115bc_0",
+    "Bass_Cab_BT115BC_57_OffAxis": "gear_bass_cab_bt115bc_0",
+    "Bass_Cab_BT115BC_Condenser_Cone": "gear_bass_cab_bt115bc_0",
+    "Bass_Cab_BT115BC_Condenser_Edge": "gear_bass_cab_bt115bc_0",
+    "Bass_Cab_BT115BC_Condenser_OffAxis": "gear_bass_cab_bt115bc_0",
+    "Bass_Cab_BT115BC_Tube_Cone": "gear_bass_cab_bt115bc_0",
+    "Bass_Cab_BT115BC_Tube_Edge": "gear_bass_cab_bt115bc_0",
+    "Bass_Cab_BT115BC_Tube_OffAxis": "gear_bass_cab_bt115bc_0",
+    "Bass_Cab_BT212BC_57_Cone": "gear_bass_cab_bt212bc_0",
+    "Bass_Cab_BT212BC_57_Edge": "gear_bass_cab_bt212bc_0",
+    "Bass_Cab_BT212BC_57_OffAxis": "gear_bass_cab_bt212bc_0",
+    "Bass_Cab_BT212BC_Condenser_Cone": "gear_bass_cab_bt212bc_0",
+    "Bass_Cab_BT212BC_Condenser_Edge": "gear_bass_cab_bt212bc_0",
+    "Bass_Cab_BT212BC_Condenser_OffAxis": "gear_bass_cab_bt212bc_0",
+    "Bass_Cab_BT212BC_Tube_Cone": "gear_bass_cab_bt212bc_0",
+    "Bass_Cab_BT212BC_Tube_Edge": "gear_bass_cab_bt212bc_0",
+    "Bass_Cab_BT212BC_Tube_OffAxis": "gear_bass_cab_bt212bc_0",
+    "Bass_Cab_BT410BC_57_Cone": "gear_bass_cab_bt410bc_0",
+    "Bass_Cab_BT410BC_57_Edge": "gear_bass_cab_bt410bc_0",
+    "Bass_Cab_BT410BC_57_OffAxis": "gear_bass_cab_bt410bc_0",
+    "Bass_Cab_BT410BC_Condenser_Cone": "gear_bass_cab_bt410bc_0",
+    "Bass_Cab_BT410BC_Condenser_Edge": "gear_bass_cab_bt410bc_0",
+    "Bass_Cab_BT410BC_Condenser_OffAxis": "gear_bass_cab_bt410bc_0",
+    "Bass_Cab_BT410BC_Tube_Cone": "gear_bass_cab_bt410bc_0",
+    "Bass_Cab_BT410BC_Tube_Edge": "gear_bass_cab_bt410bc_0",
+    "Bass_Cab_BT410BC_Tube_OffAxis": "gear_bass_cab_bt410bc_0",
+    "Bass_Cab_CA1510BC_57_Cone": "gear_bass_cab_ca1510bc_0",
+    "Bass_Cab_CA1510BC_57_Edge": "gear_bass_cab_ca1510bc_0",
+    "Bass_Cab_CA1510BC_57_OffAxis": "gear_bass_cab_ca1510bc_0",
+    "Bass_Cab_CA1510BC_Condenser_Cone": "gear_bass_cab_ca1510bc_0",
+    "Bass_Cab_CA1510BC_Condenser_Edge": "gear_bass_cab_ca1510bc_0",
+    "Bass_Cab_CA1510BC_Condenser_OffAxis": "gear_bass_cab_ca1510bc_0",
+    "Bass_Cab_CA1510BC_Tube_Cone": "gear_bass_cab_ca1510bc_0",
+    "Bass_Cab_CA1510BC_Tube_Edge": "gear_bass_cab_ca1510bc_0",
+    "Bass_Cab_CA1510BC_Tube_OffAxis": "gear_bass_cab_ca1510bc_0",
+    "Bass_Cab_CH210BC_57_Cone": "gear_bass_cab_ch210bc_0",
+    "Bass_Cab_CH210BC_57_Edge": "gear_bass_cab_ch210bc_0",
+    "Bass_Cab_CH210BC_57_OffAxis": "gear_bass_cab_ch210bc_0",
+    "Bass_Cab_CH210BC_Condenser_Cone": "gear_bass_cab_ch210bc_0",
+    "Bass_Cab_CH210BC_Condenser_Edge": "gear_bass_cab_ch210bc_0",
+    "Bass_Cab_CH210BC_Condenser_OffAxis": "gear_bass_cab_ch210bc_0",
+    "Bass_Cab_CH210BC_Tube_Cone": "gear_bass_cab_ch210bc_0",
+    "Bass_Cab_CH210BC_Tube_Edge": "gear_bass_cab_ch210bc_0",
+    "Bass_Cab_CH210BC_Tube_OffAxis": "gear_bass_cab_ch210bc_0",
+    "Bass_Cab_CH310BC_57_Cone": "gear_bass_cab_ch310bc_0",
+    "Bass_Cab_CH310BC_57_Edge": "gear_bass_cab_ch310bc_0",
+    "Bass_Cab_CH310BC_57_OffAxis": "gear_bass_cab_ch310bc_0",
+    "Bass_Cab_CH310BC_Condenser_Cone": "gear_bass_cab_ch310bc_0",
+    "Bass_Cab_CH310BC_Condenser_Edge": "gear_bass_cab_ch310bc_0",
+    "Bass_Cab_CH310BC_Condenser_OffAxis": "gear_bass_cab_ch310bc_0",
+    "Bass_Cab_CH310BC_Tube_Cone": "gear_bass_cab_ch310bc_0",
+    "Bass_Cab_CH310BC_Tube_Edge": "gear_bass_cab_ch310bc_0",
+    "Bass_Cab_CH310BC_Tube_OffAxis": "gear_bass_cab_ch310bc_0",
+    "Bass_Cab_CH410BC_57_Cone": "gear_bass_cab_ch410bc_0",
+    "Bass_Cab_CH410BC_57_Edge": "gear_bass_cab_ch410bc_0",
+    "Bass_Cab_CH410BC_57_OffAxis": "gear_bass_cab_ch410bc_0",
+    "Bass_Cab_CH410BC_Condenser_Cone": "gear_bass_cab_ch410bc_0",
+    "Bass_Cab_CH410BC_Condenser_Edge": "gear_bass_cab_ch410bc_0",
+    "Bass_Cab_CH410BC_Condenser_OffAxis": "gear_bass_cab_ch410bc_0",
+    "Bass_Cab_CH410BC_Tube_Cone": "gear_bass_cab_ch410bc_0",
+    "Bass_Cab_CH410BC_Tube_Edge": "gear_bass_cab_ch410bc_0",
+    "Bass_Cab_CH410BC_Tube_OffAxis": "gear_bass_cab_ch410bc_0",
+    "Bass_Cab_CS112BC_57_Cone": "gear_bass_cab_cs112bc_0",
+    "Bass_Cab_CS112BC_57_Edge": "gear_bass_cab_cs112bc_0",
+    "Bass_Cab_CS112BC_57_OffAxis": "gear_bass_cab_cs112bc_0",
+    "Bass_Cab_CS112BC_Condenser_Cone": "gear_bass_cab_cs112bc_0",
+    "Bass_Cab_CS112BC_Condenser_Edge": "gear_bass_cab_cs112bc_0",
+    "Bass_Cab_CS112BC_Condenser_OffAxis": "gear_bass_cab_cs112bc_0",
+    "Bass_Cab_CS112BC_Tube_Cone": "gear_bass_cab_cs112bc_0",
+    "Bass_Cab_CS112BC_Tube_Edge": "gear_bass_cab_cs112bc_0",
+    "Bass_Cab_CS112BC_Tube_OffAxis": "gear_bass_cab_cs112bc_0",
+    "Bass_Cab_CS15BC_57_Cone": "gear_bass_cab_cs15bc_0",
+    "Bass_Cab_CS15BC_57_Edge": "gear_bass_cab_cs15bc_0",
+    "Bass_Cab_CS15BC_57_OffAxis": "gear_bass_cab_cs15bc_0",
+    "Bass_Cab_CS15BC_Condenser_Cone": "gear_bass_cab_cs15bc_0",
+    "Bass_Cab_CS15BC_Condenser_Edge": "gear_bass_cab_cs15bc_0",
+    "Bass_Cab_CS15BC_Condenser_OffAxis": "gear_bass_cab_cs15bc_0",
+    "Bass_Cab_CS15BC_Tube_Cone": "gear_bass_cab_cs15bc_0",
+    "Bass_Cab_CS15BC_Tube_Edge": "gear_bass_cab_cs15bc_0",
+    "Bass_Cab_CS15BC_Tube_OffAxis": "gear_bass_cab_cs15bc_0",
+    "Bass_Cab_CS410BC_57_Cone": "gear_bass_cab_cs410bc_0",
+    "Bass_Cab_CS410BC_57_Edge": "gear_bass_cab_cs410bc_0",
+    "Bass_Cab_CS410BC_57_OffAxis": "gear_bass_cab_cs410bc_0",
+    "Bass_Cab_CS410BC_Condenser_Cone": "gear_bass_cab_cs410bc_0",
+    "Bass_Cab_CS410BC_Condenser_Edge": "gear_bass_cab_cs410bc_0",
+    "Bass_Cab_CS410BC_Condenser_OffAxis": "gear_bass_cab_cs410bc_0",
+    "Bass_Cab_CS410BC_Tube_Cone": "gear_bass_cab_cs410bc_0",
+    "Bass_Cab_CS410BC_Tube_Edge": "gear_bass_cab_cs410bc_0",
+    "Bass_Cab_CS410BC_Tube_OffAxis": "gear_bass_cab_cs410bc_0",
+    "Bass_Cab_EdenD115XLT_57_Cone": "gear_bass_cab_edend115xlt_0",
+    "Bass_Cab_EdenD115XLT_57_Edge": "gear_bass_cab_edend115xlt_0",
+    "Bass_Cab_EdenD115XLT_57_OffAxis": "gear_bass_cab_edend115xlt_0",
+    "Bass_Cab_EdenD115XLT_Condenser_Cone": "gear_bass_cab_edend115xlt_0",
+    "Bass_Cab_EdenD115XLT_Condenser_Edge": "gear_bass_cab_edend115xlt_0",
+    "Bass_Cab_EdenD115XLT_Condenser_OffAxis": "gear_bass_cab_edend115xlt_0",
+    "Bass_Cab_EdenD115XLT_Tube_Cone": "gear_bass_cab_edend115xlt_0",
+    "Bass_Cab_EdenD115XLT_Tube_Edge": "gear_bass_cab_edend115xlt_0",
+    "Bass_Cab_EdenD115XLT_Tube_OffAxis": "gear_bass_cab_edend115xlt_0",
+    "Bass_Cab_EdenD212XLT_57_Cone": "gear_bass_cab_edend212xlt_0",
+    "Bass_Cab_EdenD212XLT_57_Edge": "gear_bass_cab_edend212xlt_0",
+    "Bass_Cab_EdenD212XLT_57_OffAxis": "gear_bass_cab_edend212xlt_0",
+    "Bass_Cab_EdenD212XLT_Condenser_Cone": "gear_bass_cab_edend212xlt_0",
+    "Bass_Cab_EdenD212XLT_Condenser_Edge": "gear_bass_cab_edend212xlt_0",
+    "Bass_Cab_EdenD212XLT_Condenser_OffAxis": "gear_bass_cab_edend212xlt_0",
+    "Bass_Cab_EdenD212XLT_Tube_Cone": "gear_bass_cab_edend212xlt_0",
+    "Bass_Cab_EdenD212XLT_Tube_Edge": "gear_bass_cab_edend212xlt_0",
+    "Bass_Cab_EdenD212XLT_Tube_OffAxis": "gear_bass_cab_edend212xlt_0",
+    "Bass_Cab_EdenD410XST_57_Cone": "gear_bass_cab_edend410xst_0",
+    "Bass_Cab_EdenD410XST_57_Edge": "gear_bass_cab_edend410xst_0",
+    "Bass_Cab_EdenD410XST_57_OffAxis": "gear_bass_cab_edend410xst_0",
+    "Bass_Cab_EdenD410XST_Condenser_Cone": "gear_bass_cab_edend410xst_0",
+    "Bass_Cab_EdenD410XST_Condenser_Edge": "gear_bass_cab_edend410xst_0",
+    "Bass_Cab_EdenD410XST_Condenser_OffAxis": "gear_bass_cab_edend410xst_0",
+    "Bass_Cab_EdenD410XST_Tube_Cone": "gear_bass_cab_edend410xst_0",
+    "Bass_Cab_EdenD410XST_Tube_Edge": "gear_bass_cab_edend410xst_0",
+    "Bass_Cab_EdenD410XST_Tube_OffAxis": "gear_bass_cab_edend410xst_0",
+    "Bass_Cab_EdenD610XST_57_Cone": "gear_bass_cab_edend610xst_0",
+    "Bass_Cab_EdenD610XST_57_Edge": "gear_bass_cab_edend610xst_0",
+    "Bass_Cab_EdenD610XST_57_OffAxis": "gear_bass_cab_edend610xst_0",
+    "Bass_Cab_EdenD610XST_Condenser_Cone": "gear_bass_cab_edend610xst_0",
+    "Bass_Cab_EdenD610XST_Condenser_Edge": "gear_bass_cab_edend610xst_0",
+    "Bass_Cab_EdenD610XST_Condenser_OffAxis": "gear_bass_cab_edend610xst_0",
+    "Bass_Cab_EdenD610XST_Tube_Cone": "gear_bass_cab_edend610xst_0",
+    "Bass_Cab_EdenD610XST_Tube_Edge": "gear_bass_cab_edend610xst_0",
+    "Bass_Cab_EdenD610XST_Tube_OffAxis": "gear_bass_cab_edend610xst_0",
+    "Bass_Cab_GB415BC_57_Cone": "gear_bass_cab_gb415bc_0",
+    "Bass_Cab_GB415BC_57_Edge": "gear_bass_cab_gb415bc_0",
+    "Bass_Cab_GB415BC_57_OffAxis": "gear_bass_cab_gb415bc_0",
+    "Bass_Cab_GB415BC_Condenser_Cone": "gear_bass_cab_gb415bc_0",
+    "Bass_Cab_GB415BC_Condenser_Edge": "gear_bass_cab_gb415bc_0",
+    "Bass_Cab_GB415BC_Condenser_OffAxis": "gear_bass_cab_gb415bc_0",
+    "Bass_Cab_GB415BC_Tube_Cone": "gear_bass_cab_gb415bc_0",
+    "Bass_Cab_GB415BC_Tube_Edge": "gear_bass_cab_gb415bc_0",
+    "Bass_Cab_GB415BC_Tube_OffAxis": "gear_bass_cab_gb415bc_0",
+    "Bass_Cab_OrangeOBC115_57_Cone": "gear_bass_cab_orangeobc115_0",
+    "Bass_Cab_OrangeOBC115_57_Edge": "gear_bass_cab_orangeobc115_0",
+    "Bass_Cab_OrangeOBC115_57_OffAxis": "gear_bass_cab_orangeobc115_0",
+    "Bass_Cab_OrangeOBC115_Condenser_Cone": "gear_bass_cab_orangeobc115_0",
+    "Bass_Cab_OrangeOBC115_Condenser_Edge": "gear_bass_cab_orangeobc115_0",
+    "Bass_Cab_OrangeOBC115_Condenser_OffAxis": "gear_bass_cab_orangeobc115_0",
+    "Bass_Cab_OrangeOBC115_Tube_Cone": "gear_bass_cab_orangeobc115_0",
+    "Bass_Cab_OrangeOBC115_Tube_Edge": "gear_bass_cab_orangeobc115_0",
+    "Bass_Cab_OrangeOBC115_Tube_OffAxis": "gear_bass_cab_orangeobc115_0",
+    "Bass_Cab_OrangeOBC810_57_Cone": "gear_bass_cab_orangeobc810_0",
+    "Bass_Cab_OrangeOBC810_57_Edge": "gear_bass_cab_orangeobc810_0",
+    "Bass_Cab_OrangeOBC810_57_OffAxis": "gear_bass_cab_orangeobc810_0",
+    "Bass_Cab_OrangeOBC810_Condenser_Cone": "gear_bass_cab_orangeobc810_0",
+    "Bass_Cab_OrangeOBC810_Condenser_Edge": "gear_bass_cab_orangeobc810_0",
+    "Bass_Cab_OrangeOBC810_Condenser_OffAxis": "gear_bass_cab_orangeobc810_0",
+    "Bass_Cab_OrangeOBC810_Tube_Cone": "gear_bass_cab_orangeobc810_0",
+    "Bass_Cab_OrangeOBC810_Tube_Edge": "gear_bass_cab_orangeobc810_0",
+    "Bass_Cab_OrangeOBC810_Tube_OffAxis": "gear_bass_cab_orangeobc810_0",
+    "Bass_Cab_TW215BC_57_Cone": "gear_bass_cab_tw215bc_0",
+    "Bass_Cab_TW215BC_57_Edge": "gear_bass_cab_tw215bc_0",
+    "Bass_Cab_TW215BC_57_OffAxis": "gear_bass_cab_tw215bc_0",
+    "Bass_Cab_TW215BC_Condenser_Cone": "gear_bass_cab_tw215bc_0",
+    "Bass_Cab_TW215BC_Condenser_Edge": "gear_bass_cab_tw215bc_0",
+    "Bass_Cab_TW215BC_Condenser_OffAxis": "gear_bass_cab_tw215bc_0",
+    "Bass_Cab_TW215BC_Tube_Cone": "gear_bass_cab_tw215bc_0",
+    "Bass_Cab_TW215BC_Tube_Edge": "gear_bass_cab_tw215bc_0",
+    "Bass_Cab_TW215BC_Tube_OffAxis": "gear_bass_cab_tw215bc_0",
+    "Bass_Pedal_BassAutoFilter": "gear_bass_pedal_bassautofilter_0",
+    "Bass_Pedal_BassChorus": "gear_bass_pedal_basschorus_0",
+    "Bass_Pedal_BassDistortion": "gear_bass_pedal_bassdistortion_0",
+    "Bass_Pedal_BassEnbig": "gear_bass_pedal_bassenbig_0",
+    "Bass_Pedal_BassEQ8": "gear_bass_pedal_basseq8_0",
+    "Bass_Pedal_BassFilterDelay": "gear_bass_pedal_bassfilterdelay_0",
+    "Bass_Pedal_BassFilterEcho": "gear_bass_pedal_bassfilterecho_0",
+    "Bass_Pedal_BassFlanger": "gear_bass_pedal_bassflanger_0",
+    "Bass_Pedal_BassFuzz": "gear_bass_pedal_bassfuzz_0",
+    "Bass_Pedal_BassOverdrive": "gear_bass_pedal_bassoverdrive_0",
+    "Bass_Pedal_BassPhase": "gear_bass_pedal_bassphase_0",
+    "Bass_Pedal_BassSubOctave": "gear_bass_pedal_basssuboctave_0",
+    "Bass_Pedal_BassWah": "gear_bass_pedal_basswah_0",
+    "Bass_Pedal_EdenWTDI": "gear_bass_pedal_edenwtdi_0",
+    "Bass_Pedal_MBComp": "gear_bass_pedal_mbcomp_0",
+    "Cab_AT0112C_57_Cone": "gear_cab_at0112c_0",
+    "Cab_AT0112C_57_Edge": "gear_cab_at0112c_0",
+    "Cab_AT0112C_57_OffAxis": "gear_cab_at0112c_0",
+    "Cab_AT0112C_Condenser_Cone": "gear_cab_at0112c_0",
+    "Cab_AT0112C_Condenser_Edge": "gear_cab_at0112c_0",
+    "Cab_AT0112C_Condenser_OffAxis": "gear_cab_at0112c_0",
+    "Cab_AT0112C_Ribbon_Cone": "gear_cab_at0112c_0",
+    "Cab_AT0112C_Ribbon_Edge": "gear_cab_at0112c_0",
+    "Cab_AT0112C_Ribbon_OffAxis": "gear_cab_at0112c_0",
+    "Cab_AT1121C_57_Cone": "gear_cab_at1121c_0",
+    "Cab_AT1121C_57_Edge": "gear_cab_at1121c_0",
+    "Cab_AT1121C_57_OffAxis": "gear_cab_at1121c_0",
+    "Cab_AT1121C_Condenser_Cone": "gear_cab_at1121c_0",
+    "Cab_AT1121C_Condenser_Edge": "gear_cab_at1121c_0",
+    "Cab_AT1121C_Condenser_OffAxis": "gear_cab_at1121c_0",
+    "Cab_AT1121C_Ribbon_Cone": "gear_cab_at1121c_0",
+    "Cab_AT1121C_Ribbon_Edge": "gear_cab_at1121c_0",
+    "Cab_AT1121C_Ribbon_OffAxis": "gear_cab_at1121c_0",
+    "Cab_Audiophile": "gear_cab_audiophile_0",
+    "Cab_BoomBox": "gear_cab_boombox_0",
+    "Cab_BT1120C_57_Cone": "gear_cab_bt1120c_0",
+    "Cab_BT1120C_57_Edge": "gear_cab_bt1120c_0",
+    "Cab_BT1120C_57_OffAxis": "gear_cab_bt1120c_0",
+    "Cab_BT1120C_Condenser_Cone": "gear_cab_bt1120c_0",
+    "Cab_BT1120C_Condenser_Edge": "gear_cab_bt1120c_0",
+    "Cab_BT1120C_Condenser_OffAxis": "gear_cab_bt1120c_0",
+    "Cab_BT1120C_Ribbon_Cone": "gear_cab_bt1120c_0",
+    "Cab_BT1120C_Ribbon_Edge": "gear_cab_bt1120c_0",
+    "Cab_BT1120C_Ribbon_OffAxis": "gear_cab_bt1120c_0",
+    "Cab_BT1121C_57_Cone": "gear_cab_bt1121c_0",
+    "Cab_BT1121C_57_Edge": "gear_cab_bt1121c_0",
+    "Cab_BT1121C_57_OffAxis": "gear_cab_bt1121c_0",
+    "Cab_BT1121C_Condenser_Cone": "gear_cab_bt1121c_0",
+    "Cab_BT1121C_Condenser_Edge": "gear_cab_bt1121c_0",
+    "Cab_BT1121C_Condenser_OffAxis": "gear_cab_bt1121c_0",
+    "Cab_BT1121C_Ribbon_Cone": "gear_cab_bt1121c_0",
+    "Cab_BT1121C_Ribbon_Edge": "gear_cab_bt1121c_0",
+    "Cab_BT1121C_Ribbon_OffAxis": "gear_cab_bt1121c_0",
+    "Cab_BT410C_57_Cone": "gear_cab_bt410c_0",
+    "Cab_BT410C_57_Edge": "gear_cab_bt410c_0",
+    "Cab_BT410C_57_OffAxis": "gear_cab_bt410c_0",
+    "Cab_BT410C_Condenser_Cone": "gear_cab_bt410c_0",
+    "Cab_BT410C_Condenser_Edge": "gear_cab_bt410c_0",
+    "Cab_BT410C_Condenser_OffAxis": "gear_cab_bt410c_0",
+    "Cab_BT410C_Ribbon_Cone": "gear_cab_bt410c_0",
+    "Cab_BT410C_Ribbon_Edge": "gear_cab_bt410c_0",
+    "Cab_BT410C_Ribbon_OffAxis": "gear_cab_bt410c_0",
+    "Cab_CA112C_57_Cone": "gear_cab_ca112c_0",
+    "Cab_CA112C_57_Edge": "gear_cab_ca112c_0",
+    "Cab_CA112C_57_OffAxis": "gear_cab_ca112c_0",
+    "Cab_CA112C_Condenser_Cone": "gear_cab_ca112c_0",
+    "Cab_CA112C_Condenser_Edge": "gear_cab_ca112c_0",
+    "Cab_CA112C_Condenser_OffAxis": "gear_cab_ca112c_0",
+    "Cab_CA112C_Ribbon_Cone": "gear_cab_ca112c_0",
+    "Cab_CA112C_Ribbon_Edge": "gear_cab_ca112c_0",
+    "Cab_CA112C_Ribbon_OffAxis": "gear_cab_ca112c_0",
+    "Cab_CA215C_57_Cone": "gear_cab_ca215c_0",
+    "Cab_CA215C_57_Edge": "gear_cab_ca215c_0",
+    "Cab_CA215C_57_OffAxis": "gear_cab_ca215c_0",
+    "Cab_CA215C_Condenser_Cone": "gear_cab_ca215c_0",
+    "Cab_CA215C_Condenser_Edge": "gear_cab_ca215c_0",
+    "Cab_CA215C_Condenser_OffAxis": "gear_cab_ca215c_0",
+    "Cab_CA215C_Ribbon_Cone": "gear_cab_ca215c_0",
+    "Cab_CA215C_Ribbon_Edge": "gear_cab_ca215c_0",
+    "Cab_CA215C_Ribbon_OffAxis": "gear_cab_ca215c_0",
+    "Cab_CA412C_57_Cone": "gear_cab_ca412c_0",
+    "Cab_CA412C_57_Edge": "gear_cab_ca412c_0",
+    "Cab_CA412C_57_OffAxis": "gear_cab_ca412c_0",
+    "Cab_CA412C_Condenser_Cone": "gear_cab_ca412c_0",
+    "Cab_CA412C_Condenser_Edge": "gear_cab_ca412c_0",
+    "Cab_CA412C_Condenser_OffAxis": "gear_cab_ca412c_0",
+    "Cab_CA412C_Ribbon_Cone": "gear_cab_ca412c_0",
+    "Cab_CA412C_Ribbon_Edge": "gear_cab_ca412c_0",
+    "Cab_CA412C_Ribbon_OffAxis": "gear_cab_ca412c_0",
+    "Cab_CabinetRadio": "gear_cab_cabinetradio_0",
+    "Cab_CS1120C_57_Cone": "gear_cab_cs1120c_0",
+    "Cab_CS1120C_57_Edge": "gear_cab_cs1120c_0",
+    "Cab_CS1120C_57_OffAxis": "gear_cab_cs1120c_0",
+    "Cab_CS1120C_Condenser_Cone": "gear_cab_cs1120c_0",
+    "Cab_CS1120C_Condenser_Edge": "gear_cab_cs1120c_0",
+    "Cab_CS1120C_Condenser_OffAxis": "gear_cab_cs1120c_0",
+    "Cab_CS1120C_Ribbon_Cone": "gear_cab_cs1120c_0",
+    "Cab_CS1120C_Ribbon_Edge": "gear_cab_cs1120c_0",
+    "Cab_CS1120C_Ribbon_OffAxis": "gear_cab_cs1120c_0",
+    "Cab_CS1515C_57_Cone": "gear_cab_cs1515c_0",
+    "Cab_CS1515C_57_Edge": "gear_cab_cs1515c_0",
+    "Cab_CS1515C_57_OffAxis": "gear_cab_cs1515c_0",
+    "Cab_CS1515C_Condenser_Cone": "gear_cab_cs1515c_0",
+    "Cab_CS1515C_Condenser_Edge": "gear_cab_cs1515c_0",
+    "Cab_CS1515C_Condenser_OffAxis": "gear_cab_cs1515c_0",
+    "Cab_CS1515C_Ribbon_Cone": "gear_cab_cs1515c_0",
+    "Cab_CS1515C_Ribbon_Edge": "gear_cab_cs1515c_0",
+    "Cab_CS1515C_Ribbon_OffAxis": "gear_cab_cs1515c_0",
+    "Cab_CS212C_57_Cone": "gear_cab_cs212c_0",
+    "Cab_CS212C_57_Edge": "gear_cab_cs212c_0",
+    "Cab_CS212C_57_OffAxis": "gear_cab_cs212c_0",
+    "Cab_CS212C_Condenser_Cone": "gear_cab_cs212c_0",
+    "Cab_CS212C_Condenser_Edge": "gear_cab_cs212c_0",
+    "Cab_CS212C_Condenser_OffAxis": "gear_cab_cs212c_0",
+    "Cab_CS212C_Ribbon_Cone": "gear_cab_cs212c_0",
+    "Cab_CS212C_Ribbon_Edge": "gear_cab_cs212c_0",
+    "Cab_CS212C_Ribbon_OffAxis": "gear_cab_cs212c_0",
+    "Cab_EN212C_57_Cone": "gear_cab_en212c_0",
+    "Cab_EN212C_57_Edge": "gear_cab_en212c_0",
+    "Cab_EN212C_57_OffAxis": "gear_cab_en212c_0",
+    "Cab_EN212C_Condenser_Cone": "gear_cab_en212c_0",
+    "Cab_EN212C_Condenser_Edge": "gear_cab_en212c_0",
+    "Cab_EN212C_Condenser_OffAxis": "gear_cab_en212c_0",
+    "Cab_EN212C_Ribbon_Cone": "gear_cab_en212c_0",
+    "Cab_EN212C_Ribbon_Edge": "gear_cab_en212c_0",
+    "Cab_EN212C_Ribbon_OffAxis": "gear_cab_en212c_0",
+    "Cab_EN4120C_57_Cone": "gear_cab_en4120c_0",
+    "Cab_EN4120C_57_Edge": "gear_cab_en4120c_0",
+    "Cab_EN4120C_57_OffAxis": "gear_cab_en4120c_0",
+    "Cab_EN4120C_Condenser_Cone": "gear_cab_en4120c_0",
+    "Cab_EN4120C_Condenser_Edge": "gear_cab_en4120c_0",
+    "Cab_EN4120C_Condenser_OffAxis": "gear_cab_en4120c_0",
+    "Cab_EN4120C_Ribbon_Cone": "gear_cab_en4120c_0",
+    "Cab_EN4120C_Ribbon_Edge": "gear_cab_en4120c_0",
+    "Cab_EN4120C_Ribbon_OffAxis": "gear_cab_en4120c_0",
+    "Cab_GB412CMKI_57_Cone": "gear_cab_gb412cmki_0",
+    "Cab_GB412CMKI_57_Edge": "gear_cab_gb412cmki_0",
+    "Cab_GB412CMKI_57_OffAxis": "gear_cab_gb412cmki_0",
+    "Cab_GB412CMKI_Condenser_Cone": "gear_cab_gb412cmki_0",
+    "Cab_GB412CMKI_Condenser_Edge": "gear_cab_gb412cmki_0",
+    "Cab_GB412CMKI_Condenser_OffAxis": "gear_cab_gb412cmki_0",
+    "Cab_GB412CMKI_Ribbon_Cone": "gear_cab_gb412cmki_0",
+    "Cab_GB412CMKI_Ribbon_Edge": "gear_cab_gb412cmki_0",
+    "Cab_GB412CMKI_Ribbon_OffAxis": "gear_cab_gb412cmki_0",
+    "Cab_GB412CMKII_57_Cone": "gear_cab_gb412cmkii_0",
+    "Cab_GB412CMKII_57_Edge": "gear_cab_gb412cmkii_0",
+    "Cab_GB412CMKII_57_OffAxis": "gear_cab_gb412cmkii_0",
+    "Cab_GB412CMKII_Condenser_Cone": "gear_cab_gb412cmkii_0",
+    "Cab_GB412CMKII_Condenser_Edge": "gear_cab_gb412cmkii_0",
+    "Cab_GB412CMKII_Condenser_OffAxis": "gear_cab_gb412cmkii_0",
+    "Cab_GB412CMKII_Ribbon_Cone": "gear_cab_gb412cmkii_0",
+    "Cab_GB412CMKII_Ribbon_Edge": "gear_cab_gb412cmkii_0",
+    "Cab_GB412CMKII_Ribbon_OffAxis": "gear_cab_gb412cmkii_0",
+    "Cab_GB412CMKIII_57_Cone": "gear_cab_gb412cmkiii_0",
+    "Cab_GB412CMKIII_57_Edge": "gear_cab_gb412cmkiii_0",
+    "Cab_GB412CMKIII_57_OffAxis": "gear_cab_gb412cmkiii_0",
+    "Cab_GB412CMKIII_Condenser_Cone": "gear_cab_gb412cmkiii_0",
+    "Cab_GB412CMKIII_Condenser_Edge": "gear_cab_gb412cmkiii_0",
+    "Cab_GB412CMKIII_Condenser_OffAxis": "gear_cab_gb412cmkiii_0",
+    "Cab_GB412CMKIII_Ribbon_Cone": "gear_cab_gb412cmkiii_0",
+    "Cab_GB412CMKIII_Ribbon_Edge": "gear_cab_gb412cmkiii_0",
+    "Cab_GB412CMKIII_Ribbon_OffAxis": "gear_cab_gb412cmkiii_0",
+    "Cab_Gramophone": "gear_cab_gramophone_0",
+    "Cab_HG2120C_57_Cone": "gear_cab_hg2120c_0",
+    "Cab_HG2120C_57_Edge": "gear_cab_hg2120c_0",
+    "Cab_HG2120C_57_OffAxis": "gear_cab_hg2120c_0",
+    "Cab_HG2120C_Condenser_Cone": "gear_cab_hg2120c_0",
+    "Cab_HG2120C_Condenser_Edge": "gear_cab_hg2120c_0",
+    "Cab_HG2120C_Condenser_OffAxis": "gear_cab_hg2120c_0",
+    "Cab_HG2120C_Ribbon_Cone": "gear_cab_hg2120c_0",
+    "Cab_HG2120C_Ribbon_Edge": "gear_cab_hg2120c_0",
+    "Cab_HG2120C_Ribbon_OffAxis": "gear_cab_hg2120c_0",
+    "Cab_HG212C_57_Cone": "gear_cab_hg212c_0",
+    "Cab_HG212C_57_Edge": "gear_cab_hg212c_0",
+    "Cab_HG212C_57_OffAxis": "gear_cab_hg212c_0",
+    "Cab_HG212C_Condenser_Cone": "gear_cab_hg212c_0",
+    "Cab_HG212C_Condenser_Edge": "gear_cab_hg212c_0",
+    "Cab_HG212C_Condenser_OffAxis": "gear_cab_hg212c_0",
+    "Cab_HG212C_Ribbon_Cone": "gear_cab_hg212c_0",
+    "Cab_HG212C_Ribbon_Edge": "gear_cab_hg212c_0",
+    "Cab_HG212C_Ribbon_OffAxis": "gear_cab_hg212c_0",
+    "Cab_HG215C_57_Cone": "gear_cab_hg215c_0",
+    "Cab_HG215C_57_Edge": "gear_cab_hg215c_0",
+    "Cab_HG215C_57_OffAxis": "gear_cab_hg215c_0",
+    "Cab_HG215C_Condenser_Cone": "gear_cab_hg215c_0",
+    "Cab_HG215C_Condenser_Edge": "gear_cab_hg215c_0",
+    "Cab_HG215C_Condenser_OffAxis": "gear_cab_hg215c_0",
+    "Cab_HG215C_Ribbon_Cone": "gear_cab_hg215c_0",
+    "Cab_HG215C_Ribbon_Edge": "gear_cab_hg215c_0",
+    "Cab_HG215C_Ribbon_OffAxis": "gear_cab_hg215c_0",
+    "Cab_JukeBox": "gear_cab_jukebox_0",
+    "Cab_Marshall1936_57_Cone": "gear_cab_marshall1936_0",
+    "Cab_Marshall1936_57_Edge": "gear_cab_marshall1936_0",
+    "Cab_Marshall1936_57_OffAxis": "gear_cab_marshall1936_0",
+    "Cab_Marshall1936_Condenser_Cone": "gear_cab_marshall1936_0",
+    "Cab_Marshall1936_Condenser_Edge": "gear_cab_marshall1936_0",
+    "Cab_Marshall1936_Condenser_OffAxis": "gear_cab_marshall1936_0",
+    "Cab_Marshall1936_Ribbon_Cone": "gear_cab_marshall1936_0",
+    "Cab_Marshall1936_Ribbon_Edge": "gear_cab_marshall1936_0",
+    "Cab_Marshall1936_Ribbon_OffAxis": "gear_cab_marshall1936_0",
+    "Cab_Marshall1960a_57_Cone": "gear_cab_marshall1960a_0",
+    "Cab_Marshall1960a_57_Edge": "gear_cab_marshall1960a_0",
+    "Cab_Marshall1960a_57_OffAxis": "gear_cab_marshall1960a_0",
+    "Cab_Marshall1960a_Condenser_Cone": "gear_cab_marshall1960a_0",
+    "Cab_Marshall1960a_Condenser_Edge": "gear_cab_marshall1960a_0",
+    "Cab_Marshall1960a_Condenser_OffAxis": "gear_cab_marshall1960a_0",
+    "Cab_Marshall1960a_Ribbon_Cone": "gear_cab_marshall1960a_0",
+    "Cab_Marshall1960a_Ribbon_Edge": "gear_cab_marshall1960a_0",
+    "Cab_Marshall1960a_Ribbon_OffAxis": "gear_cab_marshall1960a_0",
+    "Cab_Marshall1960AX_57_Cone": "gear_cab_marshall1960ax_0",
+    "Cab_Marshall1960AX_57_Edge": "gear_cab_marshall1960ax_0",
+    "Cab_Marshall1960AX_57_OffAxis": "gear_cab_marshall1960ax_0",
+    "Cab_Marshall1960AX_Condenser_Cone": "gear_cab_marshall1960ax_0",
+    "Cab_Marshall1960AX_Condenser_Edge": "gear_cab_marshall1960ax_0",
+    "Cab_Marshall1960AX_Condenser_OffAxis": "gear_cab_marshall1960ax_0",
+    "Cab_Marshall1960AX_Ribbon_Cone": "gear_cab_marshall1960ax_0",
+    "Cab_Marshall1960AX_Ribbon_Edge": "gear_cab_marshall1960ax_0",
+    "Cab_Marshall1960AX_Ribbon_OffAxis": "gear_cab_marshall1960ax_0",
+    "Cab_Marshall1960TV_57_Cone": "gear_cab_marshall1960tv_0",
+    "Cab_Marshall1960TV_57_Edge": "gear_cab_marshall1960tv_0",
+    "Cab_Marshall1960TV_57_OffAxis": "gear_cab_marshall1960tv_0",
+    "Cab_Marshall1960TV_Condenser_Cone": "gear_cab_marshall1960tv_0",
+    "Cab_Marshall1960TV_Condenser_Edge": "gear_cab_marshall1960tv_0",
+    "Cab_Marshall1960TV_Condenser_OffAxis": "gear_cab_marshall1960tv_0",
+    "Cab_Marshall1960TV_Ribbon_Cone": "gear_cab_marshall1960tv_0",
+    "Cab_Marshall1960TV_Ribbon_Edge": "gear_cab_marshall1960tv_0",
+    "Cab_Marshall1960TV_Ribbon_OffAxis": "gear_cab_marshall1960tv_0",
+    "Cab_OrangeJimmyBean_57_Cone": "gear_cab_orangejimmybean_0",
+    "Cab_OrangeJimmyBean_57_Edge": "gear_cab_orangejimmybean_0",
+    "Cab_OrangeJimmyBean_57_OffAxis": "gear_cab_orangejimmybean_0",
+    "Cab_OrangeJimmyBean_Condenser_Cone": "gear_cab_orangejimmybean_0",
+    "Cab_OrangeJimmyBean_Condenser_Edge": "gear_cab_orangejimmybean_0",
+    "Cab_OrangeJimmyBean_Condenser_OffAxis": "gear_cab_orangejimmybean_0",
+    "Cab_OrangeJimmyBean_Ribbon_Cone": "gear_cab_orangejimmybean_0",
+    "Cab_OrangeJimmyBean_Ribbon_Edge": "gear_cab_orangejimmybean_0",
+    "Cab_OrangeJimmyBean_Ribbon_OffAxis": "gear_cab_orangejimmybean_0",
+    "Cab_OrangePPC212OB_57_Cone": "gear_cab_orangeppc212ob_0",
+    "Cab_OrangePPC212OB_57_Edge": "gear_cab_orangeppc212ob_0",
+    "Cab_OrangePPC212OB_57_OffAxis": "gear_cab_orangeppc212ob_0",
+    "Cab_OrangePPC212OB_Condenser_Cone": "gear_cab_orangeppc212ob_0",
+    "Cab_OrangePPC212OB_Condenser_Edge": "gear_cab_orangeppc212ob_0",
+    "Cab_OrangePPC212OB_Condenser_OffAxis": "gear_cab_orangeppc212ob_0",
+    "Cab_OrangePPC212OB_Ribbon_Cone": "gear_cab_orangeppc212ob_0",
+    "Cab_OrangePPC212OB_Ribbon_Edge": "gear_cab_orangeppc212ob_0",
+    "Cab_OrangePPC212OB_Ribbon_OffAxis": "gear_cab_orangeppc212ob_0",
+    "Cab_OrangePPC412_57_Cone": "gear_cab_orangeppc412_0",
+    "Cab_OrangePPC412_57_Edge": "gear_cab_orangeppc412_0",
+    "Cab_OrangePPC412_57_OffAxis": "gear_cab_orangeppc412_0",
+    "Cab_OrangePPC412_Condenser_Cone": "gear_cab_orangeppc412_0",
+    "Cab_OrangePPC412_Condenser_Edge": "gear_cab_orangeppc412_0",
+    "Cab_OrangePPC412_Condenser_OffAxis": "gear_cab_orangeppc412_0",
+    "Cab_OrangePPC412_Ribbon_Cone": "gear_cab_orangeppc412_0",
+    "Cab_OrangePPC412_Ribbon_Edge": "gear_cab_orangeppc412_0",
+    "Cab_OrangePPC412_Ribbon_OffAxis": "gear_cab_orangeppc412_0",
+    "Cab_PA1152C": "gear_cab_pa1152c_0",
+    "Cab_PA600C": "gear_cab_pa600c_0",
+    "Cab_PA999C": "gear_cab_pa999c_0",
+    "Cab_TW110C_57_Cone": "gear_cab_tw110c_0",
+    "Cab_TW110C_57_Edge": "gear_cab_tw110c_0",
+    "Cab_TW110C_57_OffAxis": "gear_cab_tw110c_0",
+    "Cab_TW110C_Condenser_Cone": "gear_cab_tw110c_0",
+    "Cab_TW110C_Condenser_Edge": "gear_cab_tw110c_0",
+    "Cab_TW110C_Condenser_OffAxis": "gear_cab_tw110c_0",
+    "Cab_TW110C_Ribbon_Cone": "gear_cab_tw110c_0",
+    "Cab_TW110C_Ribbon_Edge": "gear_cab_tw110c_0",
+    "Cab_TW110C_Ribbon_OffAxis": "gear_cab_tw110c_0",
+    "Cab_TW112C_57_Cone": "gear_cab_tw112c_0",
+    "Cab_TW112C_57_Edge": "gear_cab_tw112c_0",
+    "Cab_TW112C_57_OffAxis": "gear_cab_tw112c_0",
+    "Cab_TW112C_Condenser_Cone": "gear_cab_tw112c_0",
+    "Cab_TW112C_Condenser_Edge": "gear_cab_tw112c_0",
+    "Cab_TW112C_Condenser_OffAxis": "gear_cab_tw112c_0",
+    "Cab_TW112C_Ribbon_Cone": "gear_cab_tw112c_0",
+    "Cab_TW112C_Ribbon_Edge": "gear_cab_tw112c_0",
+    "Cab_TW112C_Ribbon_OffAxis": "gear_cab_tw112c_0",
+    "Cab_TW410C_57_Cone": "gear_cab_tw410c_0",
+    "Cab_TW410C_57_Edge": "gear_cab_tw410c_0",
+    "Cab_TW410C_57_OffAxis": "gear_cab_tw410c_0",
+    "Cab_TW410C_Condenser_Cone": "gear_cab_tw410c_0",
+    "Cab_TW410C_Condenser_Edge": "gear_cab_tw410c_0",
+    "Cab_TW410C_Condenser_OffAxis": "gear_cab_tw410c_0",
+    "Cab_TW410C_Ribbon_Cone": "gear_cab_tw410c_0",
+    "Cab_TW410C_Ribbon_Edge": "gear_cab_tw410c_0",
+    "Cab_TW410C_Ribbon_OffAxis": "gear_cab_tw410c_0",
+    "Cab_VintageHiFi": "gear_cab_vintagehifi_0",
+    "DI_Amp_BassDriver": "gear_di_amp_bassdriver_0",
+    "DI_Amp_MixerPre": "gear_di_amp_mixerpre_0",
+    "DI_Amp_TubePre": "gear_di_amp_tubepre_0",
+    "Pedal_80sFlanger": "gear_pedal_80sflanger_0",
+    "Pedal_AcousticEmulator": "gear_pedal_acousticemulator_0",
+    "Pedal_AmpEQ": "gear_pedal_ampeq_0",
+    "Pedal_AmpTrem": "gear_pedal_amptrem_0",
+    "Pedal_AmpVibe": "gear_pedal_ampvibe_0",
+    "Pedal_AnalogueDelay": "gear_pedal_analoguedelay_0",
+    "Pedal_AutoFilter": "gear_pedal_autofilter_0",
+    "Pedal_AutoVibe": "gear_pedal_autovibe_0",
+    "Pedal_BakedRotatoe": "gear_pedal_bakedrotatoe_0",
+    "Pedal_BassEmulator": "gear_pedal_bassemulator_0",
+    "Pedal_BitCruncher": "gear_pedal_bitcruncher_0",
+    "Pedal_BobFilter": "gear_pedal_bobfilter_0",
+    "Pedal_BuzzOne": "gear_pedal_buzzone_0",
+    "Pedal_BuzzToo": "gear_pedal_buzztoo_0",
+    "Pedal_CaptFuzzle": "gear_pedal_captfuzzle_0",
+    "Pedal_Chorus": "gear_pedal_chorus_0",
+    "Pedal_Chorus20": "gear_pedal_chorus20_0",
+    "Pedal_ClassicFlanger": "gear_pedal_classicflanger_0",
+    "Pedal_Compression": "gear_pedal_compression_0",
+    "Pedal_CosmicEcho": "gear_pedal_cosmicecho_0",
+    "Pedal_CustomDrive": "gear_pedal_customdrive_0",
+    "Pedal_DigitalChorus": "gear_pedal_digitalchorus_0",
+    "Pedal_DigitalVerb": "gear_pedal_digitalverb_0",
+    "Pedal_Distortion": "gear_pedal_distortion_0",
+    "Pedal_Enbiggenator": "gear_pedal_enbiggenator_0",
+    "Pedal_EQ5": "gear_pedal_eq5_0",
+    "Pedal_EQ8": "gear_pedal_eq8_0",
+    "Pedal_FuzzWasHe": "gear_pedal_fuzzwashe_0",
+    "Pedal_GermaniumDrive": "gear_pedal_germaniumdrive_0",
+    "Pedal_Limiter": "gear_pedal_limiter_0",
+    "Pedal_LineDrive": "gear_pedal_linedrive_0",
+    "Pedal_LoFiFilter": "gear_pedal_lofifilter_0",
+    "Pedal_MarshallGuvnorPlus": "gear_pedal_marshallguvnorplus_0",
+    "Pedal_MarshallSupervibe": "gear_pedal_marshallsupervibe_0",
+    "Pedal_MetalDistortion": "gear_pedal_metaldistortion_0",
+    "Pedal_ModDelay": "gear_pedal_moddelay_0",
+    "Pedal_ModernFlanger": "gear_pedal_modernflanger_0",
+    "Pedal_ModernWah": "gear_pedal_modernwah_0",
+    "Pedal_MultiPitch": "gear_pedal_multipitch_0",
+    "Pedal_MultiTrem": "gear_pedal_multitrem_0",
+    "Pedal_MultiVibe": "gear_pedal_multivibe_0",
+    "Pedal_NoFiEcho": "gear_pedal_nofiecho_0",
+    "Pedal_NoiseGate": "gear_pedal_noisegate_0",
+    "Pedal_NPNDelay": "gear_pedal_npndelay_0",
+    "Pedal_OctaveUp": "gear_pedal_octaveup_0",
+    "Pedal_Octavius": "gear_pedal_octavius_0",
+    "Pedal_OilCanEcho": "gear_pedal_oilcanecho_0",
+    "Pedal_OmniMod": "gear_pedal_omnimod_0",
+    "Pedal_Phaser": "gear_pedal_phaser_0",
+    "Pedal_PlanePhase": "gear_pedal_planephase_0",
+    "Pedal_PlateVerb": "gear_pedal_plateverb_0",
+    "Pedal_RangeBooster": "gear_pedal_rangebooster_0",
+    "Pedal_RingMod": "gear_pedal_ringmod_0",
+    "Pedal_SendInTheClones": "gear_pedal_sendintheclones_0",
+    "Pedal_ShaverPhaser": "gear_pedal_shaverphaser_0",
+    "Pedal_ShredZone": "gear_pedal_shredzone_0",
+    "Pedal_SpringReverb": "gear_pedal_springreverb_0",
+    "Pedal_SuperDrive": "gear_pedal_superdrive_0",
+    "Pedal_Swole": "gear_pedal_swole_0",
+    "Pedal_TremOle": "gear_pedal_tremole_0",
+    "Pedal_Tremolo": "gear_pedal_tremolo_0",
+    "Pedal_TubeSpring": "gear_pedal_tubespring_0",
+    "Pedal_UKWah": "gear_pedal_ukwah_0",
+    "Pedal_USWah": "gear_pedal_uswah_0",
+    "Pedal_ValveEcho": "gear_pedal_valveecho_0",
+    "Pedal_VintageChorus": "gear_pedal_vintagechorus_0",
+    "Pedal_VintageDistortion": "gear_pedal_vintagedistortion_0",
+    "Pedal_VintageFlanger": "gear_pedal_vintageflanger_0",
+    "Rack_RotaVibe": "gear_rack_rotavibe_0",
+    "Rack_StereoAnalogVibe": "gear_rack_stereoanalogvibe_0",
+    "Rack_StereoPhaser": "gear_rack_stereophaser_0",
+    "Rack_StereoTubeTrem": "gear_rack_stereotubetrem_0",
+    "Rack_StudioChamber": "gear_rack_studiochamber_0",
+    "Rack_StudioChorus": "gear_rack_studiochorus_0",
+    "Rack_StudioCompressor": "gear_rack_studiocompressor_0",
+    "Rack_StudioDelay": "gear_rack_studiodelay_0",
+    "Rack_StudioEQ": "gear_rack_studioeq_0",
+    "Rack_StudioFlanger": "gear_rack_studioflanger_0",
+    "Rack_StudioGraphicEQ": "gear_rack_studiographiceq_0",
+    "Rack_StudioPitch": "gear_rack_studiopitch_0",
+    "Rack_StudioPlate": "gear_rack_studioplate_0",
+    "Rack_StudioVerb": "gear_rack_studioverb_0",
+    "Rack_StudioWahFilter": "gear_rack_studiowahfilter_0",
+    "Rack_SynthFilter": "gear_rack_synthfilter_0",
+    "Rack_TapeEcho": "gear_rack_tapeecho_0"
+  }
+}

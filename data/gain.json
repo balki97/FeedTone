@@ -1,0 +1,2777 @@
+{
+  "schema": 1,
+  "scope": "Original authored tone gain and calibration routing metadata",
+  "source": {
+    "archive": "audio.resources",
+    "bank": "audio/windows/init.bnk",
+    "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896"
+  },
+  "defaults": {
+    "table_offset": 3502,
+    "undefined_rtpc_default": 0.0,
+    "undefined_rtpc_default_evidence": "ev_b8c1064512c9aae3733b66cab604d83d32ebf5415fd4ab981c5c5a28b7533103",
+    "entries": [
+      {
+        "name": "Meter_Tone_Balance_Return",
+        "rtpc_id": 655737159,
+        "value": -12.0,
+        "present_in_original_table": true
+      },
+      {
+        "name": "P1_NoiseFloor",
+        "rtpc_id": 827002759,
+        "value": -90.0,
+        "present_in_original_table": true
+      },
+      {
+        "name": "Mixer_Player1",
+        "rtpc_id": 1323888317,
+        "value": 100.0,
+        "present_in_original_table": true
+      },
+      {
+        "name": "Mixer_Player2",
+        "rtpc_id": 1323888318,
+        "value": 100.0,
+        "present_in_original_table": true
+      },
+      {
+        "name": "P1_InputVol_Calibration_Return",
+        "rtpc_id": 1335060026,
+        "value": -6.0,
+        "present_in_original_table": true
+      },
+      {
+        "name": "P2_NoiseFloor",
+        "rtpc_id": 1425358290,
+        "value": -90.0,
+        "present_in_original_table": true
+      },
+      {
+        "name": null,
+        "rtpc_id": 2008083072,
+        "value": -30.0,
+        "present_in_original_table": true
+      },
+      {
+        "name": null,
+        "rtpc_id": 2104778493,
+        "value": -30.0,
+        "present_in_original_table": true
+      },
+      {
+        "name": null,
+        "rtpc_id": 2104778494,
+        "value": -30.0,
+        "present_in_original_table": true
+      },
+      {
+        "name": "P2_InputVol_Calibration_Return",
+        "rtpc_id": 2170567761,
+        "value": -6.0,
+        "present_in_original_table": true
+      },
+      {
+        "name": null,
+        "rtpc_id": 2330808575,
+        "value": -30.0,
+        "present_in_original_table": true
+      },
+      {
+        "name": "P2_Meter_Tone_Balance_Return",
+        "rtpc_id": 2554981950,
+        "value": -12.0,
+        "present_in_original_table": true
+      },
+      {
+        "name": null,
+        "rtpc_id": 4216233813,
+        "value": 0.0,
+        "present_in_original_table": true
+      }
+    ]
+  },
+  "tone_volume": {
+    "json_field": "Volume",
+    "loader": "0x86bed0",
+    "getter": "0x86f1b0",
+    "getter_key": "0x86f230",
+    "native_float_offset": 16,
+    "apply": "0x86bad0",
+    "nonnegative_fallback": -36,
+    "negative_value": "literal authored value rounded to float32",
+    "player0_rtpc": "Meter_Tone_Balance_Return",
+    "player1_rtpc": "P2_Meter_Tone_Balance_Return",
+    "output_gain": "Native0x690003 SetParam15 and Execute; use original instance, not per-amp median normalization",
+    "finite_inputs_required": true,
+    "missing_json_volume_value": 0.0,
+    "player_profiles": {
+      "0": 3369694784,
+      "1": 560151861
+    },
+    "curve_domain": [
+      -36.0,
+      0.0
+    ],
+    "parameter_gain_range": [
+      -12.0,
+      24.0
+    ],
+    "native_gain_parameter": 15,
+    "native_gain_plugin": "0x690003",
+    "signal_order": [
+      "authored gear effect buses",
+      "tone balance effect",
+      "player mixer bus"
+    ],
+    "profile_to_mixer_bus": {
+      "3369694784": [
+        4128152375,
+        2768693346
+      ],
+      "560151861": [
+        4128152372,
+        2768693345
+      ]
+    },
+    "post_bus_chains": {
+      "0": [
+        4128152375,
+        2768693346,
+        367659462,
+        2442829342,
+        3757260660,
+        4161777440,
+        570011333,
+        1111580551,
+        702482391,
+        3803692087
+      ],
+      "1": [
+        4128152372,
+        2768693345,
+        367659462,
+        2442829342,
+        3757260660,
+        4161777440,
+        570011333,
+        1111580551,
+        702482391,
+        3803692087
+      ]
+    },
+    "initialization": "Apply curve-converted SetParam15 before original Init to avoid an unintended first-block gain ramp",
+    "update": "Use original SetParam15 and Execute; original gain routine ramps changes across a block",
+    "no_amp_median_subtraction": true,
+    "no_rms_normalization": true
+  },
+  "profiles": {
+    "68802656": {
+      "id": 68802656,
+      "plugin_id": "0x690003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 68802656,
+        "hirc_type": 19,
+        "hirc_offset": 181070,
+        "record_payload_sha256": "45a8e0f70d2093704cf12fa7730f1acd0d8bea9b96b7c259e5287bdc407bd296"
+      },
+      "parameter_block_hex": "04000000000000000000c8420000803f00060000000000000000007a440000803f00050000000000000000803b460000803f000000000000",
+      "curves": [
+        {
+          "rtpc_id": 1335060026,
+          "rtpc_type_provisional": 0,
+          "curve_id": 275273503,
+          "plugin_parameter_id": 15,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": -30.0,
+              "y": 0.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -18.0,
+              "y": 0.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": 6.0,
+              "y": -24.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": 11.99899959564209,
+              "y": -24.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": 12.0,
+              "y": -24.0,
+              "interpolation_provisional": 4
+            }
+          ]
+        }
+      ],
+      "media": []
+    },
+    "156672307": {
+      "id": 156672307,
+      "plugin_id": "0x6d0003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 156672307,
+        "hirc_type": 19,
+        "hirc_offset": 189375,
+        "record_payload_sha256": "1da00eaeb6edda3448fea8cb641d07ab76e632de7a1fd58aaaf630ffbe449493"
+      },
+      "parameter_block_hex": "000020c2000048426f12833a0ad7233c0000a0400000",
+      "curves": [
+        {
+          "rtpc_id": 1425358290,
+          "rtpc_type_provisional": 0,
+          "curve_id": 1006031132,
+          "plugin_parameter_id": 0,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": -96.30000305175781,
+              "y": -84.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -90.0,
+              "y": -84.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": -50.0,
+              "y": -50.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": 0.0,
+              "y": -50.0,
+              "interpolation_provisional": 4
+            }
+          ]
+        }
+      ],
+      "media": []
+    },
+    "171483412": {
+      "id": 171483412,
+      "plugin_id": "0x6d0003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 171483412,
+        "hirc_type": 19,
+        "hirc_offset": 191483,
+        "record_payload_sha256": "76523b2e43565b168782d8e4aae05abdb650553dbfa016b1f483e2c193b56755"
+      },
+      "parameter_block_hex": "000082c2000048426f12833a0000003f000040410000",
+      "curves": [
+        {
+          "rtpc_id": 827002759,
+          "rtpc_type_provisional": 0,
+          "curve_id": 102822592,
+          "plugin_parameter_id": 0,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": -96.30000305175781,
+              "y": -84.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -90.0,
+              "y": -84.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": -50.0,
+              "y": -50.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": 0.0,
+              "y": -50.0,
+              "interpolation_provisional": 4
+            }
+          ]
+        }
+      ],
+      "media": []
+    },
+    "502995346": {
+      "id": 502995346,
+      "plugin_id": "0x6d0003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 502995346,
+        "hirc_type": 19,
+        "hirc_offset": 217931,
+        "record_payload_sha256": "f45c0a4a89fe0c72c047dc0f702d54e95168d15922115693ee10de0f53717d7d"
+      },
+      "parameter_block_hex": "000020c2000048426f12833a0ad7233c0000a0400000",
+      "curves": [
+        {
+          "rtpc_id": 827002759,
+          "rtpc_type_provisional": 0,
+          "curve_id": 958812486,
+          "plugin_parameter_id": 0,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": -96.30000305175781,
+              "y": -84.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -90.0,
+              "y": -84.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": -50.0,
+              "y": -50.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": 0.0,
+              "y": -50.0,
+              "interpolation_provisional": 4
+            }
+          ]
+        }
+      ],
+      "media": []
+    },
+    "508274769": {
+      "id": 508274769,
+      "plugin_id": "0x690003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 508274769,
+        "hirc_type": 19,
+        "hirc_offset": 218121,
+        "record_payload_sha256": "3af85aa60d65c84fa1f1d0428e1438a5644bf2524b055d48ec66420291f1fd63"
+      },
+      "parameter_block_hex": "040000000000000000409c460000803f01060000000000000000007a440000803f00050000000000000000803b460000803f000000000000",
+      "curves": [
+        {
+          "rtpc_id": 1335060026,
+          "rtpc_type_provisional": 0,
+          "curve_id": 157011613,
+          "plugin_parameter_id": 15,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": -30.0,
+              "y": 12.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": -18.0,
+              "y": 0.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": 6.0,
+              "y": -24.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": 12.0,
+              "y": -24.0,
+              "interpolation_provisional": 4
+            }
+          ]
+        },
+        {
+          "rtpc_id": 1335060026,
+          "rtpc_type_provisional": 0,
+          "curve_id": 285343629,
+          "plugin_parameter_id": 1,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": -30.0,
+              "y": 0.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": 6.0,
+              "y": 0.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": 12.0,
+              "y": -6.0,
+              "interpolation_provisional": 4
+            }
+          ]
+        }
+      ],
+      "media": []
+    },
+    "560151861": {
+      "id": 560151861,
+      "plugin_id": "0x690003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 560151861,
+        "hirc_type": 19,
+        "hirc_offset": 220603,
+        "record_payload_sha256": "b652e7ef629b4174885079151ae78a135f8bc679eab77c3ea95e03e906259038"
+      },
+      "parameter_block_hex": "04000000000000000000c8420000803f00060000000000000000007a440000803f00050000000000000000803b460000803f000000000000",
+      "curves": [
+        {
+          "rtpc_id": 2554981950,
+          "rtpc_type_provisional": 0,
+          "curve_id": 892542585,
+          "plugin_parameter_id": 15,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": -36.0,
+              "y": 24.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": 0.0,
+              "y": -12.0,
+              "interpolation_provisional": 4
+            }
+          ]
+        }
+      ],
+      "media": []
+    },
+    "576308313": {
+      "id": 576308313,
+      "plugin_id": "0x6d0003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 576308313,
+        "hirc_type": 19,
+        "hirc_offset": 221632,
+        "record_payload_sha256": "b5c5614afd02982fe56b681d3191934f0649351e64aa534c83597cdc0e7c8e30"
+      },
+      "parameter_block_hex": "000082c2000048426f12833a0000003f0000a0400000",
+      "curves": [
+        {
+          "rtpc_id": 827002759,
+          "rtpc_type_provisional": 0,
+          "curve_id": 780003321,
+          "plugin_parameter_id": 0,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": -96.30000305175781,
+              "y": -84.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -90.0,
+              "y": -84.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": -50.0,
+              "y": -50.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": 0.0,
+              "y": -50.0,
+              "interpolation_provisional": 4
+            }
+          ]
+        }
+      ],
+      "media": []
+    },
+    "620738738": {
+      "id": 620738738,
+      "plugin_id": "0x690003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 620738738,
+        "hirc_type": 19,
+        "hirc_offset": 225208,
+        "record_payload_sha256": "ed3ecaa79ede0dfdd4e260572fe663faf65b36ad73293aef5b9c0dff6347df42"
+      },
+      "parameter_block_hex": "040000000000000000409c460000803f010100000000000000000016430000803f01050000000000000000803b460000803f000000000000",
+      "curves": [
+        {
+          "rtpc_id": 1335060026,
+          "rtpc_type_provisional": 0,
+          "curve_id": 86406089,
+          "plugin_parameter_id": 15,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": -30.0,
+              "y": 12.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": -18.0,
+              "y": 0.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": 6.0,
+              "y": -24.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": 12.0,
+              "y": -24.0,
+              "interpolation_provisional": 4
+            }
+          ]
+        },
+        {
+          "rtpc_id": 1335060026,
+          "rtpc_type_provisional": 0,
+          "curve_id": 331775849,
+          "plugin_parameter_id": 1,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": -30.0,
+              "y": 0.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": 6.0,
+              "y": 0.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": 12.0,
+              "y": -6.0,
+              "interpolation_provisional": 4
+            }
+          ]
+        }
+      ],
+      "media": []
+    },
+    "622316528": {
+      "id": 622316528,
+      "plugin_id": "0x690003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 622316528,
+        "hirc_type": 19,
+        "hirc_offset": 225394,
+        "record_payload_sha256": "a539cad2ab7bde95004564599ed45ea1d604e10abfbfeae14de3d96298599aa6"
+      },
+      "parameter_block_hex": "040000000000000000409c460000803f010100000000000000000016430000803f01050000000000000000803b460000803f000000000000",
+      "curves": [
+        {
+          "rtpc_id": 2170567761,
+          "rtpc_type_provisional": 0,
+          "curve_id": 800516256,
+          "plugin_parameter_id": 15,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": -30.0,
+              "y": 12.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": -18.0,
+              "y": 0.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": 6.0,
+              "y": -24.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": 12.0,
+              "y": -24.0,
+              "interpolation_provisional": 4
+            }
+          ]
+        },
+        {
+          "rtpc_id": 2170567761,
+          "rtpc_type_provisional": 0,
+          "curve_id": 438188744,
+          "plugin_parameter_id": 1,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": -30.0,
+              "y": 0.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": 6.0,
+              "y": 0.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": 12.0,
+              "y": -6.0,
+              "interpolation_provisional": 4
+            }
+          ]
+        }
+      ],
+      "media": []
+    },
+    "678485142": {
+      "id": 678485142,
+      "plugin_id": "0x690003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 678485142,
+        "hirc_type": 19,
+        "hirc_offset": 228930,
+        "record_payload_sha256": "e895dba1b8fcd161a03a0271df0160cd02dbef6fa3b2e39a611242c55b8d57af"
+      },
+      "parameter_block_hex": "04000000000000000000c8420000803f00060000000000000000007a440000803f00050000000000000000803b460000803f000000000000",
+      "curves": [
+        {
+          "rtpc_id": 1335060026,
+          "rtpc_type_provisional": 0,
+          "curve_id": 1057927259,
+          "plugin_parameter_id": 15,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": -30.0,
+              "y": 0.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -18.0,
+              "y": 0.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": 6.0,
+              "y": -24.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": 11.99899959564209,
+              "y": -24.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": 12.0,
+              "y": -24.0,
+              "interpolation_provisional": 4
+            }
+          ]
+        }
+      ],
+      "media": []
+    },
+    "679914273": {
+      "id": 679914273,
+      "plugin_id": "0x6d0003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 679914273,
+        "hirc_type": 19,
+        "hirc_offset": 230339,
+        "record_payload_sha256": "d983296a371ffcd442f7e411fab1e283881b2175d0db7ad1e9079bf8775eaa7c"
+      },
+      "parameter_block_hex": "000020c2000048426f12833a0ad7233c0000a0400000",
+      "curves": [
+        {
+          "rtpc_id": 1425358290,
+          "rtpc_type_provisional": 0,
+          "curve_id": 170252375,
+          "plugin_parameter_id": 0,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": -96.30000305175781,
+              "y": -84.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -90.0,
+              "y": -84.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": -50.0,
+              "y": -50.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": 0.0,
+              "y": -50.0,
+              "interpolation_provisional": 4
+            }
+          ]
+        }
+      ],
+      "media": []
+    },
+    "1022739499": {
+      "id": 1022739499,
+      "plugin_id": "0x690003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 1022739499,
+        "hirc_type": 19,
+        "hirc_offset": 264506,
+        "record_payload_sha256": "a3ff82be36b217b1ddd54e6bf8bee7b744972b3c37c4f82ddc36be9c5f71a419"
+      },
+      "parameter_block_hex": "040000000000000000409c460000803f01060000000000000000007a440000803f00050000000000000000803b460000803f000000000000",
+      "curves": [
+        {
+          "rtpc_id": 2170567761,
+          "rtpc_type_provisional": 0,
+          "curve_id": 916105524,
+          "plugin_parameter_id": 15,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": -30.0,
+              "y": 12.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": -18.0,
+              "y": 0.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": 6.0,
+              "y": -24.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": 12.0,
+              "y": -24.0,
+              "interpolation_provisional": 4
+            }
+          ]
+        },
+        {
+          "rtpc_id": 2170567761,
+          "rtpc_type_provisional": 0,
+          "curve_id": 282081186,
+          "plugin_parameter_id": 1,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": -30.0,
+              "y": 0.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": 6.0,
+              "y": 0.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": 12.0,
+              "y": -6.0,
+              "interpolation_provisional": 4
+            }
+          ]
+        }
+      ],
+      "media": []
+    },
+    "1052289871": {
+      "id": 1052289871,
+      "plugin_id": "0x6d0003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 1052289871,
+        "hirc_type": 18,
+        "hirc_offset": 266166,
+        "record_payload_sha256": "49d7868d1a164e583fb8d46ac6b0d87d34fd6befa44af1b0e90cf1d26acfbe3c"
+      },
+      "parameter_block_hex": "000020c2000048426f12833a0ad7233c0000a0400000",
+      "curves": [
+        {
+          "rtpc_id": 827002759,
+          "rtpc_type_provisional": 0,
+          "curve_id": 111471040,
+          "plugin_parameter_id": 0,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": -96.30000305175781,
+              "y": -84.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -90.0,
+              "y": -84.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": -50.0,
+              "y": -50.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": 0.0,
+              "y": -50.0,
+              "interpolation_provisional": 4
+            }
+          ]
+        }
+      ],
+      "media": []
+    },
+    "3369694784": {
+      "id": 3369694784,
+      "plugin_id": "0x690003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 3369694784,
+        "hirc_type": 18,
+        "hirc_offset": 350060,
+        "record_payload_sha256": "57e740810d5e605d3dd2c5c77e7fed5027a70580d2c59af4f9a6b2fe54a03fb9"
+      },
+      "parameter_block_hex": "04000000000000000000c8420000803f00060000000000000000007a440000803f00050000000000000000803b460000803f000000000000",
+      "curves": [
+        {
+          "rtpc_id": 655737159,
+          "rtpc_type_provisional": 0,
+          "curve_id": 551539268,
+          "plugin_parameter_id": 15,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": -36.0,
+              "y": 24.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": 0.0,
+              "y": -12.0,
+              "interpolation_provisional": 4
+            }
+          ]
+        }
+      ],
+      "media": []
+    },
+    "998043618": {
+      "id": 998043618,
+      "plugin_id": "0x690003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 998043618,
+        "hirc_type": 18,
+        "hirc_offset": 260495,
+        "record_payload_sha256": "54a32465317e8186477535a91a8ee4817fe393574cf43d2fe1e93dd42142c2b8"
+      },
+      "parameter_block_hex": "04000000000000000000c8420000803f00060000000000000000007a440000803f00050000000000000000803b460000803f000000c0c100",
+      "curves": [],
+      "media": []
+    },
+    "998043617": {
+      "id": 998043617,
+      "plugin_id": "0x690003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 998043617,
+        "hirc_type": 18,
+        "hirc_offset": 260419,
+        "record_payload_sha256": "54a32465317e8186477535a91a8ee4817fe393574cf43d2fe1e93dd42142c2b8"
+      },
+      "parameter_block_hex": "04000000000000000000c8420000803f00060000000000000000007a440000803f00050000000000000000803b460000803f000000c0c100",
+      "curves": [],
+      "media": []
+    },
+    "998043616": {
+      "id": 998043616,
+      "plugin_id": "0x690003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 998043616,
+        "hirc_type": 18,
+        "hirc_offset": 260343,
+        "record_payload_sha256": "54a32465317e8186477535a91a8ee4817fe393574cf43d2fe1e93dd42142c2b8"
+      },
+      "parameter_block_hex": "04000000000000000000c8420000803f00060000000000000000007a440000803f00050000000000000000803b460000803f000000c0c100",
+      "curves": [],
+      "media": []
+    },
+    "998043623": {
+      "id": 998043623,
+      "plugin_id": "0x690003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 998043623,
+        "hirc_type": 18,
+        "hirc_offset": 260571,
+        "record_payload_sha256": "54a32465317e8186477535a91a8ee4817fe393574cf43d2fe1e93dd42142c2b8"
+      },
+      "parameter_block_hex": "04000000000000000000c8420000803f00060000000000000000007a440000803f00050000000000000000803b460000803f000000c0c100",
+      "curves": [],
+      "media": []
+    },
+    "496461889": {
+      "id": 496461889,
+      "plugin_id": "0x760003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 496461889,
+        "hirc_type": 19,
+        "hirc_offset": 217007,
+        "record_payload_sha256": "279be073817cf60b0c46b560e4aa6461275b8ccdaf133e0ac4e9c987690b0d75"
+      },
+      "parameter_block_hex": "0000a03f0000604000004842000034430000c0c10000af430000803f0000c0c00000c8430000803f000000c0000061440000803f0000000000000000000000009a99c0c200000000000098c10000a0c1010400000000000000000034c20000000000000000000000000c00000001030000000000000003000000010000000300000002000000000000009a99c0c2000000410000484200000040cdcccc3dcdcc4c3f00008442000070410000a040000020420000c84200004842",
+      "curves": [
+        {
+          "rtpc_id": 4216233813,
+          "rtpc_type_provisional": 0,
+          "curve_id": 215474908,
+          "plugin_parameter_id": 61,
+          "scaling_provisional": 2,
+          "points": [
+            {
+              "x": 0.0,
+              "y": -0.9999846816062927,
+              "interpolation_provisional": 1
+            },
+            {
+              "x": 0.10000000149011612,
+              "y": -0.9999846816062927,
+              "interpolation_provisional": 5
+            },
+            {
+              "x": 0.8999999761581421,
+              "y": -0.964518666267395,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": 1.0,
+              "y": -0.964518666267395,
+              "interpolation_provisional": 4
+            }
+          ]
+        },
+        {
+          "rtpc_id": 4216233813,
+          "rtpc_type_provisional": 0,
+          "curve_id": 1017332531,
+          "plugin_parameter_id": 62,
+          "scaling_provisional": 2,
+          "points": [
+            {
+              "x": 0.0,
+              "y": -0.9999846816062927,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": 0.10000000149011612,
+              "y": -0.9999846816062927,
+              "interpolation_provisional": 5
+            },
+            {
+              "x": 0.8999999761581421,
+              "y": -0.93690425157547,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": 1.0,
+              "y": -0.93690425157547,
+              "interpolation_provisional": 4
+            }
+          ]
+        }
+      ],
+      "media": []
+    },
+    "922933596": {
+      "id": 922933596,
+      "plugin_id": "0x760003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 922933596,
+        "hirc_type": 19,
+        "hirc_offset": 250346,
+        "record_payload_sha256": "d6059a299c545d464b28c9bc664603c44f16de8a005b3d77f8a1d5f2b667dea0"
+      },
+      "parameter_block_hex": "00002040000050400000a042000034430000c0c10000af430000803f000028c10000c8430000803f000010c10040fb440000803f0000000000000000000000009a99c0c200000000000088c1000090c1010e0000000000204100004842000000000000a04200008c420c00000001030000000000000003000000010000000300000001000000000000009a99c0c2000000410000484200000040cdcccc3dcdcc4c3f00008442000070410000a040000020420000c84200004842",
+      "curves": [
+        {
+          "rtpc_id": 4216233813,
+          "rtpc_type_provisional": 0,
+          "curve_id": 134486779,
+          "plugin_parameter_id": 62,
+          "scaling_provisional": 2,
+          "points": [
+            {
+              "x": 0.0,
+              "y": -0.9999846816062927,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": 0.10000000149011612,
+              "y": -0.9999846816062927,
+              "interpolation_provisional": 5
+            },
+            {
+              "x": 0.8999999761581421,
+              "y": -0.9108749032020569,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": 1.0,
+              "y": -0.9108749032020569,
+              "interpolation_provisional": 4
+            }
+          ]
+        },
+        {
+          "rtpc_id": 4216233813,
+          "rtpc_type_provisional": 0,
+          "curve_id": 774149468,
+          "plugin_parameter_id": 61,
+          "scaling_provisional": 2,
+          "points": [
+            {
+              "x": 0.0,
+              "y": -0.9999846816062927,
+              "interpolation_provisional": 1
+            },
+            {
+              "x": 0.10000000149011612,
+              "y": -0.9999846816062927,
+              "interpolation_provisional": 5
+            },
+            {
+              "x": 0.8999999761581421,
+              "y": -0.964518666267395,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": 1.0,
+              "y": -0.964518666267395,
+              "interpolation_provisional": 4
+            }
+          ]
+        }
+      ],
+      "media": []
+    },
+    "966663084": {
+      "id": 966663084,
+      "plugin_id": "0x760003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 966663084,
+        "hirc_type": 19,
+        "hirc_offset": 257673,
+        "record_payload_sha256": "74e2e4bcf2f84848ac5b5e2ae948237b5060182ee56f00f00837c407be868c54"
+      },
+      "parameter_block_hex": "00008040000040400000b442000034430000c0c10000af430000803f0000c0c00000c8430000803f000020c0000061440000803f0000000000000000000000009a99c0c2000000000000a0c1000098c101090000000000a0410000c842000000000000c8420000c8420c00000001030000000000000003000000010000000300000002000000000000009a99c0c2000000410000484200000040cdcccc3dcdcc4c3f00008442000070410000a040000020420000c84200004842",
+      "curves": [
+        {
+          "rtpc_id": 4216233813,
+          "rtpc_type_provisional": 0,
+          "curve_id": 905873620,
+          "plugin_parameter_id": 61,
+          "scaling_provisional": 2,
+          "points": [
+            {
+              "x": 0.0,
+              "y": -0.9999846816062927,
+              "interpolation_provisional": 1
+            },
+            {
+              "x": 0.10000000149011612,
+              "y": -0.9999846816062927,
+              "interpolation_provisional": 5
+            },
+            {
+              "x": 0.8999999761581421,
+              "y": -0.974881112575531,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": 1.0,
+              "y": -0.974881112575531,
+              "interpolation_provisional": 4
+            }
+          ]
+        },
+        {
+          "rtpc_id": 4216233813,
+          "rtpc_type_provisional": 0,
+          "curve_id": 803939011,
+          "plugin_parameter_id": 62,
+          "scaling_provisional": 2,
+          "points": [
+            {
+              "x": 0.0,
+              "y": -0.9999846816062927,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": 0.10000000149011612,
+              "y": -0.9999846816062927,
+              "interpolation_provisional": 5
+            },
+            {
+              "x": 0.8999999761581421,
+              "y": -0.93690425157547,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": 1.0,
+              "y": -0.93690425157547,
+              "interpolation_provisional": 4
+            }
+          ]
+        }
+      ],
+      "media": []
+    },
+    "841107137": {
+      "id": 841107137,
+      "plugin_id": "0x810003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 841107137,
+        "hirc_type": 19,
+        "hirc_offset": 243496,
+        "record_payload_sha256": "a9757fed361f5bd82d3938a05d1f2d48684714eef98fb5daca738d57101170de"
+      },
+      "parameter_block_hex": "00000000cdcccc3d000040c200000000000000000000000000",
+      "curves": [],
+      "media": []
+    },
+    "670691479": {
+      "id": 670691479,
+      "plugin_id": "0x690003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 670691479,
+        "hirc_type": 19,
+        "hirc_offset": 228662,
+        "record_payload_sha256": "f783380153da1bcf60c5d75d7e583c7af507d208267d2272f2763e687183cb5d"
+      },
+      "parameter_block_hex": "04000000000000000000c8420000803f00060000000000000000007a440000803f00050000000000000000803b460000803f000000c04000",
+      "curves": [],
+      "media": []
+    },
+    "1485718012": {
+      "id": 1485718012,
+      "plugin_id": "0x6e0003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 1485718012,
+        "hirc_type": 18,
+        "hirc_offset": 282242,
+        "record_payload_sha256": "754fe4805ec2452189c0dc10974b46fde575ce894169b618c8589d0e9408f707"
+      },
+      "parameter_block_hex": "000000bf000048426f12833a9a99993e000000000001",
+      "curves": [],
+      "media": []
+    },
+    "659010913": {
+      "id": 659010913,
+      "plugin_id": "0x810003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 659010913,
+        "hirc_type": 19,
+        "hirc_offset": 228214,
+        "record_payload_sha256": "9791009193e209e2699228789abaefabcb1a134682f94112db7be437968b1027"
+      },
+      "parameter_block_hex": "00000000cdcccc3d000040c20000f0c10000803f01fe5e747d",
+      "curves": [],
+      "media": []
+    },
+    "753088181": {
+      "id": 753088181,
+      "plugin_id": "0x810003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 753088181,
+        "hirc_type": 19,
+        "hirc_offset": 234831,
+        "record_payload_sha256": "445c2ed49d7c98d749194c40660388109d5652307bd16cff855714f50b78888e"
+      },
+      "parameter_block_hex": "0000804000008040000040c2000090c1000000000180eab077",
+      "curves": [
+        {
+          "rtpc_id": 2008083072,
+          "rtpc_type_provisional": 0,
+          "curve_id": 100778034,
+          "plugin_parameter_id": 0,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": -48.0,
+              "y": 4.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -47.0,
+              "y": 4.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": -46.999000549316406,
+              "y": 2.5,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -44.0,
+              "y": 2.5,
+              "interpolation_provisional": 7
+            },
+            {
+              "x": -43.999000549316406,
+              "y": 3.25,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -39.0,
+              "y": 3.5,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -32.525390625,
+              "y": 3.5,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": -32.524391174316406,
+              "y": 3.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -27.292680740356445,
+              "y": 3.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": -27.29167938232422,
+              "y": 3.5,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -18.0,
+              "y": 3.5,
+              "interpolation_provisional": 4
+            }
+          ]
+        },
+        {
+          "rtpc_id": 2008083072,
+          "rtpc_type_provisional": 0,
+          "curve_id": 614169133,
+          "plugin_parameter_id": 1,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": -48.0,
+              "y": 8.0,
+              "interpolation_provisional": 8
+            },
+            {
+              "x": -36.0,
+              "y": 4.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -28.500999450683594,
+              "y": 4.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": -28.5,
+              "y": 3.5,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -23.500999450683594,
+              "y": 3.5,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": -23.5,
+              "y": 3.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -18.0,
+              "y": 3.0,
+              "interpolation_provisional": 4
+            }
+          ]
+        },
+        {
+          "rtpc_id": 2104778494,
+          "rtpc_type_provisional": 0,
+          "curve_id": 652801072,
+          "plugin_parameter_id": 6,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": -48.0,
+              "y": 0.10000000149011612,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -40.000999450683594,
+              "y": 0.10000000149011612,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": -40.0,
+              "y": 10.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -30.0,
+              "y": 10.0,
+              "interpolation_provisional": 4
+            }
+          ]
+        }
+      ],
+      "media": []
+    },
+    "574133087": {
+      "id": 574133087,
+      "plugin_id": "0x810003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 574133087,
+        "hirc_type": 18,
+        "hirc_offset": 221587,
+        "record_payload_sha256": "0957f7957ed2cb95c3a546ead616d2c493a6336ee7ab4966a86250d1dea5c6b3"
+      },
+      "parameter_block_hex": "00000000cdcccc3d000040c20000f0c10000803f01fd5e747d",
+      "curves": [],
+      "media": []
+    },
+    "574133086": {
+      "id": 574133086,
+      "plugin_id": "0x810003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 574133086,
+        "hirc_type": 18,
+        "hirc_offset": 221239,
+        "record_payload_sha256": "9c6e6599654343b9f20272b542aa7cdbaea80e7edb08fce340c8c90a7335e651"
+      },
+      "parameter_block_hex": "0000804000008040000040c2000090c1000000000183eab077",
+      "curves": [
+        {
+          "rtpc_id": 2104778493,
+          "rtpc_type_provisional": 0,
+          "curve_id": 540492987,
+          "plugin_parameter_id": 6,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": -48.0,
+              "y": 0.10000000149011612,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -40.000999450683594,
+              "y": 0.10000000149011612,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": -40.0,
+              "y": 10.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -30.0,
+              "y": 10.0,
+              "interpolation_provisional": 4
+            }
+          ]
+        },
+        {
+          "rtpc_id": 2330808575,
+          "rtpc_type_provisional": 0,
+          "curve_id": 273705656,
+          "plugin_parameter_id": 0,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": -48.0,
+              "y": 4.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -47.0,
+              "y": 4.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": -46.999000549316406,
+              "y": 2.5,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -44.0,
+              "y": 2.5,
+              "interpolation_provisional": 7
+            },
+            {
+              "x": -43.999000549316406,
+              "y": 3.25,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -39.0,
+              "y": 3.5,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -32.525390625,
+              "y": 3.5,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": -32.524391174316406,
+              "y": 3.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -27.292680740356445,
+              "y": 3.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": -27.29167938232422,
+              "y": 3.5,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -18.0,
+              "y": 3.5,
+              "interpolation_provisional": 4
+            }
+          ]
+        },
+        {
+          "rtpc_id": 2330808575,
+          "rtpc_type_provisional": 0,
+          "curve_id": 745286233,
+          "plugin_parameter_id": 1,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": -48.0,
+              "y": 8.0,
+              "interpolation_provisional": 8
+            },
+            {
+              "x": -36.0,
+              "y": 4.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -28.500999450683594,
+              "y": 4.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": -28.5,
+              "y": 3.5,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -23.500999450683594,
+              "y": 3.5,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": -23.5,
+              "y": 3.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -18.0,
+              "y": 3.0,
+              "interpolation_provisional": 4
+            }
+          ]
+        }
+      ],
+      "media": []
+    },
+    "4218704798": {
+      "id": 4218704798,
+      "plugin_id": "0x810003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 4218704798,
+        "hirc_type": 18,
+        "hirc_offset": 372605,
+        "record_payload_sha256": "642b68a0ac07cbca6c3ca1920017fc89cc3c191383d94c84518e0b10ffaf9ce1"
+      },
+      "parameter_block_hex": "0000c0400000c040000040c2000090c100000000001054803e",
+      "curves": [
+        {
+          "rtpc_id": 2104778493,
+          "rtpc_type_provisional": 0,
+          "curve_id": 49647599,
+          "plugin_parameter_id": 6,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": -48.0,
+              "y": 2.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": -45.02299880981445,
+              "y": 0.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": -45.0,
+              "y": 10.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -30.0,
+              "y": 10.0,
+              "interpolation_provisional": 4
+            }
+          ]
+        }
+      ],
+      "media": []
+    },
+    "546914149": {
+      "id": 546914149,
+      "plugin_id": "0x690003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 546914149,
+        "hirc_type": 18,
+        "hirc_offset": 219654,
+        "record_payload_sha256": "fc3fa7aff6208d3a632d7a6dd2a4c033886ccfa74149c906bbcdecf614e1f540"
+      },
+      "parameter_block_hex": "01000000000000000000f0410000803f0106000000000080bf00007a440000a0400006000000000080bf0000fa440000a040000000000001",
+      "curves": [
+        {
+          "rtpc_id": 2330808575,
+          "rtpc_type_provisional": 0,
+          "curve_id": 8993618,
+          "plugin_parameter_id": 15,
+          "scaling_provisional": 2,
+          "points": [
+            {
+              "x": -48.0,
+              "y": 0.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -23.0,
+              "y": 0.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": -18.0,
+              "y": 0.0,
+              "interpolation_provisional": 4
+            }
+          ]
+        }
+      ],
+      "media": []
+    },
+    "246843161": {
+      "id": 246843161,
+      "plugin_id": "0x6e0003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 246843161,
+        "hirc_type": 19,
+        "hirc_offset": 196574,
+        "record_payload_sha256": "ab9802814e3883a7298cbd39402e64a3bb52440c653e18108cd40cb7bf6618ab"
+      },
+      "parameter_block_hex": "9a9911c1333333406f12833aec51b83e9a99993e0001",
+      "curves": [],
+      "media": []
+    },
+    "1328222229": {
+      "id": 1328222229,
+      "plugin_id": "0x690003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 1328222229,
+        "hirc_type": 18,
+        "hirc_offset": 275190,
+        "record_payload_sha256": "91c74728fd45d70921a23e2d2d0ffc77548468c895472be3a3b2570021a9c83c"
+      },
+      "parameter_block_hex": "04000000000040c0000034430000803f0101000000000000000000a0420000803f0106000000000000000020cb459a99193f00000080c000",
+      "curves": [],
+      "media": []
+    },
+    "323213869": {
+      "id": 323213869,
+      "plugin_id": "0x690003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 323213869,
+        "hirc_type": 18,
+        "hirc_offset": 201096,
+        "record_payload_sha256": "d389990ddf3830ebd80c11ed2270cff631c5f2ed9edc8c37faebe185e69124a3"
+      },
+      "parameter_block_hex": "040000000000a0c1000048430000803f0006000000000000400000fa430000803f00050000000000004000803b450000803f000000000000",
+      "curves": [],
+      "media": []
+    },
+    "323213870": {
+      "id": 323213870,
+      "plugin_id": "0x690003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 323213870,
+        "hirc_type": 18,
+        "hirc_offset": 201172,
+        "record_payload_sha256": "b3552c8c226fd8e4aa5598e892b42ed21b62ef9358d8a33a7a4f1217c6414838"
+      },
+      "parameter_block_hex": "04000000000040c1000080420000803f01060000000000404000002f450000003f010000000000000000009c07460000803f010000a04000",
+      "curves": [],
+      "media": []
+    },
+    "3253388802": {
+      "id": 3253388802,
+      "plugin_id": "0x810003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 3253388802,
+        "hirc_type": 18,
+        "hirc_offset": 345753,
+        "record_payload_sha256": "f6899198d89051fa901dc5c7c547eeaea69623dc0108f006478406baa3653189"
+      },
+      "parameter_block_hex": "cdcc4c3ecdcc4c3d000010c2000000003333333f0166929b39",
+      "curves": [],
+      "media": []
+    },
+    "844007906": {
+      "id": 844007906,
+      "plugin_id": "0x810003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 844007906,
+        "hirc_type": 18,
+        "hirc_offset": 243839,
+        "record_payload_sha256": "574e99c670771302d9bfeaca56e2066d6ec6e780adfe7da9b85d7c37bee9cb72"
+      },
+      "parameter_block_hex": "00000000cdcc4c3e000040c2000000000000000001cbd301af",
+      "curves": [],
+      "media": []
+    },
+    "2127288415": {
+      "id": 2127288415,
+      "plugin_id": "0x810003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 2127288415,
+        "hirc_type": 18,
+        "hirc_offset": 303900,
+        "record_payload_sha256": "59e978d7a069e58586d671df504d062ee652bdbd7d81b020609cf71e0fa9d6a5"
+      },
+      "parameter_block_hex": "000000000ad7233e0000f0c10000404100002041014d8e8c31",
+      "curves": [],
+      "media": []
+    },
+    "604093709": {
+      "id": 604093709,
+      "plugin_id": "0x810003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 604093709,
+        "hirc_type": 19,
+        "hirc_offset": 224402,
+        "record_payload_sha256": "eb53fb76e45cba67dc5fe82f7a40b1cd7f4ea81b470026ebc71766466f346f55"
+      },
+      "parameter_block_hex": "000000000ad7233e0000f0c1000040410000204101d4f66e94",
+      "curves": [],
+      "media": []
+    },
+    "908511775": {
+      "id": 908511775,
+      "plugin_id": "0x6e0003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 908511775,
+        "hirc_type": 18,
+        "hirc_offset": 249485,
+        "record_payload_sha256": "b42be92f8182196f9f2ab85396236d966fcebd60a85fe2924c719872a02b44f8"
+      },
+      "parameter_block_hex": "000000c1000048426f12833acdcccc3d000000410000",
+      "curves": [],
+      "media": []
+    },
+    "27407807": {
+      "id": 27407807,
+      "plugin_id": "0x730003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 27407807,
+        "hirc_type": 18,
+        "hirc_offset": 177060,
+        "record_payload_sha256": "4bd1632850f0c31d51297bd1c0beec60b1c43741b942ab03df8823e215fdf42e"
+      },
+      "parameter_block_hex": "666646400000b0401000000000000000000000c2000000000000000000",
+      "curves": [
+        {
+          "rtpc_id": 4216233813,
+          "rtpc_type_provisional": 0,
+          "curve_id": 1004926296,
+          "plugin_parameter_id": 4,
+          "scaling_provisional": 2,
+          "points": [
+            {
+              "x": 0.0,
+              "y": -0.9984151124954224,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": 0.10000000149011612,
+              "y": -0.9984151124954224,
+              "interpolation_provisional": 5
+            },
+            {
+              "x": 0.8999999761581421,
+              "y": -0.9999846816062927,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": 1.0,
+              "y": -0.9999846816062927,
+              "interpolation_provisional": 4
+            }
+          ]
+        }
+      ],
+      "media": []
+    },
+    "752635359": {
+      "id": 752635359,
+      "plugin_id": "0x690003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 752635359,
+        "hirc_type": 19,
+        "hirc_offset": 234755,
+        "record_payload_sha256": "872d848b5c673864ce4e2e73350861510bd92fcd6f878e8e0dcc26e00bec1169"
+      },
+      "parameter_block_hex": "01000000000000000000f0410000803f0106000000000000bf000048430000803f01050000000000000000803b460000803f000000000000",
+      "curves": [],
+      "media": []
+    },
+    "265864380": {
+      "id": 265864380,
+      "plugin_id": "0x6e0003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 265864380,
+        "hirc_type": 18,
+        "hirc_offset": 197171,
+        "record_payload_sha256": "98ea222e056d8087227df863ebc4c0f77915f2c73eb26481275a689487ea09c1"
+      },
+      "parameter_block_hex": "cdccccbd000020416f12833acdcccc3d000080bf0000",
+      "curves": [],
+      "media": []
+    },
+    "762194427": {
+      "id": 762194427,
+      "plugin_id": "0x760003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 762194427,
+        "hirc_type": 18,
+        "hirc_offset": 235739,
+        "record_payload_sha256": "3fd35feef03defe028c2da4f9eeabaae3b06217170a1f71808e714dbfab8d6ae"
+      },
+      "parameter_block_hex": "0000c03f0000804000002042000034430000c0c1000048430000803f000040c00000c8430000803f000000c00000fa440000803f0000000000000000000000009a99c0c2000000000000b8c10000c0c101040000000000a040000034c2000000000000a041000000000c00000001030000000000000003000000010000000300000002000000000000009a99c0c2000000410000484200000040cdcccc3dcdcc4c3f00008442000070410000a040000020420000c84200004842",
+      "curves": [],
+      "media": []
+    },
+    "1896628674": {
+      "id": 1896628674,
+      "plugin_id": "0x760003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 1896628674,
+        "hirc_type": 18,
+        "hirc_offset": 292199,
+        "record_payload_sha256": "9cb537935a710790111582472791eb7126cc3f5e1a527ed4fd4f881387f9889a"
+      },
+      "parameter_block_hex": "00004040000060400000c842000034430000c0c1000048430000803f000040c00000c8430000803f000000000000fa440000803f0000000000000000000000009a99c0c2000000000000a0c1000090c1010e0000000000704100004842000000000000c8420000a0420c00000001030000000000000003000000010000000300000002000000000000009a99c0c2000000410000484200000040cdcccc3dcdcc4c3f00008442000070410000a040000020420000c84200004842",
+      "curves": [],
+      "media": []
+    },
+    "3688191513": {
+      "id": 3688191513,
+      "plugin_id": "0x760003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 3688191513,
+        "hirc_type": 18,
+        "hirc_offset": 357898,
+        "record_payload_sha256": "d739e4448731edcde74252b9f6f7887a3e78528d8e9958afe98e5def3d5a0d21"
+      },
+      "parameter_block_hex": "0000e0400000c0400000c842000034430000c0c1000048430000803f0000c0c00000c8430000803f0000a0c00000fa440000803f0000000000000000000000009a99c0c2000000000000d0c10000a0c101090000000000a0410000c842000000000000c842000010420c00000001030000000000000003000000010000000300000002000000000000009a99c0c2000000410000484200000040cdcccc3dcdcc4c3f00008442000070410000a040000020420000c84200004842",
+      "curves": [],
+      "media": []
+    },
+    "1213697340": {
+      "id": 1213697340,
+      "plugin_id": "0x760003",
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 1213697340,
+        "hirc_type": 18,
+        "hirc_offset": 272148,
+        "record_payload_sha256": "f6dc6719f8d939d086c7a2393e9c25bdc240bddd6d5f89072a90c239d46a2f6b"
+      },
+      "parameter_block_hex": "0000e0400000884000000000000034430000c0c1000048430000803f000040c00000c8430000803f000000000000fa440000803f0000000000000000000000009a99c0c2000000000000e0c10000c0c10105000000000048430000c84200000000000070410000c8420c00000001030000000000000003000000010000000300000002000000000000009a99c0c2000000410000484200000040cdcccc3dcdcc4c3f00008442000070410000a040000020420000c84200004842",
+      "curves": [],
+      "media": []
+    }
+  },
+  "mixer_controls": [
+    {
+      "name": "Mixer_Player2",
+      "rtpc_id": 1323888318,
+      "authored_default": 100.0,
+      "bus_id": 2768693345,
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 2768693345,
+        "hirc_type": 8,
+        "hirc_offset": 95114,
+        "record_payload_sha256": "4f4690de53faf25304f79f52da0339b39553df6b4a9a6e603c6955410ccd3024"
+      },
+      "body_offset": 111,
+      "curve": {
+        "rtpc_id": 1323888318,
+        "rtpc_type_provisional": 0,
+        "bus_parameter_id": 4,
+        "curve_id": 360144522,
+        "scaling_provisional": 2,
+        "points": [
+          {
+            "x": 0.0,
+            "y": -0.9999846816062927,
+            "interpolation_provisional": 4
+          },
+          {
+            "x": 100.0,
+            "y": 0.0,
+            "interpolation_provisional": 4
+          }
+        ]
+      },
+      "native_bus_amplitude_stage_replayed": false
+    },
+    {
+      "name": "Mixer_Player1",
+      "rtpc_id": 1323888317,
+      "authored_default": 100.0,
+      "bus_id": 2768693346,
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "hirc_id": 2768693346,
+        "hirc_type": 8,
+        "hirc_offset": 95710,
+        "record_payload_sha256": "0245c4fb9ff986b2ad00510a66568fb99522a6ca1c9de76d3005ae91b15cab77"
+      },
+      "body_offset": 111,
+      "curve": {
+        "rtpc_id": 1323888317,
+        "rtpc_type_provisional": 0,
+        "bus_parameter_id": 4,
+        "curve_id": 266284034,
+        "scaling_provisional": 2,
+        "points": [
+          {
+            "x": 0.0,
+            "y": -0.9999846816062927,
+            "interpolation_provisional": 4
+          },
+          {
+            "x": 100.0,
+            "y": 0.0,
+            "interpolation_provisional": 4
+          }
+        ]
+      },
+      "native_bus_amplitude_stage_replayed": false
+    }
+  ],
+  "bus_routes": [
+    {
+      "id": 367659462,
+      "override_bus_id": 2442829342,
+      "bank_offset": 95026,
+      "effect_reference_byte_matches": [],
+      "rtpc_reference_byte_matches": [],
+      "ordered_effects": [
+        {
+          "slot": 0,
+          "profile_id": 998043618,
+          "body_offset": 46,
+          "is_shareset": true,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 15,
+          "authored_bypassed": true,
+          "runtime_bypass_changes_replayed": false
+        },
+        {
+          "slot": 1,
+          "profile_id": 998043617,
+          "body_offset": 53,
+          "is_shareset": true,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 15,
+          "authored_bypassed": true,
+          "runtime_bypass_changes_replayed": false
+        },
+        {
+          "slot": 2,
+          "profile_id": 998043616,
+          "body_offset": 60,
+          "is_shareset": true,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 15,
+          "authored_bypassed": true,
+          "runtime_bypass_changes_replayed": false
+        },
+        {
+          "slot": 3,
+          "profile_id": 998043623,
+          "body_offset": 67,
+          "is_shareset": true,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 15,
+          "authored_bypassed": true,
+          "runtime_bypass_changes_replayed": false
+        }
+      ]
+    },
+    {
+      "id": 570011333,
+      "override_bus_id": 1111580551,
+      "bank_offset": 19250,
+      "effect_reference_byte_matches": [],
+      "rtpc_reference_byte_matches": [],
+      "ordered_effects": [
+        {
+          "slot": 1,
+          "profile_id": 496461889,
+          "body_offset": 56,
+          "is_shareset": false,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 0,
+          "authored_bypassed": false,
+          "runtime_bypass_changes_replayed": false
+        },
+        {
+          "slot": 2,
+          "profile_id": 922933596,
+          "body_offset": 63,
+          "is_shareset": false,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 0,
+          "authored_bypassed": false,
+          "runtime_bypass_changes_replayed": false
+        },
+        {
+          "slot": 3,
+          "profile_id": 966663084,
+          "body_offset": 70,
+          "is_shareset": false,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 0,
+          "authored_bypassed": false,
+          "runtime_bypass_changes_replayed": false
+        }
+      ]
+    },
+    {
+      "id": 702482391,
+      "override_bus_id": 3803692087,
+      "bank_offset": 18843,
+      "effect_reference_byte_matches": [],
+      "rtpc_reference_byte_matches": [],
+      "ordered_effects": [
+        {
+          "slot": 0,
+          "profile_id": 841107137,
+          "body_offset": 41,
+          "is_shareset": false,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 0,
+          "authored_bypassed": false,
+          "runtime_bypass_changes_replayed": false
+        },
+        {
+          "slot": 2,
+          "profile_id": 670691479,
+          "body_offset": 48,
+          "is_shareset": false,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 0,
+          "authored_bypassed": false,
+          "runtime_bypass_changes_replayed": false
+        },
+        {
+          "slot": 3,
+          "profile_id": 1485718012,
+          "body_offset": 55,
+          "is_shareset": true,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 0,
+          "authored_bypassed": false,
+          "runtime_bypass_changes_replayed": false
+        }
+      ]
+    },
+    {
+      "id": 799338213,
+      "override_bus_id": 1388873030,
+      "bank_offset": 94815,
+      "effect_reference_byte_matches": [
+        {
+          "effect_id": 620738738,
+          "body_offset": 46
+        }
+      ],
+      "rtpc_reference_byte_matches": [],
+      "ordered_effects": [
+        {
+          "slot": 2,
+          "profile_id": 620738738,
+          "body_offset": 46,
+          "is_shareset": false,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 0,
+          "authored_bypassed": false,
+          "runtime_bypass_changes_replayed": false
+        }
+      ]
+    },
+    {
+      "id": 1111580551,
+      "override_bus_id": 702482391,
+      "bank_offset": 19184,
+      "effect_reference_byte_matches": [],
+      "rtpc_reference_byte_matches": [],
+      "ordered_effects": []
+    },
+    {
+      "id": 1388873029,
+      "override_bus_id": 2377166357,
+      "bank_offset": 94516,
+      "effect_reference_byte_matches": [],
+      "rtpc_reference_byte_matches": [],
+      "ordered_effects": [
+        {
+          "slot": 0,
+          "profile_id": 659010913,
+          "body_offset": 46,
+          "is_shareset": false,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 3,
+          "authored_bypassed": true,
+          "runtime_bypass_changes_replayed": false
+        },
+        {
+          "slot": 1,
+          "profile_id": 753088181,
+          "body_offset": 53,
+          "is_shareset": false,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 3,
+          "authored_bypassed": true,
+          "runtime_bypass_changes_replayed": false
+        }
+      ]
+    },
+    {
+      "id": 1388873030,
+      "override_bus_id": 2377166357,
+      "bank_offset": 94734,
+      "effect_reference_byte_matches": [],
+      "rtpc_reference_byte_matches": [],
+      "ordered_effects": [
+        {
+          "slot": 0,
+          "profile_id": 574133087,
+          "body_offset": 46,
+          "is_shareset": true,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 7,
+          "authored_bypassed": true,
+          "runtime_bypass_changes_replayed": false
+        },
+        {
+          "slot": 1,
+          "profile_id": 574133086,
+          "body_offset": 53,
+          "is_shareset": true,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 7,
+          "authored_bypassed": true,
+          "runtime_bypass_changes_replayed": false
+        },
+        {
+          "slot": 2,
+          "profile_id": 4218704798,
+          "body_offset": 60,
+          "is_shareset": true,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 7,
+          "authored_bypassed": true,
+          "runtime_bypass_changes_replayed": false
+        }
+      ]
+    },
+    {
+      "id": 1579336104,
+      "override_bus_id": 2579801715,
+      "bank_offset": 95472,
+      "effect_reference_byte_matches": [],
+      "rtpc_reference_byte_matches": [],
+      "ordered_effects": []
+    },
+    {
+      "id": 1579336107,
+      "override_bus_id": 2579257164,
+      "bank_offset": 96089,
+      "effect_reference_byte_matches": [],
+      "rtpc_reference_byte_matches": [],
+      "ordered_effects": []
+    },
+    {
+      "id": 1647377584,
+      "override_bus_id": 3757260660,
+      "bank_offset": 21806,
+      "effect_reference_byte_matches": [],
+      "rtpc_reference_byte_matches": [],
+      "ordered_effects": [
+        {
+          "slot": 0,
+          "profile_id": 546914149,
+          "body_offset": 46,
+          "is_shareset": true,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 0,
+          "authored_bypassed": false,
+          "runtime_bypass_changes_replayed": false
+        },
+        {
+          "slot": 1,
+          "profile_id": 246843161,
+          "body_offset": 53,
+          "is_shareset": false,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 0,
+          "authored_bypassed": false,
+          "runtime_bypass_changes_replayed": false
+        }
+      ]
+    },
+    {
+      "id": 1821346809,
+      "override_bus_id": 4128152372,
+      "bank_offset": 95344,
+      "effect_reference_byte_matches": [],
+      "rtpc_reference_byte_matches": [],
+      "ordered_effects": [
+        {
+          "slot": 0,
+          "profile_id": 1328222229,
+          "body_offset": 41,
+          "is_shareset": true,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 0,
+          "authored_bypassed": false,
+          "runtime_bypass_changes_replayed": false
+        }
+      ]
+    },
+    {
+      "id": 1821346810,
+      "override_bus_id": 4128152375,
+      "bank_offset": 95940,
+      "effect_reference_byte_matches": [],
+      "rtpc_reference_byte_matches": [],
+      "ordered_effects": [
+        {
+          "slot": 0,
+          "profile_id": 1328222229,
+          "body_offset": 41,
+          "is_shareset": true,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 14,
+          "authored_bypassed": false,
+          "runtime_bypass_changes_replayed": false
+        },
+        {
+          "slot": 1,
+          "profile_id": 323213869,
+          "body_offset": 48,
+          "is_shareset": true,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 14,
+          "authored_bypassed": true,
+          "runtime_bypass_changes_replayed": false
+        },
+        {
+          "slot": 2,
+          "profile_id": 323213870,
+          "body_offset": 55,
+          "is_shareset": true,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 14,
+          "authored_bypassed": true,
+          "runtime_bypass_changes_replayed": false
+        },
+        {
+          "slot": 3,
+          "profile_id": 3253388802,
+          "body_offset": 62,
+          "is_shareset": true,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 14,
+          "authored_bypassed": true,
+          "runtime_bypass_changes_replayed": false
+        }
+      ]
+    },
+    {
+      "id": 2377166357,
+      "override_bus_id": 1647377584,
+      "bank_offset": 94465,
+      "effect_reference_byte_matches": [],
+      "rtpc_reference_byte_matches": [],
+      "ordered_effects": []
+    },
+    {
+      "id": 2442829342,
+      "override_bus_id": 3757260660,
+      "bank_offset": 94959,
+      "effect_reference_byte_matches": [],
+      "rtpc_reference_byte_matches": [],
+      "ordered_effects": [
+        {
+          "slot": 0,
+          "profile_id": 844007906,
+          "body_offset": 46,
+          "is_shareset": true,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 0,
+          "authored_bypassed": false,
+          "runtime_bypass_changes_replayed": false
+        }
+      ]
+    },
+    {
+      "id": 2513612750,
+      "override_bus_id": 1388873029,
+      "bank_offset": 94590,
+      "effect_reference_byte_matches": [
+        {
+          "effect_id": 622316528,
+          "body_offset": 46
+        }
+      ],
+      "rtpc_reference_byte_matches": [],
+      "ordered_effects": [
+        {
+          "slot": 2,
+          "profile_id": 622316528,
+          "body_offset": 46,
+          "is_shareset": false,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 0,
+          "authored_bypassed": false,
+          "runtime_bypass_changes_replayed": false
+        }
+      ]
+    },
+    {
+      "id": 2579257164,
+      "override_bus_id": 1821346810,
+      "bank_offset": 96023,
+      "effect_reference_byte_matches": [],
+      "rtpc_reference_byte_matches": [],
+      "ordered_effects": []
+    },
+    {
+      "id": 2579801715,
+      "override_bus_id": 1821346809,
+      "bank_offset": 95406,
+      "effect_reference_byte_matches": [],
+      "rtpc_reference_byte_matches": [],
+      "ordered_effects": []
+    },
+    {
+      "id": 2768693345,
+      "override_bus_id": 367659462,
+      "bank_offset": 95114,
+      "effect_reference_byte_matches": [],
+      "rtpc_reference_byte_matches": [
+        {
+          "rtpc_id": 1323888318,
+          "name": "Mixer_Player2",
+          "body_offset": 111
+        }
+      ],
+      "ordered_effects": []
+    },
+    {
+      "id": 2768693346,
+      "override_bus_id": 367659462,
+      "bank_offset": 95710,
+      "effect_reference_byte_matches": [],
+      "rtpc_reference_byte_matches": [
+        {
+          "rtpc_id": 1323888317,
+          "name": "Mixer_Player1",
+          "body_offset": 111
+        }
+      ],
+      "ordered_effects": []
+    },
+    {
+      "id": 2788119980,
+      "override_bus_id": 3579089593,
+      "bank_offset": 96209,
+      "effect_reference_byte_matches": [
+        {
+          "effect_id": 1052289871,
+          "body_offset": 41
+        }
+      ],
+      "rtpc_reference_byte_matches": [],
+      "ordered_effects": [
+        {
+          "slot": 0,
+          "profile_id": 1052289871,
+          "body_offset": 41,
+          "is_shareset": true,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 4,
+          "authored_bypassed": false,
+          "runtime_bypass_changes_replayed": false
+        },
+        {
+          "slot": 2,
+          "profile_id": 2127288415,
+          "body_offset": 48,
+          "is_shareset": true,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 4,
+          "authored_bypassed": true,
+          "runtime_bypass_changes_replayed": false
+        }
+      ]
+    },
+    {
+      "id": 2788119983,
+      "override_bus_id": 3579089594,
+      "bank_offset": 95592,
+      "effect_reference_byte_matches": [
+        {
+          "effect_id": 156672307,
+          "body_offset": 41
+        }
+      ],
+      "rtpc_reference_byte_matches": [],
+      "ordered_effects": [
+        {
+          "slot": 0,
+          "profile_id": 156672307,
+          "body_offset": 41,
+          "is_shareset": false,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 4,
+          "authored_bypassed": false,
+          "runtime_bypass_changes_replayed": false
+        },
+        {
+          "slot": 2,
+          "profile_id": 604093709,
+          "body_offset": 48,
+          "is_shareset": false,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 4,
+          "authored_bypassed": true,
+          "runtime_bypass_changes_replayed": false
+        }
+      ]
+    },
+    {
+      "id": 3579089593,
+      "override_bus_id": 1579336107,
+      "bank_offset": 96140,
+      "effect_reference_byte_matches": [
+        {
+          "effect_id": 508274769,
+          "body_offset": 41
+        }
+      ],
+      "rtpc_reference_byte_matches": [],
+      "ordered_effects": [
+        {
+          "slot": 2,
+          "profile_id": 508274769,
+          "body_offset": 41,
+          "is_shareset": false,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 0,
+          "authored_bypassed": false,
+          "runtime_bypass_changes_replayed": false
+        },
+        {
+          "slot": 3,
+          "profile_id": 908511775,
+          "body_offset": 48,
+          "is_shareset": true,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 0,
+          "authored_bypassed": false,
+          "runtime_bypass_changes_replayed": false
+        }
+      ]
+    },
+    {
+      "id": 3579089594,
+      "override_bus_id": 1579336104,
+      "bank_offset": 95523,
+      "effect_reference_byte_matches": [
+        {
+          "effect_id": 1022739499,
+          "body_offset": 41
+        }
+      ],
+      "rtpc_reference_byte_matches": [],
+      "ordered_effects": [
+        {
+          "slot": 2,
+          "profile_id": 1022739499,
+          "body_offset": 41,
+          "is_shareset": false,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 0,
+          "authored_bypassed": false,
+          "runtime_bypass_changes_replayed": false
+        },
+        {
+          "slot": 3,
+          "profile_id": 908511775,
+          "body_offset": 48,
+          "is_shareset": true,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 0,
+          "authored_bypassed": false,
+          "runtime_bypass_changes_replayed": false
+        }
+      ]
+    },
+    {
+      "id": 3757260660,
+      "override_bus_id": 4161777440,
+      "bank_offset": 21194,
+      "effect_reference_byte_matches": [],
+      "rtpc_reference_byte_matches": [],
+      "ordered_effects": [
+        {
+          "slot": 0,
+          "profile_id": 27407807,
+          "body_offset": 56,
+          "is_shareset": true,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 0,
+          "authored_bypassed": false,
+          "runtime_bypass_changes_replayed": false
+        },
+        {
+          "slot": 1,
+          "profile_id": 752635359,
+          "body_offset": 63,
+          "is_shareset": false,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 0,
+          "authored_bypassed": false,
+          "runtime_bypass_changes_replayed": false
+        }
+      ]
+    },
+    {
+      "id": 3803692087,
+      "override_bus_id": 0,
+      "bank_offset": 17977,
+      "effect_reference_byte_matches": [],
+      "rtpc_reference_byte_matches": [],
+      "ordered_effects": []
+    },
+    {
+      "id": 4128152372,
+      "override_bus_id": 2768693345,
+      "bank_offset": 95275,
+      "effect_reference_byte_matches": [
+        {
+          "effect_id": 560151861,
+          "body_offset": 41
+        }
+      ],
+      "rtpc_reference_byte_matches": [],
+      "ordered_effects": [
+        {
+          "slot": 0,
+          "profile_id": 560151861,
+          "body_offset": 41,
+          "is_shareset": false,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 0,
+          "authored_bypassed": false,
+          "runtime_bypass_changes_replayed": false
+        },
+        {
+          "slot": 3,
+          "profile_id": 265864380,
+          "body_offset": 48,
+          "is_shareset": true,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 0,
+          "authored_bypassed": false,
+          "runtime_bypass_changes_replayed": false
+        }
+      ]
+    },
+    {
+      "id": 4128152375,
+      "override_bus_id": 2768693346,
+      "bank_offset": 95871,
+      "effect_reference_byte_matches": [
+        {
+          "effect_id": 3369694784,
+          "body_offset": 41
+        }
+      ],
+      "rtpc_reference_byte_matches": [],
+      "ordered_effects": [
+        {
+          "slot": 0,
+          "profile_id": 3369694784,
+          "body_offset": 41,
+          "is_shareset": true,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 0,
+          "authored_bypassed": false,
+          "runtime_bypass_changes_replayed": false
+        },
+        {
+          "slot": 3,
+          "profile_id": 265864380,
+          "body_offset": 48,
+          "is_shareset": true,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 0,
+          "authored_bypassed": false,
+          "runtime_bypass_changes_replayed": false
+        }
+      ]
+    },
+    {
+      "id": 4161777440,
+      "override_bus_id": 570011333,
+      "bank_offset": 20864,
+      "effect_reference_byte_matches": [],
+      "rtpc_reference_byte_matches": [],
+      "ordered_effects": [
+        {
+          "slot": 0,
+          "profile_id": 762194427,
+          "body_offset": 56,
+          "is_shareset": true,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 0,
+          "authored_bypassed": false,
+          "runtime_bypass_changes_replayed": false
+        },
+        {
+          "slot": 1,
+          "profile_id": 1896628674,
+          "body_offset": 63,
+          "is_shareset": true,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 0,
+          "authored_bypassed": false,
+          "runtime_bypass_changes_replayed": false
+        },
+        {
+          "slot": 2,
+          "profile_id": 3688191513,
+          "body_offset": 70,
+          "is_shareset": true,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 0,
+          "authored_bypassed": false,
+          "runtime_bypass_changes_replayed": false
+        },
+        {
+          "slot": 3,
+          "profile_id": 1213697340,
+          "body_offset": 77,
+          "is_shareset": true,
+          "rendered_flag": 0,
+          "authored_bypass_bits": 0,
+          "authored_bypassed": false,
+          "runtime_bypass_changes_replayed": false
+        }
+      ]
+    }
+  ],
+  "input_calibration": {
+    "rtpc_names": [
+      "P1_InputVol_Calibration_Return",
+      "P2_InputVol_Calibration_Return"
+    ],
+    "original_defaults_preserved": true,
+    "mode_dependent_profiles": true,
+    "selected_mode": null,
+    "selection_required": "Resolve the actual input-mode bus route before selecting a calibration profile"
+  },
+  "evidence": {
+    "loader": "ev_486dfb108d5f6ea1f89e9add3807eeaa3d46696769c1d46f0be7c45cf33a80af",
+    "volume_getter": "ev_5544be6fd030db2e7c0464a80c95157e0548e843cf147b0d02ded7cb2411a5cd",
+    "apply": "ev_fbc0de5d62298c2b6fd2ec523c6990a297e15dd627300e160662ff52c324f5a6",
+    "gain_execute": "ev_29e69053c166356efc8dae8941a113b30a319fc24fae10569db6acfa6a0c6abc",
+    "gain_ramp": "ev_83a89f695dfe6052622bd86392daf5463b2158adbd040c1e6508cdd0dd4bdedf"
+  },
+  "limitations": [
+    "Bus OverrideBusId layout is corroborated by local wwiser parser first field; full version91 bus parsing is not claimed.",
+    "Effect/RTPC matches inside bus bodies retain exact offsets; variable record offsets are not guessed.",
+    "Input calibration has multiple mode-dependent consumers; select using actual original bus route, not an arbitrary branch.",
+    "Full captured game audio and real input calibration measurements remain unverified.",
+    "Tone-balance gain placement is traced; original downstream bus-amplitude execution is not replayed.",
+    "Fixed bus FX arrays are structurally checked at exact source offsets; runtime bus bypass, state and property changes still require replay.",
+    "Native input calibration measurement and mode selection are separate from authored tone Volume."
+  ]
+}

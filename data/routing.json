@@ -1,0 +1,3083 @@
+{
+  "schema": 1,
+  "slot_order": [
+    "PrePedal1",
+    "PrePedal2",
+    "PrePedal3",
+    "PrePedal4",
+    "Amp",
+    "PostPedal1",
+    "PostPedal2",
+    "PostPedal3",
+    "PostPedal4",
+    "Cabinet",
+    "Rack1",
+    "Rack2",
+    "Rack3",
+    "Rack4"
+  ],
+  "players": {
+    "0": {
+      "name": "Player_1",
+      "pools": {
+        "mono": {
+          "bus_id": 1579336107,
+          "override_bus_id": 2579257164,
+          "source": {
+            "archive": "audio.resources",
+            "bank": "audio/windows/init.bnk",
+            "hirc_id": 1579336107,
+            "hirc_type": 8,
+            "hirc_offset": 96089,
+            "payload_sha256": "c72944e6eff37e0da2a765c8398a0a1da42c1db4389ad6b8fe22fe47fd724406"
+          },
+          "channel_configuration": {
+            "channel_mask": 4,
+            "body_offset": 17,
+            "storage": "u16 legacy bus channel mask",
+            "layout_evidence": "Custom version91 retains legacy89 bus header; exact property-bundle and channel-field offsets"
+          },
+          "authored_properties": [
+            {
+              "id": 28,
+              "value": 0.0
+            }
+          ],
+          "name": "EffectsPlayer1",
+          "capacity": 40,
+          "initial_vector_order": [
+            39,
+            38,
+            37,
+            36,
+            35,
+            34,
+            33,
+            32,
+            31,
+            30,
+            29,
+            28,
+            27,
+            26,
+            25,
+            24,
+            23,
+            22,
+            21,
+            20,
+            19,
+            18,
+            17,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "allocation_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "signal_bus_ancestry": [
+            1579336107,
+            2579257164,
+            1821346810,
+            4128152375,
+            2768693346,
+            367659462,
+            2442829342,
+            3757260660,
+            4161777440,
+            570011333,
+            1111580551,
+            702482391,
+            3803692087
+          ]
+        },
+        "stereo": {
+          "bus_id": 2579257164,
+          "override_bus_id": 1821346810,
+          "source": {
+            "archive": "audio.resources",
+            "bank": "audio/windows/init.bnk",
+            "hirc_id": 2579257164,
+            "hirc_type": 8,
+            "hirc_offset": 96023,
+            "payload_sha256": "798c172c175ffa7048fcdc6c57469cc5c9d14c10d9c0d57493ffa7790a023c00"
+          },
+          "channel_configuration": {
+            "channel_mask": 3,
+            "body_offset": 32,
+            "storage": "u16 legacy bus channel mask",
+            "layout_evidence": "Custom version91 retains legacy89 bus header; exact property-bundle and channel-field offsets"
+          },
+          "authored_properties": [
+            {
+              "id": 26,
+              "value": 0.0
+            },
+            {
+              "id": 27,
+              "value": 100.0
+            },
+            {
+              "id": 28,
+              "value": 0.0
+            },
+            {
+              "id": 31,
+              "value": 100.0
+            }
+          ],
+          "name": "StEffects_P1_1",
+          "capacity": 40,
+          "initial_vector_order": [
+            39,
+            38,
+            37,
+            36,
+            35,
+            34,
+            33,
+            32,
+            31,
+            30,
+            29,
+            28,
+            27,
+            26,
+            25,
+            24,
+            23,
+            22,
+            21,
+            20,
+            19,
+            18,
+            17,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "allocation_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "signal_bus_ancestry": [
+            2579257164,
+            1821346810,
+            4128152375,
+            2768693346,
+            367659462,
+            2442829342,
+            3757260660,
+            4161777440,
+            570011333,
+            1111580551,
+            702482391,
+            3803692087
+          ]
+        }
+      }
+    },
+    "1": {
+      "name": "Player_2",
+      "pools": {
+        "mono": {
+          "bus_id": 1579336104,
+          "override_bus_id": 2579801715,
+          "source": {
+            "archive": "audio.resources",
+            "bank": "audio/windows/init.bnk",
+            "hirc_id": 1579336104,
+            "hirc_type": 8,
+            "hirc_offset": 95472,
+            "payload_sha256": "2817ca1adc335aa5c7d5c1661f56d385ee41856757cffc0602078d7f68226c24"
+          },
+          "channel_configuration": {
+            "channel_mask": 4,
+            "body_offset": 17,
+            "storage": "u16 legacy bus channel mask",
+            "layout_evidence": "Custom version91 retains legacy89 bus header; exact property-bundle and channel-field offsets"
+          },
+          "authored_properties": [
+            {
+              "id": 28,
+              "value": 0.0
+            }
+          ],
+          "name": "EffectsPlayer2",
+          "capacity": 40,
+          "initial_vector_order": [
+            39,
+            38,
+            37,
+            36,
+            35,
+            34,
+            33,
+            32,
+            31,
+            30,
+            29,
+            28,
+            27,
+            26,
+            25,
+            24,
+            23,
+            22,
+            21,
+            20,
+            19,
+            18,
+            17,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "allocation_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "signal_bus_ancestry": [
+            1579336104,
+            2579801715,
+            1821346809,
+            4128152372,
+            2768693345,
+            367659462,
+            2442829342,
+            3757260660,
+            4161777440,
+            570011333,
+            1111580551,
+            702482391,
+            3803692087
+          ]
+        },
+        "stereo": {
+          "bus_id": 2579801715,
+          "override_bus_id": 1821346809,
+          "source": {
+            "archive": "audio.resources",
+            "bank": "audio/windows/init.bnk",
+            "hirc_id": 2579801715,
+            "hirc_type": 8,
+            "hirc_offset": 95406,
+            "payload_sha256": "8ddfa0fb3bf8a22c2b95e77bf118079b9d7f6a70f86164fdfa363516db64b1f9"
+          },
+          "channel_configuration": {
+            "channel_mask": 3,
+            "body_offset": 32,
+            "storage": "u16 legacy bus channel mask",
+            "layout_evidence": "Custom version91 retains legacy89 bus header; exact property-bundle and channel-field offsets"
+          },
+          "authored_properties": [
+            {
+              "id": 26,
+              "value": 0.0
+            },
+            {
+              "id": 27,
+              "value": 100.0
+            },
+            {
+              "id": 28,
+              "value": 0.0
+            },
+            {
+              "id": 31,
+              "value": 100.0
+            }
+          ],
+          "name": "StEffects_P2_1",
+          "capacity": 40,
+          "initial_vector_order": [
+            39,
+            38,
+            37,
+            36,
+            35,
+            34,
+            33,
+            32,
+            31,
+            30,
+            29,
+            28,
+            27,
+            26,
+            25,
+            24,
+            23,
+            22,
+            21,
+            20,
+            19,
+            18,
+            17,
+            16,
+            15,
+            14,
+            13,
+            12,
+            11,
+            10,
+            9,
+            8,
+            7,
+            6,
+            5,
+            4,
+            3,
+            2,
+            1,
+            0
+          ],
+          "allocation_order": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39
+          ],
+          "signal_bus_ancestry": [
+            2579801715,
+            1821346809,
+            4128152372,
+            2768693345,
+            367659462,
+            2442829342,
+            3757260660,
+            4161777440,
+            570011333,
+            1111580551,
+            702482391,
+            3803692087
+          ]
+        }
+      }
+    }
+  },
+  "allocation": {
+    "pool_selection": {
+      "field": "Tone GearList entry Type",
+      "operator": "exact string equality",
+      "equals": "Racks",
+      "when_equal": "stereo",
+      "otherwise": "mono"
+    },
+    "effect_order": "Manifest Effects array order within each gear; cumulative allocation across native slot_order",
+    "slot_index": "Zero-based count of already allocated effects in the selected pool; not the logical gear index",
+    "capacity_per_pool": 40,
+    "exhaustion": "Original86cb30 returns before remaining effects when selected pool vector is empty",
+    "renderer_requirement": "Reject insufficient capacity instead of claiming an unbounded sequential graph is original"
+  },
+  "physical_order": [
+    "All mono-pool effects in ascending native FX slot",
+    "All stereo-pool effects in ascending native FX slot",
+    "Fixed parent bus processing from native_gain_contract.json"
+  ],
+  "devices": {
+    "Amp_AT120": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_AT20": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_BT15": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_BT30": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_BT45": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_CA100": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_CA38": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_CA85": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_CS100": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_CS120": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_CS90": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_EN30": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_EN50": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_EpiphoneElectarCentury": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_EpiphoneElectarM": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_EpiphoneElectricHawaiian": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_EpiphoneZephyr": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_GB100": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_GB38": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_GB50": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_GibsonGA79": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_GibsonGA8": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_GibsonGA88": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_HG100": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_HG180": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_HG500": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_Marshall1962Bluesbreaker": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_MarshallDSL100H": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_MarshallDSL15H": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_MarshallJCM800": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_MarshallJTM45": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_MarshallJVM410H": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_MarshallPlexi": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_OrangeAD50": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_OrangeJimmyBean": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_OrangeOR100": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_OrangeOR50H": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_OrangeRockerverb": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_OrangeTinyTerror": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_TW22": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_TW26": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Amp_TW40": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Bass_Amp_BT600B": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Bass_Amp_BT880B": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Bass_Amp_BT975B": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Bass_Amp_CH300B": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Bass_Amp_CH350B": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Bass_Amp_CH600B": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Bass_Amp_CS240B": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Bass_Amp_CS300B": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Bass_Amp_CS75B": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Bass_Amp_EdenE300": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Bass_Amp_EdenWT550": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Bass_Amp_EdenWT800": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Bass_Amp_HT100B": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Bass_Amp_HT300B": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Bass_Amp_HT400B": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Bass_Amp_LT25B": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Bass_Amp_LT85B": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Bass_Amp_OrangeAD200B": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Bass_Cab_AT1150BC_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_AT1150BC_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_AT1150BC_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_AT1150BC_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_AT1150BC_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_AT1150BC_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_AT1150BC_Tube_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_AT1150BC_Tube_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_AT1150BC_Tube_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_AT810BC_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_AT810BC_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_AT810BC_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_AT810BC_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_AT810BC_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_AT810BC_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_AT810BC_Tube_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_AT810BC_Tube_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_AT810BC_Tube_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_BT115BC_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_BT115BC_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_BT115BC_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_BT115BC_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_BT115BC_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_BT115BC_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_BT115BC_Tube_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_BT115BC_Tube_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_BT115BC_Tube_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_BT212BC_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_BT212BC_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_BT212BC_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_BT212BC_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_BT212BC_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_BT212BC_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_BT212BC_Tube_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_BT212BC_Tube_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_BT212BC_Tube_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_BT410BC_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_BT410BC_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_BT410BC_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_BT410BC_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_BT410BC_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_BT410BC_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_BT410BC_Tube_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_BT410BC_Tube_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_BT410BC_Tube_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CA1510BC_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CA1510BC_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CA1510BC_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CA1510BC_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CA1510BC_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CA1510BC_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CA1510BC_Tube_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CA1510BC_Tube_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CA1510BC_Tube_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CH210BC_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CH210BC_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CH210BC_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CH210BC_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CH210BC_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CH210BC_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CH210BC_Tube_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CH210BC_Tube_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CH210BC_Tube_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CH310BC_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CH310BC_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CH310BC_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CH310BC_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CH310BC_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CH310BC_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CH310BC_Tube_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CH310BC_Tube_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CH310BC_Tube_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CH410BC_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CH410BC_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CH410BC_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CH410BC_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CH410BC_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CH410BC_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CH410BC_Tube_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CH410BC_Tube_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CH410BC_Tube_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CS112BC_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CS112BC_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CS112BC_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CS112BC_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CS112BC_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CS112BC_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CS112BC_Tube_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CS112BC_Tube_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CS112BC_Tube_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CS15BC_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CS15BC_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CS15BC_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CS15BC_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CS15BC_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CS15BC_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CS15BC_Tube_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CS15BC_Tube_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CS15BC_Tube_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CS410BC_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CS410BC_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CS410BC_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CS410BC_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CS410BC_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CS410BC_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CS410BC_Tube_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CS410BC_Tube_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_CS410BC_Tube_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD115XLT_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD115XLT_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD115XLT_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD115XLT_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD115XLT_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD115XLT_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD115XLT_Tube_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD115XLT_Tube_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD115XLT_Tube_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD212XLT_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD212XLT_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD212XLT_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD212XLT_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD212XLT_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD212XLT_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD212XLT_Tube_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD212XLT_Tube_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD212XLT_Tube_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD410XST_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD410XST_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD410XST_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD410XST_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD410XST_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD410XST_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD410XST_Tube_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD410XST_Tube_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD410XST_Tube_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD610XST_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD610XST_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD610XST_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD610XST_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD610XST_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD610XST_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD610XST_Tube_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD610XST_Tube_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_EdenD610XST_Tube_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_GB415BC_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_GB415BC_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_GB415BC_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_GB415BC_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_GB415BC_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_GB415BC_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_GB415BC_Tube_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_GB415BC_Tube_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_GB415BC_Tube_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_OrangeOBC115_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_OrangeOBC115_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_OrangeOBC115_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_OrangeOBC115_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_OrangeOBC115_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_OrangeOBC115_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_OrangeOBC115_Tube_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_OrangeOBC115_Tube_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_OrangeOBC115_Tube_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_OrangeOBC810_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_OrangeOBC810_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_OrangeOBC810_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_OrangeOBC810_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_OrangeOBC810_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_OrangeOBC810_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_OrangeOBC810_Tube_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_OrangeOBC810_Tube_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_OrangeOBC810_Tube_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_TW215BC_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_TW215BC_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_TW215BC_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_TW215BC_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_TW215BC_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_TW215BC_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_TW215BC_Tube_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_TW215BC_Tube_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Cab_TW215BC_Tube_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Bass_Pedal_BassAutoFilter": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Bass_Pedal_BassChorus": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Bass_Pedal_BassDistortion": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Bass_Pedal_BassEQ8": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Bass_Pedal_BassEnbig": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Bass_Pedal_BassFilterDelay": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Bass_Pedal_BassFilterEcho": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Bass_Pedal_BassFlanger": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Bass_Pedal_BassFuzz": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Bass_Pedal_BassOverdrive": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Bass_Pedal_BassPhase": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Bass_Pedal_BassSubOctave": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Bass_Pedal_BassWah": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Bass_Pedal_EdenWTDI": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Bass_Pedal_MBComp": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Cab_AT0112C_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_AT0112C_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_AT0112C_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_AT0112C_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_AT0112C_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_AT0112C_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_AT0112C_Ribbon_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_AT0112C_Ribbon_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_AT0112C_Ribbon_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_AT1121C_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_AT1121C_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_AT1121C_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_AT1121C_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_AT1121C_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_AT1121C_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_AT1121C_Ribbon_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_AT1121C_Ribbon_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_AT1121C_Ribbon_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Audiophile": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_BT1120C_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_BT1120C_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_BT1120C_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_BT1120C_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_BT1120C_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_BT1120C_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_BT1120C_Ribbon_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_BT1120C_Ribbon_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_BT1120C_Ribbon_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_BT1121C_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_BT1121C_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_BT1121C_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_BT1121C_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_BT1121C_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_BT1121C_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_BT1121C_Ribbon_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_BT1121C_Ribbon_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_BT1121C_Ribbon_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_BT410C_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_BT410C_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_BT410C_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_BT410C_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_BT410C_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_BT410C_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_BT410C_Ribbon_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_BT410C_Ribbon_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_BT410C_Ribbon_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_BoomBox": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CA112C_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CA112C_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CA112C_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CA112C_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CA112C_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CA112C_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CA112C_Ribbon_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CA112C_Ribbon_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CA112C_Ribbon_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CA215C_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CA215C_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CA215C_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CA215C_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CA215C_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CA215C_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CA215C_Ribbon_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CA215C_Ribbon_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CA215C_Ribbon_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CA412C_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CA412C_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CA412C_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CA412C_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CA412C_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CA412C_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CA412C_Ribbon_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CA412C_Ribbon_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CA412C_Ribbon_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CS1120C_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CS1120C_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CS1120C_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CS1120C_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CS1120C_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CS1120C_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CS1120C_Ribbon_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CS1120C_Ribbon_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CS1120C_Ribbon_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CS1515C_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CS1515C_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CS1515C_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CS1515C_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CS1515C_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CS1515C_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CS1515C_Ribbon_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CS1515C_Ribbon_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CS1515C_Ribbon_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CS212C_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CS212C_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CS212C_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CS212C_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CS212C_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CS212C_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CS212C_Ribbon_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CS212C_Ribbon_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CS212C_Ribbon_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_CabinetRadio": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_EN212C_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_EN212C_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_EN212C_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_EN212C_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_EN212C_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_EN212C_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_EN212C_Ribbon_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_EN212C_Ribbon_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_EN212C_Ribbon_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_EN4120C_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_EN4120C_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_EN4120C_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_EN4120C_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_EN4120C_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_EN4120C_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_EN4120C_Ribbon_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_EN4120C_Ribbon_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_EN4120C_Ribbon_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_GB412CMKIII_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_GB412CMKIII_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_GB412CMKIII_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_GB412CMKIII_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_GB412CMKIII_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_GB412CMKIII_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_GB412CMKIII_Ribbon_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_GB412CMKIII_Ribbon_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_GB412CMKIII_Ribbon_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_GB412CMKII_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_GB412CMKII_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_GB412CMKII_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_GB412CMKII_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_GB412CMKII_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_GB412CMKII_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_GB412CMKII_Ribbon_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_GB412CMKII_Ribbon_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_GB412CMKII_Ribbon_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_GB412CMKI_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_GB412CMKI_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_GB412CMKI_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_GB412CMKI_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_GB412CMKI_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_GB412CMKI_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_GB412CMKI_Ribbon_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_GB412CMKI_Ribbon_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_GB412CMKI_Ribbon_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Gramophone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_HG2120C_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_HG2120C_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_HG2120C_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_HG2120C_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_HG2120C_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_HG2120C_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_HG2120C_Ribbon_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_HG2120C_Ribbon_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_HG2120C_Ribbon_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_HG212C_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_HG212C_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_HG212C_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_HG212C_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_HG212C_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_HG212C_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_HG212C_Ribbon_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_HG212C_Ribbon_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_HG212C_Ribbon_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_HG215C_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_HG215C_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_HG215C_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_HG215C_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_HG215C_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_HG215C_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_HG215C_Ribbon_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_HG215C_Ribbon_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_HG215C_Ribbon_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_JukeBox": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1936_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1936_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1936_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1936_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1936_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1936_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1936_Ribbon_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1936_Ribbon_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1936_Ribbon_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1960AX_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1960AX_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1960AX_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1960AX_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1960AX_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1960AX_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1960AX_Ribbon_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1960AX_Ribbon_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1960AX_Ribbon_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1960TV_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1960TV_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1960TV_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1960TV_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1960TV_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1960TV_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1960TV_Ribbon_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1960TV_Ribbon_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1960TV_Ribbon_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1960a_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1960a_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1960a_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1960a_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1960a_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1960a_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1960a_Ribbon_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1960a_Ribbon_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_Marshall1960a_Ribbon_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_OrangeJimmyBean_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_OrangeJimmyBean_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_OrangeJimmyBean_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_OrangeJimmyBean_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_OrangeJimmyBean_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_OrangeJimmyBean_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_OrangeJimmyBean_Ribbon_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_OrangeJimmyBean_Ribbon_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_OrangeJimmyBean_Ribbon_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_OrangePPC212OB_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_OrangePPC212OB_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_OrangePPC212OB_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_OrangePPC212OB_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_OrangePPC212OB_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_OrangePPC212OB_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_OrangePPC212OB_Ribbon_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_OrangePPC212OB_Ribbon_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_OrangePPC212OB_Ribbon_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_OrangePPC412_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_OrangePPC412_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_OrangePPC412_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_OrangePPC412_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_OrangePPC412_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_OrangePPC412_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_OrangePPC412_Ribbon_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_OrangePPC412_Ribbon_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_OrangePPC412_Ribbon_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_PA1152C": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_PA600C": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_PA999C": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_TW110C_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_TW110C_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_TW110C_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_TW110C_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_TW110C_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_TW110C_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_TW110C_Ribbon_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_TW110C_Ribbon_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_TW110C_Ribbon_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_TW112C_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_TW112C_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_TW112C_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_TW112C_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_TW112C_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_TW112C_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_TW112C_Ribbon_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_TW112C_Ribbon_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_TW112C_Ribbon_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_TW410C_57_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_TW410C_57_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_TW410C_57_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_TW410C_Condenser_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_TW410C_Condenser_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_TW410C_Condenser_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_TW410C_Ribbon_Cone": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_TW410C_Ribbon_Edge": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_TW410C_Ribbon_OffAxis": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "Cab_VintageHiFi": {
+      "source_type": "Cabinets",
+      "pool": "mono"
+    },
+    "DI_Amp_BassDriver": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "DI_Amp_MixerPre": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "DI_Amp_TubePre": {
+      "source_type": "Amps",
+      "pool": "mono"
+    },
+    "Pedal_80sFlanger": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_AcousticEmulator": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_AmpEQ": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_AmpTrem": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_AmpVibe": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_AnalogueDelay": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_AutoFilter": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_AutoVibe": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_BakedRotatoe": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_BassEmulator": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_BitCruncher": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_BobFilter": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_BuzzOne": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_BuzzToo": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_CaptFuzzle": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_Chorus": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_Chorus20": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_ClassicFlanger": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_Compression": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_CosmicEcho": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_CustomDrive": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_DigitalChorus": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_DigitalVerb": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_Distortion": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_EQ5": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_EQ8": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_Enbiggenator": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_FuzzWasHe": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_GermaniumDrive": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_Limiter": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_LineDrive": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_LoFiFilter": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_MarshallGuvnorPlus": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_MarshallSupervibe": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_MetalDistortion": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_ModDelay": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_ModernFlanger": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_ModernWah": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_MultiPitch": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_MultiTrem": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_MultiVibe": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_NPNDelay": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_NoFiEcho": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_NoiseGate": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_OctaveUp": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_Octavius": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_OilCanEcho": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_OmniMod": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_Phaser": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_PlanePhase": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_PlateVerb": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_RangeBooster": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_RingMod": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_SendInTheClones": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_ShaverPhaser": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_ShredZone": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_SpringReverb": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_SuperDrive": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_Swole": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_TremOle": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_Tremolo": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_TubeSpring": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_UKWah": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_USWah": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_ValveEcho": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_VintageChorus": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_VintageDistortion": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Pedal_VintageFlanger": {
+      "source_type": "Pedals",
+      "pool": "mono"
+    },
+    "Rack_RotaVibe": {
+      "source_type": "Racks",
+      "pool": "stereo"
+    },
+    "Rack_StereoAnalogVibe": {
+      "source_type": "Racks",
+      "pool": "stereo"
+    },
+    "Rack_StereoPhaser": {
+      "source_type": "Racks",
+      "pool": "stereo"
+    },
+    "Rack_StereoTubeTrem": {
+      "source_type": "Racks",
+      "pool": "stereo"
+    },
+    "Rack_StudioChamber": {
+      "source_type": "Racks",
+      "pool": "stereo"
+    },
+    "Rack_StudioChorus": {
+      "source_type": "Racks",
+      "pool": "stereo"
+    },
+    "Rack_StudioCompressor": {
+      "source_type": "Racks",
+      "pool": "stereo"
+    },
+    "Rack_StudioDelay": {
+      "source_type": "Racks",
+      "pool": "stereo"
+    },
+    "Rack_StudioEQ": {
+      "source_type": "Racks",
+      "pool": "stereo"
+    },
+    "Rack_StudioFlanger": {
+      "source_type": "Racks",
+      "pool": "stereo"
+    },
+    "Rack_StudioGraphicEQ": {
+      "source_type": "Racks",
+      "pool": "stereo"
+    },
+    "Rack_StudioPitch": {
+      "source_type": "Racks",
+      "pool": "stereo"
+    },
+    "Rack_StudioPlate": {
+      "source_type": "Racks",
+      "pool": "stereo"
+    },
+    "Rack_StudioVerb": {
+      "source_type": "Racks",
+      "pool": "stereo"
+    },
+    "Rack_StudioWahFilter": {
+      "source_type": "Racks",
+      "pool": "stereo"
+    },
+    "Rack_SynthFilter": {
+      "source_type": "Racks",
+      "pool": "stereo"
+    },
+    "Rack_TapeEcho": {
+      "source_type": "Racks",
+      "pool": "stereo"
+    }
+  },
+  "channel_adapter": {
+    "source_mask": 4,
+    "destination_mask": 3,
+    "original_matrix_replayed": true,
+    "scope": "Controlled centered128-frame panner and original mixer execution; full-game bus states remain separate",
+    "applicable_when": "Centered unpositioned mono bus and unchanged matrix state",
+    "coefficients": {
+      "left": 0.7071067690849304,
+      "right": 0.7071067690849304
+    },
+    "native_entrypoints": {
+      "panner": "0xef83a0",
+      "output_dispatch": "0xf0f550",
+      "stereo_mix": "0xf0fb20",
+      "projection": "0xf0f220",
+      "sample_mix": "0xf0f660"
+    },
+    "verified_block_frames": 128,
+    "required_frame_multiple": 8,
+    "zero_destination_before_mix": true,
+    "tested_panning_rules": [
+      0,
+      1
+    ],
+    "tested_center_pct": [
+      0.0,
+      1.0
+    ],
+    "full_game_bus_state_replayed": false,
+    "proof_output_sha256": "3f2895fd97ea08fd424bb2b4f42fbbab266ea4924dc7e47debe326a0934ba318",
+    "stereo_input_policy": "Require an explicit selected source channel or a verified adapter; never silently downmix"
+  },
+  "source": {
+    "tone_manager": {
+      "archive": "static.resources",
+      "member": "manifests/tonemanager.database.json",
+      "member_sha256": "9abd7b40d2f75b56e78fd63d2dfe438d8732f66b15cc258c0cd9b8e12fdbd11e"
+    },
+    "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+    "runtime_image_sha256": "c92fa9950e7b3dc36d7c44286fc072f6cb996b41b00bce67f64afa99e7555018",
+    "slot_name_pointer_table": "0x12e8288"
+  },
+  "evidence": {
+    "pool_initialization": "ev_80ee8fdcedf50055891552fdc5cc2dae51a107c84689744fc74416949ab4d39c",
+    "tone_loader": "ev_486dfb108d5f6ea1f89e9add3807eeaa3d46696769c1d46f0be7c45cf33a80af",
+    "pool_copy": "ev_ef8f68e92abd63dcc2f6b4024ec52584411440eb3705eb4d853470cefd9723f6",
+    "assignment": "ev_cf8da8b9802b1ed64955b2671e08b48739b41c838b1c2bbfa4fd9ec58a443a94",
+    "effects_array_loader": "ev_826e37cd9f8fe1bfc5d7967080cea41f3cb714f51b79d92906786ecd4955c2d6",
+    "panner": "ev_441a9063af6036bc3f4b383deafe620ef40ab8143bedd196eb232aa5b2dd2281",
+    "mix_dispatch": "ev_b96d05e49bdc8ff29155406abd1b843b9e22fdafabf5c1fb639724c367bce57e",
+    "stereo_mix": "ev_25fffb074db02657312d7687c0c3be4d47ceba9538a91fb867fb1f336983de69"
+  },
+  "limitations": [
+    "The verified centered adapter does not replay dynamic bus positioning or gain-matrix changes.",
+    "Original bus properties, runtime bypass/state changes and input-mode calibration require replay separately.",
+    "A logical slot has no unique fixed native FX index; source effect count and pool determine indices."
+  ]
+}

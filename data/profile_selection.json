@@ -1,0 +1,304 @@
+{
+  "schema": "feedtone.runtime-profile-selection.v1",
+  "id": "reference-init-wah-2026-10-18",
+  "native_runtime_image_sha256": "c92fa9950e7b3dc36d7c44286fc072f6cb996b41b00bce67f64afa99e7555018",
+  "devices": {
+    "Rack_StudioWahFilter": {
+      "4197086352": "profile:6b5a5a3d9249259b81f1dc14#4197086352",
+      "4197086353": "profile:eb13faffb4c2b31310e11e21#4197086353",
+      "4197086354": "profile:8afb27d90633573803a640ea#4197086354",
+      "4197086355": "profile:0d0c5bff8a7667ef94c1e198#4197086355"
+    }
+  },
+  "profiles": {
+    "profile:6b5a5a3d9249259b81f1dc14#4197086352": {
+      "plugin_id": "0x690003",
+      "parameter_block_hex": "04000000000000000000c8420000803f01060000000000000000007a440000803f00050000000000000000803b460000803f000000000000",
+      "media": [],
+      "curves": [
+        {
+          "rtpc_id": 273489416,
+          "rtpc_type_provisional": 0,
+          "curve_id": 128482934,
+          "plugin_parameter_id": 15,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": 0.0,
+              "y": -6.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": 100.0,
+              "y": 12.0,
+              "interpolation_provisional": 4
+            }
+          ]
+        }
+      ],
+      "id": 4197086352,
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "record_payload_sha256": "4fb68cbbf202b8bfa29241431376979bf8bb789ff0cc6d1052fe7425b106052a"
+      }
+    },
+    "profile:eb13faffb4c2b31310e11e21#4197086353": {
+      "plugin_id": "0x810003",
+      "parameter_block_hex": "00000000cdcccc3d000010c2000040c10000000001b0018c64",
+      "media": [],
+      "curves": [
+        {
+          "rtpc_id": 2876788815,
+          "rtpc_type_provisional": 0,
+          "curve_id": 768757044,
+          "plugin_parameter_id": 1,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": 10.0,
+              "y": 0.009999999776482582,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": 1000.0,
+              "y": 1.0,
+              "interpolation_provisional": 4
+            }
+          ]
+        },
+        {
+          "rtpc_id": 2876788815,
+          "rtpc_type_provisional": 0,
+          "curve_id": 902011410,
+          "plugin_parameter_id": 6,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": 10.0,
+              "y": 0.30000001192092896,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": 1000.0,
+              "y": 0.10999999940395355,
+              "interpolation_provisional": 4
+            }
+          ]
+        },
+        {
+          "rtpc_id": 1375770644,
+          "rtpc_type_provisional": 0,
+          "curve_id": 547558579,
+          "plugin_parameter_id": 0,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": 0.0,
+              "y": 0.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": 1000.0,
+              "y": 1.0,
+              "interpolation_provisional": 4
+            }
+          ]
+        }
+      ],
+      "id": 4197086353,
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "record_payload_sha256": "85f0018391d17959be2c75fcf35cb0f8803a047ee37cb4543ff6bbc91304827e"
+      }
+    },
+    "profile:8afb27d90633573803a640ea#4197086354": {
+      "plugin_id": "0x690003",
+      "parameter_block_hex": "04000000000000000000c8420000803f00060000000000000000007a440000803f00050000000000000000803b460000803f000000000000",
+      "media": [],
+      "curves": [
+        {
+          "rtpc_id": 273489416,
+          "rtpc_type_provisional": 0,
+          "curve_id": 844192914,
+          "plugin_parameter_id": 15,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": 0.0,
+              "y": 6.0,
+              "interpolation_provisional": 4
+            },
+            {
+              "x": 100.0,
+              "y": -12.0,
+              "interpolation_provisional": 4
+            }
+          ]
+        }
+      ],
+      "id": 4197086354,
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "record_payload_sha256": "b565427afee5d2037182be5e03b3156817fee92b89d87f252dbc88fddee4d1a6"
+      }
+    },
+    "profile:0d0c5bff8a7667ef94c1e198#4197086355": {
+      "plugin_id": "0x7e0003",
+      "parameter_block_hex": "050000000000000000a0df440000803f000500000000006041000086449a99894001030000000000000000007a440000803f00000000000000000000007a440000803f00050000000000f04000007a44cdcccc3d00000000000000000000007a440000803f00040000000000803f000048420000a040000000000000c842",
+      "media": [],
+      "curves": [
+        {
+          "rtpc_id": 2685862743,
+          "rtpc_type_provisional": 0,
+          "curve_id": 618284756,
+          "plugin_parameter_id": 13,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": 0.0,
+              "y": 7.613269805908203,
+              "interpolation_provisional": 7
+            },
+            {
+              "x": 100.0,
+              "y": 4.199999809265137,
+              "interpolation_provisional": 4
+            }
+          ]
+        },
+        {
+          "rtpc_id": 4288096336,
+          "rtpc_type_provisional": 0,
+          "curve_id": 1048231018,
+          "plugin_parameter_id": 14,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": 0.0,
+              "y": 1.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": 1.0,
+              "y": 0.0,
+              "interpolation_provisional": 9
+            }
+          ]
+        },
+        {
+          "rtpc_id": 4288096336,
+          "rtpc_type_provisional": 0,
+          "curve_id": 730733563,
+          "plugin_parameter_id": 4,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": 0.0,
+              "y": 0.0,
+              "interpolation_provisional": 9
+            },
+            {
+              "x": 1.0,
+              "y": 1.0,
+              "interpolation_provisional": 9
+            }
+          ]
+        },
+        {
+          "rtpc_id": 1686897072,
+          "rtpc_type_provisional": 0,
+          "curve_id": 214016714,
+          "plugin_parameter_id": 3,
+          "scaling_provisional": 0,
+          "points": [
+            {
+              "x": -36.0,
+              "y": 7.599999904632568,
+              "interpolation_provisional": 7
+            },
+            {
+              "x": -12.0,
+              "y": 4.199999809265137,
+              "interpolation_provisional": 4
+            }
+          ]
+        },
+        {
+          "rtpc_id": 1686897072,
+          "rtpc_type_provisional": 0,
+          "curve_id": 991652327,
+          "plugin_parameter_id": 2,
+          "scaling_provisional": 3,
+          "points": [
+            {
+              "x": -36.0,
+              "y": 2.6334683895111084,
+              "interpolation_provisional": 1
+            },
+            {
+              "x": -12.0,
+              "y": 3.352182626724243,
+              "interpolation_provisional": 4
+            }
+          ]
+        },
+        {
+          "rtpc_id": 2685862743,
+          "rtpc_type_provisional": 0,
+          "curve_id": 287251429,
+          "plugin_parameter_id": 12,
+          "scaling_provisional": 3,
+          "points": [
+            {
+              "x": 0.0,
+              "y": 2.6334683895111084,
+              "interpolation_provisional": 2
+            },
+            {
+              "x": 100.0,
+              "y": 3.352182626724243,
+              "interpolation_provisional": 4
+            }
+          ]
+        },
+        {
+          "rtpc_id": 1686897072,
+          "rtpc_type_provisional": 0,
+          "curve_id": 1073115130,
+          "plugin_parameter_id": 64,
+          "scaling_provisional": 2,
+          "points": [
+            {
+              "x": -36.0,
+              "y": 0.7301275730133057,
+              "interpolation_provisional": 6
+            },
+            {
+              "x": -12.0,
+              "y": 0.8454252481460571,
+              "interpolation_provisional": 4
+            }
+          ]
+        }
+      ],
+      "id": 4197086355,
+      "source": {
+        "archive": "audio.resources",
+        "bank": "audio/windows/init.bnk",
+        "bank_sha256": "380aa2e81f0cb5e519613d42fdff780a172a86f061e09e33ede12d6a1fd0d896",
+        "record_payload_sha256": "60bdd36f49d2fa98cbd598e739c4add4560688e640417a1955bc2f9c546e98fb"
+      }
+    }
+  },
+  "evidence_ids": [
+    "ev_e909aad9f82869db30e4a57c435c06cde053ce9e404d4972f92fe20d9006e4bc",
+    "ev_3acb0b246062693b2535b3cf2cc5a767435f530af6c8b8d9bff878927e127bd8"
+  ],
+  "scope": "Observed init-bank Studio Wah definition on this engine image; complete device matched live played audio after reset-state convergence. Other gear retains declared bank profiles."
+}
