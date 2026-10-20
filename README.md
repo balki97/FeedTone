@@ -26,5 +26,3 @@ only one installation. Personal rigs and mix edits are stored in FeedBack's sett
 
 [Website](https://feedforge.org) · [Discord](https://discord.gg/9cUe6cacQN) ·
 [Support us on Ko-fi](https://ko-fi.com/feedforge)
-
-[License](LICENSE) · [Third-party notices](THIRD_PARTY_NOTICES.md)
