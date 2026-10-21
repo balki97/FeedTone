@@ -7,6 +7,7 @@ import sys
 import numpy as np
 
 from .graph import ToneGraph
+from .resample import Resampler
 
 MAGIC = 0x53534652
 _NATIVE = Path(__file__).resolve().parents[1]/'native'
@@ -36,12 +37,14 @@ def _read(stream, count):
 def serve(definition, source, sink):
     graph = ToneGraph(definition)
     channels = 2
+    rate = 48000
+    incoming = outgoing = None
     pending = np.empty((0, 1), np.float32)
     output = np.zeros((128, 2), np.float32)
     pending_controls = {}
 
     def reply(op, frames=0, payload=b''):
-        sink.write(struct.pack('<8I', MAGIC, 1, op, 0, frames, channels, 48000, 128))
+        sink.write(struct.pack('<8I', MAGIC, 1, op, 0, frames, channels, rate, 128 if rate == 48000 else 192))
         sink.write(payload)
         sink.flush()
 
@@ -52,9 +55,11 @@ def serve(definition, source, sink):
             if magic != MAGIC or version != 1:
                 raise ValueError('Invalid audio transport header')
             if op == 7:
-                if first != 48000 or second not in (1, 2):
-                    raise ValueError('Audio transport requires 48kHz mono/stereo')
-                channels = second
+                if first not in (44100, 48000) or second not in (1, 2):
+                    raise ValueError('Audio transport requires 44.1 or 48 kHz mono/stereo')
+                rate, channels = first, second
+                incoming = Resampler(rate, 48000, 1) if rate != 48000 else None
+                outgoing = Resampler(48000, rate, 2, delay=32 * 48000 / rate) if rate != 48000 else None
                 graph.close()
                 graph = ToneGraph(definition)
                 pending = np.empty((0, 1), np.float32)
@@ -65,15 +70,18 @@ def serve(definition, source, sink):
                 if not 0 < first <= 65536 or second:
                     raise ValueError('Invalid audio transport frame count')
                 audio = np.frombuffer(_read(source, first*channels*4), dtype='<f4').reshape(first, channels)
-                if channels == 2 and not np.array_equal(audio[:, 0], audio[:, 1]):
-                    raise ValueError('Select mono guitar input; stereo downmix is not calibrated')
-                pending = np.concatenate((pending, audio[:, :1]))
+                mono = audio[:, :1] if channels == 1 else audio[:, :1] * .5 + audio[:, 1:2] * .5
+                converted = incoming.process(mono) if incoming else mono
+                pending = np.concatenate((pending, converted))
                 while len(pending) >= 128:
-                    output = np.concatenate((output, graph.process(pending[:128])))
+                    block = graph.process(pending[:128])
+                    output = np.concatenate((output, outgoing.process(block) if outgoing else block))
                     pending = pending[128:]
                     for identity, value in pending_controls.items():
                         graph.set_control(identity, value)
                     pending_controls.clear()
+                if len(output) < first:
+                    raise RuntimeError('Audio transport output underrun')
                 rendered, output = output[:first], output[first:]
                 reply(op, first, rendered[:, :channels].astype('<f4').tobytes())
             elif op == 2:
@@ -89,6 +97,9 @@ def serve(definition, source, sink):
                 reply(op)
             elif op == 3:
                 graph.reset()
+                if incoming:
+                    incoming.reset()
+                    outgoing.reset()
                 pending = np.empty((0, 1), np.float32)
                 output = np.zeros((128, 2), np.float32)
                 pending_controls.clear()

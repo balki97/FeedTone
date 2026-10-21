@@ -32,7 +32,7 @@ def build():
     binary=directory/('FeedTone' if sys.platform=='darwin' else 'FeedTone.so')
     subprocess.run([cc,*flags,'-O1',*link,str(ROOT/'native/source/bridge.c'),'-o',str(binary),'-lpthread',*(['-ldl'] if sys.platform=='linux' else [])],check=True)
     if sys.platform=='darwin':
-        (bundle/'Contents/Info.plist').write_bytes(plistlib.dumps({'CFBundleExecutable':'FeedTone','CFBundleIdentifier':'org.feedforge.feedtone','CFBundleName':'FeedTone','CFBundlePackageType':'BNDL','CFBundleVersion':'1.0.0','CFBundleShortVersionString':'1.0.0'}))
+        (bundle/'Contents/Info.plist').write_bytes(plistlib.dumps({'CFBundleExecutable':'FeedTone','CFBundleIdentifier':'org.feedforge.feedtone','CFBundleName':'FeedTone','CFBundlePackageType':'BNDL','CFBundleVersion':'1.0.1','CFBundleShortVersionString':'1.0.1'}))
         subprocess.run(['codesign','--force','--sign','-','--timestamp=none',str(bundle)],check=True)
     print(platform_key(),output)
 
@@ -51,21 +51,39 @@ def verify():
         assert result.shape==(128,2) and np.isfinite(result).all(),key
         checked+=1
     definition={'Volume':-12,'GearList':{'PrePedal1':{'Key':'Pedal_EQ8','Type':'Pedals','KnobValues':{}}}}
-    signal=(np.sin(np.arange(4096,dtype=np.float32)*.03)*.01).astype(np.float32)
+    from io import BytesIO
+    import struct
+    from engine.service import serve, MAGIC
+    results=[]
     with tempfile.TemporaryDirectory(prefix='Feed Tone café ') as temporary:
         preset=prepare_preset(definition,title='FeedTone verification',cache_root=Path(temporary),python_executable=sys.executable)
-        plugin=load_plugin(preset['native_preset']['chain'][0]['path'])
-        output=plugin(signal,48000,buffer_size=113)
-        assert np.isfinite(output).all() and np.max(np.abs(output))>0
-        # The host compensates the transport latency.
-        graph=ToneGraph(definition)
-        expected=np.concatenate([graph.process(signal[i:i+128,None]) for i in range(0,4096,128)])
-        graph.close()
-        rendered=output.T if output.ndim==2 else output[:,None]
-        if rendered.shape[1]==1:rendered=np.repeat(rendered,2,axis=1)
-        error=float(np.max(np.abs(rendered-expected)))
-        assert error<1e-6,error
-    print(json.dumps({'platform':platform_key(),'devices_rendered':checked,'vst_audio_error':error,'unicode_path':True}))
+        for rate in (48000,44100):
+            signal=(np.sin(np.arange(8192,dtype=np.float32)*(.03*48000/rate))*.01).astype(np.float32)
+            latency=128 if rate==48000 else 192
+            for channels in (1,2):
+                audio=np.repeat(signal[:,None],channels,axis=1)
+                padded=np.concatenate((audio,np.zeros((1024,channels),np.float32)))
+                def command(op,a=0,b=0,payload=b''):
+                    return struct.pack('<5I',MAGIC,1,op,a,b)+payload
+                sink=BytesIO()
+                serve(definition,BytesIO(command(7,rate,channels)+command(1,len(padded),0,padded.astype('<f4').tobytes())+command(4)),sink)
+                sink.seek(64)
+                header=struct.unpack('<8I',sink.read(32))
+                assert header[6:]==(rate,latency)
+                expected=np.frombuffer(sink.read(len(padded)*channels*4),'<f4').reshape(-1,channels)[latency:latency+len(signal)]
+                plugin=load_plugin(preset['native_preset']['chain'][0]['path'])
+                try:
+                    for block_size in (113,257):
+                        output=plugin(audio.T,rate,buffer_size=block_size).T
+                        assert np.isfinite(output).all() and np.max(np.abs(output))>0
+                        error=float(np.max(np.abs(output-expected)))
+                        assert error<1e-6,(rate,channels,block_size,error)
+                        results.append({'rate':rate,'channels':channels,'block_size':block_size,'vst_audio_error':error})
+                finally:
+                    del plugin
+                    import gc
+                    gc.collect()
+    print(json.dumps({'platform':platform_key(),'devices_rendered':checked,'audio_checks':results,'unicode_path':True}))
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--verify',action='store_true');args=parser.parse_args()

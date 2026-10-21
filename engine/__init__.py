@@ -91,7 +91,7 @@ def coverage():
     return {'standalone': True, 'experimental': True, 'full_parity_verified': False,
             'devices': len(_data('devices')['devices']),
             'profiles': sum(counts.values()), 'cabinet_resources': 358,
-            'runtime': {'platform': platform_key(), 'python': 'FeedBack embedded Python 3.12', 'sample_rate': 48000},
+            'runtime': {'platform': platform_key(), 'python': 'FeedBack embedded Python 3.12', 'sample_rate': 48000, 'device_sample_rates': [44100, 48000]},
             'families': [{'plugin_id': key, 'profiles': count,
                           'implementation': implemented.get(key, 'not implemented'),
                           'implemented': key in implemented} for key, count in sorted(counts.items())],

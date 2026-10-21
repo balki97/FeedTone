@@ -17,9 +17,13 @@ from [Releases](https://github.com/balki97/FeedTone/releases/latest). Restart Fe
 after installation. No separate FeedTone application is needed.
 
 Supports FeedBack desktop on Windows, macOS (Intel and Apple Silicon), and Linux
-(Intel and ARM), using 48 kHz audio and the embedded Python 3.12 runtime. Linux
+(Intel and ARM), using 44.1 or 48 kHz audio and the embedded Python 3.12 runtime. Linux
 requires glibc; actual audio-interface listening still depends on the host's device
 support. Complete acoustic equivalence is not claimed.
+
+For USB devices with multiple inputs, select a dry/DI guitar input. Shared-mode
+song previews follow the default or matched browser output; exclusive outputs use
+the desktop audio engine.
 
 Remove any previous FeedTone plugin before installing this fresh release; keep
 only one installation. Personal rigs and mix edits are stored in FeedBack's settings.

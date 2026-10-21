@@ -245,6 +245,9 @@
         if (!request || !valid(request)) return { outcome: 'stale', reason: 'Original tone request is no longer current.' };
         if (!compatibleHost()) return { outcome: 'unavailable', reason: 'This FeedBack version lacks the required desktop audio transaction APIs. The current chain is retained.' };
         try {
+            const device=await desktop().getCurrentDevice?.();
+            if(device?.sampleRate && ![44100,48000].includes(device.sampleRate)) throw new Error('FeedTone supports 44.1 or 48 kHz. Change the audio sample rate before loading a rig.');
+            requireCurrent(request);
             if (!request.prepared) {
                 let payload;
                 if (!designerPreview && typeof desktop().setMultiBypass === 'function') {
@@ -419,7 +422,7 @@
         if (selected != null && items.some(item => item[0] === selected)) select.value = selected;
     }
     function editorButtons() {
-        for (const id of ['ft-song-picker','rst-arrangement','rst-tone']) if (element(id)) element(id).disabled=designer.busy;
+        for (const id of ['ft-song-picker','rst-arrangement','rst-tone','ft-song-play','ft-song-position']) if (element(id)) element(id).disabled=designer.busy;
         for (const id of ['rst-preview', 'rst-save-rig']) element(id).disabled = designer.busy || !designer.draft;
         element('rst-reset-song').disabled=designer.busy || !designer.context;
         element('rst-save-song').disabled=designer.busy || !(designer.context || designer.file && designer.song?.duration && element('rst-arrangement').value);
@@ -830,51 +833,118 @@
         if(typeof url!=='string' || !url.startsWith('/') || url.startsWith('//')) throw new Error('Invalid song audio URL');
         return (await hostJson('/api/audio-local-path?url='+encodeURIComponent(url))).path;
     }
+    function previewTransport(action) {
+        const next=(preview.transport || Promise.resolve()).catch(()=>{}).then(action);
+        preview.transport=next;
+        return next;
+    }
+    async function previewUsesNative() {
+        if(typeof desktop()?.loadBackingTrack!=='function') return false;
+        const device=await desktop().getCurrentDevice?.();
+        if(!device || /asio|exclusive/i.test(device.outputType || device.type || '')) return true;
+        preview.audio ||= new Audio();
+        const output=device.output || 'Default';
+        if(/^default$/i.test(output)) {
+            if(preview.audio.setSinkId) await preview.audio.setSinkId('default');
+            return false;
+        }
+        if(preview.audio.setSinkId && navigator.mediaDevices?.enumerateDevices) {
+            const devices=await navigator.mediaDevices.enumerateDevices();
+            const match=devices.find(item=>item.kind==='audiooutput' && item.label===output);
+            if(match) {await preview.audio.setSinkId(match.deviceId);return false;}
+        }
+        // A native route preserves a specifically selected output when browser routing is unavailable.
+        return true;
+    }
     async function startSongPreview(position=preview.position) {
         if (!designer.song || inPlayer()) throw new Error('Choose a song in the main Tone Designer first.');
-        const generation=++preview.generation;
+        if(!Number.isFinite(position) || position<0) throw new Error('Invalid preview position');
+        const generation=++preview.generation, file=designer.file;
+        const current=()=>generation===preview.generation && !inPlayer() && designer.file===file;
         if(!registerHost()) throw new Error('FeedBack audio is unavailable');
         const selected=host.selectChain({routeKey,providerId,authorization:'user-action'},'feedtone');
         if(selected.outcome!=='handled') throw new Error(selected.reason);
         if (window.feedBack?.isPlaying && !preview.active) throw new Error('Pause the current song before starting a library preview.');
         preview.active=true; preview.playing=false; preview.position=position;
-        designerPreview=false; designer.live=null; song=designer.song; filename=designer.file; invalidate();
-        await syncListening(); await follow();
-        if(generation!==preview.generation) return;
-        if(preview.loaded!==designer.file) {
-            const metadata=await hostJson('/api/song/'+encodeURIComponent(designer.file)+'?stems=1');
-            const url=metadata.full_mix_url || metadata.stems?.find(item=>item.default)?.url;
-            if(!url) throw new Error('This song has no playable backing audio. Guitar tone preview is still available.');
-            if(typeof desktop()?.loadBackingTrack==='function') {
-                if(!preview.loaded) preview.previous={url:window._juceAudioUrl,position:window.jucePlayer?.currentTime || 0};
-                const path=await localAudio(url);
-                if(generation!==preview.generation) return;
-                if(await desktop().loadBackingTrack(path)===false) throw new Error('FeedBack could not load the song preview');
-                preview.native=true;
-            } else { preview.audio ||= new Audio(); preview.audio.src=url; preview.native=false; }
-            preview.loaded=designer.file;
+        element('ft-song-stop').disabled=false;
+        designerPreview=false; designer.live=null; song=designer.song; filename=file; invalidate();
+        try {
+            await syncListening();
+            if(!current()) return;
+            await follow();
+            if(!current()) return;
+            await previewTransport(async()=>{
+                if(!current()) return;
+                if(preview.loaded!==file) {
+                    const metadata=await hostJson('/api/song/'+encodeURIComponent(file)+'?stems=1');
+                    if(!current()) return;
+                    const url=metadata.full_mix_url || metadata.stems?.find(item=>item.default)?.url;
+                    if(!url || typeof url!=='string' || !url.startsWith('/') || url.startsWith('//')) throw new Error('This song has no playable backing audio. Guitar tone preview is still available.');
+                    const native=await previewUsesNative();
+                    if(!current()) return;
+                    if(native) {
+                        const path=await localAudio(url);
+                        if(!current()) return;
+                        if(!preview.loaded) preview.previous={url:window._juceMode?window._juceAudioUrl:null,position:window.jucePlayer?.currentTime || 0};
+                        await desktop().stopBacking();
+                        if(!current()) return;
+                        if(await desktop().loadBackingTrack(path)===false) throw new Error('FeedBack could not load the song preview');
+                        preview.native=true;
+                    } else {
+                        preview.audio.pause();preview.audio.src=url;preview.native=false;
+                    }
+                    if(!current()) return;
+                    preview.loaded=file;
+                }
+                if(!current()) return;
+                const volume=(listening.baseVolume ?? window.feedBack?.audio?.readSongVolume?.() ?? 80)/100;
+                if(preview.native) {
+                    await desktop().seekBacking(position);
+                    if(!current()) return;
+                    await desktop().setGain('backing',volume);
+                    if(!current()) return;
+                    if(await desktop().startBacking()===false) throw new Error('FeedBack could not start the song preview');
+                } else {
+                    preview.audio.currentTime=position;preview.audio.volume=volume;await preview.audio.play();
+                }
+                if(!current()) {
+                    if(preview.native && !inPlayer()) await desktop().stopBacking();
+                    else preview.audio?.pause();
+                    return;
+                }
+                preview.playing=true;
+                element('ft-song-play').textContent='Ⅱ Pause';editorMessage('Song preview playing. Your guitar follows this arrangement’s tones.');
+            });
+        } catch(error) {
+            if(current()) {await stopSongPreview();throw error;}
         }
-        if(generation!==preview.generation) return;
-        if(preview.native) { await desktop().seekBacking(position); await desktop().setGain('backing',(listening.baseVolume ?? window.feedBack?.audio?.readSongVolume?.() ?? 80)/100); await desktop().startBacking(); }
-        else { preview.audio.currentTime=position; preview.audio.volume=(listening.baseVolume ?? 80)/100; await preview.audio.play(); }
-        preview.playing=true; element('ft-song-stop').disabled=false;
-        element('ft-song-play').textContent='Ⅱ Pause'; editorMessage('Song preview playing. Your guitar follows this arrangement’s tones.');
     }
     async function pauseSongPreview() {
-        preview.playing=false;
-        if(preview.native) await desktop()?.stopBacking?.(); else preview.audio?.pause();
+        ++preview.generation;preview.playing=false;
+        await previewTransport(async()=>{
+            if(preview.native && !inPlayer()) await desktop()?.stopBacking?.();else preview.audio?.pause();
+        });
         element('ft-song-play').textContent='▶ Continue';
     }
     async function stopSongPreview(restore=true) {
-        ++preview.generation; const loaded=preview.loaded;
+        const generation=++preview.generation, loaded=preview.loaded;
         preview.active=false;preview.playing=false;preview.loaded='';
-        if(loaded) {
-            if(preview.native && !inPlayer()) {
+        await previewTransport(async()=>{
+            preview.audio?.pause();
+            if(generation!==preview.generation || inPlayer()) return;
+            if(preview.native) {
                 await desktop()?.stopBacking?.();
-                if(restore && preview.previous?.url) { const path=await localAudio(preview.previous.url); await desktop().loadBackingTrack(path);await desktop().seekBacking(preview.previous.position); }
-            } else preview.audio?.pause();
-        }
-        preview.position=0; preview.previous=null;
+                if(restore && preview.previous?.url && generation===preview.generation) {
+                    const path=await localAudio(preview.previous.url);
+                    if(generation!==preview.generation || inPlayer()) return;
+                    await desktop().loadBackingTrack(path);
+                    if(generation!==preview.generation || inPlayer()) return;
+                    await desktop().seekBacking(preview.previous.position);
+                }
+            }
+        });
+        if(generation!==preview.generation) return;
+        preview.position=0;preview.previous=null;preview.native=false;
         element('ft-song-play').textContent='▶ Preview song';element('ft-song-stop').disabled=true;
         if(loaded) {invalidate();filename='';song=null;refresh();}
     }
@@ -895,7 +965,7 @@
         element('ft-song-picker').addEventListener('change',()=>editorAction(()=>chooseSong(element('ft-song-picker').value)));
         for(const [id,direction] of [['ft-song-prev',-1],['ft-song-next',1]]) element(id).addEventListener('click',()=>{library.page+=direction;searchSongs();});
         element('ft-song-play').addEventListener('click',()=>editorAction(()=>preview.playing?pauseSongPreview():startSongPreview()));
-        element('ft-song-stop').addEventListener('click',()=>editorAction(()=>stopSongPreview()));
+        element('ft-song-stop').addEventListener('click',()=>stopSongPreview().catch(error=>editorMessage(error.message)));
         element('ft-song-position').addEventListener('change',()=>editorAction(async()=>{const position=Number(element('ft-song-position').value);if(preview.active){preview.position=position;if(preview.native)await desktop().seekBacking(position);else preview.audio.currentTime=position;follow();}else await startSongPreview(position);}));
         window.feedBack?.on?.('song:loading',()=>stopSongPreview(false).catch(error=>editorMessage(error.message)));
         window.feedBack?.on?.('screen:changed',()=>{if(preview.playing)pauseSongPreview().catch(error=>editorMessage(error.message));syncListening().catch(error=>listenMessage(error.message));});
@@ -1036,7 +1106,10 @@
             if (target != null && target !== listening.songVolume) {
                 listening.songVolume = target;
                 await mixer?.applySongVolume?.(target);
-                if (preview.active && preview.native && !inPlayer()) await desktop()?.setGain?.('backing',target/100);
+                if (preview.active && !inPlayer()) {
+                    if(preview.native) await desktop()?.setGain?.('backing',target/100);
+                    else if(preview.audio) preview.audio.volume=target/100;
+                }
             }
         }
         if (playing && ownsRoute() && typeof desktop()?.setPostGain === 'function') {

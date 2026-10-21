@@ -355,8 +355,8 @@ Steinberg_tresult SMTG_STDMETHODCALLTYPE
 AGainProcessor_SetupProcessing (void* thisInterface, struct Steinberg_Vst_ProcessSetup* setup)
 {
 AGainAudioProcessor*s=(void*)((char*)thisInterface-pointerOffset*2);
-if(!setup||setup->symbolicSampleSize!=Steinberg_Vst_SymbolicSampleSizes_kSample32||setup->sampleRate!=48000||setup->maxSamplesPerBlock<1||setup->maxSamplesPerBlock>IO_FRAMES)return Steinberg_kResultFalse;
-s->rate=48000;s->maxFrames=setup->maxSamplesPerBlock;return service_configure(&s->service,s->rate,s->channels)?Steinberg_kResultOk:Steinberg_kResultFalse;
+if(!setup||setup->symbolicSampleSize!=Steinberg_Vst_SymbolicSampleSizes_kSample32||(setup->sampleRate!=48000&&setup->sampleRate!=44100)||setup->maxSamplesPerBlock<1||setup->maxSamplesPerBlock>IO_FRAMES)return Steinberg_kResultFalse;
+s->rate=(U)setup->sampleRate;s->maxFrames=setup->maxSamplesPerBlock;return service_configure(&s->service,s->rate,s->channels)?Steinberg_kResultOk:Steinberg_kResultFalse;
 }
 
 Steinberg_tresult SMTG_STDMETHODCALLTYPE AGainProcessor_SetProcessing (void* thisInterface,
