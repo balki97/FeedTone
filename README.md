@@ -25,8 +25,9 @@ For USB devices with multiple inputs, select a dry/DI guitar input. Shared-mode
 song previews follow the default or matched browser output; exclusive outputs use
 the desktop audio engine.
 
-Remove any previous FeedTone plugin before installing this fresh release; keep
-only one installation. Personal rigs and mix edits are stored in FeedBack's settings.
+Keep only one FeedTone installation and disable Rig Builder while using it.
+Existing installations can update in place through GitHub. Personal rigs and mix
+edits are stored in FeedBack's settings.
 
 [Website](https://feedforge.org) · [Discord](https://discord.gg/9cUe6cacQN) ·
 [Support us on Ko-fi](https://ko-fi.com/feedforge)
