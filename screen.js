@@ -245,6 +245,7 @@
         if (!request || !valid(request)) return { outcome: 'stale', reason: 'Original tone request is no longer current.' };
         if (!compatibleHost()) return { outcome: 'unavailable', reason: 'This FeedBack version lacks the required desktop audio transaction APIs. The current chain is retained.' };
         try {
+            if(Date.now()-setupCheckedAt>2500) await checkAudioSetup(true).catch(()=>{});
             const device=await desktop().getCurrentDevice?.();
             if(device?.sampleRate && ![44100,48000].includes(device.sampleRate)) throw new Error('FeedTone supports 44.1 or 48 kHz. Change the audio sample rate before loading a rig.');
             requireCurrent(request);
@@ -833,6 +834,63 @@
         if(typeof url!=='string' || !url.startsWith('/') || url.startsWith('//')) throw new Error('Invalid song audio URL');
         return (await hostJson('/api/audio-local-path?url='+encodeURIComponent(url))).path;
     }
+    let setupCheck=null, setupCheckedAt=0;
+    async function checkAudioSetup(reveal=false) {
+        if(setupCheck) return setupCheck;
+        setupCheck=(async()=>{
+            const audio=desktop();
+            const reads=await Promise.allSettled([
+                audio?.isAudioRunning?.(),audio?.getCurrentDevice?.(),audio?.loadDeviceSettings?.(),
+                hostJson('/api/settings'),audio?.getLevels?.()
+            ]);
+            const value=index=>reads[index].status==='fulfilled'?reads[index].value:undefined;
+            const running=value(0),device=value(1),saved=value(2),settings=value(3),levels=value(4);
+            const issues=[];
+            const add=(message,blocker=false)=>issues.push({message,blocker});
+            if(!audio) add('Desktop audio is unavailable. Open FeedBack desktop and start its audio engine.',true);
+            else if(running===false) add('Audio engine is stopped. Start it in Audio settings.',true);
+            const kill=typeof saved?.monitorKill==='boolean'?saved.monitorKill:element('ae-monitor-kill')?.checked;
+            if(kill===true) add('Guitar monitoring is disabled. In Audio settings, uncheck “Disable input monitoring”.',true);
+            if(settings?.use_amp_sims===false) add('“Use in-app amp sims” is off. Enable it in Audio settings so saved rigs can load with the app.');
+            if(device?.sampleRate && ![44100,48000].includes(device.sampleRate)) add('Unsupported sample rate. Select 44.1 or 48 kHz in Audio settings.',true);
+            if(inPlayer() && (!enabled || designerPreview)) add('Automatic song tones are off. Use Follow song to hear the song’s tones and automatic changes.');
+            if((inPlayer() || preview.active) && Number(element('ft-song-volume')?.value)===0) add('This song’s backing volume is at zero. Raise Song in the FeedTone mixer.');
+            const unknown=!audio || typeof running!=='boolean' || !device || !saved || !settings;
+            const input=levels?.inputLevel;
+            for(const panel of document.querySelectorAll('.ft-audio-check')) {
+                const summary=panel.querySelector('[data-ft-check-summary]');
+                summary.textContent=issues.length?`${issues.length} thing${issues.length===1?'':'s'} to check`:unknown?'Some checks unavailable':'No obvious setup blockers';
+                panel.dataset.warning=String(issues.some(item=>item.blocker));
+                const list=panel.querySelector('[data-ft-check-results]');
+                const signature=JSON.stringify([issues,unknown]);
+                if(panel.dataset.signature!==signature) {
+                panel.dataset.signature=signature;list.replaceChildren();
+                for(const item of issues) {const li=document.createElement('li');li.textContent=item.message;list.append(li);}
+                if(!issues.length) {const li=document.createElement('li');li.textContent=unknown?'Some audio settings could not be read. Check input monitoring and amp-sim settings in Audio settings.':'No obvious setup blockers found. This does not confirm that your speakers or headphones are audible.';list.append(li);}
+                }
+                const signal=panel.querySelector('[data-ft-check-signal]');
+                signal.textContent=typeof input==='number' && Number.isFinite(input)?input>.0001?'Input signal detected. If the guitar is still silent, check the selected output and its volume.':'No input signal right now. Strum; if this stays silent, check the selected guitar input and channel.':'Input meter is unavailable. Check the input meter in Audio settings.';
+                if(device?.input && device?.output) signal.textContent+=` Input: ${device.input} · Output: ${device.output}`;
+                panel.querySelector('[data-ft-check-follow]').hidden=!inPlayer() || enabled && !designerPreview;
+                if(reveal && issues.some(item=>item.blocker)) panel.open=true;
+            }
+            const playerButton=element('ft-player-button');
+            if(playerButton) {playerButton.textContent=issues.some(item=>item.blocker)?'FeedTone · Check audio':'FeedTone';playerButton.title=issues.filter(item=>item.blocker).map(item=>item.message).join(' ');}
+            setupCheckedAt=Date.now();
+        })().finally(()=>{setupCheck=null;});
+        return setupCheck;
+    }
+    function bindAudioCheck() {
+        for(const panel of document.querySelectorAll('.ft-audio-check')) {
+            panel.addEventListener('toggle',()=>{if(panel.open) checkAudioSetup().catch(()=>{});});
+            panel.querySelector('[data-ft-check-refresh]').addEventListener('click',()=>checkAudioSetup().catch(()=>{}));
+            panel.querySelector('[data-ft-check-settings]').addEventListener('click',()=>window.showScreen?.('audio-engine'));
+            panel.querySelector('[data-ft-check-follow]').addEventListener('click',()=>{resumeFollowing();checkAudioSetup().catch(()=>{});});
+        }
+        setInterval(()=>{
+            if([...document.querySelectorAll('.ft-audio-check[open]')].some(panel=>panel.getClientRects().length)) checkAudioSetup().catch(()=>{});
+        },2500);
+    }
     function previewTransport(action) {
         const next=(preview.transport || Promise.resolve()).catch(()=>{}).then(action);
         preview.transport=next;
@@ -972,6 +1030,11 @@
         searchSongs();setInterval(pollPreview,100);
     }
 
+    function resumeFollowing() {
+        presentation.autoPreview=false;clearTimeout(previewTimer);
+        const toggle=element('feedtone-enabled');toggle.checked=true;toggle.dispatchEvent(new Event('change',{bubbles:true}));
+        editorMessage('Following the song timeline again. Your draft stays in the editor.');
+    }
     function bindDesigner() {
         if (designer.bound || !element('rst-designer')) return;
         designer.bound = true;
@@ -1003,10 +1066,7 @@
         on('rst-remove-device','click',()=>chooseDevice(''));
         on('rst-move-device','click',()=>moveDevice(element('rst-move-target').value));
         on('rst-preview', 'click', () => {presentation.autoPreview=true;editorAction(previewDraft);});
-        on('rst-resume', 'click', () => {
-            const toggle = element('feedtone-enabled'); toggle.checked = true; toggle.dispatchEvent(new Event('change', { bubbles: true }));
-            editorMessage('Following the song timeline again. Your draft stays in the editor.');
-        });
+        on('rst-resume', 'click', resumeFollowing);
         on('rst-save-song', 'click', () => editorAction(async () => {
             if (designer.context) {
                 await api('designer/override', post({ ...designer.context, definition: designer.draft })); designer.dirty = false;
@@ -1411,6 +1471,7 @@
             element('ft-check-update').addEventListener('click',()=>refreshUpdates('updates/check'));
             element('ft-install-update').addEventListener('click',()=>refreshUpdates('updates/install'));
             element('ft-auto-update').addEventListener('change',event=>refreshUpdates('updates/settings',{automatic:event.target.checked}));
+            bindAudioCheck();
             refreshUpdates(); setInterval(()=>refreshUpdates(),21600000);
             element('ft-tone-fader').addEventListener('input', event => { element('rst-volume').value = event.target.value; element('rst-volume').dispatchEvent(new Event('input', {bubbles:true})); });
             element('rst-volume').addEventListener('input', syncToneFader);

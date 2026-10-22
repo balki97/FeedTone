@@ -330,3 +330,13 @@
 @media(max-width:600px) { .ft-workspace { height:100dvh;overflow-y:auto; }.ft-song-select { grid-template-columns:1fr; }.ft-song-browser { padding:10px; }.ft-source-section { flex-wrap:wrap; }.ft-source-section>span { flex-basis:100%; } }
 .ft-workspace,.ft-workspace * { box-sizing:border-box; }
 @media(min-width:1100px) and (min-height:700px) { .ft-workspace>.ft-studio .ft-equipment-item .ft-art-frame { --art-height:52px; } }
+
+.ft-audio-check { flex:none;margin:0;border-bottom:1px solid var(--ft-line);background:#1d2428;font-size:11px; }
+.ft-audio-check>summary { cursor:pointer;padding:7px 18px;color:var(--ft-muted); }
+.ft-audio-check>summary span { margin-left:6px;color:var(--ft-text); }
+.ft-audio-check[data-warning="true"]>summary { color:#f3c76d; }
+.ft-audio-check-body { max-height:165px;overflow:auto;padding:0 18px 10px; }
+.ft-audio-check-body ul { margin:4px 0 8px;padding-left:18px; }
+.ft-audio-check-body li { margin:3px 0; }
+.ft-audio-check-body>div { display:flex;flex-wrap:wrap;gap:6px;margin:7px 0; }
+.ft-audio-check-body button { font-size:11px!important;padding:5px 8px!important; }

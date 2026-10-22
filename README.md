@@ -21,6 +21,9 @@ Supports FeedBack desktop on Windows, macOS (Intel and Apple Silicon), and Linux
 requires glibc; actual audio-interface listening still depends on the host's device
 support. Complete acoustic equivalence is not claimed.
 
+If the guitar is silent, expand **No sound? Check audio setup** in the designer
+or in-song panel for monitoring, sample-rate and Follow Song guidance.
+
 For USB devices with multiple inputs, select a dry/DI guitar input. Shared-mode
 song previews follow the default or matched browser output; exclusive outputs use
 the desktop audio engine.
