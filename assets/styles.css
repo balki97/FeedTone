@@ -340,3 +340,5 @@
 .ft-audio-check-body li { margin:3px 0; }
 .ft-audio-check-body>div { display:flex;flex-wrap:wrap;gap:6px;margin:7px 0; }
 .ft-audio-check-body button { font-size:11px!important;padding:5px 8px!important; }
+
+.ft-rig-song { font-size:11px;color:var(--ft-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;margin-bottom:3px!important; }

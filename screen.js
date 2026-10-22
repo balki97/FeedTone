@@ -34,6 +34,7 @@
     const element = id => document.getElementById(id);
     function invalidate() { revision++; active = requested = ''; requests.clear(); nativeBank = null; }
     function render() {
+        drawSongContext();
         const toggle = element('feedtone-enabled');
         if (toggle && !toggle.dataset.bound) {
             toggle.dataset.bound = '1';
@@ -81,6 +82,20 @@
         return body;
     }
     function inPlayer() { return !!element('player')?.getBoundingClientRect().width; }
+    function drawSongContext() {
+        const label=element('ft-rig-song');if(!label) return;
+        const player=inPlayer(),now=current();
+        const info=player?(filename===now.filename?song:null):designer.song;
+        const title=info?.title || (player?window.feedBack?.currentSong?.title:null);
+        label.hidden=!title;
+        if(!title) return;
+        const arr=player?(info?arrangement()?.name:null) || now.arrangement:element('rst-arrangement')?.selectedOptions?.[0]?.textContent;
+        const name=[info?.artist,title].filter(value=>typeof value==='string' && value.trim()).join(' — ');
+        const prefix=player && enabled && !designerPreview?'Following':'Song';
+        const text=displayName(`${prefix}: ${name}${arr?' · '+arr:''}`);
+        if(label.textContent!==text) label.textContent=text;
+        label.title=text;
+    }
     function clock() { return preview.active && !inPlayer() ? preview.position : Number(window.highway?.getTime?.()); }
     function following() { return enabled || preview.active && !inPlayer(); }
     function current() { return preview.active && !inPlayer() ? {filename:designer.file, arrangement:element('rst-arrangement').value} : window.feedBack?.currentSong || {}; }

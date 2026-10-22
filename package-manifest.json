@@ -1,6 +1,6 @@
 {
   "schema": "feedback.standalone-tone-package.v1",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "platforms": [
     "win32-x86_64",
     "linux-x86_64",
@@ -11,11 +11,11 @@
   "experimental": true,
   "full_parity_verified": false,
   "files": {
-    "plugin.json": "35cbae5d34ef454897bc21e3198b89ba8d2e2a1934019c05ccc077136a085254",
+    "plugin.json": "3d415b9c5c92e8488e2f295ff344f5d1e640dc6805e22eef11bfcecd623954e0",
     "routes.py": "1189b2680d339590365fdbab91bdde5475b14d8d02acd87cb911cea6ff46ac80",
-    "screen.html": "28985e625282174acaf1a0385e105b6f9d8503321bb1223d94a64ffe431a08a7",
-    "screen.js": "2c058491d4982b01b17663199fa942129c9c021fd7de8fd3c942b63044f6ef89",
-    "assets/styles.css": "378eb074f901608449dbe4bd75aec1c9f224a17f651519cd6f91a588a27193e4",
+    "screen.html": "b1117b6d6eba0e1250ffbcf58655d709874c50f2037b1e83a3febb160741354b",
+    "screen.js": "e90e2bb99401a73766047acb768674bd912a16b4d80faac1fe2fe24617199ae4",
+    "assets/styles.css": "bb561b80f86ba9f9be17f19558d8f28730c1fca603dc683c09ffc4fe682a900f",
     "assets/studio-room.png": "78bddc8c8ffdbe6ec228a88ad0c3435942e8b19c55851df0a620e99d1e38c862",
     "assets/feedforge.png": "7b18e0dae7299c7d2a286bf6be0ea3f16d737c930537eadebef9d76fae3dad1a",
     "tone_input.py": "8565479ca921d23b321456aab94d95fb59956586ead663906bb363dae4fbd1c2",
