@@ -880,11 +880,25 @@
         })().finally(()=>{setupCheck=null;});
         return setupCheck;
     }
+    async function openAudioSettings() {
+        const panels=[...document.querySelectorAll('.ft-audio-check')];
+        for(const panel of panels) panel.querySelector('[data-ft-settings-error]')?.remove();
+        const screen=['plugin-audio_engine','audio-engine'].find(id=>element(id));
+        try {
+            if(!screen || typeof window.showScreen!=='function') throw new Error('Audio settings are not loaded. Open Audio from FeedBack’s sidebar; check that Audio Engine is enabled in Plugins.');
+            await window.showScreen(screen);
+        } catch(error) {
+            for(const panel of panels) {
+                const message=document.createElement('li');message.dataset.ftSettingsError='';message.textContent=error.message || 'Audio settings could not be opened. Use Audio in FeedBack’s sidebar.';
+                panel.querySelector('[data-ft-check-results]').append(message);panel.open=true;
+            }
+        }
+    }
     function bindAudioCheck() {
         for(const panel of document.querySelectorAll('.ft-audio-check')) {
             panel.addEventListener('toggle',()=>{if(panel.open) checkAudioSetup().catch(()=>{});});
             panel.querySelector('[data-ft-check-refresh]').addEventListener('click',()=>checkAudioSetup().catch(()=>{}));
-            panel.querySelector('[data-ft-check-settings]').addEventListener('click',()=>window.showScreen?.('audio-engine'));
+            panel.querySelector('[data-ft-check-settings]').addEventListener('click',openAudioSettings);
             panel.querySelector('[data-ft-check-follow]').addEventListener('click',()=>{resumeFollowing();checkAudioSetup().catch(()=>{});});
         }
         setInterval(()=>{

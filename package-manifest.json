@@ -1,6 +1,6 @@
 {
   "schema": "feedback.standalone-tone-package.v1",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "platforms": [
     "win32-x86_64",
     "linux-x86_64",
@@ -11,10 +11,10 @@
   "experimental": true,
   "full_parity_verified": false,
   "files": {
-    "plugin.json": "81536599cbf9d886242e6c2ecbc2eaba317d58298e440640f77894adb3e734e9",
+    "plugin.json": "35cbae5d34ef454897bc21e3198b89ba8d2e2a1934019c05ccc077136a085254",
     "routes.py": "1189b2680d339590365fdbab91bdde5475b14d8d02acd87cb911cea6ff46ac80",
     "screen.html": "28985e625282174acaf1a0385e105b6f9d8503321bb1223d94a64ffe431a08a7",
-    "screen.js": "8a67842cfd74815521cdf4e4df6d778649f2ba1d277fa2122a0c1b557287ae1b",
+    "screen.js": "2c058491d4982b01b17663199fa942129c9c021fd7de8fd3c942b63044f6ef89",
     "assets/styles.css": "378eb074f901608449dbe4bd75aec1c9f224a17f651519cd6f91a588a27193e4",
     "assets/studio-room.png": "78bddc8c8ffdbe6ec228a88ad0c3435942e8b19c55851df0a620e99d1e38c862",
     "assets/feedforge.png": "7b18e0dae7299c7d2a286bf6be0ea3f16d737c930537eadebef9d76fae3dad1a",
