@@ -1151,12 +1151,15 @@
     function listenMessage(message) { const node = element('ft-listen-status'); if (node && node.textContent !== message) node.textContent = displayName(message); }
     async function loadListeningSettings() {
         const context = listeningContext(), generation = ++listening.generation;
+        await listening.settingUpdates;
+        if (generation !== listening.generation) return;
         const settings = await api('balance?' + new URLSearchParams(context));
         if (generation !== listening.generation) return;
         element('ft-balance-enabled').checked = settings.enabled;
         for (const [id, key] of [['ft-global-trim', 'song_trim_db'], ['ft-song-trim', 'song_trim_db'], ['ft-tone-trim', 'tone_trim_db']]) element(id).value = settings[key];
         element('ft-global-trim').disabled = element('ft-global-fader').disabled = element('ft-song-volume').disabled = !context.filename;
         element('ft-song-trim').disabled = !context.filename; element('ft-tone-trim').disabled = !context.tone_key;
+        listening.baseFile = context.filename;
         listening.baseVolume = settings.song_volume;
         element('ft-song-volume').value = settings.song_volume ?? window.feedBack?.audio?.readSongVolume?.() ?? 80;
         element('ft-section-save').disabled = !context.filename;
@@ -1189,8 +1192,9 @@
     async function updateSectionMix() {
         const item = following() && !designerPreview && ownsRoute() ? sectionAt() : null;
         const mixer = window.feedBack?.audio;
-        const volume = item?.song_volume ?? (inPlayer() ? playing?.request.balance?.song_volume : listening.baseVolume);
-        if (listeningContext().filename || listening.songVolume != null) {
+        // Preloaded tones hold old balance snapshots; backing volume belongs to the song.
+        const volume = item?.song_volume ?? listening.baseVolume;
+        if (listening.baseFile && listening.baseFile === listeningFile()) {
             const target = volume ?? mixer?.readSongVolume?.();
             if (target != null && target !== listening.songVolume) {
                 listening.songVolume = target;
@@ -1241,9 +1245,11 @@
     async function syncListening() {
         const scope = listeningScope();
         if (scope === listening.scope) return;
-        listening.scope = scope; listening.ranges = []; drawSections(); drawAuthoredSections();
+        listening.scope = scope; listening.baseFile = null; listening.songVolume = null;
+        listening.ranges = []; drawSections(); drawAuthoredSections();
+        element('ft-follow-tone').checked = true;
         const tones = listeningArrangement()?.tone_plans || [];
-        setOptions(element('ft-listen-tone'), tones.map(item => [item.tone_key, displayName(item.aliases[0] || item.tone_key)]));
+        setOptions(element('ft-listen-tone'), [['', 'No song tone active'], ...tones.map(item => [item.tone_key, displayName(item.aliases[0] || item.tone_key)])]);
         updateSectionChoices();
         await loadListeningSettings();
         if (!scope) return;
@@ -1262,32 +1268,114 @@
         catch (error) { listenMessage(error.message); }
         finally { listening.busy = false; }
     }
+    function followListeningTone() {
+        if (!element('ft-follow-tone').checked || listeningScope() !== listening.scope ||
+            [element('ft-listen-tone'), element('ft-tone-trim')].includes(document.activeElement)) return;
+        const request = playing?.request;
+        const context = listeningContext();
+        if (!request || (request.filename || request.sourceContext?.filename) !== context.filename ||
+            (request.arrangementId || request.sourceContext?.arrangement_id) !== context.arrangement_id) return;
+        const key = request.sectionRig ? '' : request.toneKey || request.sourceContext?.tone_key || '';
+        const select = element('ft-listen-tone');
+        if (select.value === key || ![...select.options].some(option => option.value === key)) return;
+        select.value = key;
+        loadListeningSettings().catch(error => listenMessage(error.message));
+    }
+    function queueMixSetting(context, key, value) {
+        ++listening.generation;
+        listening.settingUpdates = (listening.settingUpdates || Promise.resolve()).then(async () => {
+            await api('balance', post({...context, [key]:value}));
+            if (context.filename !== listeningFile()) return;
+            if (key === 'song_volume') await updateSectionMix();
+            else await updateListeningGain();
+        }).catch(error => listenMessage('Could not save listening level: ' + error.message));
+    }
+    const volumeActions = {guitarDown:['Guitar down',-1], guitarUp:['Guitar up',1], songDown:['Song down',-5], songUp:['Song up',5]};
+    const volumeBindings = {};
+    let recordingVolumeKey = null;
+    function volumeShortcut(action) {
+        const context = listeningContext();
+        if (!context.filename || listening.baseFile !== context.filename) return;
+        const guitar = action.startsWith('guitar'), id = guitar ? 'ft-global-trim' : 'ft-song-volume';
+        const control = element(id);
+        control.value = Math.max(guitar ? -12 : 0, Math.min(guitar ? 12 : 100, Number(control.value) + volumeActions[action][1]));
+        control.dispatchEvent(new Event('input', {bubbles:true}));
+        control.dispatchEvent(new Event('change', {bubbles:true}));
+        listenMessage(`${guitar ? 'Guitar' : 'Song'} · ${control.value}${guitar ? ' dB' : '%'} · saved for this song`);
+    }
+    function bindVolumeShortcuts() {
+        if (listening.shortcutsBound) return;
+        listening.shortcutsBound = true;
+        let saved = {};
+        try { saved = JSON.parse(localStorage.getItem('feedtone_volume_keys') || '{}') || {}; } catch (_) {}
+        const persist = () => { try { localStorage.setItem('feedtone_volume_keys', JSON.stringify(volumeBindings)); } catch (_) {} };
+        const conflict = (binding, except) => {
+            const keys = [binding.key, binding.key.replace(/^Key/, '').toLowerCase()];
+            return Object.entries(volumeBindings).some(([action,b]) => action !== except && b.key === binding.key) ||
+                (window.getAllShortcuts?.() || []).some(s => !s.description?.startsWith('FeedTone: ') && keys.some(key => s.combo.split('+').at(-1).toLowerCase() === key.toLowerCase()));
+        };
+        const register = (action, binding) => {
+            if (!binding || typeof binding.key !== 'string' || !/^(Key[A-Z]|Digit[0-9]|F([1-9]|1[0-9]|2[0-4])|Arrow(Up|Down|Left|Right)|Numpad[0-9]|BracketLeft|BracketRight|Minus|Equal)$/.test(binding.key) || conflict(binding, action)) return false;
+            if (volumeBindings[action]) window.unregisterShortcut?.(volumeBindings[action].key, 'global');
+            const modifiers = Object.fromEntries(['ctrl','alt','shift','meta'].map(key => [key, binding.modifiers?.[key] === true]));
+            volumeBindings[action] = {key:binding.key, modifiers};
+            window.registerShortcut({key:binding.key, modifiers, scope:'global', description:'FeedTone: ' + volumeActions[action][0],
+                condition:() => !recordingVolumeKey && !!listeningFile() && (inPlayer() || !!element('feedtone-panel')?.getBoundingClientRect().width),
+                handler:() => volumeShortcut(action)});
+            element('ft-key-' + action).textContent = ['ctrl','alt','shift','meta'].filter(key => modifiers[key]).map(key => ({ctrl:'Ctrl',alt:'Alt',shift:'Shift',meta:'Meta'})[key]).concat(binding.key.replace(/^Key|^Digit/, '')).join('+');
+            return true;
+        };
+        for (const action of Object.keys(volumeActions)) {
+            const button = element('ft-key-' + action);
+            button.disabled = typeof window.registerShortcut !== 'function';
+            if (!button.disabled) register(action, saved[action]);
+            button.addEventListener('click', () => {
+                recordingVolumeKey = action;
+                element('ft-key-status').textContent = 'Press a key combination. Escape cancels; Delete clears. Existing game keys are reserved.';
+            });
+        }
+        window.addEventListener('keydown', event => {
+            if (!recordingVolumeKey) return;
+            event.preventDefault(); event.stopImmediatePropagation();
+            if (['Control','Alt','Shift','Meta'].includes(event.key)) return;
+            const action = recordingVolumeKey;
+            if (event.key === 'Escape') { recordingVolumeKey = null; element('ft-key-status').textContent = 'Binding cancelled.'; return; }
+            if (['Delete','Backspace'].includes(event.key)) {
+                if (volumeBindings[action]) window.unregisterShortcut?.(volumeBindings[action].key, 'global');
+                delete volumeBindings[action]; element('ft-key-' + action).textContent = 'Not set';
+            } else if (!register(action, {key:event.code, modifiers:{ctrl:event.ctrlKey, alt:event.altKey, shift:event.shiftKey, meta:event.metaKey}})) {
+                element('ft-key-status').textContent = 'That key is reserved or unsupported. Try another combination.'; return;
+            }
+            recordingVolumeKey = null; persist();
+            element('ft-key-status').textContent = 'Saved. Guitar steps by 1 dB; song by 5%. Changes stay with this song.';
+        }, true);
+        window.addEventListener('blur', () => { recordingVolumeKey = null; });
+    }
     function bindListening() {
         const panel = element('ft-listening');
         if (!panel) return;
         if (!listening.bound) {
             listening.bound = true;
             const on = (id, event, handler) => element(id).addEventListener(event, handler);
-            on('ft-listen-tone', 'change', () => loadListeningSettings().catch(error => listenMessage(error.message)));
+            bindVolumeShortcuts();
+            on('ft-listen-tone', 'change', () => { element('ft-follow-tone').checked = false; loadListeningSettings().catch(error => listenMessage(error.message)); });
+            on('ft-follow-tone', 'change', followListeningTone);
             for (const [id, key] of [['ft-balance-enabled', 'enabled'], ['ft-global-trim', 'song_trim_db'], ['ft-song-trim', 'song_trim_db'], ['ft-tone-trim', 'tone_trim_db']]) {
                 on(id, 'change', () => {
                     const value = key === 'enabled' ? element(id).checked : Number(element(id).value);
                     const context = listeningContext();
-                    // Keep the last fader position even when another gain update is still preparing.
-                    listening.settingUpdates = (listening.settingUpdates || Promise.resolve()).then(async () => {
-                        await api('balance', post({ ...context, [key]: value }));
-                        await updateListeningGain();
-                    }).catch(error => listenMessage(error.message));
+                    if (key === 'song_trim_db') { element('ft-global-trim').value = value; element('ft-song-trim').value = value; }
+                    queueMixSetting(context, key, value);
                 });
             }
-            on('ft-song-volume', 'change', () => listeningAction(async()=> {
+            on('ft-song-volume', 'change', () => {
                 const context=listeningContext(); if (!context.filename) return;
                 const value=Number(element('ft-song-volume').value);
-                await api('balance',post({filename:context.filename,song_volume:value}));
                 listening.baseVolume=value;
-                if (playing?.request.balance && playing.request.filename===context.filename) playing.request.balance.song_volume=value;
-                listening.songVolume=null; await updateSectionMix();
-            }));
+                listening.baseFile=context.filename;
+                updateSectionMix().catch(error => listenMessage(error.message));
+                queueMixSetting({filename:context.filename}, 'song_volume', value);
+            });
             for (const boundary of ['start', 'end']) on('ft-section-' + boundary + '-now', 'click', () => {
                 const time = clock();
                 if (Number.isFinite(time)) element('ft-section-' + boundary).value = Math.max(0, time).toFixed(2);
@@ -1330,6 +1418,7 @@
             button.className = 'px-3 py-1.5 rounded-lg text-xs'; slot.append(button);
         }
         if (listeningScope() !== listening.scope) syncListening().catch(error => listenMessage(error.message));
+        else followListeningTone();
         if (document.activeElement !== element('ft-song-volume')) element('ft-song-volume').value = listening.baseVolume ?? window.feedBack?.audio?.readSongVolume?.() ?? 80;
         updateSectionMix().catch(error => listenMessage(error.message));
     }

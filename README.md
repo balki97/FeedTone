@@ -11,6 +11,7 @@ arrangements and sections, and save guitar and backing levels for each song.
 - Amps, cabinets, pedals and rack effects, including custom device order.
 - Song tone following, personal rigs, and section-specific tone or mix edits.
 - Gentle tone balancing and GitHub updates after FeedBack closes.
+- Custom guitar/song volume shortcuts in Mix; levels stay with each song.
 
 Install this repository through FeedBack's Plugin Manager, or get the plugin ZIP
 from [Releases](https://github.com/balki97/FeedTone/releases/latest). Restart FeedBack

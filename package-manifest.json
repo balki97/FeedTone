@@ -1,6 +1,6 @@
 {
   "schema": "feedback.standalone-tone-package.v1",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "platforms": [
     "win32-x86_64",
     "linux-x86_64",
@@ -11,11 +11,11 @@
   "experimental": true,
   "full_parity_verified": false,
   "files": {
-    "plugin.json": "3d415b9c5c92e8488e2f295ff344f5d1e640dc6805e22eef11bfcecd623954e0",
+    "plugin.json": "a7d8c299e0bec16c933173d11bf06af5e4845b0b64e991d50f2be4d4791bc165",
     "routes.py": "1189b2680d339590365fdbab91bdde5475b14d8d02acd87cb911cea6ff46ac80",
-    "screen.html": "b1117b6d6eba0e1250ffbcf58655d709874c50f2037b1e83a3febb160741354b",
-    "screen.js": "e90e2bb99401a73766047acb768674bd912a16b4d80faac1fe2fe24617199ae4",
-    "assets/styles.css": "bb561b80f86ba9f9be17f19558d8f28730c1fca603dc683c09ffc4fe682a900f",
+    "screen.html": "cf3098e73efa12d44783bd93edc018b47060d53e48a417e08660887d40c8162d",
+    "screen.js": "34084c726436a3f690dfdb83a2f0c6dda17c2e6cea11dda7865daf6f1b528f0c",
+    "assets/styles.css": "cdb816f8ea4ee0c4f1e15712e8d525cfb7cb34c148406a9cd9afe90a0e8dd6da",
     "assets/studio-room.png": "78bddc8c8ffdbe6ec228a88ad0c3435942e8b19c55851df0a620e99d1e38c862",
     "assets/feedforge.png": "7b18e0dae7299c7d2a286bf6be0ea3f16d737c930537eadebef9d76fae3dad1a",
     "tone_input.py": "8565479ca921d23b321456aab94d95fb59956586ead663906bb363dae4fbd1c2",
@@ -24,7 +24,7 @@
     "balance_analyzer.py": "55ca1f19bf69e88c51341878e99eefa4d198f4752d9318a48a0542912d56d00a",
     "sections.py": "1377ffe006189722b731186045720aebebeab8319cde0f6ad4bd062925dc43bd",
     "updater.py": "1d4741d76162fa5811b3e5c7495fbd4898b4b37cf2f21836591c23634046b223",
-    "README.md": "91e97b4d5c441b45d51ec7247af31f585214a91a82495887cb81ee00b4d3c43a",
+    "README.md": "5c9fecc91e00416e0f5df4bc3e53e81a83ca181fdf561073f719ba3aae3555cd",
     "assets/screenshot.png": "01e03238c4abb761613379e02a4088d90d1afd09003dc28efab85bcc3d24c4c7",
     "engine/amplifier.py": "2f4599fdfb90d93cf459695c7d9c69d7957dd2cfe214e20ca2e23743519d33db",
     "engine/amp_compression.py": "d5872cc778d7cdffc404dda06a943cf7f7d6346a4c6b1b14e171f4bb231e8e55",

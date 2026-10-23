@@ -342,3 +342,5 @@
 .ft-audio-check-body button { font-size:11px!important;padding:5px 8px!important; }
 
 .ft-rig-song { font-size:11px;color:var(--ft-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;margin-bottom:3px!important; }
+
+.ft-volume-keys{margin-top:12px}.ft-key-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}.ft-key-grid label{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:12px}.ft-key-grid button{min-width:76px}
